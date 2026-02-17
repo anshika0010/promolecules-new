@@ -41,7 +41,7 @@ export default function Page() {
         "Alpha Rage fuels your body with clean energy and laser focus.",
       thumbnail: "/thumb4.png",
     },
-       {
+    {
       title: "Hydrapump+",
       image: "/hydra.png",
       price: "$-1799",
@@ -55,18 +55,13 @@ export default function Page() {
 
   return (
     <>
-<section
-  className="relative w-full bg-black text-white overflow-hidden bg-cover pt-[16px]  bg-norepeat bg-center"
-  style={{ backgroundImage: "url('/smoke.gif')" }}
->
-
-
-  
+      <section
+        className="relative w-full bg-black text-white overflow-hidden bg-cover pt-[16px]  bg-norepeat bg-center"
+        style={{ backgroundImage: "url('/smoke.gif')" }}
+      >
         <div className="relative z-10 max-w-7xl mx-auto px-5 py-10 pt-[50px] flex flex-col lg:flex-row items-center justify-between gap-5">
-
           {/* LEFT CONTENT */}
-          <div className="flex-1 space-y-8">
-
+          <div className="flex-1 space-y-8 px-7">
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeProduct.title}
@@ -86,26 +81,53 @@ export default function Page() {
                 <h2 className="text-4xl font-extrabold text-red-500">
                   {activeProduct.price}
                 </h2>
-                <Link href={'/products/productdetailpage'}>
-                 <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-7 py-4 rounded-2xl text-sm uppercase tracking-wider font-semibold">
-              Buy Now →
-            </button>
-            </Link>
+                <Link href={"/products/productdetailpage"}>
+                  <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-10 py-4 rounded-2xl text-sm uppercase tracking-wider font-semibold">
+                    Buy Now →
+                  </button>
+                </Link>
               </motion.div>
             </AnimatePresence>
 
-           
+            {/* THUMBNAILS */}
+            <div className="relative z-10 max-w-7xl mx-auto px-2 pb-10">
+              <div className="flex gap-4">
+                {products.map((product, index) => {
+                  const isActive = activeProduct.title === product.title;
+
+                  return (
+                    <div
+                      key={index}
+                      onMouseEnter={() => setActiveProduct(product)}
+                      className={`relative w-20 h-20 transition cursor-pointer rounded-lg
+        ${
+          isActive
+            ? " shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100"
+            : " opacity-60 hover:opacity-100 "
+        }
+        border`}
+                    >
+                      <Image
+                        src={product.thumbnail}
+                        alt="Thumbnail"
+                        fill
+                        className="object-contain p-2"
+                      />
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
           </div>
 
           {/* RIGHT IMAGE */}
           <div className="flex-1 relative w-full mt-10 h-[500px]">
-
             <AnimatePresence mode="wait">
               <motion.div
                 key={activeProduct.image}
-                   initial={{ opacity: 1, x: "40vw" }}
-              animate={{ opacity: 1, x: 0 }}
-                 exit={{ opacity: 1, x: "-90vw" }}
+                initial={{ opacity: 1, x: "40vw" }}
+                animate={{ opacity: 1, x: 0 }}
+                exit={{ opacity: 1, x: "-90vw" }}
                 transition={{ duration: 1 }}
                 className="absolute inset-0"
               >
@@ -113,42 +135,11 @@ export default function Page() {
                   src={activeProduct.image}
                   alt="Product"
                   fill
-                  className="object-contain h-[800px]"
+                  className="object-contain h-[900px]"
                   priority
                 />
               </motion.div>
             </AnimatePresence>
-
-          </div>
-        </div>
-
-        {/* THUMBNAILS */}
-        <div className="relative z-10 max-w-7xl mx-auto px-6 pb-10">
-          <div className="flex gap-4">
-
-           {products.map((product, index) => {
-  const isActive = activeProduct.title === product.title;
-
-  return (
-    <div
-      key={index}
-      onMouseEnter={() => setActiveProduct(product)}
-      className={`relative w-20 h-20 transition cursor-pointer rounded-lg
-        ${isActive 
-          ? " shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100" 
-          : " opacity-60 hover:opacity-100 "}
-        border`}
-    >
-      <Image
-        src={product.thumbnail}
-        alt="Thumbnail"
-        fill
-        className="object-contain p-2"
-      />
-    </div>
-  );
-})}
-
           </div>
         </div>
       </section>

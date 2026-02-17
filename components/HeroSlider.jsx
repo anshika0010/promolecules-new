@@ -78,7 +78,7 @@ const HeroSlider = () => {
                   duration: 0.9,
                   ease: [0.22, 1, 0.36, 1], 
                 }}
-                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold uppercase anton-regular font-black text-white leading-tight lg:leading-none"
+                className="text-2xl sm:text-2xl md:text-3xl lg:text-4xl font-bold uppercase anton-regular font-black text-white leading-tight lg:leading-none"
               >
                 {slides[currentSlide].title}
               </motion.h1>

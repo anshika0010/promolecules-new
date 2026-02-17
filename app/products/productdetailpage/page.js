@@ -191,31 +191,33 @@ const WarflexHero = () => {
           </div>
 
           {/* RIGHT ACCORDION */}
-          <div className="md:col-span-2 space-y-6">
-            {sections.map((section, index)  => (
-              <div key={index} className="border-b border-gray-700 pb-4">
-                <button
-                  onClick={() => toggleSection(index)}
-                  className="flex items-center justify-between w-full text-left"
-                >
-                  <span className="text-red-600 creepster-regular text-3xl font-bold tracking-widest">
-                    {sections.title}
-                  </span>
-                  <ChevronRight
-                    className={`transition-transform duration-300 ${
-                      openIndex === index ? "rotate-90" : ""
-                    }`}
-                  />
-                </button>
+        <div className="md:col-span-2 space-y-6">
+  {sections.map((section, index) => (
+    <div key={index} className="border-b border-gray-700 pb-4">
+      <button
+        onClick={() => toggleSection(index)}
+        className="flex items-center justify-between w-full text-left"
+      >
+        <span className="text-red-600 creepster-regular text-3xl font-bold tracking-widest">
+          {section.title}
+        </span>
 
-                {openIndex === index && (
-                  <p className="mt-4 text-gray-300 text-sm leading-relaxed">
-              {sections.content}
-                  </p>
-                )}
-              </div>
-            ))}
-          </div>
+        <ChevronRight
+          className={`transition-transform duration-300 ${
+            openIndex === index ? "rotate-90" : ""
+          }`}
+        />
+      </button>
+
+      {openIndex === index && (
+        <p className="mt-4 text-gray-300 text-sm leading-relaxed">
+          {section.content}
+        </p>
+      )}
+    </div>
+  ))}
+</div>
+
         </div>
 
        

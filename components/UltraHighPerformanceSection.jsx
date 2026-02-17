@@ -8,7 +8,7 @@ const UltraHighPerformanceSection = () => {
   const features = [
     {
       id: 1,
-      title: "RAZOR FOCUS",
+      title: " FOCUS",
       description:
         "RAZOR FOCUS IS A HEIGHTENED LEVEL OF MENTAL SHARPNESS THAT IMPROVES CONCENTRATION, DECISION-MAKING, AND COGNITIVE EXECUTION DURING PEAK PERFORMANCE.",
       image: "/skeleton1.png",
