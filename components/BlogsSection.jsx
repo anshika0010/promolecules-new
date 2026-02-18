@@ -192,95 +192,127 @@ const TestimonialsSection = () => {
   };
 
   return (
-    <section className="relative bg-black py-20 overflow-hidden">
-      {/* Background Image with Overlay */}
+    <section className="relative bg-black py-14 sm:py-16 md:py-20 overflow-hidden">
+      
+      {/* Background */}
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-[url('/images/gym-background.jpg')] bg-cover bg-center opacity-20" />
         <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black" />
       </div>
 
-      <div className="relative z-10 max-w-[1600px] mx-auto px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Left Side - Title */}
-          <div className="space-y-6">
-            <div className="flex justify-center text-center mb-16">
-              <div className="relative flex flex-col items-center">
-                <h2 className="creepster-regular text-red-700 text-8xl">
+      <div className="relative z-10 max-w-[1600px] mx-auto px-4 sm:px-6">
+        
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          
+          {/* Left Side */}
+          <div className="space-y-6 text-center lg:text-left">
+            
+            <div className="flex justify-center lg:justify-start mb-10 sm:mb-12 md:mb-16">
+              <div className="flex flex-col items-center lg:items-start">
+                
+                <h2 className="creepster-regular text-red-700 
+                  text-4xl sm:text-5xl md:text-6xl lg:text-8xl leading-tight">
                   WHAT OUR CUSTOMERS
                 </h2>
 
-                <h2 className="creepster-regular text-red-700 text-8xl">
+                <h2 className="creepster-regular text-red-700 
+                  text-4xl sm:text-5xl md:text-6xl lg:text-8xl leading-tight">
                   FORMULA
                 </h2>
+
               </div>
             </div>
 
-            <p className="text-white text-sm tracking-wider max-w-md font-light">
+            <p className="text-white 
+              text-xs sm:text-sm tracking-wider 
+              max-w-md mx-auto lg:mx-0 font-light">
               PROMOLECULES™ FUELS THE RITUAL – BUILT FOR THOSE WHO TRAIN HARDER,
               GO FURTHER AND NEVER BACK DOWN.
             </p>
 
-            {/* Navigation Arrows */}
-            <div className="flex items-center gap-4 pt-4">
+            {/* Arrows */}
+            <div className="flex items-center justify-center lg:justify-start gap-4 pt-4">
               <button
                 onClick={prevTestimonial}
-                className="bg-red-600 hover:bg-red-700 p-4 rounded-full transition-colors"
-                aria-label="Previous testimonial"
+                className="bg-red-600 hover:bg-red-700 p-3 sm:p-4 rounded-full transition-colors"
               >
-                <ChevronLeft size={24} className="text-white" />
+                <ChevronLeft size={20} className="text-white sm:w-6 sm:h-6" />
               </button>
+
               <button
                 onClick={nextTestimonial}
-                className="bg-red-600 hover:bg-red-700 p-4 rounded-full transition-colors"
-                aria-label="Next testimonial"
+                className="bg-red-600 hover:bg-red-700 p-3 sm:p-4 rounded-full transition-colors"
               >
-                <ChevronRight size={24} className="text-white" />
+                <ChevronRight size={20} className="text-white sm:w-6 sm:h-6" />
               </button>
             </div>
           </div>
 
-          {/* Right Side - Testimonial Cards */}
-          <div className="relative h-[500px] overflow-hidden group">
-            {/* Fade Edges (Premium Look) */}
-            <div className="absolute left-0 top-0 h-full w-20 bg-gradient-to-r from-black to-transparent z-20 pointer-events-none" />
-            <div className="absolute right-0 top-0 h-full w-20 bg-gradient-to-l from-black to-transparent z-20 pointer-events-none" />
+          {/* Right Side - Cards */}
+          <div className="relative 
+            h-[380px] sm:h-[420px] md:h-[450px] lg:h-[500px] 
+            overflow-hidden group">
+            
+            {/* Fade Edges */}
+            <div className="absolute left-0 top-0 h-full w-10 sm:w-16 lg:w-20 bg-gradient-to-r from-black to-transparent z-20 pointer-events-none" />
+            <div className="absolute right-0 top-0 h-full w-10 sm:w-16 lg:w-20 bg-gradient-to-l from-black to-transparent z-20 pointer-events-none" />
 
-            <div className="flex gap-8 w-max animate-testimonial hover:pause-animation">
+            <div className="flex gap-6 sm:gap-8 w-max animate-testimonial hover:pause-animation">
+              
               {[...testimonials, ...testimonials].map((testimonial, index) => (
-                <div key={index} className="flex-shrink-0 w-[380px] h-[420px]">
-                  <div className="bg-gradient-to-br from-red-900/40 to-red-950/60 backdrop-blur-sm border-2 border-red-600/30 rounded-3xl p-8 space-y-6">
-                    {/* Quote Icon */}
-                    <Quote size={48} className="text-red-600" />
+                <div
+                  key={index}
+                  className="flex-shrink-0 
+                    w-[280px] sm:w-[320px] md:w-[350px] lg:w-[380px]
+                    h-[320px] sm:h-[360px] md:h-[390px] lg:h-[420px]"
+                >
+                  <div className="bg-gradient-to-br from-red-900/40 to-red-950/60 
+                    backdrop-blur-sm border-2 border-red-600/30 
+                    rounded-3xl p-6 sm:p-7 lg:p-8 space-y-5 sm:space-y-6">
 
-                    {/* Quote Text */}
-                    <p className="text-white text-sm leading-relaxed tracking-wide font-light">
+                    <Quote size={36} className="text-red-600 sm:w-12 sm:h-12" />
+
+                    <p className="text-white 
+                      text-xs sm:text-sm leading-relaxed 
+                      tracking-wide font-light">
                       {testimonial.quote}
                     </p>
 
-                    {/* Author */}
                     <div className="pt-4 border-t border-white/10">
-                      <p className="text-white font-bold text-lg tracking-wider">
+                      <p className="text-white font-bold 
+                        text-base sm:text-lg tracking-wider">
                         {testimonial.author}
                       </p>
-                      <p className="text-red-600 text-sm tracking-wider font-semibold">
+                      <p className="text-red-600 
+                        text-xs sm:text-sm tracking-wider font-semibold">
                         {testimonial.role}
                       </p>
                     </div>
+
                   </div>
                 </div>
               ))}
+
             </div>
           </div>
         </div>
 
-        {/* View All Testimonials Button */}
-        <div className="flex justify-center mt-16">
-          <button className="flex items-center gap-3 bg-transparent border-2 border-red-600 hover:bg-red-600 text-white font-bold px-10 py-4 rounded-full transition-all duration-300 text-sm tracking-widest group">
+        {/* View All Button */}
+        <div className="flex justify-center mt-12 sm:mt-16">
+          <button className="flex items-center gap-3 
+            bg-transparent border-2 border-red-600 
+            hover:bg-red-600 text-white font-bold 
+            px-6 sm:px-10 py-3 sm:py-4 
+            rounded-full transition-all duration-300 
+            text-xs sm:text-sm tracking-widest group">
+
             <span>VIEW ALL</span>
-            <div className="bg-red-600 group-hover:bg-white p-2 rounded-full transition-colors">
+
+            <div className="bg-red-600 group-hover:bg-white 
+              p-1.5 sm:p-2 rounded-full transition-colors">
               <ChevronRight
-                size={18}
-                className="text-white group-hover:text-red-600"
+                size={16}
+                className="text-white group-hover:text-red-600 sm:w-[18px] sm:h-[18px]"
               />
             </div>
           </button>
@@ -289,6 +321,7 @@ const TestimonialsSection = () => {
     </section>
   );
 };
+
 
 // Combined Export Component
 const BlogsAndTestimonials = () => {

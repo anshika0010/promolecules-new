@@ -20,7 +20,7 @@ const HeroSlider = () => {
     },
     {
       id: 2,
-      productImage: "/fatherofinsane.png",
+      productImage: "/fatherof.png",
       title: "FATHER OF INSANE",
       link: "https://www.cost2costsupplement.com/product/promolecules-father-of-insane/",
       description:

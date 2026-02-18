@@ -10,7 +10,7 @@ export default function WarningTape() {
       <div
         className="
         absolute 
-        top-40 sm:top-90 lg:top-90 
+        top-8 sm:top-120 lg:top-90 
         right-4 sm:right-8 lg:right-12 
         max-w-xs sm:max-w-md lg:max-w-lg 
         text-right 
@@ -23,7 +23,7 @@ export default function WarningTape() {
       >
         WARNING: THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR
         CHILDREN, PREGNANT OR LACTATING WOMEN. CONSULT A PHYSICIAN BEFORE USE IF
-        YOU HAVE ANY MEDICAL CONDITIONs.
+        YOU HAVE ANY MEDICAL CONDITION.
       </div>
 
       {/* Bottom Left Warning Text */}

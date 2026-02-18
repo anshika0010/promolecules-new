@@ -55,94 +55,100 @@ export default function Page() {
 
   return (
     <>
-      <section
-        className="relative w-full bg-black text-white overflow-hidden bg-cover pt-[16px]  bg-norepeat bg-center"
-        style={{ backgroundImage: "url('/smoke.gif')" }}
-      >
-        <div className="relative z-10 max-w-7xl mx-auto px-5 py-10 pt-[50px] flex flex-col lg:flex-row items-center justify-between gap-5">
-          {/* LEFT CONTENT */}
-          <div className="flex-1 space-y-8 px-7">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={activeProduct.title}
-                initial={{ opacity: 0, y: 40 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: -40 }}
-                transition={{ duration: 0.5 }}
-              >
-                <h1 className="text-4xl md:text-4xl   font-bold creepster-regular text-red-600 uppercase">
-                  {activeProduct.title}
-                </h1>
+<section
+  className="relative w-full bg-black text-white overflow-hidden bg-cover bg-center bg-no-repeat pt-4"
+  style={{ backgroundImage: "url('/smoke.gif')" }}
+>
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16 flex flex-col lg:flex-row items-center justify-between gap-10">
 
-                <p className="text-gray-300 max-w-md text-lg uppercase leading-relaxed font-bold">
-                  {activeProduct.description}
-                </p>
+    {/* LEFT CONTENT */}
+    <div className="flex-1 space-y-6 sm:space-y-8 w-full text-center lg:text-left">
 
-                <h2 className="text-4xl font-extrabold text-red-500">
-                  {activeProduct.price}
-                </h2>
-                <Link href={"/products/productdetailpage"}>
-                  <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-10 py-4 rounded-2xl text-sm uppercase tracking-wider font-semibold">
-                    Buy Now →
-                  </button>
-                </Link>
-              </motion.div>
-            </AnimatePresence>
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeProduct.title}
+          initial={{ opacity: 0, y: 40 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -40 }}
+          transition={{ duration: 0.5 }}
+        >
+          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold creepster-regular text-red-600 uppercase">
+            {activeProduct.title}
+          </h1>
 
-            {/* THUMBNAILS */}
-            <div className="relative z-10 max-w-7xl mx-auto px-2 pb-10">
-              <div className="flex gap-4">
-                {products.map((product, index) => {
-                  const isActive = activeProduct.title === product.title;
+          <p className="text-gray-300 max-w-md mx-auto lg:mx-0 text-sm sm:text-base md:text-lg uppercase leading-relaxed font-bold">
+            {activeProduct.description}
+          </p>
 
-                  return (
-                    <div
-                      key={index}
-                      onMouseEnter={() => setActiveProduct(product)}
-                      className={`relative w-20 h-20 transition cursor-pointer rounded-lg
-        ${
-          isActive
-            ? " shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100"
-            : " opacity-60 hover:opacity-100 "
-        }
-        border`}
-                    >
-                      <Image
-                        src={product.thumbnail}
-                        alt="Thumbnail"
-                        fill
-                        className="object-contain p-2"
-                      />
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-red-500">
+            {activeProduct.price}
+          </h2>
 
-          {/* RIGHT IMAGE */}
-          <div className="flex-1 relative w-full mt-10 h-[500px]">
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={activeProduct.image}
-                initial={{ opacity: 1, x: "40vw" }}
-                animate={{ opacity: 1, x: 0 }}
-                exit={{ opacity: 1, x: "-90vw" }}
-                transition={{ duration: 1 }}
-                className="absolute inset-0"
+          <Link href={"/products/productdetailpage"}>
+            <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-2xl text-xs sm:text-sm uppercase tracking-wider font-semibold">
+              Buy Now →
+            </button>
+          </Link>
+        </motion.div>
+      </AnimatePresence>
+
+      {/* THUMBNAILS */}
+      <div className="relative z-10 pt-6">
+        <div className="flex flex-wrap justify-center lg:justify-start gap-3 sm:gap-4">
+          {products.map((product, index) => {
+            const isActive = activeProduct.title === product.title;
+
+            return (
+              <div
+                key={index}
+                onMouseEnter={() => setActiveProduct(product)}
+                className={`relative 
+                  w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 
+                  transition cursor-pointer rounded-lg
+                  ${
+                    isActive
+                      ? "shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100"
+                      : "opacity-60 hover:opacity-100"
+                  }
+                  border`}
               >
                 <Image
-                  src={activeProduct.image}
-                  alt="Product"
+                  src={product.thumbnail}
+                  alt="Thumbnail"
                   fill
-                  className="object-contain h-[900px]"
-                  priority
+                  className="object-contain p-2"
                 />
-              </motion.div>
-            </AnimatePresence>
-          </div>
+              </div>
+            );
+          })}
         </div>
-      </section>
+      </div>
+    </div>
+
+    {/* RIGHT IMAGE */}
+    <div className="flex-1 relative w-full mt-10 lg:mt-0 h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px]">
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={activeProduct.image}
+          initial={{ opacity: 1, x: "40vw" }}
+          animate={{ opacity: 1, x: 0 }}
+          exit={{ opacity: 1, x: "-90vw" }}
+          transition={{ duration: 1 }}
+          className="absolute inset-0"
+        >
+          <Image
+            src={activeProduct.image}
+            alt="Product"
+            fill
+            className="object-contain"
+            priority
+          />
+        </motion.div>
+      </AnimatePresence>
+    </div>
+
+  </div>
+</section>
 
       <TrendingCategory />
     </>
