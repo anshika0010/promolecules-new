@@ -16,23 +16,39 @@ const distributors = [
 const InternationalDistributors = () => {
   return (
     <section className="relative min-h-screen pt-10  bg-black text-white overflow-hidden">
-
       {/* Background texture */}
       <div className="absolute inset-0 bg-[url('/dark-texture.jpg')] bg-cover bg-center opacity-20"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-16">
-
         {/* ================= HEADING ================= */}
 
-        <h1 className="leading-none mb-6">
+        <h1 className="leading-tight mb-6">
           <span
-            className="block text-red-600 text-7xl md:text-9xl creepster-regular font-bold uppercase"
-     
+            className="block 
+               text-3xl 
+               sm:text-5xl 
+               md:text-7xl 
+               lg:text-8xl 
+               xl:text-9xl
+               text-red-600 
+               creepster-regular 
+               font-bold 
+               uppercase"
           >
             International,
           </span>
+
           <span
-            className="block text-red-600 text-7xl md:text-9xl creepster-regular font-bold uppercase"
+            className="block 
+               text-3xl 
+               sm:text-5xl 
+               md:text-7xl 
+               lg:text-8xl 
+               xl:text-9xl
+               text-red-600 
+               creepster-regular 
+               font-bold 
+               uppercase"
           >
             Distributors
           </span>
@@ -106,12 +122,8 @@ const InternationalDistributors = () => {
                 <h3 className="text-red-600 uppercase text-sm font-semibold mb-1">
                   {item.country}
                 </h3>
-                <p className="text-gray-300 text-xs uppercase">
-                  {item.name}
-                </p>
-                <p className="text-gray-500 text-xs uppercase">
-                  {item.city}
-                </p>
+                <p className="text-gray-300 text-xs uppercase">{item.name}</p>
+                <p className="text-gray-500 text-xs uppercase">{item.city}</p>
               </div>
 
               {/* Email Button */}
@@ -121,26 +133,29 @@ const InternationalDistributors = () => {
             </div>
           ))}
         </div>
-
       </div>
-       <div className="flex items-center justify-between px-6 md:px-20 py-10 bg-black">
-        <h2 className="text-7xl md:text-8xl font-bold creepster-regular uppercase tracking-wider">
-          <span
-            className="text-red-600"
-         
-          >
-            DOMESTIC,
-          </span>{" "}
-          <span
-           
-          >
-            Distributor
-          </span>
+      <div
+        className="flex flex-col md:flex-row items-start md:items-center justify-between 
+                px-6 sm:px-10 md:px-20 
+                py-8 md:py-10 
+                bg-black gap-6"
+      >
+        <h2
+          className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl 
+                 font-bold creepster-regular 
+                 uppercase tracking-wide leading-tight"
+        >
+          <span className="text-red-600 block sm:inline">DOMESTIC,</span>{" "}
+          <span className="block sm:inline">Distributor</span>
         </h2>
 
         <ArrowRight
-          size={60}
-          className="text-red-600 hover:scale-110 transition-transform duration-300 cursor-pointer"
+          size={40}
+          className="sm:w-12 sm:h-12 md:w-[60px] md:h-[60px] 
+               text-red-600 
+               hover:scale-110 
+               transition-transform duration-300 
+               cursor-pointer"
         />
       </div>
     </section>

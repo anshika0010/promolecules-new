@@ -174,26 +174,23 @@ const DomesticDistributorHero = () => {
 
       {/* ================= BOTTOM SECTION ================= */}
 
-      <div className="flex items-center justify-between px-6 md:px-20 py-10 bg-black">
-        <h2 className="text-7xl md:text-8xl font-bold creepster-regular uppercase tracking-wider">
-          <span
-            className="text-red-600"
-         
-          >
-            International,
-          </span>{" "}
-          <span
-           
-          >
-            Distributor
-          </span>
-        </h2>
+<div className="flex flex-col md:flex-row items-start md:items-center justify-between px-6 sm:px-10 md:px-20 py-8 md:py-10 bg-black gap-6">
+  
+  <h2 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold creepster-regular uppercase tracking-wide leading-tight">
+    <span className="text-red-600 block sm:inline">
+      International,
+    </span>{" "}
+    <span className="block sm:inline">
+      Distributor
+    </span>
+  </h2>
 
-        <ArrowUpRight
-          size={60}
-          className="text-red-600 hover:scale-110 transition-transform duration-300 cursor-pointer"
-        />
-      </div>
+  <ArrowUpRight
+    size={40}
+    className="sm:w-12 sm:h-12 md:w-[60px] md:h-[60px] text-red-600 hover:scale-110 transition-transform duration-300 cursor-pointer"
+  />
+
+</div>
     </section>
     </>
   );

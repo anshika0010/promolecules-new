@@ -12,7 +12,7 @@ export default function Page() {
     {
       title: "Warflex",
       image: "/warflex.png",
-      price: "$-1899",
+      price: "$1899",
       description:
         "Warflex promotes muscle gains via an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy and endurance.",
       thumbnail: "/fatherofinsane.png",
@@ -20,7 +20,7 @@ export default function Page() {
     {
       title: "Father of Insane",
       image: "/fatherof.png",
-      price: "$-1599",
+      price: "$1599",
       description:
         "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
       thumbnail: "/thumbnail2.png",
@@ -28,7 +28,7 @@ export default function Page() {
     {
       title: "Inpower-R",
       image: "/inopower.png",
-      price: "$-2099",
+      price: "$2099",
       description:
         "Beast Mode delivers insane pumps and unstoppable workout intensity.",
       thumbnail: "/thumb3.png",
@@ -36,7 +36,7 @@ export default function Page() {
     {
       title: "Thermo Nuke XT",
       image: "/thermonuke.png",
-      price: "$-1799",
+      price: "$1799",
       description:
         "Alpha Rage fuels your body with clean energy and laser focus.",
       thumbnail: "/thumb4.png",
@@ -44,7 +44,7 @@ export default function Page() {
     {
       title: "Hydrapump+",
       image: "/hydra.png",
-      price: "$-1799",
+      price: "$1799",
       description:
         "Alpha Rage fuels your body with clean energy and laser focus.",
       thumbnail: "/thumb5.png",

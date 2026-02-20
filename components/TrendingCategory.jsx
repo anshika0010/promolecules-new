@@ -24,11 +24,13 @@ export default function TrendingCategory() {
         {/* Right */}
         <div className="w-full lg:max-w-[40%]">
           <p className="font-extrabold uppercase text-white 
-            text-xs sm:text-sm md:text-md leading-relaxed">
-            Driven by innovation, we offer trend-leading supplement products
-            built on high-performance promecules designed for strength, stamina,
-            focus, and recovery—crafted to meet modern fitness demands
-            worldwide.
+            text-xs sm:text-sm md:text-md leading-relaxed uppercase">
+          In today’s fitness market, supplements are everywhere  but not all supplements are created
+equal. Many low-cost brands compromise on ingredient purity, use under-dosed blends, or
+source unverified raw materials that deliver no real results.<br></br>This is where Promolecules™ stands apart as a USA-quality supplement brand engineered for
+serious athletes.
+
+
           </p>
         </div>
       </div>

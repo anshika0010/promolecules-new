@@ -26,18 +26,19 @@ const WhoWeAreSection = () => {
           <div className="lg:col-span-4 space-y-16 sm:space-y-24 lg:space-y-64 text-center lg:text-left">
 
             <div className="max-w-[380px] mx-auto lg:mx-0">
-              <p className="text-white/90 text-xs sm:text-sm leading-[1.6] tracking-[0.08em] font-bold uppercase transition-all duration-300 hover:scale-[1.07] hover:text-white">
-                PROMOLECULES™ is a performance-driven supplement brand created for
-                those who demand more from their body. We combine science-backed
-                formulations...
+              <p className="text-white/90 uppercase text-xs sm:text-sm leading-[1.6] tracking-[0.08em] font-bold uppercase transition-all duration-300 hover:scale-[1.07] hover:text-white">
+             Every product meets high USA quality standards and uses clear component lists and clinical
+doses. No secret mixes. No weak formulations. Just sheer, uncompromising power.
+
               </p>
             </div>
 
             <div className="max-w-[280px] mx-auto lg:mx-0 lg:ml-16">
-              <p className="text-white/90 text-xs sm:text-xs leading-[1.6] tracking-[0.08em] font-bold uppercase transition-all duration-300 hover:scale-[1.07] hover:text-white">
-                PROMOLECULES™ is a performance-driven supplement brand created for
-                those who demand more from their body. We combine science-backed
-                formulations...
+              <p className="text-white/90  uppercase text-xs sm:text-xs leading-[1.6] tracking-[0.08em] font-bold uppercase transition-all duration-300 hover:scale-[1.07] hover:text-white">
+              Promolecules™ is a high-end sports nutrition brand for serious athletes and anyone who love
+to work out. Our formulations are based on research, honesty, and actual results, which will
+help you on your way to being physically and mentally great.
+
               </p>
             </div>
           </div>
@@ -77,13 +78,12 @@ const WhoWeAreSection = () => {
 
             {/* Description */}
             <div className="max-w-4xl mx-auto lg:mx-0 space-y-6 text-center lg:text-left">
-              <p className="text-white font-bold text-xs sm:text-xs md:text-base lg:text-md leading-relaxed tracking-wide ">
-                PROMOLECULES™ IS A PERFORMANCE-DRIVEN SUPPLEMENT BRAND CREATED FOR
-                THOSE WHO DEMAND MORE FROM THEIR BODY. WE COMBINE SCIENCE-BACKED
-                FORMULATIONS WITH PRECISION NUTRITION TO DELIVER CLEAN,
-                EFFECTIVE, AND RELIABLE SUPPLEMENTS. BUILT ON TRANSPARENCY,
-                QUALITY, AND RESULTS, PROMOLECULES™ EXISTS TO FUEL STRENGTH, FOCUS,
-                AND CONSISTENCY—AT THE MOLECULAR LEVEL.
+              <p className="text-white uppercase font-bold text-xs sm:text-xs md:text-base lg:text-md leading-relaxed tracking-wide ">
+               Promolecules™ is a sports nutrition brand that focuses on performance. It was made for
+people that exercise weights, play sports, and want more from their bodies and supplements.
+Our goal is simple: to make science-based formulae that are incredibly strong and help you
+push harder, lift heavier, stay focused longer, and break past all your limits.
+
               </p>
 
               {/* Button */}

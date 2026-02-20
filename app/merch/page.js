@@ -1,6 +1,7 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 const PowerYouCanWear = () => {
+
     const products = [
   {
     id: 1,
@@ -209,7 +210,89 @@ const PowerYouCanWear = () => {
       </div>
     </section>
 
-     
+      <section className="relative w-full bg-black text-white py-20 overflow-hidden">
+
+      {/* Background Image */}
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-20"
+        style={{ backgroundImage: "url('/candle.png')" }}
+      />
+
+      <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
+
+        {/* ================= PRODUCTS GRID ================= */}
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+
+          {products.map((product) => (
+            <div
+              key={product.id}
+              className="group text-center transition duration-500"
+            >
+              
+              {/* Product Image */}
+              <div className="flex justify-center mb-6">
+                <img
+                  src={product.image}
+                  alt={product.name}
+                  className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
+                />
+              </div>
+
+              {/* Product Info */}
+              <h4 className="uppercase text-lg anton-regular font-extrabold tracking-wider mb-2">
+                {product.name}
+              </h4>
+
+              <div className="flex justify-center anton-regular  gap-3 text-md">
+                <span className="text-white font-bold">
+                  {product.price}
+                </span>
+                <span className="text-gray-500 line-through">
+                  {product.oldPrice}
+                </span>
+              </div>
+            </div>
+          ))}
+
+        </div>
+      </div>
+    </section>
+
+       <section className="w-full min-h-screen bg-black flex items-center justify-center px-6">
+      <div className="text-center max-w-4xl">
+        
+        {/* Heading */}
+        <h1
+          className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase leading-tight tracking-wide"
+
+        >
+          Empower Every Move <br /> With Style
+        </h1>
+
+        {/* Subtitle */}
+        <p className="text-gray-400 text-sm md:text-base mt-6 uppercase tracking-widest">
+          Designed for confidence. Built for performance. <br />
+          Wear the attitude. Own the moment.
+        </p>
+
+        {/* Button */}
+        <div className="mt-10 flex justify-center">
+          <button className="group flex items-center gap-4 border border-gray-600 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300">
+            
+            <span className="uppercase text-sm tracking-wider">
+              Explore Now
+            </span>
+
+            <span className="bg-gray-700 group-hover:bg-black p-2 rounded-full transition-all duration-300">
+              <ArrowRight size={16} />
+            </span>
+
+          </button>
+        </div>
+
+      </div>
+    </section>
 
     </>
   );

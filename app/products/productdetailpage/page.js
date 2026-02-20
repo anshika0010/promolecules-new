@@ -8,7 +8,7 @@ const sections = [
   {
     title: "DESCRIPTION",
     content:
-      "WARFLEX™ is a high-stimulant pre-workout formula designed for serious athletes. It delivers extreme energy, enhanced focus, and explosive performance for intense training sessions.",
+      "In the world of pre-workouts, one formula has quietly gained a reputation for delivering the kind of explosive performance that cheap brands can only dream of: WARFLEX™ by Promolecules™.",
   },
   {
     title: "KEY BENEFITS",

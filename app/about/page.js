@@ -91,11 +91,11 @@ const WhoWeAreSection = () => {
     text-white tracking-widest uppercase"
   >
     {[
-      { name: "Instagram", url: "https://instagram.com/yourusername" },
-      { name: "Facebook", url: "https://facebook.com/yourusername" },
-      { name: "Twitter", url: "https://twitter.com/yourusername" },
-      { name: "YouTube", url: "https://youtube.com/@yourchannel" },
-      { name: "Pinterest", url: "https://pinterest.com/yourusername" },
+      { name: "Instagram", url: "https://www.instagram.com/promolecules/" },
+      { name: "Facebook", url: "https://www.facebook.com/promolecules.official" },
+      { name: "Twitter", url: "https://x.com/promolecules" },
+      { name: "YouTube", url: "https://www.youtube.com/@Promolecules" },
+      { name: "Pinterest", url: "https://www.pinterest.com/promolecules/" },
     ].map((social, index) => (
       <a
         key={index}

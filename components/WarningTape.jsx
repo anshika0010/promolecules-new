@@ -9,6 +9,7 @@ export default function WarningTape() {
       {/* Top Right Warning Text */}
       <div
         className="
+        uppercase
         absolute 
         top-8 sm:top-120 lg:top-90 
         right-4 sm:right-8 lg:right-12 
@@ -21,9 +22,11 @@ export default function WarningTape() {
         leading-relaxed
       "
       >
-        WARNING: THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR
-        CHILDREN, PREGNANT OR LACTATING WOMEN. CONSULT A PHYSICIAN BEFORE USE IF
-        YOU HAVE ANY MEDICAL CONDITION.
+      The supplement industry faces a silent crisis—adulteration. Studies reveal that nearly 70% of
+budget supplements contain less active ingredient than claimed, with some containing
+harmful fillers or banned substances. This isn't just about wasted money; it's about your
+health and performance goals being sabotaged by inferior products.
+
       </div>
 
       {/* Bottom Left Warning Text */}
