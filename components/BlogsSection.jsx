@@ -161,21 +161,35 @@ const TestimonialsSection = () => {
     {
       id: 1,
       quote:
-        "WHEY ALWAYS GAVE ME GAS AND HEAVINESS, BUT PROMIXED FEELS SUPER LIGHT. ABSORBS FAST AND TASTES GREAT. PERFECT FOR MY PLANT PHASE.",
+        "Clean energy, insane focus, zero crash. Promolecules actually feels engineered, not overhyped like most gym supplements available today.",
       author: "ROHIT S.",
       role: "GYM ENTHUSIAST",
     },
     {
       id: 2,
       quote:
-        "I DON'T TAKE WHEY. THIS BEEF PROTEIN SOLVED EVERYTHING. 30 G COMPLETE PROTEIN, NO DAIRY, NO BLOAT. IT FITS MY KETO, HITS MY MACROS, AND TASTES PRETTY CLEAN.",
+        "Half scoop was enough for my session. Strong activation without jitters. Definitely not beginner stuff, serious performance formula.",
       author: "FAUZAN K.",
       role: "ATHLETE",
     },
     {
       id: 3,
       quote:
-        "THE BEST PRE-WORKOUT I'VE EVER TRIED. INTENSE FOCUS, MASSIVE PUMPS, AND INCREDIBLE ENERGY THAT LASTS THE ENTIRE WORKOUT. NO CRASH AFTERWARDS.",
+        "Pump felt dense and controlled, not bloated. Strength stayed consistent till last set. Very impressed with formulation quality.",
+      author: "SARAH M.",
+      role: "POWERLIFTER",
+    },
+      {
+      id: 4,
+      quote:
+        "High stim but surprisingly balanced. No anxiety spike, no harsh crash. Workout intensity stayed sharp and focused throughout.",
+      author: "SARAH M.",
+      role: "POWERLIFTER",
+    },
+        {
+      id: 5,
+      quote:
+        "Tried many pre-workouts before, but this feels structured. Energy layered, smooth and powerful. Built for disciplined lifters only",
       author: "SARAH M.",
       role: "POWERLIFTER",
     },

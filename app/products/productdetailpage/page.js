@@ -125,18 +125,18 @@ const WarflexHero = () => {
         {/* CENTER PRODUCT IMAGE */}
      {/* CENTER PRODUCT IMAGE */}
 <div className="flex justify-center items-center relative overflow-hidden">
-  <AnimatePresence >
-    <motion.img
-      key={selectedFlavor}
-      src={flavorImages[selectedFlavor]}
-      alt="Warflex"
-      initial={{ x: "40vw", opacity: 1 }}
-      animate={{ x: 0, opacity: 1 }}
-      exit={{ x: "-40vw", opacity: 1 }}
-      transition={{ duration: 0.8, ease: "easeInOut" }}
-      className="w-[900px] md:w-[900px] max-w-none "
-    />
-  </AnimatePresence>
+<AnimatePresence mode="wait">
+  <motion.img
+    key={selectedFlavor}
+    src={flavorImages[selectedFlavor]}
+    alt="Warflex"
+    initial={{ x: "100vw", opacity: 1 }}   
+    animate={{ x: 0, opacity: 1 }}       
+    exit={{ x: "-100vw", opacity: 1 }}     
+    transition={{ duration: 0.9, ease: "easeInOut" }}
+    className="w-[900px] md:w-[900px] max-w-none"
+  />
+</AnimatePresence>
 </div>
 
 
@@ -165,7 +165,7 @@ const WarflexHero = () => {
 
       {/* Bottom Shadow */}
       <div className="absolute bottom-0 w-full h-40 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
-    </section>
+   </section>
 
 
     <section
@@ -254,8 +254,6 @@ const WarflexHero = () => {
         </div>
       </div>
     </section>
-  
-
 
     <TrendingCategory/>
     </>

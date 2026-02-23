@@ -10,15 +10,14 @@ const UltraHighPerformanceSection = () => {
       id: 1,
       title: " FOCUS",
       description:
-        "RAZOR FOCUS IS A HEIGHTENED LEVEL OF MENTAL SHARPNESS THAT IMPROVES CONCENTRATION, DECISION-MAKING, AND COGNITIVE EXECUTION DURING PEAK PERFORMANCE.",
+        "Engineered neurological activation enhances mental clarity, reaction speed, and tunnel vision focus without overstimulation or distracting jitters during intense sessions.",
       image: "/skeleton1.png",
       alt: "Razor Focus Skeleton",
     },
     {
       id: 2,
       title: " ENERGY",
-      description:
-        "EXTREME ENERGY IS A HIGH-INTENSITY SURGE OF POWER DESIGNED TO MAXIMIZE STRENGTH, ENDURANCE, FOCUS, AND PERFORMANCE WHEN THE BODY DEMANDS MORE.",
+      description:"Multi-phase stimulant architecture delivers fast activation and sustained output, supporting extended high-intensity training without sudden crashes or unstable spikes.",
       image: "/skeleton2.png",
       alt: "Extreme Energy Skeleton",
     },
@@ -26,7 +25,7 @@ const UltraHighPerformanceSection = () => {
       id: 3,
       title: "STREGNTH ",
       description:
-        "STRENGTH & STAMINA REFERS TO THE COMBINED CAPACITY TO GENERATE MAXIMUM FORCE WHILE SUSTAINING PHYSICAL EFFORT OVER EXTENDED PERIODS.",
+        "Synergistic performance matrix supports explosive power, muscular endurance, and heavy compound lifts through structured ingredient balance and disciplined dosing strategy.",
       image: "/skeleton3.png",
       alt: "Strength and Stamina Anatomy",
     },
@@ -91,7 +90,7 @@ const UltraHighPerformanceSection = () => {
                 </h3>
 
                 {/* Description */}
-                <p className="text-white/80 text-[10px] sm:text-xs md:text-sm leading-relaxed uppercase tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
+                <p className="text-white/80 text-[10px] uppercase sm:text-xs md:text-sm leading-relaxed uppercase tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
                   {feature.description}
                 </p>
 
