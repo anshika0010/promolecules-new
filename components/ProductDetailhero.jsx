@@ -45,7 +45,7 @@ export default function WarflexHero() {
             initial={{ x: "120vw", scale: 0.9, opacity: 0 }}
             animate={{ x: 0, scale: 1, opacity: 1 }}
             exit={{ x: "-150vw", scale: 0.9, opacity: 0 }}
-            transition={{ duration: 0.6, ease: [0.76, 0, 0.24, 1] }}
+            transition={{ duration: 1.8, ease: [0.76, 0, 0.24, 1] }}
             className="absolute w-[700px] sm:w-[850px] md:w-[1000px] lg:w-[1150px]"
           />
         </AnimatePresence>
