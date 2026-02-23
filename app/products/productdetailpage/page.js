@@ -3,6 +3,7 @@ import TrendingCategory from "@/components/TrendingCategory";
 import React, { useState } from "react";
 import { ChevronRight } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import ProductDetailHero from "@/components/ProductDetailhero";
 
 const sections = [
   {
@@ -35,14 +36,9 @@ const sections = [
 
 const WarflexHero = () => {
     const [openIndex, setOpenIndex] = useState(null);
-    const [selectedFlavor, setSelectedFlavor] = useState("blue");
+ 
 
-  const flavorImages = {
-    blue: "/warflexblue.png",
-    grapes: "/blackgrapes.png",
-    gummy: "/gummy.png",
-    punch: "/fruit.png",
-  };
+
  
 
   const toggleSection = (index) => {
@@ -50,123 +46,8 @@ const WarflexHero = () => {
   };
   return (
     <>
-   <section
-      className="relative w-full h-screen bg-cover bg-center flex items-center justify-center overflow-hidden"
-      style={{
-        backgroundImage: "url('/backgroundblue.png')",
-      }}
-    >
-      {/* Dark Overlay */}
-    
-      {/* Main Content */}
-      <div className="relative z-10 w-full max-w-7xl px-6 grid grid-cols-1 md:grid-cols-3 items-center">
 
-        {/* LEFT CONTENT */}
-        <div className="text-white space-y-2 text-left">
-          <h2 className="text-red-500 text-6xl font-extrabold creepster-regular tracking-wider">
-            WARFLEX™
-          </h2>
-
-          <div className="text-sm uppercase tracking-widest text-gray-300">
-            High Stim Test Booster Preworkout <br />
-            Category: Preworkout
-          </div>
-
-          <button className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md font-semibold transition duration-300 shadow-lg">
-            BUY NOW
-          </button>
-
-          {/* Flavours */}
-          <div className="mt-8">
-            <h3 className="text-red-500 text-6xl creepster-regular">
-              FLAVOUR
-            </h3>
-
-            <ul className="space-y-2 text-gray-300 text-2xl font-bold uppercase">
-              <li
-                onClick={() => setSelectedFlavor("blue")}
-                className={`cursor-pointer hover:text-blue-500 ${
-                  selectedFlavor === "blue" && "text-blue-700"
-                }`}
-              >
-                BLUE RASPBERRY
-              </li>
-
-              <li
-                onClick={() => setSelectedFlavor("grapes")}
-                className={`cursor-pointer hover:text-blue-400 ${
-                  selectedFlavor === "grapes" && "text-blue-400"
-                }`}
-              >
-                BLACK GRAPES
-              </li>
-
-              <li
-                onClick={() => setSelectedFlavor("gummy")}
-                className={`cursor-pointer hover:text-blue-400 ${
-                  selectedFlavor === "gummy" && "text-blue-400"
-                }`}
-              >
-                GUMMY CANDY
-              </li>
-
-              <li
-                onClick={() => setSelectedFlavor("punch")}
-                className={`cursor-pointer hover:text-blue-400 ${
-                  selectedFlavor === "punch" && "text-blue-400"
-                }`}
-              >
-                FRUIT PUNCH
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        {/* CENTER PRODUCT IMAGE */}
-     {/* CENTER PRODUCT IMAGE */}
-<div className="flex justify-center items-center relative overflow-hidden">
-<AnimatePresence mode="wait">
-  <motion.img
-    key={selectedFlavor}
-    src={flavorImages[selectedFlavor]}
-    alt="Warflex"
-    initial={{ x: "100vw", opacity: 1 }}   
-    animate={{ x: 0, opacity: 1 }}       
-    exit={{ x: "-100vw", opacity: 1 }}     
-    transition={{ duration: 0.9, ease: "easeInOut" }}
-    className="w-[900px] md:w-[900px] max-w-none"
-  />
-</AnimatePresence>
-</div>
-
-
-        {/* RIGHT CONTENT */}
-        <div className="text-white text-sm leading-relaxed space-y-2 max-w-md ml-[30px]">
-          <p className="uppercase tracking-widest anton-regular  text-gray-300">
-            WARFLEX™ is a powerful high stimulant pre-workout with boron
-            citrate designed for advanced serious lifters seeking extreme
-            energy, laser focus, explosive strength, and boosted performance
-            for 8–10 hours.
-          </p>
-
-          <div className="flex items-center gap-4 mt-8">
-            <div className="bg-black/50 border border-gray-600 px-4 py-2 text-center">
-              <p className="text-xs text-gray-400">Serving Size</p>
-              <p className="text-xl font-bold">35</p>
-            </div>
-
-            <div className="bg-black/50 border border-gray-600 px-4 py-2 text-center">
-              <p className="text-xs text-gray-400">Scoops</p>
-              <p className="text-xl font-bold">05</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Bottom Shadow */}
-      <div className="absolute bottom-0 w-full h-40 bg-gradient-to-t from-black via-black/80 to-transparent"></div>
-   </section>
-
+<ProductDetailHero/>
 
     <section
       className="relative w-full min-h-screen bg-cover bg-center text-white py-20 px-6 md:px-16"
