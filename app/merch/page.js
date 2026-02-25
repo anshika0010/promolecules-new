@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 const PowerYouCanWear = () => {
 
     const products = [
@@ -9,6 +10,7 @@ const PowerYouCanWear = () => {
     price: "Rs 699.00",
     oldPrice: "Rs 799.00",
     image: "/tshirt1.png",
+    link: "/merch/detailpage"
   },
   {
     id: 2,
@@ -16,6 +18,7 @@ const PowerYouCanWear = () => {
     price: "Rs 899.00",
     oldPrice: "Rs 999.00",
     image: "/tshirt2.png",
+     link: "/merch/detailpage"
   },
   {
     id: 3,
@@ -23,6 +26,7 @@ const PowerYouCanWear = () => {
     price: "Rs 899.00",
     oldPrice: "Rs 999.00",
     image: "/tshirt3.png",
+     link: "/merch/detailpage"
   },
 ];
 
@@ -115,11 +119,10 @@ const PowerYouCanWear = () => {
         {/* ================= PRODUCTS GRID ================= */}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-
           {products.map((product) => (
             <div
               key={product.id}
-              className="group text-center transition duration-500"
+              className="group text-center cursor-pointer transition duration-500"
             >
               
               {/* Product Image */}
@@ -144,6 +147,11 @@ const PowerYouCanWear = () => {
                   {product.oldPrice}
                 </span>
               </div>
+             <Link  href={product.link}>
+  <button className="px-4 py-2 bg-red-600 rounded-xl font-bold text-white rounded hover:bg-red-700 transition">
+    VIEW NOW
+  </button>
+</Link>
             </div>
           ))}
 
@@ -252,6 +260,11 @@ const PowerYouCanWear = () => {
                   {product.oldPrice}
                 </span>
               </div>
+                           <Link  href={product.link}>
+  <button className="px-4 py-2 bg-red-600 rounded-xl font-bold text-white rounded hover:bg-red-700 transition">
+    VIEW NOW
+  </button>
+</Link>
             </div>
           ))}
 

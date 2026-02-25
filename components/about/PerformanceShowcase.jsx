@@ -20,12 +20,7 @@ export default function PerformanceShowcase() {
         <div className="relative group">
 
           {/* Top Text */}
-          <p className="mb-6 
-                        text-lg sm:text-xl md:text-lg lg:text-xl 
-                        text-white/80 uppercase 
-                        leading-relaxed 
-                        max-w-full 
-                        creepster-regular">
+          <p className="mb-6 text-lg sm:text-xl md:text-lg lg:text-xl text-white/80 uppercase leading-relaxed max-w-full creepster-regular">
             a performance-driven nutrition brand built for individuals who refuse
             average. We exist to fuel ambition, unlock physical potential, and support
             those who train with purpose, discipline, and intensity. Our identity is rooted

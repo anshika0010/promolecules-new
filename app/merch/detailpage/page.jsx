@@ -6,8 +6,10 @@ import { FaStar } from "react-icons/fa";
 import { FiMinus, FiPlus, FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import ProductInformation from "@/components/ProductInformation";
 import { ArrowRight } from "lucide-react";
+import Link from "next/link";
 
 export default function ProductDetail() {
+  
   const [qty, setQty] = useState(1);
 
   const decreaseQty = () => {
@@ -25,20 +27,28 @@ export default function ProductDetail() {
     price: "Rs 699.00",
     oldPrice: "Rs 799.00",
     image: "/tshirt1.png",
+        link: "/merch/detailpage"
+
   },
+
   {
     id: 2,
     name: "Father Of Insane Fusion",
     price: "Rs 899.00",
     oldPrice: "Rs 999.00",
     image: "/tshirt2.png",
+        link: "/merch/detailpage"
+
   },
+ 
   {
     id: 3,
     name: "Father Of Insane Nitro",
     price: "Rs 899.00",
     oldPrice: "Rs 999.00",
     image: "/tshirt3.png",
+        link: "/merch/detailpage"
+ 
   },
 ];
 
@@ -167,9 +177,6 @@ export default function ProductDetail() {
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
-
-        {/* ================= TOP CONTENT ================= */}
-
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-8">
           
           {/* Left Small Text */}
@@ -199,8 +206,6 @@ export default function ProductDetail() {
             </p>
           </div>
         </div>
-
-        {/* ================= PRODUCTS GRID ================= */}
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
 
@@ -232,13 +237,19 @@ export default function ProductDetail() {
                   {product.oldPrice}
                 </span>
               </div>
+                           <Link  href={product.link}>
+  <button className="px-4 py-2 bg-red-600 rounded-xl font-bold text-white rounded hover:bg-red-700 transition">
+    VIEW NOW
+  </button>
+</Link>
             </div>
           ))}
 
         </div>
+
       </div>
     </section>
-
+ 
     <ProductInformation/>
 
     <section className="w-full min-h-screen bg-black flex items-center justify-center px-6">
