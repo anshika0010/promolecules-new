@@ -26,16 +26,10 @@ export default function ContactSection() {
 
             <div className="grid grid-cols-2 gap-8 text-xs text-gray-400 uppercase tracking-wider">
               <p>
-                You don’t live form <br />
-                formulated with hydrolysed <br />
-                beef peptides, it fuels faster <br />
-                recovery, i.
+        Connect with Promolecules™ for product guidance, collaboration inquiries, or performance support. Our team responds with clarity, precision, and athlete-focused solutions. 
               </p>
               <p>
-                You don’t live form <br />
-                formulated with hydrolysed <br />
-                beef peptides, it fuels faster <br />
-                recovery, i.
+            Reach us via email, official social platforms, or authorized distribution partners for verified assistance.
               </p>
             </div>
           </div>

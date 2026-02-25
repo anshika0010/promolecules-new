@@ -31,19 +31,13 @@ export default function JourneySection() {
         {/* Right Description */}
         <div>
           <p className="text-gray-300 uppercase text-xs md:text-sm leading-relaxed tracking-wide">
-            Promolecules was founded to redefine sports nutrition through
-            science, purity, and performance. The brand was created with a
-            clear mission — to bridge the gap between advanced nutritional
-            research and real-world athletic results. Every formula is designed
-            with precision, using carefully selected, high-quality ingredients
-            that support strength, endurance, recovery, and overall
-            performance.
-            <br /><br />
-            Promolecules began with the belief that true performance nutrition
-            must be backed by science, not hype. By focusing on research-driven
-            formulations and high bioavailability ingredients, the brand
-            delivers supplements that work at a cellular level — helping
-            athletes train smarter, recover faster, and perform better.
+           Promolecules™ was not created to follow the supplement trend cycle. It was born from frustration inside real gym environments where serious lifters were forced to choose between two extremes: underdosed “safe” formulas that barely activate performance, or reckless high-stim products that spike energy but crash hard.
+
+The founders observed a clear pattern in the industry:
+• Excess caffeine marketed as “strong”
+• Proprietary blends hiding real dosages
+• Short-term hype replacing long-term progression
+
           </p>
         </div>
       </div>

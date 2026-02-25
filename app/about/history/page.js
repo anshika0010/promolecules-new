@@ -28,11 +28,11 @@ export default function Page() {
           </h1>
 
           {/* Right Paragraph */}
-          <p className="max-w-md text-xs md:text-sm anton-regular uppercase leading-relaxed tracking-wide text-gray-200">
-            PROMOLECULES WAS FOUNDED WITH A CLEAR PURPOSE — TO REDEFINE SPORTS
-            NUTRITION THROUGH SCIENCE, PURITY, AND PERFORMANCE. FROM THE VERY
-            BEGINNING, THE BRAND FOCUSED ON CREATING SUPPLEMENTS THAT DELIVER
-            REAL, MEASURABLE RESULTS, NOT JUST MARKETING PROMISES.
+          <p className="max-w-md text-xs uppercase md:text-sm anton-regular uppercase leading-relaxed tracking-wide text-gray-200">
+           Promolecules™ was not created to follow the supplement trend cycle. It was born from
+frustration inside real gym environments — where serious lifters were forced to choose
+between two extremes: underdosed “safe” formulas that barely activate performance, or
+reckless high-stim products that spike energy but crash hard.
           </p>
         </div>
       </section>
@@ -43,8 +43,7 @@ export default function Page() {
 
           {/* Right Paragraph */}
           <p className="max-w-md text-sm md:text-sm anton-regular uppercase leading-relaxed tracking-wide text-gray-200">
-            From the very beginning, the brand focused on creating supplements
-            that deliver real measurable results, not just marketing promises
+       Promolecules™ – History & Reason Behind the Formulation
           </p>
           <h1
             className="text-[60px] text-red-800 creepster-regular sm:text-[80px] md:text-[120px] lg:text-[120px] 
