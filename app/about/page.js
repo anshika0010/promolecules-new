@@ -13,10 +13,10 @@ const headings = [
 ];
 
 const WhoWeAreSection = () => {
+  
   return (
     <>
       <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-center px-4 sm:px-6">
-        
         {/* Background */}
         <Image
           src="/about.png"
@@ -25,7 +25,7 @@ const WhoWeAreSection = () => {
           priority
           className="object-cover"
         />
-
+ 
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/70" />
 
@@ -131,7 +131,7 @@ const WhoWeAreSection = () => {
                 "
               >
                 {social.name} ↗
-              </a>
+         </a>
             ))}
           </div>
         </div>

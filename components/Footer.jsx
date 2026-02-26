@@ -29,7 +29,7 @@ const Footer = () => {
       {/* Content */}
       <div className="relative z-10 max-w-[1600px] mx-auto px-6 py-16">
         {/* Top Section */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
           {/* Column 1 - About */}
           <div className="space-y-4">
             <h3 className="text-sm font-bold tracking-wider mb-6">
@@ -54,6 +54,7 @@ const Footer = () => {
           </div>
 
           {/* Column 2 - Quick Links */}
+
           <div className="space-y-4">
             <h3 className="text-red-600 font-bold text-xs tracking-wider mb-6">
               QUICK LINKS
@@ -148,6 +149,7 @@ const Footer = () => {
               </Link>
             </nav>
           </div>
+         
 
           {/* Column 4 - Newsletter */}
           <div className="space-y-4">
@@ -184,13 +186,28 @@ const Footer = () => {
         {/* Large Logo */}
         <div className="mb-12">
                  <div className="relative flex flex-col items-start">
-<motion.h2 initial={{ x: 200, opacity: 0 }}   // 👈 START position (right side)
-  whileInView={{ x: 0, opacity: 1 }} // 👈 END position
+<motion.h2
+  initial={{ x: 200, opacity: 0 }}
+  whileInView={{ x: 0, opacity: 1 }}
   viewport={{ once: true, amount: 0.5 }}
   transition={{
     duration: 1,
     ease: [0.22, 1, 0.36, 1],
-  }} className="creepster-regular text-red-700 pl-10 text-9xl scale-x-110 tracking-wide">
+  }}
+  className="
+    creepster-regular
+    text-3xl
+    sm:text-5xl
+    md:text-7xl
+    lg:text-8xl
+    xl:text-9xl
+    scale-x-110
+    tracking-wide
+    text-red-700
+    text-center
+    md:text-left
+  "
+>
   PROMOLECULES™
 </motion.h2>
               </div>

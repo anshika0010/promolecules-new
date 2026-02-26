@@ -179,7 +179,7 @@ export default function ProductDetail() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-8">
           
-          {/* Left Small Text */}
+     
           <p className="text-gray-400 text-xs uppercase tracking-wider max-w-sm">
             Stay ahead of the trend with bold designs, premium comfort, and
             statement styles. Made for those who don't follow fashion — they create it.

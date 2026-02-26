@@ -5,7 +5,7 @@ import { Calendar, Clock, User, Share2, Bookmark, TrendingUp } from "lucide-reac
 
 export default function BlogDetailPage() {
   return (
-    <div className="bg-gradient-to-b from-gray-50 to-white min-h-screen">
+    <div className="bg-black min-h-screen">
       
       {/* Hero Image */}
       <section className="relative w-full h-[70vh] overflow-hidden">
@@ -24,9 +24,9 @@ export default function BlogDetailPage() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="bg-white rounded-3xl shadow-2xl p-8 md:p-12 mb-12"
+          className="bg-white rounded-3xl shadow-2xl p-4 md:p-6 mb-6"
         >
-          <div className="flex flex-wrap gap-4 mb-6 text-sm">
+          <div className="flex flex-wrap gap-4 mb-4 text-sm">
             <span className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-red-800 rounded-full font-medium">
               <TrendingUp className="w-4 h-4" />
               Nutrition
@@ -39,18 +39,18 @@ export default function BlogDetailPage() {
             </span>
           </div>
 
-          <h1 className="text-3xl md:text-4xl lg:text-5xl creepster-regular font-bold text-gray-900 mb-6 leading-tight">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl creepster-regular font-bold text-gray-900 mb-4 leading-tight">
             The Ultimate Guide to Pre-Workout Supplements
           </h1>
 
-          <p className="text-xl text-gray-600 mb-8 leading-relaxed">
+          <p className="text-xl text-gray-600 mb-4 leading-relaxed">
             Boost energy, improve focus, and maximize performance with the right pre-workout formula. Everything you need to know to make informed choices.
           </p>
 
           <div className="flex flex-wrap items-center gap-6 text-gray-600 text-sm">
             <div className="flex items-center gap-2">
               <User className="w-5 h-5 text-gray-400" />
-              <span>Dr. Sarah Mitchell</span>
+              <span>Dr.Sarah Mitchell</span>
             </div>
             <div className="flex items-center gap-2">
               <Calendar className="w-5 h-5 text-gray-400" />
@@ -62,7 +62,7 @@ export default function BlogDetailPage() {
             </div>
           </div>
 
-          <div className="flex gap-4 mt-8 pt-8 border-t border-gray-200">
+          <div className="flex gap-4 mt-4 pt-2 border-t border-gray-200">
             <button className="flex items-center gap-2 px-6 py-3 bg-red-600 text-white rounded-xl hover:bg-red-700 transition-colors">
               <Share2 className="w-4 h-4" />
               Share
@@ -85,8 +85,8 @@ export default function BlogDetailPage() {
           >
             
             {/* Introduction */}
-            <div className="bg-gray-700 rounded-2xl shadow-lg p-8 md:p-10">
-              <p className="text-lg text-gray-100 leading-relaxed mb-6">
+            <div className="bg-gray-700 rounded-2xl shadow-lg p-8 md:p-7">
+              <p className="text-lg text-gray-100 leading-relaxed mb-3">
                 Pre-workout supplements have become an essential part of many fitness routines. Designed to increase energy, endurance, and strength, these supplements help you push harder during your workouts and achieve better results.
               </p>
               <p className="text-lg text-gray-100 leading-relaxed">
@@ -95,7 +95,7 @@ export default function BlogDetailPage() {
             </div>
 
             {/* Key Benefits */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10">
+            <div className="bg-white rounded-2xl shadow-lg p-4 md:p-5">
               <h2 className="text-3xl font-bold creepster-regular text-gray-900 mb-6 flex items-center gap-3">
           
                 Key Benefits of Pre-Workout
@@ -125,7 +125,7 @@ export default function BlogDetailPage() {
             </div>
 
             {/* Key Ingredients */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10">
+            <div className="bg-white rounded-2xl shadow-lg p-4 md:p-5">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
           
                 Essential Ingredients to Look For
@@ -160,7 +160,7 @@ export default function BlogDetailPage() {
             </div>
 
             {/* How to Choose */}
-            <div className="bg-gray-700 rounded-2xl shadow-lg p-8 md:p-10 text-white">
+            <div className="bg-gray-700 rounded-2xl shadow-lg p-4 md:p-5 text-white">
               <h2 className="text-3xl creepster-regular font-bold mb-6 flex items-center gap-3">
             
                 How to Choose the Right Pre-Workout?
@@ -185,7 +185,7 @@ export default function BlogDetailPage() {
             </div>
 
             {/* Timing */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10">
+            <div className="bg-white rounded-2xl shadow-lg p-4 md:p-5 ">
               <h2 className="text-3xl  creepster-regular font-bold text-gray-900 mb-6 flex items-center gap-3">
               
                 When to Take Pre-Workout
@@ -199,7 +199,7 @@ export default function BlogDetailPage() {
             </div>
 
             {/* Final Thoughts */}
-            <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10">
+            <div className="bg-white rounded-2xl shadow-lg p-4 md:p-5">
               <h2 className="text-3xl font-bold text-gray-900 mb-6 flex items-center gap-3">
           
                 Final Thoughts
@@ -297,6 +297,8 @@ export default function BlogDetailPage() {
 
         </div>
       </section>
+
+
     </div>
   );
 }
