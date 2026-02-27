@@ -26,8 +26,7 @@ const WhoWeAreSection = () => {
           className="object-cover"
         />
  
-        {/* Overlay */}
-        <div className="absolute inset-0 bg-black/70" />
+   
 
         {/* Center Content */}
         <div className="relative z-10 w-full max-w-6xl mx-auto py-12 sm:py-16">
@@ -104,7 +103,7 @@ const WhoWeAreSection = () => {
         {/* Bottom Social Links */}
         <div className="absolute bottom-4 sm:bottom-6 left-0 right-0 z-10">
           <div
-            className="max-w-7xl mx-auto px-4 sm:px-6 
+            className="max-w-7xl mx-auto  sm:px-1 
             flex flex-wrap justify-center md:justify-between 
             gap-4 sm:gap-6 
             text-white tracking-widest uppercase"

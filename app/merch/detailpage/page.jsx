@@ -6,19 +6,34 @@ import { FaStar } from "react-icons/fa";
 import { FiMinus, FiPlus, FiArrowLeft, FiArrowRight } from "react-icons/fi";
 import ProductInformation from "@/components/ProductInformation";
 import { ArrowRight } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 export default function ProductDetail() {
   
   const [qty, setQty] = useState(1);
+  const [index, setIndex] = useState(0);
+const [direction, setDirection] = useState(0);
+
+const nextImage = () => {
+  setDirection(1);
+  setIndex((prev) => (prev + 1) % tshirts.length);
+};
+
+const prevImage = () => {
+  setDirection(-1);
+  setIndex((prev) =>
+    prev === 0 ? tshirts.length - 1 : prev - 1
+  );
+};
 
   const decreaseQty = () => {
     if (qty > 1) setQty(qty - 1);
   };
 
-  const increaseQty = () => {3
-    setQty(qty + 1);
-  };
+ const increaseQty = () => {
+  setQty(qty + 1);
+};
 
  const products = [
   {
@@ -51,20 +66,24 @@ export default function ProductDetail() {
  
   },
 ];
-
+const tshirts = [
+  "/tshirt1.png",
+  "/tshirtback.png",
+  "/tshirtside.png",
+];
 
   return (
     <>
     <div className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
       
       {/* Background Image */}
-      <Image
-        src="/images/bg.jpg"   // put inside public/images
+      {/* <Image
+        src="/images/bg.jpg"   
         alt="background"
         fill
         priority
         className="object-cover"
-      />
+      /> */}
 
       {/* Dark Overlay */}
       <div className="absolute inset-0 bg-black/70"></div>
@@ -73,26 +92,48 @@ export default function ProductDetail() {
       <div className="relative z-10 max-w-7xl w-full px-6 py-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
 
         {/* LEFT SIDE - TSHIRT */}
-        <div className="flex flex-col items-center justify-center relative">
-          <div className="relative w-[80%] md:w-[70%] h-[430px] md:h-[530px]">
-            <Image
-              src="/tshirt1.png"
-              alt="Tshirt"
-              fill
-              className="object-contain drop-shadow-2xl"
-            />
-          </div>
+    {/* LEFT SIDE - TSHIRT */}
+<div className="flex flex-col items-center justify-center relative">
+  <div className="relative w-[80%] md:w-[70%] h-[430px] md:h-[530px] overflow-hidden">
 
-          {/* Arrow Buttons */}
-          <div className="flex gap-6 mt-8">
-            <button className="w-14 h-14 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white text-2xl hover:bg-red-600 transition">
-              <FiArrowLeft />
-            </button>
-            <button className="w-14 h-14 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white text-2xl hover:bg-red-600 transition">
-              <FiArrowRight />
-            </button>
-          </div>
-        </div>
+    <AnimatePresence mode="wait">
+      <motion.div
+        key={index}
+        initial={{ x: direction > 0 ? 400 : -400, opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        exit={{ x: direction > 0 ? -400 : 400, opacity: 0 }}
+        transition={{ type: "spring", stiffness: 120, damping: 18 }}
+        className="absolute w-full h-full"
+      >
+        <Image
+          src={tshirts[index]}
+          alt="Tshirt"
+          fill
+          priority
+          className="object-contain drop-shadow-2xl"
+        />
+      </motion.div>
+    </AnimatePresence>
+
+  </div>
+
+  {/* Arrow Buttons */}
+  <div className="flex gap-6 mt-4">
+    <button
+      onClick={prevImage}
+      className="w-14 h-14 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white text-2xl hover:bg-red-600 transition"
+    >
+      <FiArrowLeft />
+    </button>
+
+    <button
+      onClick={nextImage}
+      className="w-14 h-14 rounded-full bg-black/60 backdrop-blur-md flex items-center justify-center text-white text-2xl hover:bg-red-600 transition"
+    >
+      <FiArrowRight />
+    </button>
+  </div>
+</div>
 
         {/* RIGHT SIDE */}
         <div className="bg-black/60 backdrop-blur-xl p-8 rounded-xl text-white shadow-2xl">
@@ -167,6 +208,8 @@ export default function ProductDetail() {
         </div>
       </div>
     </div>
+
+
 
     <section className="relative w-full bg-black text-white py-20 overflow-hidden">
 
@@ -252,7 +295,7 @@ export default function ProductDetail() {
  
     <ProductInformation/>
 
-    <section className="w-full min-h-screen bg-black flex items-center justify-center px-6">
+    <section className="w-full  bg-black flex items-center justify-center px-6">
       <div className="text-center max-w-4xl">
         
         {/* Heading */}
