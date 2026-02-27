@@ -14,7 +14,6 @@ export default function ContactHero() {
         sizes="100vw"
         className="object-cover"
       />
-
       {/* Content */}
       <div className="relative z-10 text-center px-6">
         <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl creepster-regular">

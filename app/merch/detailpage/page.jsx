@@ -86,7 +86,7 @@ const tshirts = [
       /> */}
 
       {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/70"></div>
+  
 
       {/* Main Container */}
       <div className="relative z-10 max-w-7xl w-full px-6 py-10 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
@@ -94,7 +94,7 @@ const tshirts = [
         {/* LEFT SIDE - TSHIRT */}
     {/* LEFT SIDE - TSHIRT */}
 <div className="flex flex-col items-center justify-center relative">
-  <div className="relative w-[80%] md:w-[70%] h-[430px] md:h-[530px] overflow-hidden">
+  <div className="relative w-[100%] md:w-[100%] h-[430px] md:h-[530px] overflow-hidden">
 
     <AnimatePresence mode="wait">
       <motion.div

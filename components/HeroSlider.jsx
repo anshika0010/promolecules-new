@@ -20,7 +20,7 @@ const slides = [
     id: 2,
     productImage: "/fatherof.png",
     title: "FATHER OF INSANE",
-    backgroundImage: "/photo2.png",
+    backgroundImage: "/photo2.webp",
     link: "https://www.cost2costsupplement.com/product/promolecules-father-of-insane/",
     description:
       "FATHER OF INSANE BY PROMOLECULES™ IS AN ULTRA HIGH-STIMULANT PRE-WORKOUT DESIGNED FOR EXPERIENCED ATHLETES WHO DEMAND EXTREME ENERGY, EXPLOSIVE STRENGTH, INTENSE FOCUS, AND UNSTOPPABLE ENDURANCE.",

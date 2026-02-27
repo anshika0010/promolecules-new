@@ -10,8 +10,7 @@ export default function ContactHero() {
           backgroundImage: "url('/candle.png')",
         }}
       >
-        {/* Dark Overlay */}
-        <div className="absolute inset-0 bg-black/70"></div>
+    
 
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 w-full">
           {/* Main Heading */}
@@ -77,6 +76,7 @@ export default function ContactHero() {
                     effectiveness, and real-world gym demands. 
                   </p>
                 </div>
+
               </div>
             </div>
           </section>

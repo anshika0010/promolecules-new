@@ -90,14 +90,13 @@ export default function ProductInformation() {
 
       {/* Background Image */}
       <Image
-        src="/images/review-bg.jpg" // put inside public/images
+        src="/candle.png" // put inside public/images
         alt="background"
         fill
         className="object-cover"
       />
 
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-black/80"></div>
+ 
 
       <div className="relative z-10 max-w-7xl mx-auto">
 

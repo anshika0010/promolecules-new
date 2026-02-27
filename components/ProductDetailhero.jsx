@@ -29,7 +29,7 @@ export default function WarflexHero() {
     <section
       className="relative w-full min-h-screen bg-cover bg-center flex items-center justify-center overflow-hidden"
       style={{
-        backgroundImage: "url('/backgroundblue.png')",
+        backgroundImage: "url('/backgroundblue.webp')",
       }}
     >
       {/* Overlay */}
@@ -42,11 +42,12 @@ export default function WarflexHero() {
             key={selectedFlavor}
             src={flavorData[selectedFlavor].image}
             alt="Warflex Product"
+              priority
             initial={{ x: "120vw", scale: 0.9, opacity: 0 }}
             animate={{ x: 0, scale: 1, opacity: 1 }}
             exit={{ x: "-150vw", scale: 0.9, opacity: 0 }}
             transition={{ duration: 1.8, ease: [0.76, 0, 0.24, 1] }}
-            className="absolute w-[700px] sm:w-[850px] md:w-[1000px] lg:w-[1150px]"
+            className="absolute w-[700px] sm:w-[850px] md:w-[1000px] lg:w-[1150px]  "
           />
         </AnimatePresence>
       </div>

@@ -116,6 +116,7 @@ export default function Page() {
                   src={product.thumbnail}
                   alt="Thumbnail"
                   fill
+                  priority
                   className="object-contain p-2"
                 />
               </div>
