@@ -55,7 +55,7 @@ reckless high-stim products that spike energy but crash hard.
       </section>
       <section className="relative w-full min-h-screen overflow-hidden">
         <Image
-          src="/history.png"
+          src="/history.webp"
           alt="Hero Background"
           fill
           priority

@@ -36,6 +36,7 @@ export default function MoreInformationSection() {
   };
 
   return (
+    
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <Image
@@ -107,5 +108,6 @@ export default function MoreInformationSection() {
         </div>
       </div>
     </section>
+
   );
 }

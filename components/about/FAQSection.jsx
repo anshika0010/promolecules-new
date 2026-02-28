@@ -71,14 +71,12 @@ const faqs = [
 
   return (
     <section className="relative w-full min-h-screen bg-black text-white overflow-hidden">
-      
-      {/* Background Image */}
-          <Image
-  src="/candle.webp"
-  alt="Background"
-  fill
-  priority
-  className="object-cover object-center"
+         <Image
+         src="/candle.webp"
+         alt="Background"
+         fill
+         priority
+         className="object-cover object-center"
 />
 
       

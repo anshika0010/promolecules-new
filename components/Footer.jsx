@@ -116,7 +116,7 @@ const Footer = () => {
                 PREWORKOUT
               </Link>
               <Link 
-                href="/products/fat-burner" 
+                href="/products" 
                 className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
               >
                 FAT BURNER
@@ -128,7 +128,7 @@ const Footer = () => {
                 PROTEIN
               </Link>
               <Link 
-                href="/products/gainer" 
+                href="/products" 
                 className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
               >
                 GAINER
@@ -141,8 +141,7 @@ const Footer = () => {
               </Link>
               <Link 
                 href="/merch" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
+                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide" >
                 MERCHANDISE
               </Link>
             </nav>
@@ -178,6 +177,7 @@ const Footer = () => {
                 </button>
               </div>
             </form>
+            
           </div>
         </div>
 
