@@ -11,14 +11,14 @@ const UltraHighPerformanceSection = () => {
       title: " FOCUS",
       description:
         "Engineered neurological activation enhances mental clarity, reaction speed, and tunnel vision focus without overstimulation or distracting jitters during intense sessions.",
-      image: "/skeleton1.png",
+      image: "/skeleton1.webp",
       alt: "Razor Focus Skeleton",
     },
     {
       id: 2,
       title: " ENERGY",
       description:"Multi-phase stimulant architecture delivers fast activation and sustained output, supporting extended high-intensity training without sudden crashes or unstable spikes.",
-      image: "/skeleton2.png",
+      image: "/skeleton2.webp",
       alt: "Extreme Energy Skeleton",
     },
     {
@@ -26,7 +26,7 @@ const UltraHighPerformanceSection = () => {
       title: "STREGNTH ",
       description:
         "Synergistic performance matrix supports explosive power, muscular endurance, and heavy compound lifts through structured ingredient balance and disciplined dosing strategy.",
-      image: "/skeleton3.png",
+      image: "/skeleton3.webp",
       alt: "Strength and Stamina Anatomy",
     },
   ];

@@ -79,7 +79,7 @@ const PowerYouCanWear = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"
-        style={{ backgroundImage: "url('/candle.png')" }}
+        style={{ backgroundImage: "url('/candle.webp')" }}
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
@@ -170,7 +170,7 @@ const PowerYouCanWear = () => {
         <div className=" hidden md:flex items-end justify-center">
           
           <img
-            src="/merchboy.png"   // replace with first model image
+            src="/merchboy.webp"   
             alt="Model 1"
             className=" left-0 bottom-0 object-contain"
           />
@@ -223,7 +223,7 @@ const PowerYouCanWear = () => {
       {/* Background Image */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-20"
-        style={{ backgroundImage: "url('/candle.png')" }}
+        style={{ backgroundImage: "url('/candle.webp')" }}
       />
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">

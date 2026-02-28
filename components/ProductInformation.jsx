@@ -90,7 +90,7 @@ export default function ProductInformation() {
 
       {/* Background Image */}
       <Image
-        src="/candle.png" // put inside public/images
+        src="/candle.webp" 
         alt="background"
         fill
         className="object-cover"

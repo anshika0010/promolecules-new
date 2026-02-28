@@ -39,7 +39,7 @@ export default function MoreInformationSection() {
     <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
       <Image
-        src="/dark-candle.png"
+        src="/dark-candle.webp"
         alt="Background"
         fill
         priority

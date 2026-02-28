@@ -7,7 +7,7 @@ export default function ContactHero() {
       <section
         className="relative min-h-screen w-full bg-cover bg-center flex items-center py-16 md:py-0"
         style={{
-          backgroundImage: "url('/candle.png')",
+          backgroundImage: "url('/candle.webp')",
         }}
       >
     

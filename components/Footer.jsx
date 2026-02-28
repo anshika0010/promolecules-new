@@ -47,8 +47,6 @@ const Footer = () => {
 
             <div className="space-y-2 pt-8">
               <p className="text-red-600 font-bold text-xs tracking-wider">CONTACT INFO:</p>
-             
-              <p className="text-white text-sm font-light">+91 120 480 8353</p>
               <p className="text-white text-sm font-light">CONTACT@PROMOLECULES.COM</p>
             </div>
           </div>
@@ -169,7 +167,7 @@ const Footer = () => {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   placeholder="Email"
-                  className="bg-transparent border-2 border-white/30 text-white placeholder-gray-400 px-6 py-3 rounded-full focus:outline-none focus:border-red-600 transition-colors text-sm"
+                  className="bg-transparent  border-2 border-white/30 text-white placeholder-gray-400 px-6 py-3 rounded-full focus:outline-none focus:border-red-600 transition-colors text-sm"
                   required
                 />
                 <button

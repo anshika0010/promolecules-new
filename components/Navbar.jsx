@@ -24,7 +24,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
-            src="/logo.png"
+            src="/logo.webp"
             alt="Logo"
             width={150}
             height={80}

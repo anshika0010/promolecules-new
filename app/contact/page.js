@@ -7,7 +7,7 @@ export default function ContactHero() {
     <section className="relative w-full h-screen overflow-hidden flex items-center justify-center text-white">
       {/* Background Image */}
       <Image
-        src="/candle.png"
+        src="/candle.webp"
         alt="Background"
         fill
         priority

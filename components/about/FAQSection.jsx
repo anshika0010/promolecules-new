@@ -74,7 +74,7 @@ const faqs = [
       
       {/* Background Image */}
           <Image
-  src="/candle.png"
+  src="/candle.webp"
   alt="Background"
   fill
   priority

@@ -12,7 +12,7 @@ const WhoWeAreSection = () => {
       <div className="absolute inset-0">
         <div
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/dark-candle.png')" }}
+          style={{ backgroundImage: "url('/dark-candle.webp')" }}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/60 to-transparent" />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/80" />

@@ -33,7 +33,7 @@ const NewsletterSection = () => {
       {/* Left Side - Image */}
       <div className="flex items-center justify-center lg:justify-start">
         <Image
-          src="/newsletterimage.png"
+          src="/newsletterimage.webp"
           alt="Logo"
           width={220}
           height={80}

@@ -3,14 +3,17 @@ import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 
 export default function TrendingCategory() {
+
   const categories = [
-     { title: "PRE-WORKOUT", desc: "Engineered stimulation systems designed to activate CNS, sharpen focus, and sustain strength output. Built for athletes who demand controlled intensity, not random caffeine spikes or underdosed performance formulas.", image: "/product1.png", hoverImage: "/hoverproduct2.png", link: "https://www.cost2costsupplement.com/product/warflex/", },
-      { title: "FAT BURNER", desc: "Structured thermogenic blends supporting metabolic acceleration, energy expenditure, and disciplined fat-loss phases without chaotic stimulant overload or crash-driven rebound fatigue.", image: "/product2.png", hoverImage: "/hoverproduct.png", link: "https://www.cost2costsupplement.com/product/inpower-r/", }, 
-      { title: "PRE-WORKOUT + ENERGY", desc: "Hybrid performance formulas combining structured stimulation and sustained energy architecture for athletes needing explosive output with endurance stability across long training sessions.", image: "/product3.png", hoverImage: "/hoverproduct3.png", link: "https://www.cost2costsupplement.com/product/promolecules-father-of-insane/", },
+       { title: "PRE-WORKOUT", desc: "Engineered stimulation systems designed to activate CNS, sharpen focus, and sustain strength output. Built for athletes who demand controlled intensity, not random caffeine spikes or underdosed performance formulas.", image: "/product1.png", hoverImage: "/hoverproduct2.webp", link: "https://www.cost2costsupplement.com/product/warflex/", },
+       { title: "FAT BURNER", desc: "Structured thermogenic blends supporting metabolic acceleration, energy expenditure, and disciplined fat-loss phases without chaotic stimulant overload or crash-driven rebound fatigue.", image: "/product2.png", hoverImage: "/hoverproduct.webp", link: "https://www.cost2costsupplement.com/product/inpower-r/", }, 
+       { title: "PRE-WORKOUT + ENERGY", desc: "Hybrid performance formulas combining structured stimulation and sustained energy architecture for athletes needing explosive output with endurance stability across long training sessions.", image: "/product3.png", hoverImage: "/hoverproduct3.webp", link: "https://www.cost2costsupplement.com/product/promolecules-father-of-insane/", },
        { title: "MUSCLE PUMP", desc: "Advanced hydration and volumization systems enhancing intracellular expansion, vascularfullness, and muscular density without bloating, heaviness, or compromised performance output. ", image: "/product4.png", hoverImage: "/hoverproduct4.png", link: "https://www.cost2costsupplement.com/product/hydrapump/", }, { title: "MERCHANDISE", desc: "Performance-driven apparel and training essentials designed for serious gym culture,representing discipline, intensity, and the Promolecules mindset beyond supplementation. > PHARMA: Below is a structured website-ready format for each major Promolecules product.Tone: premium, disciplined, performance-focused — not exaggerated.", image: "/product5.png", hoverImage: "/hoverproduct5.png", link: "/merch" },
        ];
+
   return (
     <section className="relative w-full bg-black py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12 lg:px-16 overflow-hidden">
+      
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.05),_transparent_60%)] opacity-30" />
 
@@ -108,6 +111,8 @@ serious athletes.
           </Link>
         ))}
       </div>
+
     </section>
   );
+
 }

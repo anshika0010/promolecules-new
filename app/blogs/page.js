@@ -12,7 +12,7 @@ export default function page() {
       
       {/* Background Image */}
       <Image
-        src="/bloghero.png"
+        src="/bloghero.webp"
         alt="Fitness Blog Hero"
         fill
         priority

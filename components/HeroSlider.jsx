@@ -30,7 +30,6 @@ const slides = [
 const HeroSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // ✅ Auto slide every 3 seconds
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev + 1) % slides.length);
@@ -58,7 +57,7 @@ const HeroSlider = () => {
         />
         <div className="absolute inset-0 bg-black/40" />
       </motion.div>
-
+      
       {/* Hero Content */}
       <div className="relative z-10 flex items-center">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 w-full">

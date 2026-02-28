@@ -50,7 +50,7 @@ const WarflexHero = () => {
     <section
       className="relative w-full min-h-screen bg-cover bg-center text-white py-20 px-6 md:px-16"
       style={{
-        backgroundImage: "url('/candle.png')",
+        backgroundImage: "url('/candle.webp')",
       }}
     >
       {/* Dark overlay */}

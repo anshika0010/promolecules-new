@@ -96,7 +96,7 @@ export default function GrowthEvolution() {
           {/* Image Box */}
           <div className="relative w-full h-[450px] bg-gradient-to-b from-red-900/40 to-black overflow-hidden">
             <img
-              src="/history2.png" // 👈 replace with your image
+              src="/history2.webp"
               alt="Growth"
               className="w-full h-full object-cover opacity-80"
             />
