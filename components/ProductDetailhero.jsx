@@ -92,7 +92,6 @@ export default function WarflexHero() {
           </div>
         </div>
 
-        {/* EMPTY CENTER COLUMN (keeps layout balanced) */}
         <div />
 
         {/* RIGHT CONTENT */}

@@ -39,8 +39,6 @@ const WarflexHero = () => {
  
 
 
- 
-
   const toggleSection = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
