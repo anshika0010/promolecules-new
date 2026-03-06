@@ -8,7 +8,7 @@ const TermsConditions = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            ⚖️ PROMOLECULES – Legal Policies
+             PROMOLECULES™  Legal Policies
           </h1>
           <p className="mt-2 text-gray-400">
             Terms & Conditions
@@ -20,7 +20,7 @@ const TermsConditions = () => {
 
         {/* Intro */}
         <p className="text-gray-300 leading-relaxed mb-8">
-          By using the Promolecules website or purchasing our products, you agree 
+          By using the Promolecules™ website or purchasing our products, you agree 
           to comply with these Terms & Conditions. If you disagree with any part 
           of these terms, please stop using our website immediately.
         </p>
@@ -83,7 +83,7 @@ const TermsConditions = () => {
             href="mailto:tc@promolecules.com"
             className="text-blue-400 hover:text-blue-300 underline font-medium"
           >
-            📧 tc@promolecules.com
+             tc@promolecules.com
           </a>
         </div>
 

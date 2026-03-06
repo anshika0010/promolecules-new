@@ -188,11 +188,11 @@ const PowerYouCanWear = () => {
             Dark Gothic
           </p>
 
-          <h1
+          <h2
             className="text-red-600 text-5xl md:text-7xl creepster-regular font-bold uppercase leading-none drop-shadow-[0_0_15px_rgba(255,0,0,0.8)]"
           >
             Collection
-          </h1>
+          </h2>
 
           <p className="mt-6 text-gray-400 text-sm uppercase tracking-wide leading-relaxed max-w-md">
             Dark gothic collection is not fashion — it's rebellion in fabric.
@@ -276,12 +276,12 @@ const PowerYouCanWear = () => {
       <div className="text-center max-w-4xl">
         
         {/* Heading */}
-        <h1
+        <h3
           className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase leading-tight tracking-wide"
 
         >
           Empower Every Move <br /> With Style
-        </h1>
+        </h3>
 
         {/* Subtitle */}
         <p className="text-gray-400 text-sm md:text-base mt-6 uppercase tracking-widest">

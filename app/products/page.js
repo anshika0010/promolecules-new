@@ -4,49 +4,44 @@ import { useState } from "react";
 import TrendingCategory from "@/components/TrendingCategory";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Rotate3D } from "lucide-react";
 import Link from "next/link";
 
 export default function Page() {
+
   const products = [
     {
       title: "Warflex",
       image: "/warflex.png",
       price: "$1899",
-      description:
-        "Warflex promotes muscle gains via an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy and endurance.",
+      description:"Warflex promotes muscle gains via an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy and endurance.",
       thumbnail: "/fatherofinsane.png",
     },
     {
       title: "Father of Insane",
       image: "/fatherof.png",
       price: "$1599",
-      description:
-        "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
+      description: "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
       thumbnail: "/thumbnail2.png",
     },
     {
       title: "Inpower-R",
       image: "/inopower.png",
       price: "$2099",
-      description:
-        "Beast Mode delivers insane pumps and unstoppable workout intensity.",
+      description:"Beast Mode delivers insane pumps and unstoppable workout intensity.",
       thumbnail: "/thumb3.png",
     },
     {
       title: "Thermo Nuke XT",
       image: "/thermonuke.png",
       price: "$1799",
-      description:
-        "Alpha Rage fuels your body with clean energy and laser focus.",
+      description:"Alpha Rage fuels your body with clean energy and laser focus.",
       thumbnail: "/thumb4.png",
     },
     {
       title: "Hydrapump+",
       image: "/hydra.png",
       price: "$1799",
-      description:
-        "Alpha Rage fuels your body with clean energy and laser focus.",
+      description:"Alpha Rage fuels your body with clean energy and laser focus.",
       thumbnail: "/thumb5.png",
     },
   ];
@@ -54,8 +49,8 @@ export default function Page() {
   const [activeProduct, setActiveProduct] = useState(products[0]);
 
   return (
-    <>
-<section
+ <>
+  <section
   className="relative w-full bg-black text-white overflow-hidden bg-cover bg-center bg-no-repeat pt-4"
   style={{ backgroundImage: "url('/smoke.gif')" }}
 >
@@ -149,9 +144,8 @@ export default function Page() {
     </div>
 
   </div>
-</section>
-
-      <TrendingCategory />
-    </>
+  </section>
+  <TrendingCategory />
+ </>
   );
 }

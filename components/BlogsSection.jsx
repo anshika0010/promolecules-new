@@ -118,7 +118,7 @@ NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION`
 
                     {/* Content */}
                     <div className="absolute bottom-0 left-0 right-0 p-6 space-y-3">
-                      <h3 className="text-red-500 anton-regular text-lg font-bold leading-tight tracking-wide">
+                      <h3 className="text-red-500 anton-regular text-sm font-bold leading-tight tracking-wide">
                         {blog.title}
                       </h3>
                       <p className="text-white/80 anton-regular text-xs leading-relaxed tracking-wide">
@@ -207,15 +207,7 @@ const TestimonialsSection = () => {
 
   return (
     <section className="relative bg-black py-14 sm:py-16 md:py-20 overflow-hidden">
-      
-      {/* Background */}
-      <div className="absolute inset-0">
-        <div className="absolute inset-0 bg-[url('/images/gym-background.jpg')] bg-cover bg-center opacity-20" />
-        <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black" />
-      </div>
-
       <div className="relative z-10 max-w-[1600px] mx-auto px-4 sm:px-6">
-        
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
           {/* Left Side */}

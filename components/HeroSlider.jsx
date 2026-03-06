@@ -65,24 +65,7 @@ const HeroSlider = () => {
             
             {/* Product Image */}
             <div className="relative h-[400px] sm:h-[500px] lg:h-[700px] flex items-center justify-center overflow-hidden">
-              {/* <motion.div
-                key={currentSlide}
-                initial={{ x: -200, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{
-                  duration: 0.9,
-                  ease: [0.22, 1, 0.36, 1],
-                }}
-              >
-                <Image
-                  src={slides[currentSlide].productImage}
-                  alt={slides[currentSlide].title}
-                  width={500}
-                  height={600}
-                  className="object-contain h-[350px] sm:h-[480px] lg:h-[580px] mt-10 lg:mt-20 drop-shadow-2xl"
-                  priority
-                />
-              </motion.div> */}
+             
             </div>
 
             {/* Content */}

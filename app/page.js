@@ -7,7 +7,6 @@ import WarningTape from "@/components/WarningTape";
 import WhoWeAreSection from "@/components/WhoWeAreSection";
 
 
-
 export default function Home() {
   return (
     <>

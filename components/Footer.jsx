@@ -20,10 +20,9 @@ const Footer = () => {
       <div className="absolute inset-0 z-0">
         <div 
           className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: "url('/footerbg.png')" }}
+          style={{ backgroundImage: "url('/footerbg.webp')" }}
         />
-        {/* Dark Overlay for better text readability */}
-        <div className="absolute inset-0 bg-black/80" />
+    
       </div>
 
       {/* Content */}

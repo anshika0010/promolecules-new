@@ -21,6 +21,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
+
     <html lang="en">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
         />
       </head>
       <body className={` ${geistMono.variable} antialiased`}>
+        
         <div className="pt-[50px] bg-black">
           <Navbar />
           {children}
@@ -43,5 +45,6 @@ export default function RootLayout({ children }) {
         </div>
       </body>
     </html>
+    
   );
 }

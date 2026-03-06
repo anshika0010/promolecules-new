@@ -8,7 +8,7 @@ const CookiesPolicy = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            ✅ COOKIES POLICY PROMOLECULES
+             COOKIES POLICY PROMOLECULES™
           </h1>
           <p className="mt-2 text-sm text-gray-500">
             Last Updated: 10-02-2026

@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold text-white">
-            Privacy Policy – PROMOLECULES
+            Privacy Policy – PROMOLECULES™  
           </h1>
           <p className="mt-2 text-sm text-gray-400">
             Last Updated: 10-11-2025
@@ -35,7 +35,7 @@ const PrivacyPolicy = () => {
 
         <Section title="1. Who We Are">
           <p>
-            Registered Name: <strong className="text-white">Promolecules®️</strong>. 
+            Registered Name: <strong className="text-white">Promolecules™®️</strong>. 
             We ship internationally. This policy applies to all website users and customers.
           </p>
         </Section>

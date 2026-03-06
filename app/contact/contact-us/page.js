@@ -59,7 +59,7 @@ export default function ContactHero() {
                   <h4 className="text-red-600 mb-3 text-sm font-semibold">
                     Design
                   </h4>
-                  <p className="text-gray-400 leading-relaxed text-[11px] sm:text-xs">
+                  <p className="text-gray-400 leading-relaxed text-[11px] sm:text-xs uppercase">
                     Formulated with structured ingredient architecture balancing
                     stimulation, hydration, and endurance for disciplined,
                     measurable training progression.
@@ -82,7 +82,6 @@ export default function ContactHero() {
           </section>
         </div>
       </section>
-
       <ContactSection />
     </>
   );

@@ -101,7 +101,7 @@ export default function BlogDetailPage() {
                 Key Benefits of Pre-Workout
               </h2>
 
-              <div className="space-y-6">
+              <div className="space-y-3">
                 <div className="bg-gradient-to-r from-orange-50 to-orange-100/50 p-6 rounded-xl border-l-4 border-orange-500">
                   <h3 className="font-bold text-lg text-gray-900 mb-2">Increased Energy</h3>
                   <p className="text-gray-700">Ingredients like caffeine enhance alertness and reduce fatigue, giving you the boost needed to power through intense training sessions.</p>

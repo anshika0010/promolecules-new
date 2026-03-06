@@ -5,7 +5,7 @@ import PerformanceShowcase from "@/components/about/PerformanceShowcase";
 export default function Page() {
   return (
     <>
-   <HeroSection/>
+    <HeroSection/>
     <PerformanceShowcase/>
     <MoreInformationSection/>
     </>

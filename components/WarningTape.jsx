@@ -81,7 +81,7 @@ function Tape({ reverse = false }) {
         relative 
         h-14 sm:h-16 lg:h-20 
         overflow-hidden 
-        bg-[url('/tape2.png')]
+        bg-[url('/tape2.webp')]
         bg-cover 
         bg-center
         shadow-[0_10px_30px_rgba(255,0,0,0.25)]
