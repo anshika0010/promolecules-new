@@ -1,253 +1,130 @@
-'use client';
+'use client'
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React from "react";
+import Link from "next/link";
 import { motion } from "framer-motion";
 
 const Footer = () => {
-  const [email, setEmail] = useState('');
-
-  const handleSubscribe = (e) => {
-    e.preventDefault();
-    // Handle newsletter subscription
-    console.log('Subscribe email:', email);
-  };
-
   return (
     <footer className="relative text-white overflow-hidden">
-      {/* Background Image with Overlay */}
+
+      {/* Background */}
       <div className="absolute inset-0 z-0">
-        <div 
+        <div
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/footerbg.webp')" }}
         />
-    
+   
       </div>
 
       {/* Content */}
-      <div className="relative z-10 max-w-[1600px] mx-auto px-6 py-16">
-        {/* Top Section */}
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-12 mb-16">
-          {/* Column 1 - About */}
-          <div className="space-y-4">
-            <h3 className="text-sm font-bold tracking-wider mb-6">
-              <span className="text-white">PREMIUM SPORTS NUTRITION</span>
-              <br />
-              <span className="text-white">SUPPLEMENTS FOR </span>
-              <span className="text-red-600">ATHLETES</span>
-              <br />
-              <span className="text-red-600">AND FITNESS ENTHUSIASTS.</span>
-              <br />
-              <span className="text-white">SCIENCE BACKED FORMULAS</span>
-              <br />
-              <span className="text-white">FOR OPTIMAL PERFORMANCE</span>
+      <div className="relative z-10 max-w-[1500px] mx-auto px-6 py-20">
+
+        {/* GRID */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-14">
+
+          {/* ABOUT */}
+          <div>
+            <h3 className="text-red-600 text-md font-bold tracking-[2px] mb-6">
+              ABOUT
             </h3>
 
-            <div className="space-y-2 pt-8">
-              <p className="text-red-600 font-bold text-xs tracking-wider">CONTACT INFO:</p>
-              <p className="text-white text-sm font-light">CONTACT@PROMOLECULES.COM</p>
-            </div>
+            <p className="text-white text-sm leading-relaxed max-w-xs">
+              PREMIUM SPORTS NUTRITION SUPPLEMENTS FOR
+              <span className="text-red-600"> ATHLETES </span>
+              AND FITNESS ENTHUSIASTS. SCIENCE BACKED FORMULAS
+              FOR OPTIMAL PERFORMANCE.
+            </p>
           </div>
 
-          {/* Column 2 - Quick Links */}
-
-          <div className="space-y-4">
-            <h3 className="text-red-600 font-bold text-xs tracking-wider mb-6">
+          {/* QUICK LINKS */}
+          <div>
+            <h3 className="text-red-600 text-md font-bold tracking-[2px] mb-6">
               QUICK LINKS
             </h3>
-            <nav className="flex flex-col space-y-3">
-              <Link 
-                href="/about" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                ABOUT US
-              </Link>
-              <Link 
-                href="/contact" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                CONTACT
-              </Link>
-              <Link 
-                href="/products" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                PRODUCTS
-              </Link>
-              <Link 
-                href="/blogs" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                BLOGS
-              </Link>
-              <Link 
-                href="/domestic" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                DOMESTIC
-              </Link>
-                <Link 
-                href="/international" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                INTERNATIONAL
-              </Link>
+
+            <nav className="flex flex-col gap-3">
+              <FooterLink href="/about" label="ABOUT US" />
+              <FooterLink href="/contact-us" label="CONTACT" />
+              <FooterLink href="/products" label="PRODUCTS" />
+              <FooterLink href="/blogs" label="BLOGS" />
+              <FooterLink href="/domestic" label="DOMESTIC" />
+              <FooterLink href="/international" label="INTERNATIONAL" />
             </nav>
           </div>
 
-          {/* Column 3 - Categories */}
-          <div className="space-y-4">
-            <h3 className="text-red-600 font-bold text-xs tracking-wider mb-6">
+          {/* CATEGORIES */}
+          <div>
+            <h3 className="text-red-600 text-md font-bold tracking-[2px] mb-6">
               CATEGORIES
             </h3>
-            <nav className="flex flex-col space-y-3">
-              <Link 
-                href="/products" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                ESSENTIAL
-              </Link>
-              <Link 
-                href="/productdetailpage" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                PREWORKOUT
-              </Link>
-              <Link 
-                href="/products" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                FAT BURNER
-              </Link>
-              <Link 
-                href="productdetailpage" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                PROTEIN
-              </Link>
-              <Link 
-                href="/products" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                GAINER
-              </Link>
-              <Link 
-                href="/products" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide"
-              >
-                TEST-BOOSTER
-              </Link>
-              <Link 
-                href="/merch" 
-                className="text-white text-lg font-bold hover:text-red-600 transition-colors duration-200 tracking-wide" >
-                MERCHANDISE
-              </Link>
+
+            <nav className="flex flex-col gap-3">
+              <FooterLink href="/products" label="ESSENTIAL" />
+              <FooterLink href="/productdetailpage" label="PREWORKOUT" />
+              <FooterLink href="/products" label="FAT BURNER" />
+              <FooterLink href="/productdetailpage" label="PROTEIN" />
+              <FooterLink href="/products" label="GAINER" />
+              <FooterLink href="/products" label="TEST BOOSTER" />
+              <FooterLink href="/merch" label="MERCHANDISE" />
             </nav>
           </div>
-         
 
-          {/* Column 4 - Newsletter */}
-          <div className="space-y-4">
-            <h3 className="text-red-600 font-bold text-xs tracking-wider mb-6">
-              SIGN UP FOR OUR NEWSLETTER TO GET LATEST
-              <br />
-              INSIGHTS AND UPDATES
+          {/* CONTACT */}
+          <div>
+            <h3 className="text-red-600 text-md font-bold tracking-[2px] mb-6">
+              CONTACT
             </h3>
-            
-            <form onSubmit={handleSubscribe} className="space-y-4">
-              <p className="text-white text-xs tracking-wider font-semibold">
-                ENTER YOUR EMAIL
-              </p>
-              <div className="flex flex-col gap-3">
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="Email"
-                  className="bg-transparent  border-2 border-white/30 text-white placeholder-gray-400 px-6 py-3 rounded-full focus:outline-none focus:border-red-600 transition-colors text-sm"
-                  required
-                />
-                <button
-                  type="submit"
-                  className="bg-red-600 hover:bg-red-700 text-white font-bold px-8 py-3 rounded-full transition-colors duration-200 text-sm tracking-wider"
-                >
-                  SUBSCRIBE
-                </button>
-              </div>
-            </form>
-            
+
+            <p className="text-sm text-gray-300">
+              CONTACT@PROMOLECULES.COM
+            </p>
           </div>
         </div>
 
-        {/* Large Logo */}
-        <div className="mb-12">
-                 <div className="relative flex flex-col items-start">
-<motion.h2
-  initial={{ x: 200, opacity: 0 }}
-  whileInView={{ x: 0, opacity: 1 }}
-  viewport={{ once: true, amount: 0.5 }}
-  transition={{
-    duration: 1,
-    ease: [0.22, 1, 0.36, 1],
-  }}
-  className="
-    creepster-regular
-    text-3xl
-    sm:text-5xl
-    md:text-7xl
-    lg:text-8xl
-    xl:text-9xl
-    scale-x-110
-    tracking-wide
-    text-red-700
-    text-center
-    md:text-left
-  "
->
-  PROMOLECULES™
-</motion.h2>
-              </div>
+        {/* BIG BRAND TEXT */}
+        <div className="mt-20">
+
+          <motion.h2
+            initial={{ x: 200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+            className="
+              creepster-regular
+              text-4xl
+              sm:text-6xl
+              md:text-8xl
+              lg:text-9xl
+              text-red-700
+              tracking-wide
+            "
+          >
+            PROMOLECULES™
+          </motion.h2>
+
         </div>
 
-        {/* Bottom Section */}
-        <div className="border-t border-white/10 pt-8">
-          <div className="flex flex-col md:flex-row justify-between items-center gap-6">
-            {/* Copyright */}
-            <p className="text-white text-xs tracking-wide">
+        {/* BOTTOM */}
+        <div className="border-t border-white/10 mt-16 pt-8">
+
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+
+            <p className="text-xs tracking-wide text-gray-300">
               ©2026 PROMOLECULES™ ALL RIGHTS RESERVED.
             </p>
 
-            {/* Legal Links */}
-            <div className="flex flex-wrap items-center gap-8">
-              <Link 
-                href="/PrivacyPolicy" 
-                className="text-white text-xs hover:text-red-600 transition-colors tracking-wider font-semibold"
-              >
-                PRIVACY POLICY
-              </Link>
-              <Link 
-                href="/TermsConditions" 
-                className="text-white text-xs hover:text-red-600 transition-colors tracking-wider font-semibold"
-              >
-                TERMS OF SERVICE
-              </Link>
-              <Link 
-                href="/cookies-policy " 
-                className="text-white text-xs hover:text-red-600 transition-colors tracking-wider font-semibold"
-              >
-                COOKIE POLICY
-              </Link>
+            <div className="flex gap-8">
+              <FooterSmallLink href="/PrivacyPolicy" label="PRIVACY POLICY" />
+              <FooterSmallLink href="/TermsConditions" label="TERMS OF SERVICE" />
+              <FooterSmallLink href="/cookies-policy" label="COOKIE POLICY" />
             </div>
 
-            {/* Tagline */}
-            <p className="text-white text-xs tracking-wide text-right max-w-sm">
-              PREMIUM SPORTS NUTRITION SUPPLEMENTS FOR ATHLETES
-              <br />
-              AND FITNESS ENTHUSIASTS SCIENCE BACKED FORMULAS
-              <br />
-              FOR OPTIMAL PERFORMANCE.
+            <p className="text-xs text-gray-300 text-center md:text-right max-w-sm">
+              PREMIUM SPORTS NUTRITION SUPPLEMENTS FOR ATHLETES AND FITNESS
+              ENTHUSIASTS. SCIENCE BACKED FORMULAS FOR OPTIMAL PERFORMANCE.
             </p>
+
           </div>
         </div>
       </div>
@@ -256,3 +133,28 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+/* reusable link */
+
+function FooterLink({ href, label }) {
+  return (
+    <Link
+      href={href}
+      className="text-white text-sm font-semibold tracking-wide hover:text-red-600 transition"
+    >
+      {label}
+    </Link>
+  );
+}
+
+function FooterSmallLink({ href, label }) {
+  return (
+    <Link
+      href={href}
+      className="text-xs font-semibold tracking-wider hover:text-red-600 transition"
+    >
+      {label}
+    </Link>
+  );
+}

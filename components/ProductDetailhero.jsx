@@ -112,7 +112,7 @@ export default function WarflexHero() {
 
             <div className="bg-black/50 border border-gray-600 px-4 py-2 text-center">
               <p className="text-xs text-gray-400">Scoops</p>
-              <p className="text-xl font-bold">05</p>
+              <p className="text-xl font-bold">65</p>
             </div>
           </div>
 

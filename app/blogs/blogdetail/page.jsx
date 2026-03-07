@@ -97,7 +97,6 @@ export default function BlogDetailPage() {
             {/* Key Benefits */}
             <div className="bg-white rounded-2xl shadow-lg p-4 md:p-5">
               <h2 className="text-3xl font-bold creepster-regular text-gray-900 mb-6 flex items-center gap-3">
-          
                 Key Benefits of Pre-Workout
               </h2>
 

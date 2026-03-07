@@ -55,24 +55,26 @@ const posts = [
 
 export default function BlogGrid() {
   return (
-    <section className="bg-black text-white py-20 px-6">
+    <section className="bg-black text-white py-2 px-6">
       <div className="max-w-7xl mx-auto">
         
-        {/* CATEGORY FILTERS */}
-        <div className="flex flex-wrap justify-center gap-4 mb-16">
-          {categories.map((cat, index) => (
-            <button
-              key={index}
-              className={`px-6 py-2 rounded-full text-xs uppercase tracking-wider transition ${
-                index === 0
-                  ? "bg-red-600 text-white"
-                  : "border border-white/20 text-white/70 hover:border-red-600 hover:text-white"
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </div>
+ {/* CATEGORY FILTERS */}
+<div className="w-full overflow-x-auto mb-16">
+  <div className="flex flex-nowrap justify-start md:justify-center gap-4 min-w-max px-2">
+    {categories.map((cat, index) => (
+      <button
+        key={index}
+        className={`px-6 py-2 rounded-full text-xs uppercase tracking-wider whitespace-nowrap transition ${
+          index === 0
+            ? "bg-red-600 text-white"
+            : "border border-white/20 text-white/70 hover:border-red-600 hover:text-white"
+        }`}
+      >
+        {cat}
+      </button>
+    ))}
+  </div>
+</div>
 
         {/* BLOG GRID */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

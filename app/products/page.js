@@ -51,10 +51,10 @@ export default function Page() {
   return (
  <>
   <section
-  className="relative w-full bg-black text-white overflow-hidden bg-cover bg-center bg-no-repeat pt-4"
-  style={{ backgroundImage: "url('/smoke.gif')" }}
+  className="relative w-full bg-black text-white overflow-hidden bg-cover bg-center bg-no-repeat pt-1"
+  style={{ backgroundImage: "url('/smoke2.gif')" }}
 >
-  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16 flex flex-col lg:flex-row items-center justify-between gap-10">
+  <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16 flex  lg:flex-row items-center justify-between gap-10">
 
     {/* LEFT CONTENT */}
     <div className="flex-1 space-y-6 sm:space-y-8 w-full text-center lg:text-left">
@@ -122,7 +122,7 @@ export default function Page() {
     </div>
 
     {/* RIGHT IMAGE */}
-    <div className="flex-1 relative w-full mt-10 lg:mt-0 h-[300px] sm:h-[400px] md:h-[450px] lg:h-[500px]">
+    <div className="flex-1 relative w-full mt-10 lg:mt-0 h-[600px] ">
       <AnimatePresence mode="wait">
         <motion.div
           key={activeProduct.image}

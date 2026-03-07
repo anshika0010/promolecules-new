@@ -44,73 +44,90 @@ serious athletes.
       </div>
 
       {/* Categories */} 
-      <div className="relative z-10 mt-12">
-        {categories.map((item, index) => (
-          <Link
-            key={index}
-            href={item.link || "#"}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block"
+   <div className="relative z-10 mt-12">
+  {categories.map((item, index) => (
+    <Link
+      key={index}
+      href={item.link || "#"}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block"
+    >
+      <div
+        className="group relative flex items-center justify-between 
+        border-b border-white/10  overflow-hidden
+        transition-all duration-500 hover:rounded-xl cursor-pointer"
+      >
+
+        {/* HOVER BACKGROUND IMAGE */}
+        <div
+          className="absolute inset-0 opacity-0 group-hover:opacity-100 
+          transition-opacity duration-500 -z-10"
+        >
+     <Image
+  src="/productcardbg.png"
+  alt="hover bg"
+  fill
+  className="object-cover"
+/>
+
+          {/* optional dark overlay */}
+          <div className="absolute inset-0 bg-black/50"></div>
+        </div>
+
+        {/* Left: Image + Text */}
+        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 w-full">
+
+          {/* Image */}
+          <div
+            className="relative 
+            w-full sm:w-[200px] md:w-[300px] lg:w-[300px] 
+            h-[150px] sm:h-[170px] md:h-[200px] lg:h-[200px] 
+            rounded-lg border border-white/10 overflow-hidden"
           >
-            <div
-              className="group flex flex-col lg:flex-row items-center 
-              justify-between gap-6 lg:gap-4 
-              border-b border-white/10 py-8
-              transition-all duration-500 
-              hover:bg-red-800/90 hover:rounded-xl cursor-pointer"
-            >
-              {/* Left: Image + Text */}
-              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 w-full">
+            <Image
+              src={item.image}
+              alt={item.title}
+              fill
+              className="object-contain transition-opacity duration-500 group-hover:opacity-0"
+            />
+            <Image
+              src={item.hoverImage}
+              alt={item.title}
+              fill
+              className="object-cover opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+            />
+          </div>
+{/* Text */}
+<div className="flex flex-col justify-center ">
+  <h3
+    className="creepster-regular text-red-600 
+    text-2xl sm:text-3xl md:text-4xl tracking-wider pt-4
+    transition-colors duration-500 group-hover:text-white"
+  >
+    {item.title}
+  </h3>
 
-                {/* Image */}
-                <div className="relative 
-                  w-full sm:w-[300px] md:w-[350px] lg:w-[400px] 
-                  h-[200px] sm:h-[220px] md:h-[250px] lg:h-[270px] 
-                  rounded-lg bg-black border border-white/10 overflow-hidden">
-                  
-                  <Image
-                    src={item.image}
-                    alt={item.title}
-                    fill
-                    className="object-contain transition-opacity duration-500 group-hover:opacity-0"
-                  />
-                  <Image
-                    src={item.hoverImage}
-                    alt={item.title}
-                    fill
-                    className="object-contain opacity-0 py-2 transition-opacity duration-500 group-hover:opacity-100"
-                  />
-                </div>
+  <p
+    className="mt-2 max-w-2xl 
+    text-xs sm:text-sm md:text-md 
+    uppercase font-extrabold text-white/70 leading-relaxed 
+    transition-colors duration-500 group-hover:text-white"
+  >
+    {item.desc}
+  </p>
+</div>
+        
+        </div>
 
-                {/* Text */}
-                <div className="text-center sm:text-left">
-                  <h3 className="creepster-regular text-red-600 
-                    text-2xl sm:text-3xl md:text-4xl tracking-wider 
-                    transition-colors duration-500 group-hover:text-black">
-                    {item.title}
-                  </h3>
-                  <p className="mt-2 max-w-xl 
-                    text-xs sm:text-sm md:text-md 
-                    uppercase font-extrabold text-white/70 leading-relaxed 
-                    transition-colors duration-500 group-hover:text-white/90">
-                    {item.desc}
-                  </p>
-                </div>
-              </div>
-
-              {/* Arrow */}
-              <div className="flex-shrink-0">
-                <ArrowRight
-                  className="text-white transition-transform duration-500 
-                  group-hover:translate-x-3"
-                  size={60}
-                />
-              </div>
-            </div>
-          </Link>
-        ))}
+        {/* Arrow */}
+        <div className="flex-shrink-0">
+          <ArrowRight className="text-white" size={60} />
+        </div>
       </div>
+    </Link>
+  ))}
+</div>
 
     </section>
   );

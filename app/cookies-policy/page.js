@@ -1,13 +1,22 @@
+import Image from "next/image";
 import React from "react";
 
 const CookiesPolicy = () => {
   return (
-    <div className="bg-black min-h-screen py-10 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-4xl mx-auto bg-neutral-900 border border-neutral-800 shadow-2xl rounded-2xl p-6 sm:p-10">
+  <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-center px-4 sm:px-6">
+        {/* Background */}
+        <Image
+          src="/about.png"
+          alt="Background"
+          fill
+          priority
+          className="object-cover"
+        />
+      <div className="max-w-4xl bg-black mx-auto  relative z-10 shadow-2xl rounded-2xl p-6 sm:p-10">
 
         {/* Header */}
         <div className="text-center mb-10">
-          <h1 className="text-3xl sm:text-4xl font-bold text-white">
+          <h1 className="text-3xl sm:text-4xl text-red-700 font-bold ">
              COOKIES POLICY PROMOLECULES™
           </h1>
           <p className="mt-2 text-sm text-gray-500">
@@ -205,12 +214,12 @@ const CookiesPolicy = () => {
         </Section>
 
       </div>
-    </div>
+    </section>
   );
 };
 
 const Section = ({ title, children }) => (
-  <div className="mb-8">
+  <div className="mb-8 bg-black">
     <h2 className="text-xl sm:text-2xl font-semibold text-white mb-3">
       {title}
     </h2>
@@ -221,7 +230,7 @@ const Section = ({ title, children }) => (
 );
 
 const SubSection = ({ title, children }) => (
-  <div className="mb-6">
+  <div className="mb-6 bg-black">
     <h3 className="text-lg font-semibold text-white mb-3">
       {title}
     </h3>

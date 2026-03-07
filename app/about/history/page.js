@@ -45,12 +45,12 @@ reckless high-stim products that spike energy but crash hard.
           <p className="max-w-md text-sm md:text-sm anton-regular uppercase leading-relaxed tracking-wide text-gray-200">
        Promolecules™ – History & Reason Behind the Formulation
           </p>
-          <h1
+          <h2
             className="text-[60px] text-red-800 creepster-regular sm:text-[80px] md:text-[120px] lg:text-[120px] 
           font-extrabold leading-none tracking-tight"
           >
             BEGAN
-          </h1>
+          </h2>
         </div>
       </section>
       <section className="relative w-full min-h-screen overflow-hidden">

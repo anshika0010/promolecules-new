@@ -4,6 +4,7 @@ import React, { useState, useRef } from "react";
 import { ChevronRight, ChevronLeft, Quote } from "lucide-react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 const BlogsSection = () => {
   const scrollContainerRef = useRef(null);
@@ -139,6 +140,7 @@ NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION`
 
         {/* View All Button */}
         <div className="flex justify-center mt-12 ">
+          <Link href={"/blogs"}>
           <button className="flex items-center cursor-pointer gap-3 bg-transparent border-2 border-red-600 hover:bg-red-600 text-white font-bold px-10 py-4 rounded-full transition-all duration-300 text-sm tracking-widest group">
             <span>VIEW ALL</span>
             <div className="bg-red-600  group-hover:bg-white p-2 rounded-full transition-colors">
@@ -148,6 +150,7 @@ NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION`
               />
             </div>
           </button>
+          </Link>
         </div>
       </div>
     </section>
@@ -213,7 +216,7 @@ const TestimonialsSection = () => {
           {/* Left Side */}
           <div className="space-y-6 text-center lg:text-left">
             
-            <div className="flex justify-center lg:justify-start mb-10 sm:mb-12 md:mb-16">
+            <div className="flex justify-center lg:justify-start mb-1 sm:mb-12 md:mb-16">
               <div className="flex flex-col items-center lg:items-start">
                 
                 <h2 className="creepster-regular text-red-700 
@@ -303,26 +306,8 @@ const TestimonialsSection = () => {
           </div>
         </div>
 
-        {/* View All Button */}
-        <div className="flex justify-center mt-12 sm:mt-16">
-          <button className="flex items-center gap-3 
-            bg-transparent border-2 border-red-600 
-            hover:bg-red-600 text-white font-bold 
-            px-6 sm:px-10 py-3 sm:py-4 
-            rounded-full transition-all duration-300 
-            text-xs sm:text-sm tracking-widest group">
-
-            <span>VIEW ALL</span>
-
-            <div className="bg-red-600 group-hover:bg-white 
-              p-1.5 sm:p-2 rounded-full transition-colors">
-              <ChevronRight
-                size={16}
-                className="text-white group-hover:text-red-600 sm:w-[18px] sm:h-[18px]"
-              />
-            </div>
-          </button>
-        </div>
+      
+        
       </div>
     </section>
   );

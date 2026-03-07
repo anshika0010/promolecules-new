@@ -13,7 +13,7 @@ const Navbar = () => {
     { name: "HOME", href: "/" },
     { name: "PRODUCTS", href: "/products" },
     { name: "ABOUT", href: "/about" },
-    { name: "CONTACT", href: "/contact" },
+    { name: "CONTACT", href: "/contact-us" },
     { name: "BLOGS", href: "/blogs" },
   ];
 
@@ -60,9 +60,9 @@ const Navbar = () => {
         </div>
 
         {/* Cart */}
-        <button className="hidden md:flex flex-shrink-0 bg-black/30 backdrop-blur-sm border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200">
+        {/* <button className="hidden md:flex flex-shrink-0 bg-black/30 backdrop-blur-sm border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200">
           <ShoppingCart size={22} className="text-white" />
-        </button>
+        </button> */}
 
         {/* Mobile Menu Button */}
         <button

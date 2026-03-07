@@ -124,7 +124,7 @@ const HeroSlider = () => {
                           </div>
 
                           <div className="flex-1 text-center sm:text-right">
-                            <p className="text-white creepster-regular text-xs sm:text-sm uppercase tracking-wide line-clamp-3">
+                            <p className="text-white anton-regular  text-xs sm:text-sm uppercase tracking-wide line-clamp-3">
                               {slide.description}
                             </p>
                           </div>
