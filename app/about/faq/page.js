@@ -23,8 +23,8 @@ export default function page() {
             <div>
               {/* Heading */}
               <h2 className="text-2xl md:text-4xl lg:text-5xl creepster-regular leading-tight">
-                WHY <span className="text-red-600">PROMOLECULES™</span> STANDS
-                ABOVE <br />
+                WHY <span className="text-red-600">PROMOLECULES™</span> STANDS  ABOVE
+          
                 EVERY CHEAP SUPPLEMENT BRAND
               </h2>
 
