@@ -1,5 +1,6 @@
-import BlogsAndTestimonials from "@/components/BlogsSection";
+import Blogs from "@/components/Blogs";
 import HeroSlider from "@/components/HeroSlider";
+import Testimonials from "@/components/TestimonialsSection";
 import TrendingCategory from "@/components/TrendingCategory";
 import UltraHighPerformanceSection from "@/components/UltraHighPerformanceSection";
 import WarningTape from "@/components/WarningTape";
@@ -14,7 +15,8 @@ export default function Home() {
       <UltraHighPerformanceSection />
       <WarningTape/>
       <TrendingCategory/>
-      <BlogsAndTestimonials />
+      <Blogs/>
+      <Testimonials/>
     
     </>
   );

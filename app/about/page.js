@@ -117,7 +117,7 @@ const WhoWeAreSection = () => {
               <a
                 key={index}
                 href={social.url}
-                target="_blank"
+             target="_blank"
                 rel="noopener noreferrer"
                 className="
                 anton-regular 

@@ -75,11 +75,9 @@ export default function Page() {
             {activeProduct.description}
           </p>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-red-500">
-            {activeProduct.price}
-          </h2>
+         
 
-          <Link href={"/products/productdetailpage"}>
+          <Link href={"/productlist"}>
             <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-2xl text-xs sm:text-sm uppercase tracking-wider font-semibold">
               Buy Now →
             </button>

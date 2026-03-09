@@ -5,7 +5,7 @@ import { ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 export default function FAQSection() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
 const faqs = [
   {

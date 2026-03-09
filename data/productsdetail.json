@@ -1,0 +1,433 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "slug": "father-of-insane",
+      "name": "FATHER OF INSANE",
+      "title": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout designed for experienced athletes who demand extreme energy, explosive strength, intense focus, and unstoppable endurance.",
+      "description": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy, laser-focused concentration, and unmatched endurance.  This intense formula delivers powerful stimulation through its 5200 mg Father of Insane Blend and 450 mg total caffeine, giving you explosive performance every session.  Manufactured in a GMP-certified facility using premium domestic and international ingredients, this pre-workout is designed ONLY for advanced users.",
+
+      "images": [
+        "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp",
+
+        "/Promolecules/fatherofinsane/promolecules-father-of-insane-workout-booster.webp",
+        "/Promolecules/fatherofinsane/promolecules-father-of-insane-high-stimulant-pre-workout.webp",
+        "/Promolecules/fatherofinsane/father-of-insan-supplement-fact.webp"
+      ],
+      "price": "43",
+      "flavours": [
+        {
+          "name": "Unflavoured",
+          "images": [
+            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
+          ]
+        },
+        {
+          "name": "Fruit Punch",
+          "images": [
+            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
+          ]
+        },
+        {
+          "name": "Gummies",
+          "images": [
+            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
+          ]
+        },
+        {
+          "name": "Blue Rasberry",
+          "images": [
+            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
+          ]
+        }
+      ],
+
+      "keyBenefits": [
+        "Extreme Energy Boost",
+        "Laser-Sharp Focus",
+        "Increased Strength",
+        "Enhanced Stamina",
+        "Supports Endurance",
+        "Helps Improve Workout Performance"
+      ],
+
+      "whychooseus": [
+        "Supports muscle growth and recovery",
+        "Helps improve strength and performance",
+        "Fast absorbing protein",
+        "Supports lean muscle development",
+        "Helps meet daily protein intake"
+      ],
+
+      "howToUse": "Mix 1 scoop (30g) with 200-250ml of water or milk. Consume after workout or as recommended by a healthcare professional.",
+
+      "whatToAvoid": [
+        "Do not exceed the recommended dosage",
+        "Not suitable for individuals under 18",
+        "Avoid if allergic to milk or whey",
+        "Consult a doctor if pregnant or under medication"
+      ],
+
+      "supplementFacts": {
+        "servingSize": "1 Scoop (30g)",
+        "servingsPerContainer": "30",
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": "120"
+          },
+          {
+            "name": "Protein",
+            "amount": "24g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": "3g"
+          },
+          {
+            "name": "Fat",
+            "amount": "1.5g"
+          },
+          {
+            "name": "BCAAs",
+            "amount": "5.5g"
+          }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "slug": "warflex",
+
+      "name": "WARFLEX",
+      "title": "WARFLEX is a powerful high-stimulant pre-workout with Boron Citrate designed for advanced serious lifters seeking extreme energy, laser focus, explosive strength, and boosted performance for 8â€“10 hours.",
+      "description": "WARFLEX by Promolecules is a high-stimulant, performance-enhancing pre-workout engineered for athletes who want extreme energy, tunnel-vision focus, powerful pumps, and explosive strength.  Fortified with Boron Citrate and a premium combination of stimulants, pump enhancers, nootropics, and endurance-support compounds, WARFLEXâ„¢ delivers a next-level training experience lasting up to 8â€“10 hours.  With 35 & 65 intense servings, it is formulated for advanced users who push beyond limits in every session.",
+      "price": "43",
+
+      "images": [
+        "/Promolecules/warflex/promolecules-warflex-pre-workout.webp",
+
+        "/Promolecules/warflex/promolecules-warflex-energy-booster.webp",
+        "/Promolecules/warflex/promolecules-warflex-supplement.webp",
+        "/Promolecules/warflex/promolecules-supplement-factpre-workout-warflex.webp"
+      ],
+      "flavours": [
+        {
+          "name": "Blue Rasberry",
+          "images": [ "/Promolecules/warflex/promolecules-warflex-pre-workout.webp"]
+        },
+        {
+          "name": "Black Grapes",
+          "images": ["/images/products/vanilla-1.jpg"]
+        },  {
+          "name": "Gummies",
+          "images": ["/images/products/vanilla-1.jpg"]
+        }, {
+          "name": "Fruit Punch",
+          "images": ["/images/products/vanilla-1.jpg"]
+        }
+      ],
+
+      "keyBenefits": [
+        [
+          "Extreme Energy Boost",
+          "Laser-Sharp Focus",
+          "Increased Strength",
+          "Enhanced Stamina",
+          "Supports Endurance",
+          "Helps Improve Workout Performance"
+        ]
+      ],
+
+      "whychooseus": [
+        "Supports muscle growth and recovery",
+        "Helps improve strength and performance",
+        "Fast absorbing protein",
+        "Supports lean muscle development",
+        "Helps meet daily protein intake"
+      ],
+
+      "howToUse": "Mix 1 scoop (30g) with 200-250ml of water or milk. Consume after workout or as recommended by a healthcare professional.",
+
+      "whatToAvoid": [
+        "Do not exceed the recommended dosage",
+        "Not suitable for individuals under 18",
+        "Avoid if allergic to milk or whey",
+        "Consult a doctor if pregnant or under medication"
+      ],
+
+      "supplementFacts": {
+        "servingSize": "1 Scoop (30g)",
+        "servingsPerContainer": "30",
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": "120"
+          },
+          {
+            "name": "Protein",
+            "amount": "24g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": "3g"
+          },
+          {
+            "name": "Fat",
+            "amount": "1.5g"
+          },
+          {
+            "name": "BCAAs",
+            "amount": "5.5g"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 3,
+      "slug": "inpoer-r",
+
+      "name": "INPOWER-R",
+      "title": "Inopower-R is a Russian-inspired ATP-boosting formula designed to maximize energy production, minimize fatigue, and elevate athletic performance.",
+      "description": "Inopower-Râ„¢ by Promoleculesâ„¢ is a Russian-inspired performance formula created to dramatically enhance ATP production, reduce fatigue, and elevate overall athletic output. It provides energy-support nutrients that help the body produce more cellular energy, improving strength, stamina, training capacity, and recovery. Designed for athletes seeking a powerful endurance-enhancing supplement.",
+      "price": "43",
+
+      "images": [
+        "/Promolecules/inpower3/promolecules-inpower-r.webp",
+
+           "/Promolecules/inpower3/promolecules-inpower-r-best-supplement.webp",
+         "/Promolecules/inpower3/promolecules-inpower-r-supplement.webp",
+        "/Promolecules/inpower3/promolecules-inpower-r-supplement-fact.webp"
+      ],
+      "flavours": [
+        {
+          "name": "Unfavoured",
+          "images": [        "/Promolecules/inpower3/promolecules-inpower-r.webp"]
+        }
+      
+      ],
+
+      "keyBenefits": [
+        [
+          "Extreme Energy Boost",
+          "Laser-Sharp Focus",
+          "Increased Strength",
+          "Enhanced Stamina",
+          "Supports Endurance",
+          "Helps Improve Workout Performance"
+        ]
+      ],
+
+      "whychooseus": [
+        "Supports muscle growth and recovery",
+        "Helps improve strength and performance",
+        "Fast absorbing protein",
+        "Supports lean muscle development",
+        "Helps meet daily protein intake"
+      ],
+
+      "howToUse": "Mix 1 scoop (30g) with 200-250ml of water or milk. Consume after workout or as recommended by a healthcare professional.",
+
+      "whatToAvoid": [
+        "Do not exceed the recommended dosage",
+        "Not suitable for individuals under 18",
+        "Avoid if allergic to milk or whey",
+        "Consult a doctor if pregnant or under medication"
+      ],
+
+      "supplementFacts": {
+        "servingSize": "1 Scoop (30g)",
+        "servingsPerContainer": "30",
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": "120"
+          },
+          {
+            "name": "Protein",
+            "amount": "24g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": "3g"
+          },
+          {
+            "name": "Fat",
+            "amount": "1.5g"
+          },
+          {
+            "name": "BCAAs",
+            "amount": "5.5g"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 4,
+      "slug": "hydrapump",
+
+      "name": "HYDRAPUMP+",
+      "title": "HydraPump+ is a liquid hydration and muscle pump formula featuring Liquid Glycerol, Citrulline Malate, and electrolytes for enhanced endurance, pumps, and fluid balance.",
+      "description": "HydraPump+ by Promolecules Essential is a rapid hydration and explosive pump formula designed for athletes, lifters, and endurance performers. Powered by Liquid Glycerol, Citrulline Malate, and high-quality electrolytes (Sodium, Magnesium, Potassium), this formula helps retain fluid in muscles, improve blood flow, enhance pumps, and delay dehydration. Ideal for long training sessions, endurance events, and pump-focused workouts.",
+      "price": "43",
+
+      "images": [
+        "/Promolecules/hydrapump2/promolecules-hydrapump+.webp",
+
+         "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp",
+         "/Promolecules/hydrapump2/mint.png",
+         "/Promolecules/hydrapump2/blue.png"
+      ],
+      "flavours": [
+        {
+          "name": "Unflavoured",
+          "images": [ "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp"]
+        },
+        {
+          "name": "Mint Mojito",
+     "images": ["/Promolecules/hydrapump2/mint.png"]        },
+           {
+          "name": "Blue-Berry",
+          "images": ["/Promolecules/hydrapump2/blue.png"]
+        }
+      ],
+
+      "keyBenefits": [
+        [
+          "Extreme Energy Boost",
+          "Laser-Sharp Focus",
+          "Increased Strength",
+          "Enhanced Stamina",
+          "Supports Endurance",
+          "Helps Improve Workout Performance"
+        ]
+      ],
+
+      "whychooseus": [
+        "Supports muscle growth and recovery",
+        "Helps improve strength and performance",
+        "Fast absorbing protein",
+        "Supports lean muscle development",
+        "Helps meet daily protein intake"
+      ],
+
+      "howToUse": "Mix 1 scoop (30g) with 200-250ml of water or milk. Consume after workout or as recommended by a healthcare professional.",
+
+      "whatToAvoid": [
+        "Do not exceed the recommended dosage",
+        "Not suitable for individuals under 18",
+        "Avoid if allergic to milk or whey",
+        "Consult a doctor if pregnant or under medication"
+      ],
+
+      "supplementFacts": {
+        "servingSize": "1 Scoop (30g)",
+        "servingsPerContainer": "30",
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": "120"
+          },
+          {
+            "name": "Protein",
+            "amount": "24g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": "3g"
+          },
+          {
+            "name": "Fat",
+            "amount": "1.5g"
+          },
+          {
+            "name": "BCAAs",
+            "amount": "5.5g"
+          }
+        ]
+      }
+    },
+
+    {
+      "id": 5,
+      "slug": "thermo-nuke-xt",
+
+      "name": "THERMO NUKE XT ",
+      "title": "Thermo Nuke XTâ„¢ is an ultra-high potency thermogenic fat destroyer engineered for advanced users seeking extreme fat loss, explosive energy, and intense focus. Not for beginners.",
+      "description": "Thermo Nuke XT by Promoleculesâ„¢ is the strongest fat-destroying thermogenic formulated only for advanced users.  Powered by a 650 mg Nuke Thermo XT Blend, this supplement rapidly increases metabolism, elevates body temperature, boosts energy, and accelerates fat oxidation.  With patented ingredients like CitraSyn 50, 2XCAFF, and GBBxt, this formula is engineered to deliver extreme fat loss results while providing unstoppable focus and endurance.  Manufactured in a high-quality environment, Thermo Nuke XT is designed for athletes and experienced individuals aiming to shred fat aggressively.",
+      "price": "43",
+
+      "images": [
+        "/Promolecules/thermo/promolecules-thermo-nuke-xt.webp",
+
+        "/Promolecules/thermo/promolecules-thermo-nuke-xt-fat-burner.webp",
+        "/Promolecules/thermo/promolecules-thermo-nuke-xt-fat-loss-supplement.webp",
+        "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.webp"
+      ],
+      "flavours": [
+        {
+          "name": "Unflavoured",
+          "images": [ "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.webp"]
+        }
+    
+      ],
+
+      "keyBenefits": [
+        [
+          "Extreme Energy Boost",
+          "Laser-Sharp Focus",
+          "Increased Strength",
+          "Enhanced Stamina",
+          "Supports Endurance",
+          "Helps Improve Workout Performance"
+        ]
+      ],
+
+      "whychooseus": [
+        "Supports muscle growth and recovery",
+        "Helps improve strength and performance",
+        "Fast absorbing protein",
+        "Supports lean muscle development",
+        "Helps meet daily protein intake"
+      ],
+
+      "howToUse": "Mix 1 scoop (30g) with 200-250ml of water or milk. Consume after workout or as recommended by a healthcare professional.",
+
+      "whatToAvoid": [
+        "Do not exceed the recommended dosage",
+        "Not suitable for individuals under 18",
+        "Avoid if allergic to milk or whey",
+        "Consult a doctor if pregnant or under medication"
+      ],
+
+      "supplementFacts": {
+        "servingSize": "1 Scoop (30g)",
+        "servingsPerContainer": "30",
+        "nutrients": [
+          {
+            "name": "Calories",
+            "amount": "120"
+          },
+          {
+            "name": "Protein",
+            "amount": "24g"
+          },
+          {
+            "name": "Carbohydrates",
+            "amount": "3g"
+          },
+          {
+            "name": "Fat",
+            "amount": "1.5g"
+          },
+          {
+            "name": "BCAAs",
+            "amount": "5.5g"
+          }
+        ]
+      }
+    }
+  ]
+}

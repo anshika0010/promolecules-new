@@ -12,7 +12,7 @@ const slides = [
     productImage: "/thermo.png",
     title: "Thermo Nuke-XT",
     backgroundImage: "/photo1.png",
-    link: "https://www.cost2costsupplement.com/product/thermo-nuke-xt/",
+    link: "/products",
     description:
       "THERMO NUKE-XT™ is Promolecules’ aggressive thermogenic formula. Strongest Fat Destroyer, 650mg Thermogenic Matrix. It is engineered for fat oxidation.",
   },
@@ -21,7 +21,7 @@ const slides = [
     productImage: "/fatherof.png",
     title: "FATHER OF INSANE",
     backgroundImage: "/photo2.webp",
-    link: "https://www.cost2costsupplement.com/product/promolecules-father-of-insane/",
+    link: "/products",
     description:
       "FATHER OF INSANE BY PROMOLECULES™ IS AN ULTRA HIGH-STIMULANT PRE-WORKOUT DESIGNED FOR EXPERIENCED ATHLETES WHO DEMAND EXTREME ENERGY, EXPLOSIVE STRENGTH, INTENSE FOCUS, AND UNSTOPPABLE ENDURANCE.",
   },
@@ -90,7 +90,7 @@ const HeroSlider = () => {
               <div className="flex justify-center lg:justify-start">
                 <Link
                   href={slides[currentSlide].link}
-                  target="_blank"
+              
                   className="group flex items-center gap-2 bg-black border-2 border-white/30 hover:border-white/60 text-white px-6 py-2 rounded-full transition-all duration-300 hover:bg-white/5"
                 >
                   <span className="font-bold text-sm tracking-wider">
@@ -112,7 +112,7 @@ const HeroSlider = () => {
                         onClick={() => setCurrentSlide(index)}
                         className="cursor-pointer transition-all duration-300 hover:scale-[1.02]"
                       >
-                        <div className="flex flex-col sm:flex-row items-center gap-4 rounded-xl bg-white/10 backdrop-blur-md px-4 sm:px-6 py-4 shadow-lg rounded-tl-full">
+                        <div className="flex flex-row sm:flex-row items-center gap-4 rounded-xl bg-white/10 backdrop-blur-md px-4 sm:px-6 py-4 shadow-lg rounded-tl-full">
                           <div className="w-20 sm:w-28 bg-white/20 rounded-tl-full flex items-center justify-center pl-6 sm:pl-14 pt-2 sm:pt-4">
                             <Image
                               src={slide.productImage}

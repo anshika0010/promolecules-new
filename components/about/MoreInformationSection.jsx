@@ -29,7 +29,7 @@ const infoData = [
 ];
 
 export default function MoreInformationSection() {
-  const [activeIndex, setActiveIndex] = useState(null);
+  const [activeIndex, setActiveIndex] = useState(0);
 
   const toggleItem = (index) => {
     setActiveIndex(activeIndex === index ? null : index);

@@ -2,7 +2,7 @@ import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 
 export default function GrowthEvolution() {
-  const [active, setActive] = useState(null);
+  const [active, setActive] = useState(0);
 
   const faqs = [
     {

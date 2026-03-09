@@ -1,10 +1,9 @@
 "use client";
-import NewsletterSection from "@/components/NewsletterSection";
 import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import GrowthEvolution from "@/components/about/GrowthEvolution";
 import JourneySection from "@/components/about/JourneySection";
-import BlogsSection from "@/components/about/BlogsSection";
+import Blogs from "@/components/Blogs";
 
 export default function Page() {
   return (
@@ -64,10 +63,9 @@ reckless high-stim products that spike energy but crash hard.
 
         <div className="absolute inset-0 bg-black/60" />
       </section>
-      <BlogsSection />
+    <Blogs/>
       <JourneySection />
       <GrowthEvolution />
-      <NewsletterSection />
     </>
   );
 }

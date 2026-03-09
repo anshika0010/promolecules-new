@@ -6,15 +6,15 @@ import Image from "next/image";
 import { Search, ShoppingCart, Menu, X } from "lucide-react";
 
 const Navbar = () => {
-  const [searchQuery, setSearchQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { name: "HOME", href: "/" },
-    { name: "PRODUCTS", href: "/products" },
-    { name: "ABOUT", href: "/about" },
+     { name: "ABOUT", href: "/about" },
+    { name: "SHOP", href: "/products" },
+       { name: "BLOGS", href: "/blogs" },
     { name: "CONTACT", href: "/contact-us" },
-    { name: "BLOGS", href: "/blogs" },
+
   ];
 
   return (
@@ -45,24 +45,11 @@ const Navbar = () => {
           ))}
         </div>
 
-        {/* Desktop Search */}
-        <div className="hidden md:block flex-shrink-0 relative">
-          <input
-            type="text"
-            placeholder="SEARCH........"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="bg-black/30 backdrop-blur-sm border border-white/10 text-white placeholder-gray-400 px-6 py-3 pr-12 rounded-full w-52 lg:w-64 focus:outline-none focus:ring-2 focus:ring-white/20 text-sm tracking-wider font-semibold"
-          />
-          <button className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 hover:text-white transition-colors">
-            <Search size={20} />
-          </button>
-        </div>
 
         {/* Cart */}
-        {/* <button className="hidden md:flex flex-shrink-0 bg-black/30 backdrop-blur-sm border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200">
+        <button className="hidden md:flex flex-shrink-0 bg-black/30 backdrop-blur-sm border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200">
           <ShoppingCart size={22} className="text-white" />
-        </button> */}
+        </button>
 
         {/* Mobile Menu Button */}
         <button

@@ -1,7 +1,6 @@
 "use client";
 import ComparisonSection from "@/components/about/ComparisonSection";
 import FAQSection from "@/components/about/FAQSection";
-import NewsletterSection from "@/components/NewsletterSection";
 import Image from "next/image";
 
 export default function page() {
@@ -37,10 +36,7 @@ export default function page() {
                 instability corruption.
               </p>
 
-              {/* Button */}
-              <button className="mt-8 px-6 py-3 bg-red-600 hover:bg-red-700 transition text-sm uppercase tracking-wide font-semibold rounded-full">
-                Read More
-              </button>
+           
             </div>
 
             {/* RIGHT SIDE */}
@@ -66,7 +62,7 @@ export default function page() {
       </section>
       <FAQSection />
       <ComparisonSection />
-      <NewsletterSection />
+     
     </>
   );
 }

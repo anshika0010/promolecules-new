@@ -20,9 +20,6 @@ export default function page() {
         className="object-cover"
       />
 
-   
-
-
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-6 min-h-screen flex items-center">
         <div className="grid lg:grid-cols-2 gap-10 w-full items-center">

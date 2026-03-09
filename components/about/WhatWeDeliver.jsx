@@ -6,20 +6,7 @@ export default function WhatWeDeliver() {
   return (
     <section className="bg-black text-white w-full border-t border-gray-800">
       
-      {/* TOP TITLE */}
-      <div className="border-b border-gray-800 py-14 text-center">
-        <h2 className="text-4xl creepster-regular sm:text-9xl lg:text-9xl font-extrabold tracking-widest uppercase">
-          <span className="text-white">WHAT WE</span>{" "}
-          <span className="text-red-600">DELIVER</span>
-        </h2>
-
-        <div className="mt-10 px-1 anton-regular text-2xl font-bold sm:text-xl uppercase text-gray-400 flex flex-wrap justify-center gap-6 sm:gap-10">
-          <span>Professional Athletes</span>
-          <span>Bodybuilders & Physique Athletes</span>
-          <span>Powerlifters & Strength Trainers</span>
-          <span>Gym Enthusiasts & Hardcore Trainers</span>
-        </div>
-      </div>
+      
 
       {/* MIDDLE STATEMENT */}
       <div className="border-b border-gray-800 py-16 px-6 text-center">

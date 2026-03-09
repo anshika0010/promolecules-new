@@ -2,69 +2,67 @@ import Image from "next/image";
 
 export default function WarningTape() {
   return (
-    <section className="relative min-h-[600px] sm:min-h-[700px] lg:min-h-[800px] w-full overflow-hidden bg-black">
-      {/* Background grain */}
-      <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.05),_transparent_60%)] opacity-40" />
+    <section className="relative min-h-[500px] sm:min-h-[600px] lg:min-h-[700px] max-w-full mx-auto overflow-hidden bg-black">
 
-      {/* Top Right Warning Text */}
-      <div
-        className="
-        uppercase
-        absolute 
-        top-8 sm:top-120 lg:top-90 
-        right-4 sm:right-8 lg:right-12 
-        max-w-xs sm:max-w-md lg:max-w-lg 
-        text-right 
-        text-xs sm:text-xs lg:text-md
-        font-extrabold 
-        text-white/70 
-        tracking-wide 
-        leading-relaxed
-      "
-      >
-      The supplement industry faces a silent crisis—adulteration. Studies reveal that nearly 70% of
-budget supplements contain less active ingredient than claimed, with some containing
-harmful fillers or banned substances. This isn't just about wasted money; it's about your
-health and performance goals being sabotaged by inferior products.
+ {/* Top Right Warning Text */}
+<div
+  className="
+ uppercase absolute top-6 sm:top-80 lg:top-60 right-4 sm:right-8 lg:right-12 max-w-xs sm:max-w-md lg:max-w-lg text-right text-xs sm:text-xs lg:text-md font-extrabold text-white/70 tracking-wide leading-relaxed
+  "
+>
+  <h4 className="text-red-600 font-bold text-base mb-2">
+    The Hidden Supplement Crisis
+  </h4>
 
-      </div>
+  <p>
+    The supplement industry faces a silent crisis—adulteration. Studies reveal
+    that nearly 70% of budget supplements contain less active ingredient than
+    claimed, with some containing harmful fillers or banned substances. This
+    isn't just about wasted money; it's about your health and performance goals
+    being sabotaged by inferior products.
+  </p>
+</div>
 
       {/* Bottom Left Warning Text */}
-      <div
-        className="
-        absolute 
-        bottom-6 sm:bottom-8 lg:bottom-10 
-        left-4 sm:left-8 lg:left-10 
-        max-w-xs sm:max-w-sm lg:max-w-md 
-        text-xs sm:text-xs lg:text-md 
-        font-extrabold 
-        text-white/70 
-        tracking-wide 
-        leading-relaxed
-      "
-      >
-        WARNING: THIS PRODUCT IS INTENDED FOR ADULTS ONLY.
-        <br />
-        NOT RECOMMENDED FOR CHILDREN, PREGNANT OR LACTATING WOMEN.
-        <br />
-        CONSULT A PHYSICIAN BEFORE USE IF YOU HAVE ANY MEDICAL CONDITION.
-      </div>
+ <div
+  className="
+    absolute 
+    bottom-6 sm:bottom-8 lg:bottom-10 
+    left-4 sm:left-8 lg:left-10 
+    max-w-xs sm:max-w-sm lg:max-w-md 
+    text-xs sm:text-sm lg:text-md 
+    font-extrabold 
+    text-white/70 
+    tracking-wide 
+    leading-relaxed
+  "
+>
+  <h4 className="text-red-500 font-bold text-sm sm:text-base mb-2 uppercase">
+    Important Safety Information
+  </h4>
+
+  <p>
+    THIS PRODUCT IS INTENDED FOR ADULTS ONLY.
+    NOT RECOMMENDED FOR CHILDREN, PREGNANT OR LACTATING WOMEN.
+    CONSULT A PHYSICIAN BEFORE USE IF YOU HAVE ANY MEDICAL CONDITION.
+  </p>
+</div>
 
       {/* Blood Tape 1 */}
       <div
-        className="absolute right-[-10%] top-[30%] 
+        className="absolute right-[-1] top-[30%] 
                 w-[130%] 
-                rotate-[-15deg] 
+                rotate-[-5deg] 
                 flex justify-end"
       >
-        <Tape />
+        <Tape  />
       </div>
 
       {/* Blood Tape 2 */}
       <div
-        className="absolute right-[-10%] top-[55%] 
+        className="absolute right-[-1] top-[50%] 
                 w-[130%] 
-                rotate-[15deg] 
+                rotate-[10deg] 
                 flex justify-end"
       >
         <Tape reverse />
@@ -116,8 +114,6 @@ function TapeText() {
       <span>Thermo Nuker XT</span>
       <span>Intimidator</span>
       <span>Hydra Pump</span>
-      <span>Warning</span>
-      <span>Thermo Nuker XT</span>
     </div>
   );
 }
