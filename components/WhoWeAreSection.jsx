@@ -27,7 +27,7 @@ const WhoWeAreSection = () => {
               <h3 className="text-red-600 font-extrabold text-xl">
                 No Secrets. Just Pure Power.
               </h3>
-              <p className="text-white/90 uppercase text-xs sm:text-sm leading-[1.6] tracking-[0.08em] font-bold uppercase  hover:text-white">
+              <p className="text-white/90  uppercase text-xs sm:text-xs leading-[1.6] tracking-[0.08em] font-bold uppercase  hover:text-white">
                 Every product meets high USA quality standards and uses clear
                 component lists and clinical doses. No secret mixes. No weak
                 formulations. Just sheer, uncompromising power.
@@ -84,7 +84,7 @@ const WhoWeAreSection = () => {
 
             {/* Description */}
             <div className="max-w-4xl mx-auto lg:mx-0 space-y-6 text-center lg:text-left">
-              <p className="text-white uppercase font-bold text-xs sm:text-xs md:text-base lg:text-md leading-relaxed tracking-wide ">
+              <p className="text-white/90  uppercase text-xs sm:text-xs leading-[1.6] tracking-[0.08em] font-bold uppercase  hover:text-white">
                 Promolecules™ is a sports nutrition brand that focuses on
                 performance. It was made for people that exercise weights, play
                 sports, and want more from their bodies and supplements. Our

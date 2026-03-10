@@ -8,43 +8,53 @@ import Link from "next/link";
 
 export default function Page() {
 
-  const products = [
-    {
-      title: "Warflex",
-      image: "/warflex.png",
-      price: "$1899",
-      description:"Warflex promotes muscle gains via an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy and endurance.",
-      thumbnail: "/fatherofinsane.png",
-    },
-    {
-      title: "Father of Insane",
-      image: "/fatherof.png",
-      price: "$1599",
-      description: "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
-      thumbnail: "/thumbnail2.png",
-    },
-    {
-      title: "Inpower-R",
-      image: "/inopower.png",
-      price: "$2099",
-      description:"Beast Mode delivers insane pumps and unstoppable workout intensity.",
-      thumbnail: "/thumb3.png",
-    },
-    {
-      title: "Thermo Nuke XT",
-      image: "/thermonuke.png",
-      price: "$1799",
-      description:"Alpha Rage fuels your body with clean energy and laser focus.",
-      thumbnail: "/thumb4.png",
-    },
-    {
-      title: "Hydrapump+",
-      image: "/hydra.png",
-      price: "$1799",
-      description:"Alpha Rage fuels your body with clean energy and laser focus.",
-      thumbnail: "/thumb5.png",
-    },
-  ];
+ const products = [
+  {
+    title: "Warflex",
+    image: "/warflex.png",
+    price: "$1899",
+    description:
+      "Warflex promotes muscle gains via an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy and endurance.",
+    thumbnail: "/fatherofinsane.png",
+    link: "/productlist/warflex",
+  },
+  {
+    title: "Father of Insane",
+    image: "/fatherof.png",
+    price: "$1599",
+    description:
+      "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
+    thumbnail: "/thumbnail2.png",
+    link: "/productlist/father-of-insane",
+  },
+  {
+    title: "Inpower-R",
+    image: "/inopower.png",
+    price: "$2099",
+    description:
+      "Beast Mode delivers insane pumps and unstoppable workout intensity.",
+    thumbnail: "/thumb3.png",
+    link: "/productlist/inpower-r",
+  },
+  {
+    title: "Thermo Nuke XT",
+    image: "/thermonuke.png",
+    price: "$1799",
+    description:
+      "Alpha Rage fuels your body with clean energy and laser focus.",
+    thumbnail: "/thumb4.png",
+    link: "/productlist/thermo-nuke",
+  },
+  {
+    title: "Hydrapump+",
+    image: "/hydra.png",
+    price: "$1799",
+    description:
+      "Alpha Rage fuels your body with clean energy and laser focus.",
+    thumbnail: "/thumb5.png",
+    link: "/productlist/hydrapump",
+  },
+];
 
   const [activeProduct, setActiveProduct] = useState(products[0]);
 
@@ -67,21 +77,23 @@ export default function Page() {
           exit={{ opacity: 0, y: -40 }}
           transition={{ duration: 0.5 }}
         >
-          <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold creepster-regular text-red-600 uppercase">
+          <h1 className="text-4xl sm:text-4xl md:text-5xl lg:text-5xl font-bold creepster-regular text-red-600 uppercase">
             {activeProduct.title}
           </h1>
 
-          <p className="text-gray-300 max-w-md mx-auto lg:mx-0 text-sm sm:text-base md:text-lg uppercase leading-relaxed font-bold">
+          <p className="global-text-style max-w-md mx-auto lg:mx-0">
             {activeProduct.description}
           </p>
 
          
 
-          <Link href={"/productlist"}>
-            <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-6 sm:px-8 md:px-10 py-3 sm:py-4 rounded-2xl text-xs sm:text-sm uppercase tracking-wider font-semibold">
-              Buy Now →
-            </button>
-          </Link>
+{activeProduct?.link && (
+  <Link href={activeProduct.link}>
+    <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-6 py-3 rounded-2xl text-xs uppercase tracking-wider font-semibold">
+      Buy Now →
+    </button>
+  </Link>
+)}
         </motion.div>
       </AnimatePresence>
 
@@ -94,7 +106,7 @@ export default function Page() {
             return (
               <div
                 key={index}
-                onMouseEnter={() => setActiveProduct(product)}
+               onClick={() => setActiveProduct(product)}
                 className={`relative 
                   w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 
                   transition cursor-pointer rounded-lg

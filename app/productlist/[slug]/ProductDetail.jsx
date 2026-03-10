@@ -3,6 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
+import MoreProducts from "./MoreProducts";
 
 const Star = () => (
   <svg
@@ -55,8 +56,8 @@ export default function ProductDetail({ product }) {
   // const [selectedFlavour, setSelectedFlavour] = useState("Unflavoured");
   const [factsOpen, setFactsOpen] = useState(false);
   const [open, setOpen] = useState(0);
-const [selectedFlavour, setSelectedFlavour] = useState(product.flavours[0]);
-const [activeImg, setActiveImg] = useState(product.images[0]);
+  const [selectedFlavour, setSelectedFlavour] = useState(product.flavours[0]);
+  const [activeImg, setActiveImg] = useState(product.images[0]);
 
   const sections = [
     {
@@ -90,35 +91,33 @@ const [activeImg, setActiveImg] = useState(product.images[0]);
       <div className="min-h-screen bg-gradient-to-br from-black via-[#111] to-[#0d0d0d] text-white flex items-center justify-center p-5 mt-20 font-barlowCondensed">
         <div className="max-w-[1100px] w-full grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* LEFT IMAGES */}
-          <div className="flex flex-col gap-3 sticky top-24 h-fit self-start">
-            <div className="relative bg-[#111] border border-[#222] flex items-center justify-center h-[460px] overflow-hidden">
+          <div className="flex flex-col gap-3 sticky top-7 h-fit self-start">
+            <div className="relative bg-[#111]  flex items-center justify-center h-[460px] overflow-hidden">
               <div className="absolute w-[300px] h-[300px] rounded-full bg-[radial-gradient(circle,rgba(224,0,27,0.12)_0%,transparent_70%)]"></div>
 
-            <Image
-  src={activeImg}
-  alt="product"
-  width={400}
-  height={400}
-  className="h-[420px] w-full object-contain relative z-10 transition-all duration-500 ease-in-out"
-/>
-
-           
+              <Image
+                src={activeImg}
+                alt="product"
+                width={400}
+                height={400}
+                className="h-[420px] w-full object-contain relative z-10 transition-all duration-500 ease-in-out"
+              />
             </div>
 
             {/* THUMBNAILS */}
             <div className="flex gap-2">
-            {product.images.map((src, i) => (
-  <Image
-    key={i}
-    src={src}
-    width={100}
-    height={100}
-    alt="thumbnail"
-    onClick={() => setActiveImg(src)}
-    className={`w-[100px] h-[100px] object-contain cursor-pointer border-2 bg-[#111]
+              {product.images.map((src, i) => (
+                <Image
+                  key={i}
+                  src={src}
+                  width={100}
+                  height={100}
+                  alt="thumbnail"
+                  onClick={() => setActiveImg(src)}
+                  className={`w-[100px] h-[100px] object-contain cursor-pointer border-2 bg-[#111]
     ${activeImg === src ? "border-red-600" : "border-transparent"}`}
-  />
-))}
+                />
+              ))}
             </div>
           </div>
 
@@ -139,7 +138,7 @@ const [activeImg, setActiveImg] = useState(product.images[0]);
             </div>
 
             {/* TAGLINE */}
-            <p className="text-sm font-bold tracking-[3px] uppercase text-gray-300 mb-4">
+            <p className="global-text-style mb-4">
               {product.title}
             </p>
 
@@ -148,39 +147,36 @@ const [activeImg, setActiveImg] = useState(product.images[0]);
               ${product.price}
             </div>
 
-            {/* DESCRIPTION */}
-            <div className="mb-6">
-              <p className="text-white font-bold text-sm tracking-[2px] uppercase mb-2">
-                {product.description}
+           
+
+          <p className="text-red-600 font-bold text-sm uppercase tracking-[2px] mb-3">
+                FLAVOURS
               </p>
-            </div>
 
-         <h5 className="text-red-600 font-bold text-xl">FLAVOURS</h5>
-
-<div className="flex gap-2 flex-wrap pb-3">
-  {product.flavours.map((f) => (
-    <button
-      key={f.name}
-      onClick={() => {
-        setSelectedFlavour(f);
-        setActiveImg(f.images[0]);
-      }}
-      className={`px-4 py-1 text-sm uppercase tracking-wider border transition
+            <div className="flex gap-2 flex-wrap pb-3">
+              {product.flavours.map((f) => (
+                <button
+                  key={f.name}
+                  onClick={() => {
+                    setSelectedFlavour(f);
+                    setActiveImg(f.images[0]);
+                  }}
+                  className={`px-4 py-1 text-sm uppercase tracking-wider border transition
       ${
         selectedFlavour.name === f.name
           ? "bg-red-600 border-red-600 text-white"
           : "bg-[#1a1a1a] border-[#333] hover:border-red-500"
       }`}
-    >
-      {f.name}
-    </button>
-  ))}
-</div>
+                >
+                  {f.name}
+                </button>
+              ))}
+            </div>
 
             {/* QUANTITY */}
             <div className="py-4 border-t border-[#2a2a2a]">
               <p className="text-red-600 font-bold text-sm uppercase tracking-[2px] mb-3">
-                Quantity
+                QUANTITY
               </p>
 
               <div className="flex items-center">
@@ -232,18 +228,13 @@ const [activeImg, setActiveImg] = useState(product.images[0]);
             </div>
 
             {factsOpen && (
-              <div className="text-sm text-gray-400 pb-4">
+              <div className="global-text-style pb-4">
                 <p>Serving Size: 4 Capsules | Servings Per Container: 30</p>
                 <p className="mt-2">Inosine · Ribose · B-Vitamins Complex</p>
               </div>
             )}
 
-            <section className=" text-white py-6 px-3 lg:px-6">
-              {/* Heading */}
-              <h2 className="text-red-600 text-2xl tracking-widest font-bold mb-6 creepster-regular">
-                DON'T MISS OUT – ADD & SAVE
-              </h2>
-            </section>
+          <MoreProducts/>
           </div>
         </div>
       </div>
@@ -281,7 +272,7 @@ const [activeImg, setActiveImg] = useState(product.images[0]);
                 </div>
 
                 {open === index && (
-                  <div className="pb-6 text-gray-300 text-sm leading-relaxed max-w-xl">
+                  <div className="pb-6 global-text-style max-w-xl">
                     {Array.isArray(item.content) ? (
                       <ul className="list-disc pl-5 space-y-1">
                         {item.content.map((text, i) => (

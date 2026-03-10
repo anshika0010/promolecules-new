@@ -104,3 +104,14 @@ body {
     transform: translateX(-50%);
   }
 }
+.global-text-style {
+  @apply text-gray-200 uppercase text-xs sm:text-xs leading-[1.6] tracking-[0.08em] font-bold hover:text-white;
+}
+.react-tel-input .country-list {
+  background: white;
+  color: black;
+}
+
+.react-tel-input .country-list .country:hover {
+  background: #f3f4f6;
+}

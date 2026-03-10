@@ -109,7 +109,7 @@ const faqs = [
 
             {/* Answer Section */}
             {activeIndex === index && (
-  <div className="pb-6 text-gray-400 text-lg leading-relaxed">
+  <div className="pb-6 global-text-style leading-relaxed">
     {item.answer}
   </div>
 )}

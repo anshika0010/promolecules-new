@@ -1,13 +1,33 @@
 "use client";
 
 import React, { useState } from "react";
+import { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Search, ShoppingCart, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+const [lastScrollY, setLastScrollY] = useState(0);
+const [showNavbar, setShowNavbar] = useState(true);
 
+
+useEffect(() => {
+  const controlNavbar = () => {
+    if (window.scrollY > lastScrollY) {
+      setShowNavbar(false); // scroll down → hide
+    } else {
+      setShowNavbar(true); // scroll up → show
+    }
+    setLastScrollY(window.scrollY);
+  };
+
+  window.addEventListener("scroll", controlNavbar);
+
+  return () => {
+    window.removeEventListener("scroll", controlNavbar);
+  };
+}, [lastScrollY]);
   const navLinks = [
     { name: "HOME", href: "/" },
      { name: "ABOUT", href: "/about" },
@@ -18,7 +38,11 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="absolute top-0 left-0 right-0 z-50 px-4 sm:px-6 py-4 max-h-auto">
+    <nav
+  className={`fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 py-4 transition-transform duration-300 ${
+    showNavbar ? "translate-y-0" : "-translate-y-full"
+  }`}
+>
       <div className="max-w-[1600px] mx-auto flex items-center justify-between gap-4">
 
         {/* Logo */}

@@ -1,6 +1,8 @@
 "use client";
 
 import { Star } from "lucide-react";
+import Link from "next/link";
+import { ChevronRight } from "lucide-react";
 
 export default function CustomerReviews({ openModal }) {
 
@@ -146,9 +148,19 @@ export default function CustomerReviews({ openModal }) {
       </div>
 
       {/* LOAD MORE BUTTON */}
-      <button className="mt-8 flex justify-center items-center mx-auto font-bold text-lg border border-red-600 px-6 py-3 rounded-md bg-red-600 text-white hover:bg-black hover:text-red-600 transition">
-        Load More
-      </button>
+ <div className="flex justify-center mt-12">
+           <Link href={"#"}>
+             <button className="flex items-center cursor-pointer gap-3 bg-transparent border-2 border-red-600 hover:bg-red-600 text-white font-bold px-7 py-2 rounded-full transition-all duration-300 text-sm tracking-widest group">
+               <span>VIEW MORE...</span>
+               <div className="bg-red-600 group-hover:bg-white p-1 rounded-full transition-colors">
+                 <ChevronRight
+                   size={18}
+                   className="text-white group-hover:text-red-600"
+                 />
+               </div>
+             </button>
+           </Link>
+         </div>
 
     </section>
   );

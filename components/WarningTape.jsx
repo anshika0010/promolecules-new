@@ -14,7 +14,7 @@ export default function WarningTape() {
     The Hidden Supplement Crisis
   </h4>
 
-  <p>
+  <p className="global-text-style">
     The supplement industry faces a silent crisis—adulteration. Studies reveal
     that nearly 70% of budget supplements contain less active ingredient than
     claimed, with some containing harmful fillers or banned substances. This
@@ -41,7 +41,7 @@ export default function WarningTape() {
     Important Safety Information
   </h4>
 
-  <p>
+  <p className="global-text-style">
     THIS PRODUCT IS INTENDED FOR ADULTS ONLY.
     NOT RECOMMENDED FOR CHILDREN, PREGNANT OR LACTATING WOMEN.
     CONSULT A PHYSICIAN BEFORE USE IF YOU HAVE ANY MEDICAL CONDITION.
@@ -110,6 +110,11 @@ function TapeText() {
   return (
     <div className="flex creepster-regular text-base sm:text-lg lg:text-2xl font-bold gap-8 sm:gap-12 lg:gap-16 px-6 sm:px-8 lg:px-10">
       <span>Father of Insane</span>
+      <span>Warning</span>
+      <span>Thermo Nuker XT</span>
+      <span>Intimidator</span>
+      <span>Hydra Pump</span>
+          <span>Father of Insane</span>
       <span>Warning</span>
       <span>Thermo Nuker XT</span>
       <span>Intimidator</span>

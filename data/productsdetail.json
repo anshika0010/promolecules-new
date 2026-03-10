@@ -4,6 +4,7 @@
       "id": 1,
       "slug": "father-of-insane",
       "name": "FATHER OF INSANE",
+       "category": "PRE-WORKOUT",
       "title": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout designed for experienced athletes who demand extreme energy, explosive strength, intense focus, and unstoppable endurance.",
       "description": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy, laser-focused concentration, and unmatched endurance.  This intense formula delivers powerful stimulation through its 5200 mg Father of Insane Blend and 450 mg total caffeine, giving you explosive performance every session.  Manufactured in a GMP-certified facility using premium domestic and international ingredients, this pre-workout is designed ONLY for advanced users.",
 
@@ -98,7 +99,7 @@
     {
       "id": 2,
       "slug": "warflex",
-
+ "category": "PRE-WORKOUT",
       "name": "WARFLEX",
       "title": "WARFLEX is a powerful high-stimulant pre-workout with Boron Citrate designed for advanced serious lifters seeking extreme energy, laser focus, explosive strength, and boosted performance for 8â€“10 hours.",
       "description": "WARFLEX by Promolecules is a high-stimulant, performance-enhancing pre-workout engineered for athletes who want extreme energy, tunnel-vision focus, powerful pumps, and explosive strength.  Fortified with Boron Citrate and a premium combination of stimulants, pump enhancers, nootropics, and endurance-support compounds, WARFLEXâ„¢ delivers a next-level training experience lasting up to 8â€“10 hours.  With 35 & 65 intense servings, it is formulated for advanced users who push beyond limits in every session.",
@@ -189,6 +190,7 @@
       "slug": "inpoer-r",
 
       "name": "INPOWER-R",
+      "category": "FAT BURNER",
       "title": "Inopower-R is a Russian-inspired ATP-boosting formula designed to maximize energy production, minimize fatigue, and elevate athletic performance.",
       "description": "Inopower-Râ„¢ by Promoleculesâ„¢ is a Russian-inspired performance formula created to dramatically enhance ATP production, reduce fatigue, and elevate overall athletic output. It provides energy-support nutrients that help the body produce more cellular energy, improving strength, stamina, training capacity, and recovery. Designed for athletes seeking a powerful endurance-enhancing supplement.",
       "price": "43",
@@ -269,13 +271,14 @@
       "slug": "hydrapump",
 
       "name": "HYDRAPUMP+",
+        "category": "PRE-WORKOUT",
       "title": "HydraPump+ is a liquid hydration and muscle pump formula featuring Liquid Glycerol, Citrulline Malate, and electrolytes for enhanced endurance, pumps, and fluid balance.",
       "description": "HydraPump+ by Promolecules Essential is a rapid hydration and explosive pump formula designed for athletes, lifters, and endurance performers. Powered by Liquid Glycerol, Citrulline Malate, and high-quality electrolytes (Sodium, Magnesium, Potassium), this formula helps retain fluid in muscles, improve blood flow, enhance pumps, and delay dehydration. Ideal for long training sessions, endurance events, and pump-focused workouts.",
       "price": "43",
 
       "images": [
         "/Promolecules/hydrapump2/promolecules-hydrapump+.webp",
-
+"/Promolecules/hydrapump2/promolecules-hydrapump+.webp",
          "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp",
          "/Promolecules/hydrapump2/mint.png",
          "/Promolecules/hydrapump2/blue.png"
@@ -355,6 +358,7 @@
       "slug": "thermo-nuke-xt",
 
       "name": "THERMO NUKE XT ",
+        "category": "FAT BURNER",
       "title": "Thermo Nuke XTâ„¢ is an ultra-high potency thermogenic fat destroyer engineered for advanced users seeking extreme fat loss, explosive energy, and intense focus. Not for beginners.",
       "description": "Thermo Nuke XT by Promoleculesâ„¢ is the strongest fat-destroying thermogenic formulated only for advanced users.  Powered by a 650 mg Nuke Thermo XT Blend, this supplement rapidly increases metabolism, elevates body temperature, boosts energy, and accelerates fat oxidation.  With patented ingredients like CitraSyn 50, 2XCAFF, and GBBxt, this formula is engineered to deliver extreme fat loss results while providing unstoppable focus and endurance.  Manufactured in a high-quality environment, Thermo Nuke XT is designed for athletes and experienced individuals aiming to shred fat aggressively.",
       "price": "43",

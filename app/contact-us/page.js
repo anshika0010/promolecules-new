@@ -1,53 +1,12 @@
 "use client";
 
+import ContactForm from "@/components/ContactForm";
 import React, { useState } from "react";
 
 export default function ContactHero() {
 
-  const [formData, setFormData] = useState({
-    name: "",
-    phone: "",
-    email: "",
-    subject: "",
-  });
 
-  const [showPopup, setShowPopup] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-
-    if (name === "name" && !/^[a-zA-Z\s]*$/.test(value)) return;
-    if (name === "phone" && !/^\d{0,10}$/.test(value)) return;
-
-    setFormData({
-      ...formData,
-      [name]: value,
-    });
-  };
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-
-    if (!formData.name || !formData.phone || !formData.email || !formData.subject) {
-      alert("Please fill all fields");
-      return;
-    }
-
-    console.log(formData);
-
-    setShowPopup(true);
-
-    setFormData({
-      name: "",
-      phone: "",
-      email: "",
-      subject: "",
-    });
-
-    setTimeout(() => {
-      setShowPopup(false);
-    }, 3000);
-  };
 
   return (
     <>
@@ -81,22 +40,22 @@ export default function ContactHero() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-xs uppercase tracking-wider">
 
               <div>
-                <h4 className="text-red-600 mb-3 text-sm font-semibold">Strength</h4>
-                <p className="text-gray-400 leading-relaxed">
+                <h4 className="text-red-600 mb-3 text-xl font-bold">Strength</h4>
+                <p className="global-text-style">
                   Engineered to amplify neurological drive and muscular output.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-red-600 mb-3 text-sm font-semibold">Design</h4>
-                <p className="text-gray-400 leading-relaxed">
+                <h4 className="text-red-600 mb-3 text-xl font-bold">Design</h4>
+                <p className="global-text-style">
                   Structured ingredient architecture balancing stimulation and endurance.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-red-600 mb-3 text-sm font-semibold">Development</h4>
-                <p className="text-gray-400 leading-relaxed">
+                <h4 className="text-red-600 mb-3 text-xl font-bold">Development</h4>
+                <p className="global-text-style">
                   Built through performance-first research and athlete testing.
                 </p>
               </div>
@@ -108,109 +67,7 @@ export default function ContactHero() {
 
 
       {/* CONTACT FORM SECTION */}
-      <section className="w-full min-h-screen bg-black text-white py-24">
-
-        <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16">
-
-          {/* LEFT SIDE */}
-          <div className="space-y-10">
-
-            <div>
-              <h1 className="text-6xl md:text-8xl anton-regular font-bold uppercase">
-                JUST
-              </h1>
-              <h1 className="text-6xl md:text-8xl anton-regular font-bold uppercase">
-                SEND IT.
-              </h1>
-            </div>
-
-            <div className="w-24 h-[2px] bg-gray-500"></div>
-
-            <div className="grid grid-cols-2 gap-8 text-xs text-gray-400 uppercase tracking-wider">
-              <p>
-                Connect with Promolecules™ for product guidance and collaboration inquiries.
-              </p>
-
-              <p>
-                Reach us via email or official social platforms.
-              </p>
-            </div>
-
-          </div>
-
-
-          {/* RIGHT SIDE FORM */}
-          <div className="max-w-xl w-full">
-
-            <h2 className="text-4xl mb-10 creepster-regular text-red-600">
-              Contact Us
-            </h2>
-
-            <form onSubmit={handleSubmit} className="space-y-6">
-
-              <InputField
-                label="FULL NAME"
-                name="name"
-                value={formData.name}
-                onChange={handleChange}
-                placeholder="Enter your name"
-              />
-
-              <InputField
-                label="PHONE NO."
-                name="phone"
-                value={formData.phone}
-                onChange={handleChange}
-                placeholder="Enter phone number"
-                type="tel"
-              />
-
-              <InputField
-                label="EMAIL"
-                name="email"
-                value={formData.email}
-                onChange={handleChange}
-                placeholder="Enter email"
-                type="email"
-              />
-
-              <div>
-                <label className="block text-xs text-gray-400 mb-2 tracking-widest">
-                  SUBJECT
-                </label>
-
-                <textarea
-                  rows="5"
-                  name="subject"
-                  value={formData.subject}
-                  onChange={handleChange}
-                  required
-                  className="w-full bg-black/60 border border-gray-800 rounded-md px-4 py-3 text-white focus:outline-none focus:border-red-600"
-                />
-              </div>
-
-              <button
-                type="submit"
-                className="bg-red-600 w-full hover:bg-red-700 transition px-8 py-3 rounded-full text-sm font-semibold uppercase tracking-wider"
-              >
-                Send Message
-              </button>
-
-            </form>
-
-          </div>
-
-        </div>
-
-
-        {/* SUCCESS POPUP */}
-        {showPopup && (
-          <div className="fixed top-10 right-10 bg-green-600 text-white px-6 py-3 rounded-lg shadow-lg z-50">
-            Message Submitted Successfully ✅
-          </div>
-        )}
-
-      </section>
+   <ContactForm/>
 
 
       {/* CTA SECTION */}

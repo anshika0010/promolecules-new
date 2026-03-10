@@ -90,7 +90,7 @@ const UltraHighPerformanceSection = () => {
                 </h3>
 
                 {/* Description */}
-                <p className="text-white/80 text-[10px] uppercase sm:text-xs md:text-sm leading-relaxed uppercase tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
+                <p className="global-text-style uppercase sm:text-xs md:text-sm leading-relaxed uppercase tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
                   {feature.description}
                 </p>
 

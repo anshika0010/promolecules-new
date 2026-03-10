@@ -11,7 +11,7 @@ export default function WhatWeDeliver() {
       {/* MIDDLE STATEMENT */}
       <div className="border-b border-gray-800 py-16 px-6 text-center">
         <p className="max-w-4xl mx-auto text-2xl sm:text-4xl font-extrabold leading-relaxed uppercase">
-          Promecules is built for{" "}
+          Promocules is built for{" "}
           <span className="text-red-600">Individuals</span> who take their{" "}
           <span className="text-red-600">Fitness Seriously</span>. We serve a
           wide spectrum of people united by one goal —{" "}
@@ -32,8 +32,8 @@ export default function WhatWeDeliver() {
           <span className="text-red-600">SERVICES</span>
         </h3>
 
-        <p className="text-gray-500 text-xs sm:text-sm mt-6 max-w-3xl mx-auto uppercase tracking-wide">
-          At Promecules, our services go beyond selling supplements. We provide
+        <p className="global-text-style mt-6 max-w-3xl mx-auto uppercase tracking-wide">
+          At Promocules, our services go beyond selling supplements. We provide
           performance-driven nutrition solutions designed to support every
           stage of your fitness journey.
         </p>
@@ -48,7 +48,7 @@ export default function WhatWeDeliver() {
             1. Performance Nutrition Solutions
           </h4>
 
-          <p className="text-gray-400 text-sm leading-relaxed uppercase">
+          <p className="global-text-style leading-relaxed uppercase">
             We develop and deliver science-backed supplements focused on muscle
             growth & strength, energy, focus & endurance, and recovery.
             Each product is formulated for real training demands with
@@ -71,7 +71,7 @@ export default function WhatWeDeliver() {
             2. Research & Innovation
           </h4>
 
-          <p className="text-gray-400 text-sm leading-relaxed uppercase">
+          <p className="global-text-style">
             Our team continuously studies emerging sports nutrition science to
             improve formulations. We embrace advanced ingredients,
             enhanced absorption, and innovation is at the core of everything we create.
@@ -93,7 +93,7 @@ export default function WhatWeDeliver() {
             3. Athlete & Trainers Support
           </h4>
 
-          <p className="text-gray-400 text-sm leading-relaxed uppercase">
+          <p className="global-text-style">
             We support athletes, coaches, and fitness professionals by
             providing trusted performance nutrition, goal-specific supplement
             guidance, and ongoing product updates.

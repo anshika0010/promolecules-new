@@ -30,7 +30,7 @@ export default function JourneySection() {
 
         {/* Right Description */}
         <div>
-          <p className="text-gray-300 uppercase text-xs md:text-sm leading-relaxed tracking-wide">
+          <p className="global-text-style tracking-wide">
            Promolecules™ was not created to follow the supplement trend cycle. It was born from frustration inside real gym environments where serious lifters were forced to choose between two extremes: underdosed “safe” formulas that barely activate performance, or reckless high-stim products that spike energy but crash hard.
 
 The founders observed a clear pattern in the industry:

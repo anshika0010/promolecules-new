@@ -83,7 +83,7 @@ const HeroSlider = () => {
                 {slides[currentSlide].title}
               </motion.h1>
 
-              <p className="text-white/90 text-sm sm:text-base lg:text-lg leading-relaxed max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
+              <p className="global-text-style   max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
                 {slides[currentSlide].description}
               </p>
 
@@ -124,7 +124,7 @@ const HeroSlider = () => {
                           </div>
 
                           <div className="flex-1 text-center sm:text-right">
-                            <p className="text-white anton-regular  text-xs sm:text-sm uppercase tracking-wide line-clamp-3">
+                            <p className="global-text-style line-clamp-3">
                               {slide.description}
                             </p>
                           </div>

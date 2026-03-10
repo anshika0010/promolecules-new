@@ -87,7 +87,7 @@ const Testimonials = () => {
               
             </div>
 
-            <p className="text-white text-xs sm:text-sm tracking-wider max-w-md mx-auto lg:mx-0 font-light leading-relaxed">
+            <p className="global-text-style max-w-md mx-auto lg:mx-0">
               PROMOLECULES™ FUELS THE RITUAL – BUILT FOR THOSE WHO TRAIN
               HARDER, GO FURTHER AND NEVER BACK DOWN.
             </p>
@@ -142,7 +142,7 @@ const Testimonials = () => {
                   >
                     <div className="space-y-4">
                       <Quote size={36} className="text-red-600" />
-                      <p className="text-white text-xs sm:text-sm leading-relaxed tracking-wide font-light">
+                      <p className="global-text-style">
                         {testimonial.quote}
                       </p>
                     </div>
@@ -151,7 +151,7 @@ const Testimonials = () => {
                       <p className="text-white font-bold text-base sm:text-lg tracking-wider">
                         {testimonial.author}
                       </p>
-                      <p className="text-red-600 text-xs sm:text-sm tracking-wider font-semibold">
+                      <p className="global-text-style">
                         {testimonial.role}
                       </p>
                     </div>

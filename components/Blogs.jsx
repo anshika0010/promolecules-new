@@ -53,18 +53,7 @@ const Blogs = () => {
         }
       `}</style>
 
-      {/* Background Text Pattern */}
-      <div className="absolute inset-0 opacity-5 overflow-hidden pointer-events-none">
-        <div className="text-white text-xs leading-relaxed p-8 whitespace-pre-wrap font-mono">
-          {`PROMOLECULES™ PROMOLECULES™ PROMOLECULES™ PROMOLECULES™ PROMOLECULES™
-SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS
-FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS
-PERFORMANCE PERFORMANCE PERFORMANCE PERFORMANCE
-STRENGTH STRENGTH STRENGTH STRENGTH
-NUTRITION NUTRITION NUTRITION NUTRITION`.repeat(50)}
-        </div>
-      </div>
-
+   
       <div className="relative z-10 max-w-[1600px] mx-auto px-6">
         {/* Title */}
         <div className="text-center mb-16 space-y-4">
@@ -86,7 +75,7 @@ NUTRITION NUTRITION NUTRITION NUTRITION`.repeat(50)}
             </motion.div>
           </div>
 
-          <p className="text-white text-sm md:text-base tracking-wider max-w-4xl mx-auto font-light leading-relaxed">
+          <p className="global-text-style tracking-wider max-w-4xl mx-auto leading-relaxed">
             WELCOME TO PROMOLECULES™, THE NEXT EVOLUTION IN FITNESS SCIENCE –
             WHERE EVERY
             <br />
@@ -123,7 +112,7 @@ NUTRITION NUTRITION NUTRITION NUTRITION`.repeat(50)}
                     <h3 className="text-red-500 anton-regular text-sm font-bold leading-tight tracking-wide">
                       {blog.title}
                     </h3>
-                    <p className="text-white/80 anton-regular text-xs leading-relaxed tracking-wide">
+                    <p className="global-text-style">
                       {blog.description}
                     </p>
                   </div>

@@ -94,7 +94,7 @@ export default function MoreInformationSection() {
                       className="overflow-hidden"
                     >
                       <p
-                        className="text-gray-300 text-sm sm:text-base uppercase 
+                        className="global-text-style 
                                     mt-4 leading-relaxed"
                       >
                         {item.content}

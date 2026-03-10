@@ -40,7 +40,7 @@ export default function GrowthEvolution() {
         {/* LEFT CONTENT */}
         <div>
           {/* Top Description */}
-          <p className="text-gray-400 text-xs md:text-sm uppercase leading-relaxed tracking-wide mb-10 max-w-lg">
+          <p className="global-text-style text-red-600 tracking-wide mb-10 max-w-lg">
             The brand’s first focus was neurological activation — understanding
             how the central nervous system responds to layered stimulant
             delivery rather than single-source caffeine overload. This led to
@@ -76,7 +76,7 @@ export default function GrowthEvolution() {
 
                 {/* Optional expandable content */}
                 {active === index && (
-                  <div className="text-gray-400 text-sm py-4 leading-relaxed">
+                  <div className="global-text-style py-4 leading-relaxed">
                     {item.answer}
                   </div>
                 )}

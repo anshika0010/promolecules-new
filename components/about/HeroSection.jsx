@@ -25,12 +25,10 @@ export default function HeroSection() {
         <h1 className="creepster-regular 
                        text-3xl sm:text-5xl md:text-7xl lg:text-8xl 
                        text-red-700 font-bold leading-tight">
-          WE ARE PROMECULES
+          WE ARE PROMOCULES
         </h1>
 
-        <p className="text-gray-300 mt-3 sm:mt-4 uppercase 
-                      text-xs sm:text-sm md:text-base 
-                      anton-regular font-bold 
+        <p className="global-text-style
                       leading-relaxed">
           a performance-driven nutrition brand built for individuals who refuse
           average. We exist to fuel ambition, unlock physical potential, and
