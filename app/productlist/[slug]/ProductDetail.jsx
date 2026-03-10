@@ -92,15 +92,15 @@ export default function ProductDetail({ product }) {
         <div className="max-w-[1100px] w-full grid grid-cols-1 md:grid-cols-2 gap-10">
           {/* LEFT IMAGES */}
           <div className="flex flex-col gap-3 sticky top-7 h-fit self-start">
-            <div className="relative bg-[#111]  flex items-center justify-center h-[460px] overflow-hidden">
-              <div className="absolute w-[300px] h-[300px] rounded-full bg-[radial-gradient(circle,rgba(224,0,27,0.12)_0%,transparent_70%)]"></div>
+            <div className="relative flex items-center justify-center h-[460px] overflow-hidden border border-gray-500 rounded">
+              <div className="absolute w-[300px] h-[360px]  rounded-full bg-[radial-gradient(circle,rgba(224,0,27,0.12)_0%,transparent_70%)]"></div>
 
               <Image
                 src={activeImg}
                 alt="product"
                 width={400}
                 height={400}
-                className="h-[420px] w-full object-contain relative z-10 transition-all duration-500 ease-in-out"
+                className="h-[520px] w-full rounded object-cover relative z-10 transition-all duration-500 ease-in-out"
               />
             </div>
 

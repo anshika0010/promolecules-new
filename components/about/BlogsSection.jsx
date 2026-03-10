@@ -48,19 +48,7 @@ export default function BlogsSection () {
 
   return (
     <section className="relative bg-black py-20 overflow-hidden">
-      {/* Background Text Pattern */}
-      <div className="absolute inset-0 opacity-5 overflow-hidden pointer-events-none">
-        <div className="text-white text-xs leading-relaxed p-8 whitespace-pre-wrap font-mono">
-          {`PROMOLECULES™ PROMOLECULES™ PROMOLECULES™ PROMOLECULES™ PROMOLECULES™ PROMPROMOLECULES™OLECULES PROMOLECULES™
-SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS SUPPLEMENTS
-FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS FITNESS
-PERFORMANCE PERFORMANCE PERFORMANCE PERFORMANCE PERFORMANCE PERFORMANCE PERFORMANCE
-STRENGTH STRENGTH STRENGTH STRENGTH STRENGTH STRENGTH STRENGTH STRENGTH STRENGTH
-NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION NUTRITION`.repeat(
-            50,
-          )}
-        </div>
-      </div>
+    
 
       <div className="relative z-10 max-w-[1600px] mx-auto px-6">
         {/* Title */}
