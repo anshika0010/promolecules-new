@@ -12,7 +12,7 @@ export default function ContactHero() {
     <>
       {/* HERO SECTION */}
       <section
-        className="relative min-h-screen w-full bg-cover bg-center flex items-center py-16 md:py-0"
+        className="relative min-h-[50vh] lg:min-h-[50vh] w-full bg-cover bg-center flex items-center py-16 mt-6 md:py-0"
         style={{ backgroundImage: "url('/candle.webp')" }}
       >
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 w-full">
@@ -71,16 +71,28 @@ export default function ContactHero() {
 
 
       {/* CTA SECTION */}
-      <section className="bg-black py-16 px-7 border-t border-gray-800">
+   <section className="bg-black py-6 px-4 border-t border-gray-800">
+  <div className="max-w-7xl mx-auto creepster-regular text-center sm:text-left">
+    
+    <h2 className="uppercase tracking-wider leading-tight
+      text-4xl 
+      sm:text-5xl 
+      md:text-6xl 
+      lg:text-7xl 
+      xl:text-8xl 
+      2xl:text-9xl">
 
-        <div className="max-w-7xl mx-auto creepster-regular">
-          <h2 className="text-7xl md:text-9xl uppercase tracking-wider">
-            <span className="text-gray-200">Lets Start To </span>
-            <span className="text-red-600">Work</span>
-          </h2>
-        </div>
+      <span className="text-gray-200 block sm:inline">
+        Lets Start To
+      </span>{" "}
+      <span className="text-red-600 block sm:inline">
+        Work
+      </span>
 
-      </section>
+    </h2>
+
+  </div>
+</section>
 
     </>
   );

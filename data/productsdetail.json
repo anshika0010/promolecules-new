@@ -4,42 +4,35 @@
       "id": 1,
       "slug": "father-of-insane",
       "name": "FATHER OF INSANE",
-       "category": "PRE-WORKOUT",
+      "flipkartLink": "https://www.flipkart.com/promolecules-father-insane-ultra-high-stim-5200mg-power-blend-70-serv-half-scoop-35-full-pre-workout/p/itmb96e27fc7e10d?pid=PSLHHF3PGVGCETPU&marketplace=FLIPKART&lid=LSTPSLHHF3PGVGCETPUJQIL9D&q=pre+workout&fm=search-autosuggest&pageUID=1773210750250",
+      "category": "PRE-WORKOUT",
       "title": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout designed for experienced athletes who demand extreme energy, explosive strength, intense focus, and unstoppable endurance.",
       "description": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy, laser-focused concentration, and unmatched endurance.  This intense formula delivers powerful stimulation through its 5200 mg Father of Insane Blend and 450 mg total caffeine, giving you explosive performance every session.  Manufactured in a GMP-certified facility using premium domestic and international ingredients, this pre-workout is designed ONLY for advanced users.",
 
       "images": [
-        "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp",
-
-        "/Promolecules/fatherofinsane/promolecules-father-of-insane-workout-booster.webp",
-        "/Promolecules/fatherofinsane/promolecules-father-of-insane-high-stimulant-pre-workout.webp",
+        "/Promolecules/fatherofinsane/frontside.png",
+        "/Promolecules/fatherofinsane/backside.webp",
+        "/Promolecules/fatherofinsane2.jpeg",
         "/Promolecules/fatherofinsane/father-of-insan-supplement-fact.webp"
       ],
       "price": "43",
+      "discounted": "41.2",
       "flavours": [
         {
-          "name": "Unflavoured",
-          "images": [
-            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
-          ]
-        },
-        {
           "name": "Fruit Punch",
-          "images": [
-            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
-          ]
+          "images": ["/Promolecules/fatherofinsane/fruitpunch.png"]
         },
         {
-          "name": "Gummies",
-          "images": [
-            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
-          ]
+          "name": "Gummy Bliss",
+          "images": ["/Promolecules/fatherofinsane/gummybliss.png"]
         },
         {
-          "name": "Blue Rasberry",
-          "images": [
-            "/Promolecules/fatherofinsane/promolecules-father-of-insane-pre-workout.webp"
-          ]
+          "name": "Purple Pulse Gummies",
+          "images": ["/Promolecules/fatherofinsane/purplepulsegummies.png"]
+        },
+        {
+          "name": "Blue Raspberry",
+          "images": ["/Promolecules/fatherofinsane/blueraspberry.png"]
         }
       ],
 
@@ -96,49 +89,50 @@
         ]
       }
     },
+
     {
       "id": 2,
       "slug": "warflex",
- "category": "PRE-WORKOUT",
+      "flipkartLink": "https://www.flipkart.com/promolecules-warflex-high-stim-pre-workout-caffeine-strength-pump-focus-formula-35-servings/p/itm1370dc643500c?pid=PSLHKNVKCWGH6HRK&lid=LSTPSLHKNVKCWGH6HRKJSOMI5&marketplace=FLIPKART&q=pre+workout&store=hlc%2Fetg%2F1rx&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=2cd50d19-31e4-49cf-88e6-9e5c626e5239.PSLHKNVKCWGH6HRK.SEARCH&ppt=sp&ppn=sp&ssid=xf9ii1ed8w0000001773210715220&qH=8946701866792c7a&ov_redirect=true&ov_redirect=true",
+      "category": "PRE-WORKOUT",
       "name": "WARFLEX",
       "title": "WARFLEX is a powerful high-stimulant pre-workout with Boron Citrate designed for advanced serious lifters seeking extreme energy, laser focus, explosive strength, and boosted performance for 8â€“10 hours.",
       "description": "WARFLEX by Promolecules is a high-stimulant, performance-enhancing pre-workout engineered for athletes who want extreme energy, tunnel-vision focus, powerful pumps, and explosive strength.  Fortified with Boron Citrate and a premium combination of stimulants, pump enhancers, nootropics, and endurance-support compounds, WARFLEXâ„¢ delivers a next-level training experience lasting up to 8â€“10 hours.  With 35 & 65 intense servings, it is formulated for advanced users who push beyond limits in every session.",
       "price": "43",
-
+      "discounted": "41.2",
       "images": [
         "/Promolecules/warflex/promolecules-warflex-pre-workout.webp",
+        "/Promolecules/warflex/backside.png",
+        "/Promolecules/warflex3.jpeg",
 
-        "/Promolecules/warflex1.jpeg",
-        "/Promolecules/warflex2.jpeg",
-        "/Promolecules/warflex1.jpeg",
-        "/Promolecules/warflex/promolecules-supplement-factpre-workout-warflex.webp"
+        "/Promolecules/supplementfactwarflex.jpeg"
       ],
       "flavours": [
         {
           "name": "Blue Rasberry",
-          "images": [ "/Promolecules/warflex/promolecules-warflex-pre-workout.webp"]
+          "images": ["/Promolecules/warflex/blueraspberry.png"]
         },
         {
-          "name": "Black Grapes",
-          "images": ["/images/products/vanilla-1.jpg"]
-        },  {
+          "name": "Purple Pulse Gummies",
+          "images": ["/Promolecules/warflex/warflexgrapes.jpeg"]
+        },
+        {
           "name": "Gummies",
-          "images": ["/images/products/vanilla-1.jpg"]
-        }, {
+          "images": ["/Promolecules/warflex/warflexgummycandy.jpeg"]
+        },
+        {
           "name": "Fruit Punch",
-          "images": ["/images/products/vanilla-1.jpg"]
+          "images": ["/Promolecules/warflex/warflexfruit.jpeg"]
         }
       ],
 
       "keyBenefits": [
-        [
-          "Extreme Energy Boost",
-          "Laser-Sharp Focus",
-          "Increased Strength",
-          "Enhanced Stamina",
-          "Supports Endurance",
-          "Helps Improve Workout Performance"
-        ]
+        "Extreme Energy Boost",
+        "Laser-Sharp Focus",
+        "Increased Strength",
+        "Enhanced Stamina",
+        "Supports Endurance",
+        "Helps Improve Workout Performance"
       ],
 
       "whychooseus": [
@@ -190,36 +184,32 @@
       "id": 3,
       "slug": "inpoer-r",
 
-      "name": "INPOWER-R",
+      "name": "INOPOWER-R",
       "category": "FAT BURNER",
       "title": "Inopower-R is a Russian-inspired ATP-boosting formula designed to maximize energy production, minimize fatigue, and elevate athletic performance.",
       "description": "Inopower-Râ„¢ by Promoleculesâ„¢ is a Russian-inspired performance formula created to dramatically enhance ATP production, reduce fatigue, and elevate overall athletic output. It provides energy-support nutrients that help the body produce more cellular energy, improving strength, stamina, training capacity, and recovery. Designed for athletes seeking a powerful endurance-enhancing supplement.",
       "price": "43",
-
+      "discounted": "41.2",
       "images": [
-        "/Promolecules/inpower3/promolecules-inpower-r.webp",
-
-           "/Promolecules/inpower3/promolecules-inpower-r-best-supplement.webp",
-         "/Promolecules/inpower3/promolecules-inpower-r-supplement.webp",
-        "/Promolecules/inpower3/promolecules-inpower-r-supplement-fact.webp"
+        "/Promolecules/inopower1.jpeg",
+        "/Promolecules/inopower2.jpeg",
+        "/Promolecules/inpower3/promolecules-inpower-r-supplement.webp",
+        "/Promolecules/inpower3/promolecules-inpower-r-supplement-fact.jpeg"
       ],
       "flavours": [
         {
           "name": "Unfavoured",
-          "images": [        "/Promolecules/inpower3/promolecules-inpower-r.webp"]
+          "images": ["/Promolecules/inpower3/promolecules-inpower-r.webp"]
         }
-      
       ],
 
       "keyBenefits": [
-        [
-          "Extreme Energy Boost",
-          "Laser-Sharp Focus",
-          "Increased Strength",
-          "Enhanced Stamina",
-          "Supports Endurance",
-          "Helps Improve Workout Performance"
-        ]
+        "Extreme Energy Boost",
+        "Laser-Sharp Focus",
+        "Increased Strength",
+        "Enhanced Stamina",
+        "Supports Endurance",
+        "Helps Improve Workout Performance"
       ],
 
       "whychooseus": [
@@ -272,41 +262,67 @@
       "slug": "hydrapump",
 
       "name": "HYDRAPUMP+",
-        "category": "PRE-WORKOUT",
+      "category": "PRE-WORKOUT",
       "title": "HydraPump+ is a liquid hydration and muscle pump formula featuring Liquid Glycerol, Citrulline Malate, and electrolytes for enhanced endurance, pumps, and fluid balance.",
       "description": "HydraPump+ by Promolecules Essential is a rapid hydration and explosive pump formula designed for athletes, lifters, and endurance performers. Powered by Liquid Glycerol, Citrulline Malate, and high-quality electrolytes (Sodium, Magnesium, Potassium), this formula helps retain fluid in muscles, improve blood flow, enhance pumps, and delay dehydration. Ideal for long training sessions, endurance events, and pump-focused workouts.",
       "price": "43",
-
+      "discounted": "41.2",
       "images": [
-        "/Promolecules/hydrapump2/promolecules-hydrapump+.webp",
-"/Promolecules/hydrapump2/promolecules-hydrapump+.webp",
-         "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp",
-         "/Promolecules/hydrapump2/mint.png",
-         "/Promolecules/hydrapump2/blue.png"
+        "/Promolecules/hydrapump2/fruitpunch.webp",
+        "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp",
+        "/Promolecules/hydrapump2/hydrapump1.jpeg",
+        "/Promolecules/hydrapump2/hydrapumpsupplement.jpeg"
       ],
       "flavours": [
         {
-          "name": "Unflavoured",
-          "images": [ "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp"]
+          "name": "Mint Mojito",
+          "images": ["/Promolecules/hydrapump2/mintmojito.jpeg"]
+        },
+         {
+          "name": "BlueRazz",
+          "images": ["/Promolecules/hydrapump2/bluerazz.webp"]
+        },
+         {
+          "name": "BubbleGum",
+          "images": ["/Promolecules/hydrapump2/bubblegumhydra.webp"]
+        },
+         {
+          "name": "Cherry-Lemon",
+          "images": ["/Promolecules/hydrapump2/cherrylemon.webp"]
+        },
+         {
+          "name": "Cola",
+          "images": ["/Promolecules/hydrapump2/cola.webp"]
+        }, 
+        {
+          "name": "JuicyGrapes",
+          "images": ["/Promolecules/hydrapump2/juicygrapes.webp"]
+        }, {
+          "name": "MangoPineapple",
+          "images": ["/Promolecules/hydrapump2/mangopineapple.webp"]
+        }, {
+          "name": "Orange",
+          "images": ["/Promolecules/hydrapump2/oranges.webp"]
+        }, {
+          "name": "FruitPunch",
+          "images": ["/Promolecules/hydrapump2/fruitpunch.webp"]
         },
         {
-          "name": "Mint Mojito",
-     "images": ["/Promolecules/hydrapump2/mint.png"]        },
-           {
-          "name": "Blue-Berry",
-          "images": ["/Promolecules/hydrapump2/blue.png"]
+          "name": "SourApple",
+          "images": ["/Promolecules/hydrapump2/SOURAPPLE.webp"]
+        },
+          {
+          "name": "Strawberry",
+          "images": ["/Promolecules/hydrapump2/strawberry.webp"]
         }
       ],
-
       "keyBenefits": [
-        [
-          "Extreme Energy Boost",
-          "Laser-Sharp Focus",
-          "Increased Strength",
-          "Enhanced Stamina",
-          "Supports Endurance",
-          "Helps Improve Workout Performance"
-        ]
+        "Extreme Energy Boost",
+        "Laser-Sharp Focus",
+        "Increased Strength",
+        "Enhanced Stamina",
+        "Supports Endurance",
+        "Helps Improve Workout Performance"
       ],
 
       "whychooseus": [
@@ -359,35 +375,27 @@
       "slug": "thermo-nuke-xt",
 
       "name": "THERMO NUKE XT ",
-        "category": "FAT BURNER",
+      "category": "FAT BURNER",
       "title": "Thermo Nuke XTâ„¢ is an ultra-high potency thermogenic fat destroyer engineered for advanced users seeking extreme fat loss, explosive energy, and intense focus. Not for beginners.",
       "description": "Thermo Nuke XT by Promoleculesâ„¢ is the strongest fat-destroying thermogenic formulated only for advanced users.  Powered by a 650 mg Nuke Thermo XT Blend, this supplement rapidly increases metabolism, elevates body temperature, boosts energy, and accelerates fat oxidation.  With patented ingredients like CitraSyn 50, 2XCAFF, and GBBxt, this formula is engineered to deliver extreme fat loss results while providing unstoppable focus and endurance.  Manufactured in a high-quality environment, Thermo Nuke XT is designed for athletes and experienced individuals aiming to shred fat aggressively.",
       "price": "43",
-
+      "discounted": "41.2",
       "images": [
-        "/Promolecules/thermo/promolecules-thermo-nuke-xt.webp",
+        "/Promolecules/thermo2.jpeg",
 
-        "/Promolecules/thermo/promolecules-thermo-nuke-xt-fat-burner.webp",
+        "/Promolecules/thermo1.jpeg",
         "/Promolecules/thermo/promolecules-thermo-nuke-xt-fat-loss-supplement.webp",
-        "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.webp"
+        "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.jpeg"
       ],
-      "flavours": [
-        {
-          "name": "Unflavoured",
-          "images": [ "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.webp"]
-        }
-    
-      ],
+      "flavours": [],
 
       "keyBenefits": [
-        [
-          "Extreme Energy Boost",
-          "Laser-Sharp Focus",
-          "Increased Strength",
-          "Enhanced Stamina",
-          "Supports Endurance",
-          "Helps Improve Workout Performance"
-        ]
+        "Extreme Energy Boost",
+        "Laser-Sharp Focus",
+        "Increased Strength",
+        "Enhanced Stamina",
+        "Supports Endurance",
+        "Helps Improve Workout Performance"
       ],
 
       "whychooseus": [

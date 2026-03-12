@@ -159,10 +159,8 @@ const PowerYouCanWear = () => {
       </div>
     </section>
      
-    <section className="relative w-full h-screen bg-black text-white overflow-hidden">
-      
-      {/* Background subtle gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black via-black to-black/90"></div>
+    <section className="relative w-full min-h-[50vh] lg:min-h-[50vh] bg-black text-white overflow-hidden">
+   
 
       <div className="relative z-10 flex items-center justify-between h-full px-6 md:px-16">
 
@@ -172,7 +170,7 @@ const PowerYouCanWear = () => {
           <img
             src="/merchboy.webp"   
             alt="Model 1"
-            className=" left-0 bottom-0 object-contain"
+            className=" left-0 bottom-0 object-cover"
           />
 
         

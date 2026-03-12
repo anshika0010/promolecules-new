@@ -18,7 +18,7 @@ const Footer = () => {
       {/* Content */}
       <div className="relative z-10 max-w-8xl  mx-auto px-6 py-20">
         {/* GRID */}
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-14">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* ABOUT */}
           <div>
             <h3 className="text-red-600 text-xl font-extrabold tracking-[2px] mb-6">
@@ -39,7 +39,7 @@ Promolecules supplements are for healthy adults and for educational purposes onl
               <FooterLink href="/about" label="ABOUT US" />
               <FooterLink href="/contact-us" label="CONTACT" />
               <FooterLink href="/products" label="PRODUCTS" />
-              <FooterLink href="/blogs" label="BLOGS" />
+              <FooterLink href="/blog" label="BLOGS" />
               <FooterLink href="/domestic" label="DOMESTIC" />
               <FooterLink href="/international" label="INTERNATIONAL" />
             </nav>
@@ -63,19 +63,20 @@ Promolecules supplements are for healthy adults and for educational purposes onl
           </div>
 
           {/* CONTACT */}
-          <div className="global-text-style">
-            <h3 className="text-red-600 text-xl font-extrabold tracking-[2px] mb-6">
+          <div className="global-text-style sm:pr-14">
+            <h3 className="text-red-600 text-xl font-extrabold tracking-[2px] mb-6 ">
               CONTACT
             </h3>
 
             <div className="space-y-3">
-               <div className="flex items-start gap-2">
-                <span>📞</span>
-                <span>+1 (786) 789-2121</span>
+               <div className=" items-start gap-2">
+                <span>Phn No.</span>
+                    <p>+1 (786) 789-2121</p>
               </div>
-              <div className="flex items-start gap-2">
-                <span>📧</span>
-                <span>info@promolecules.com</span>
+          
+              <div className="  ">
+                <span>Email ID:</span>
+                <p>info@promolecules.com</p>
               </div>
              
           

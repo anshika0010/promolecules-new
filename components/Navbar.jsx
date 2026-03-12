@@ -1,50 +1,48 @@
 "use client";
 
-import React, { useState } from "react";
-import { useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Search, ShoppingCart, Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-const [lastScrollY, setLastScrollY] = useState(0);
-const [showNavbar, setShowNavbar] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
+  const [showNavbar, setShowNavbar] = useState(true);
+  const [searchQuery, setSearchQuery] = useState(""); // ✅ added
 
+  useEffect(() => {
+    const controlNavbar = () => {
+      if (window.scrollY > lastScrollY) {
+        setShowNavbar(false);
+      } else {
+        setShowNavbar(true);
+      }
+      setLastScrollY(window.scrollY);
+    };
 
-useEffect(() => {
-  const controlNavbar = () => {
-    if (window.scrollY > lastScrollY) {
-      setShowNavbar(false); // scroll down → hide
-    } else {
-      setShowNavbar(true); // scroll up → show
-    }
-    setLastScrollY(window.scrollY);
-  };
+    window.addEventListener("scroll", controlNavbar);
 
-  window.addEventListener("scroll", controlNavbar);
+    return () => {
+      window.removeEventListener("scroll", controlNavbar);
+    };
+  }, [lastScrollY]);
 
-  return () => {
-    window.removeEventListener("scroll", controlNavbar);
-  };
-}, [lastScrollY]);
   const navLinks = [
     { name: "HOME", href: "/" },
-     { name: "ABOUT", href: "/about" },
+    { name: "ABOUT", href: "/about" },
     { name: "SHOP", href: "/products" },
-       { name: "BLOGS", href: "/blogs" },
+    { name: "BLOGS", href: "/blog" },
     { name: "CONTACT", href: "/contact-us" },
-
   ];
 
   return (
     <nav
-  className={`fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 py-4 transition-transform duration-300 ${
-    showNavbar ? "translate-y-0" : "-translate-y-full"
-  }`}
->
+      className={`fixed top-0 left-0 right-0 z-50 px-4 sm:px-6 py-4 transition-transform duration-300 ${
+        showNavbar ? "translate-y-0" : "-translate-y-full"
+      }`}
+    >
       <div className="max-w-[1600px] mx-auto flex items-center justify-between gap-4">
-
         {/* Logo */}
         <Link href="/" className="flex-shrink-0">
           <Image
@@ -69,7 +67,6 @@ useEffect(() => {
           ))}
         </div>
 
-
         {/* Cart */}
         <button className="hidden md:flex flex-shrink-0 bg-black/30 backdrop-blur-sm border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200">
           <ShoppingCart size={22} className="text-white" />
@@ -82,13 +79,11 @@ useEffect(() => {
         >
           {isOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
-
       </div>
 
       {/* Mobile Menu */}
       {isOpen && (
         <div className="lg:hidden mt-4 bg-black/90 backdrop-blur-md border border-white/10 rounded-2xl p-6 space-y-6">
-
           {/* Mobile Links */}
           <div className="flex flex-col space-y-4">
             {navLinks.map((link) => (
@@ -122,7 +117,6 @@ useEffect(() => {
           <button className="w-full flex items-center justify-center bg-black/30 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-colors duration-200">
             <ShoppingCart size={22} className="text-white" />
           </button>
-
         </div>
       )}
     </nav>

@@ -37,7 +37,7 @@ export default function MoreInformationSection() {
 
   return (
     
-    <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative w-full min-h-[50vh] lg:min-h-[50vh] flex items-center justify-center overflow-hidden">
       {/* Background */}
       <Image
         src="/dark-candle.webp"
@@ -75,7 +75,7 @@ export default function MoreInformationSection() {
                   <span className="text-red-600 creepster-regular text-lg sm:text-xl md:text-2xl tracking-wider uppercase transition duration-300  group-hover:text-white">
                     {item.title}
                   </span>
-                  <div className="w-8 h-8 flex items-center justify-center rounded-full bg-red-600  group-hover:bg-white transition duration-300">
+                  <div className="w-8 h-8 flex items-center justify-center rounded-full bg-red-600  group-hover:bg-black transition duration-300">
                     <ArrowRight
                       size={16}
                       className={`text-white transition-transform duration-300 

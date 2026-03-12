@@ -1,28 +1,12 @@
 "use client";
 import Image from "next/image";
+import productsData from "@/data/productsdetail.json";
+import { useSearchParams } from "next/navigation";
+
 
 export default function MoreProducts() {
-
-  const products = [
-    {
-      name: "WARFLEX",
-      image: "/warflex.png",
-      oldPrice: "$24.35",
-      price: "$22.45",
-    },
-    {
-      name: "FATHER OF INSANE",
-      image: "/fatherof.png",
-      oldPrice: "$30.47",
-      price: "$28.45",
-    },
-    {
-      name: "THERMO NUKE XT",
-      image: "/thermonuke.png",
-      oldPrice: "$30.47",
-      price: "$28.45",
-    },
-  ];
+const products = productsData.products;
+ 
 
   return (
     <section className="bg-black text-white py-10 px-4">
@@ -47,7 +31,7 @@ export default function MoreProducts() {
 
                 <div className="relative w-16 h-16">
                   <Image
-                    src={item.image}
+                    src={item.images[0]}
                     alt={item.name}
                     fill
                     className="object-contain"
@@ -60,9 +44,9 @@ export default function MoreProducts() {
                   </h3>
 
                   <p className="text-xs text-white/70">
-                    <span className="line-through mr-2">{item.oldPrice}</span>
+                    <span className="line-through mr-2">${item.price}</span>
                     <span className="font-semibold text-white">
-                      {item.price}
+                      {item.discounted}
                     </span>
                   </p>
                 </div>

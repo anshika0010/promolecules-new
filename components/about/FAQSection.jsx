@@ -82,7 +82,7 @@ const faqs = [
       
 
       {/* Content */}
-      <div className="relative z-10 px-6 md:px-16 py-20 max-w-6xl mx-auto">
+      <div className="relative z-10 px-3 md:px-4 py-3 max-w-6xl mx-auto">
         
         {faqs.map((item, index) => (
           <div key={index} className="border-b border-gray-800">

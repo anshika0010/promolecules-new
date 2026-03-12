@@ -23,7 +23,7 @@ export default function GrowthEvolution() {
     {
       question: "HOW HAS PROMOLECULES EVOLVED OVER TIME?",
       answer:
-        "Promolecules™ began with ultra high-stim performance systems and expanded into hybrid pre-workouts, thermogenics, stimulant-free ATP enhancers, hydration-based pump systems, and protein support. The evolution reflects a broader performance ecosystem rather than a single product category.",
+        "Promolecules™ begin with ultra high-stim performance systems and expanded into hybrid pre-workouts, thermogenics, stimulant-free ATP enhancers, hydration-based pump systems, and protein support. The evolution reflects a broader performance ecosystem rather than a single product category.",
     },
     {
       question: "WHAT HAS REMAINED CONSTANT SINCE THE BEGINNING?",

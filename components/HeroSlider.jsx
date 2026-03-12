@@ -103,36 +103,54 @@ const HeroSlider = () => {
               </div>
 
               {/* Mini Slides */}
-              <div className="pt-6 lg:pt-16 space-y-4">
-                {slides.map(
-                  (slide, index) =>
-                    index !== currentSlide && (
-                      <div
-                        key={slide.id}
-                        onClick={() => setCurrentSlide(index)}
-                        className="cursor-pointer transition-all duration-300 hover:scale-[1.02]"
-                      >
-                        <div className="flex flex-row sm:flex-row items-center gap-4 rounded-xl bg-white/10 backdrop-blur-md px-4 sm:px-6 py-4 shadow-lg rounded-tl-full">
-                          <div className="w-20 sm:w-28 bg-white/20 rounded-tl-full flex items-center justify-center pl-6 sm:pl-14 pt-2 sm:pt-4">
-                            <Image
-                              src={slide.productImage}
-                              alt={slide.title}
-                              width={120}
-                              height={150}
-                              className="object-contain"
-                            />
-                          </div>
+         <div className="pt-3 lg:pt-10 space-y-4">
+  {slides.map(
+    (slide, index) =>
+      index !== currentSlide && (
+        <div
+          key={slide.id}
+          onClick={() => setCurrentSlide(index)}
+          className="cursor-pointer transition-all duration-300 hover:scale-[1.02]"
+        >
+      <div className="flex flex-row items-center gap-3 sm:gap-4 rounded-xl bg-white/10 backdrop-blur-md px-3 sm:px-5 py-3 sm:py-4 shadow-lg rounded-tl-full">
 
-                          <div className="flex-1 text-center sm:text-right">
-                            <p className="global-text-style line-clamp-3">
-                              {slide.description}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    )
-                )}
+  {/* Fixed image container */}
+  <div className="flex-shrink-0 w-16 h-16 sm:w-24 sm:h-24 md:w-28 md:h-28 bg-white/20 rounded-tl-full overflow-hidden relative">
+    <Image
+      src={slide.productImage}
+      alt={slide.title}
+      fill
+      className="object-contain object-right p-2 "
+    />
+  </div>
+
+  {/* Text */}
+  <div className="flex-1 min-w-0">
+    <p className="global-text-style line-clamp-3 text-left sm:text-left text-[30px] sm:text-xs md:text-md leading-relaxed">
+      {slide.description}
+    </p>
+  </div>
+
+</div>
+        </div>
+      )
+  )}
+</div>
+              <div className="flex justify-center lg:justify-start">
+                <Link
+                  href={"/productlist"}
+              
+                  className="group flex items-center gap-2 bg-black border-2 border-white/30 hover:border-white/60 text-white px-6 py-2 rounded-full transition-all duration-300 hover:bg-white/5"
+                >
+                  <span className="font-bold text-sm tracking-wider">
+                VIEW ALL
+                  </span>
+                  <div className="bg-white/20 group-hover:bg-white/30 p-2 rounded-full transition-colors">
+                    <ChevronRight size={14} />
+                  </div>
+                </Link>
               </div>
+
             </div>
           </div>
         </div>

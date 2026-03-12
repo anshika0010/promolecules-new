@@ -55,7 +55,7 @@ export default function BlogsSection () {
         <div className="text-center mb-16 space-y-4">
           <div className="flex justify-center items-center">
             <motion.div
-  initial={{ x: 200, opacity: 0 }}   // 👈 START position (right side)
+  initial={{ x: 200, opacity: 0 }}   
   whileInView={{ x: 0, opacity: 1 }} // 👈 END position
   viewport={{ once: true, amount: 0.5 }}
   transition={{

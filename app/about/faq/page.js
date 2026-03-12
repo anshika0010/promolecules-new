@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function page() {
   return (
     <>
-      <section className="relative w-full min-h-screen overflow-hidden text-white">
+      <section className="relative w-full min-h-[100vh] lg:min-h-[70vh] overflow-hidden text-white">
         {/* Background Image */}
         <Image
           src="/faq.png" 
@@ -17,7 +17,7 @@ export default function page() {
         />
 
         {/* Content */}
-        <div className="relative z-10 px-6 md:px-16 py-20 flex flex-col justify-center min-h-screen">
+        <div className="relative z-10 px-6 md:px-6 py-6 flex flex-col justify-center min-h-[100vh] lg:min-h-[50vh]">
           <div className="grid md:grid-cols-2 gap-10 items-center">
             {/* LEFT CONTENT */}
             <div>
@@ -40,7 +40,7 @@ export default function page() {
             </div>
 
             {/* RIGHT SIDE */}
-            <div className="relative flex justify-center md:justify-end">
+            <div className="relative flex justify-center md:justify-end ">
               {/* Big FAQ Text */}
               <h3 className="text-[100px] md:text-[160px] lg:text-[200px] creepster-regular text-red-600 opacity-90 leading-none">
                 FAQ
@@ -49,7 +49,7 @@ export default function page() {
           </div>
 
           {/* Bottom FAQ Subtitle */}
-          <div className="mt-10 md:mt-0 md:absolute bottom-16 right-16 text-right">
+          <div className="mt-10 md:mt-0 md:absolute bottom-6 right-16 text-right">
             <h3 className="text-2xl md:text-4xl anton-regular font-bold uppercase">
               Frequently Asked Questions
             </h3>
