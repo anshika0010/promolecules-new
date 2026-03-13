@@ -10,12 +10,11 @@ import ProductDetail from "./ProductDetail";
 
 export default function ProductPage() {
   const [openReview, setOpenReview] = useState(false);
-
   const params = useParams();
+  const slug = params.slug;
 
-  const product = productsData.products.find(
-    (p) => p.slug === params.slug
-  );
+  // Find the product by slug
+  const product = productsData.products.find((p) => p.slug === slug);
 
   if (!product) {
     return <div className="text-white p-10">Product Not Found</div>;
@@ -25,7 +24,11 @@ export default function ProductPage() {
     <div>
       <ProductDetail product={product} />
 
-      <CustomerReviews openModal={() => setOpenReview(true)} />
+      {/* Pass reviews directly from product */}
+      <CustomerReviews
+        reviews={product.reviews}
+        openModal={() => setOpenReview(true)}
+      />
 
       <ReviewModal
         open={openReview}

@@ -53,9 +53,9 @@ Promolecules supplements are for healthy adults and for educational purposes onl
 
             <nav className="flex flex-col gap-3 global-text-style">
               <FooterLink href="/products" label="ESSENTIAL" />
-              <FooterLink href="/productdetailpage" label="PREWORKOUT" />
+              <FooterLink href="/productlist?category=PRE-WORKOUT" label="PREWORKOUT" />
               <FooterLink href="/products" label="FAT BURNER" />
-              <FooterLink href="/productdetailpage" label="PROTEIN" />
+              <FooterLink href="/products" label="PROTEIN" />
               <FooterLink href="/products" label="GAINER" />
               <FooterLink href="/products" label="TEST BOOSTER" />
               <FooterLink href="/merch" label="MERCHANDISE" />
@@ -105,9 +105,9 @@ Promolecules supplements are for healthy adults and for educational purposes onl
             </p>
 
             <div className="flex gap-8 global-text-style">
-              <FooterSmallLink href="/PrivacyPolicy" label="PRIVACY POLICY" />
+              <FooterSmallLink href="/privacy-policy" label="PRIVACY POLICY" />
               <FooterSmallLink
-                href="/TermsConditions"
+                href="/terms-conditions"
                 label="TERMS OF SERVICE"
               />
               <FooterSmallLink href="/cookies-policy" label="COOKIE POLICY" />

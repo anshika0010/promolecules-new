@@ -60,7 +60,222 @@
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ],
+      ], "reviews": [
+    {
+      "id": 1,
+      "name": "Ethan Parker",
+         "rating": 5,
+      "country": "USA",
+      "des": "Been using high stim pres for years. This one surprised me. Half scoop before heavy bench and the neural drive kicked in perfectly."
+    },
+    {
+      "id": 2,
+      "name": "Vikas Chauhan",
+           "rating": 4,
+      "country": "India",
+      "des": "Energy build-up feels controlled. No shaky hands, just solid focus through every set."
+    },
+    {
+      "id": 3,
+      "name": "Marco Bellini",
+      "country": "Italy",
+           "rating": 5,
+      "des": "I train late evenings and usually feel drained. With this pre, motivation and intensity stay high even on leg day."
+    },
+    {
+      "id": 4,
+      "name": "Deepak Rana",
+      "country": "India",
+           "rating": 5,
+      "des": "First time I actually understood what people mean by CNS activation. My deadlift session felt explosive."
+    },
+    {
+      "id": 5,
+      "name": "Oliver Scott",
+      "country": "UK",
+           "rating": 4,
+      "des": "The half scoop protocol makes sense. This formula hits harder than most two-scoop pres."
+    },
+    {
+      "id": 6,
+      "name": "Ravi Mehta",
+      "country": "India",
+      "des": "Focus during compound lifts improved immediately. Feels engineered rather than overloaded."
+    },
+    {
+      "id": 7,
+      "name": "Jason Ward",
+      "country": "USA",
+           "rating": 4,
+      "des": "What impressed me is the clean stimulation. No crash even after a 90-minute session."
+    },
+    {
+      "id": 8,
+      "name": "Abhishek Tripathi",
+      "country": "India",
+           "rating": 4,
+      "des": "Used it before squat day. Strength output stayed consistent till the last set."
+    },
+    {
+      "id": 9,
+      "name": "Nicolas Romero",
+      "country": "Argentina",
+      "des": "This is the first pre workout where the aggression actually feels controlled."
+    },
+    {
+      "id": 10,
+      "name": "Faizan Khan",
+      "country": "UAE",
+           "rating": 5,
+      "des": "Took half scoop before push workout. Energy spike felt smooth and stable."
+    },
+    {
+      "id": 11,
+      "name": "Andrew Foster",
+           "rating": 5,
+      "country": "Australia",
+      "des": "Not beginner friendly but perfect for experienced lifters."
+    },
+    {
+      "id": 12,
+      "name": "Aman Verma",
+      "country": "India",
+           "rating": 5,
+      "des": "Within 20 minutes my mind was fully locked into the workout."
+    },
+    {
+      "id": 13,
+      "name": "Carlos Rivera",
+      "country": "Mexico",
+      "des": "Great focus enhancement during heavy compound lifts."
+    },
+    {
+      "id": 14,
+      "name": "Rahul Thakur",
+      "country": "India",
+           "rating": 4,
+      "des": "Feels stronger than most imported pres I’ve used."
+    },
+    {
+      "id": 15,
+      "name": "Daniel Moore",
+      "country": "USA",
+           "rating": 5,
+      "des": "Energy stays consistent without that caffeine crash."
+    },
+    {
+      "id": 16,
+      "name": "Sanjay Deshmukh",
+      "country": "India",
+           "rating": 5,
+      "des": "Helps break through strength plateaus."
+    },
+    {
+      "id": 17,
+      "name": "Mateo Gonzalez",
+      "country": "Spain",
+           "rating": 4,
+      "des": "Perfect for high intensity training days."
+    },
+    {
+      "id": 18,
+      "name": "Imran Malik",
+      "country": "Pakistan",
+           "rating": 5,
+      "des": "The stimulation feels clean and controlled."
+    },
+    {
+      "id": 19,
+      "name": "Nathan Hughes",
+      "country": "UK",
+           "rating": 5,
+      "des": "Strong formula but not chaotic."
+    },
+    {
+      "id": 20,
+      "name": "Kunal Aggarwal",
+      "country": "India",
+           "rating": 3,
+      "des": "Helps push through the last few sets."
+    },
+    {
+      "id": 21,
+      "name": "Victor Almeida",
+      "country": "Brazil",
+           "rating": 4,
+      "des": "The focus effect is noticeable."
+    },
+    {
+      "id": 22,
+      "name": "Aditya Saxena",
+      "country": "India",
+           "rating": 5,
+      "des": "Makes workouts feel more aggressive."
+    },
+    {
+      "id": 23,
+      "name": "Eric Larson",
+      "country": "USA",
+           "rating": 5,
+      "des": "One of the strongest pres I’ve used."
+    },
+    {
+      "id": 24,
+      "name": "Rahul Khanna",
+      "country": "India",
+                 "rating": 5,
+
+      "des": "Energy stays stable for long workouts."
+    },
+    {
+      "id": 25,
+      "name": "Dmitry Ivanov",
+      "country": "Russia",
+                 "rating": 5,
+
+      "des": "Half scoop already feels powerful."
+    },
+    {
+      "id": 26,
+      "name": "Armaan Sheikh",
+      "country": "India",
+                 "rating": 4,
+
+      "des": "Good stimulation without jitters."
+    },
+    {
+      "id": 27,
+      "name": "Peter Wallace",
+      "country": "Canada",
+                 "rating": 5,
+
+      "des": "Helps maintain intensity."
+    },
+    {
+      "id": 28,
+      "name": "Harshit Arora",
+      "country": "India",
+                 "rating": 4,
+
+      "des": "Perfect for heavy training days."
+    },
+    {
+      "id": 29,
+      "name": "Antonio Ruiz",
+                 "rating": 5,
+
+      "country": "Spain",
+      "des": "Focus stays locked during workouts."
+    },
+    {
+      "id": 30,
+      "name": "Suresh Kumar",
+      "country": "India",
+                 "rating": 5,
+
+      "des": "Strong but balanced formula."
+    }
+  ],
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
@@ -88,6 +303,9 @@
           }
         ]
       }
+
+ 
+ 
     },
 
     {
@@ -151,6 +369,190 @@
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
       ],
+           "reviews": [
+        {
+          "id": 1,
+          "name": "Ryan Carter",
+          
+          "title": "USA",
+          "text": "Been lifting 12 years. Half scoop before deadlifts and my CNS just switched on. Energy curve is smooth and aggression stays controlled through every set."
+        },
+        {
+          "id": 2,
+          "name": "Arjun Mehta",
+          "country": "India",
+          "des": "Most pre workouts in India feel watered down. This one is different. Took half scoop before squat day and the focus was unreal."
+        },
+        {
+          "id": 3,
+          "name": "Daniel Kovacs",
+          "country": "Hungary",
+          "des": "As a powerlifting coach I’m careful with stimulants. Surprisingly this formula gives clean activation without the jittery overload most high-stim products have."
+        },
+        {
+          "id": 4,
+          "name": "Jake Robinson",
+          "country": "UK",
+          "des": "Finally a pre workout that actually respects high stim users. The energy stays locked even during heavy compound sessions."
+        },
+        {
+          "id": 5,
+          "name": "Sandeep Rawat",
+          "country": "India",
+          "des": "Within 20 minutes the switch flipped. Bench session felt aggressive and focused. Didn’t feel that ugly caffeine crash afterwards."
+        },
+        {
+          "id": 6,
+          "name": "Miguel Santos",
+          "country": "Spain",
+          "des": "Tried many high stim formulas but this one feels engineered. My training intensity during leg day increased noticeably."
+        },
+        {
+          "id": 7,
+          "name": "Karan Singh",
+          "country": "India",
+          "des": "I’m usually skeptical about ultra high stim claims. But half scoop before pull day and the neural drive was obvious."
+        },
+        {
+          "id": 8,
+          "name": "Lucas Andrade",
+          "country": "Brazil",
+          "des": "This pre actually helps when training after a long workday. Focus stays sharp even during the last set of compound lifts."
+        },
+        {
+          "id": 9,
+          "name": "Ahmed Rashid",
+          "country": "UAE",
+          "des": "The stimulation curve is surprisingly balanced. Aggression during lifts but mentally still controlled."
+        },
+        {
+          "id": 10,
+          "name": "Tom Gallagher",
+          "country": "Ireland",
+          "des": "Used it before heavy squat session. Muscle activation felt real, not just caffeine buzz."
+        },
+        {
+          "id": 11,
+          "name": "Rahul Verma",
+          "country": "India",
+          "des": "Honestly didn’t expect much. But after 15 minutes my workout intensity went up automatically."
+        },
+        {
+          "id": 12,
+          "name": "Mark Jensen",
+          "country": "Denmark",
+          "des": "This one feels built for serious lifters. Energy output stays stable through long sessions."
+        },
+        {
+          "id": 13,
+          "name": "Omar Hassan",
+          "country": "Egypt",
+          "des": "Strong formula but not chaotic. Focus stays locked during compound lifts."
+        },
+        {
+          "id": 14,
+          "name": "Jason Miller",
+          "country": "USA",
+          "des": "Half scoop protocol makes sense. It’s strong but controlled."
+        },
+        {
+          "id": 15,
+          "name": "Nikhil Sharma",
+          "country": "India",
+          "des": "Deadlift day felt completely different. No mental fatigue between sets."
+        },
+        {
+          "id": 16,
+          "name": "Ben Clarke",
+          "country": "Australia",
+          "des": "Clean stimulation. No jittering hands or anxiety."
+        },
+        {
+          "id": 17,
+          "name": "Aditya Kapoor",
+          "country": "India",
+          "des": "Energy spike is smooth. The aggression helps push through last sets."
+        },
+        {
+          "id": 18,
+          "name": "Carlos Fernandez",
+          "country": "Mexico",
+          "des": "Actually noticed improved endurance during high volume training."
+        },
+        {
+          "id": 19,
+          "name": "Rohit Chauhan",
+          "country": "India",
+          "des": "Training sessions feel longer and more focused."
+        },
+        {
+          "id": 20,
+          "name": "Nathan Brooks",
+          "country": "Canada",
+          "des": "Feels like the formula was designed by someone who actually lifts."
+        },
+        {
+          "id": 21,
+          "name": "Imran Khan",
+          "country": "Pakistan",
+          "des": "Focus improvement was the biggest difference for me."
+        },
+        {
+          "id": 22,
+          "name": "George Martin",
+          "country": "UK",
+          "des": "High stim but surprisingly balanced."
+        },
+        {
+          "id": 23,
+          "name": "Harsh Vardhan",
+          "country": "India",
+          "des": "Compound lifts feel more explosive."
+        },
+        {
+          "id": 24,
+          "name": "Peter Novak",
+          "country": "Slovakia",
+          "des": "Good neural activation before heavy lifts."
+        },
+        {
+          "id": 25,
+          "name": "Arman Qureshi",
+          "country": "India",
+          "des": "Energy remains steady through the workout."
+        },
+        {
+          "id": 26,
+          "name": "Sebastian Cruz",
+          "country": "Chile",
+          "des": "Very strong but manageable stimulation."
+        },
+        {
+          "id": 27,
+          "name": "Jay Patel",
+          "country": "India",
+          "des": "Helps break through training plateaus."
+        },
+        {
+          "id": 28,
+          "name": "Victor Petrov",
+          "country": "Bulgaria",
+          "des": "Not a beginner product but works great for experienced lifters."
+        },
+        {
+          "id": 29,
+          "name": "Daniel Park",
+          "country": "South Korea",
+          "des": "Focus and aggression combination feels perfect."
+        },
+        {
+          "id": 30,
+          "name": "Rakesh Kumar",
+          "country": "India",
+          "des": "Half scoop already feels stronger than most pre workouts."
+        }
+      ],
+   
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
@@ -227,7 +629,188 @@
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ],
+      ],  "reviews": [
+    {
+      "id": 1,
+      "name": "Jason Miller",
+      "country": "USA",
+      "des": "What I like about INOPOWER-R is the clean energy. No caffeine spike, just steady endurance during long hypertrophy sessions."
+    },
+    {
+      "id": 2,
+      "name": "Rahul Verma",
+      "country": "India",
+      "des": "Used this before a back workout and noticed I wasn’t getting tired between sets. Energy felt natural, not overstimulated."
+    },
+    {
+      "id": 3,
+      "name": "Daniel Kovacs",
+      "country": "Hungary",
+      "des": "As someone sensitive to stimulants, this is exactly what I needed. ATP support without caffeine overload."
+    },
+    {
+      "id": 4,
+      "name": "Arjun Mehta",
+      "country": "India",
+      "des": "Stacked it with my pump formula and the endurance increase was obvious. Finished my workout without feeling drained."
+    },
+    {
+      "id": 5,
+      "name": "Carlos Rivera",
+      "country": "Mexico",
+      "des": "Good intra-style energy support. Muscles don’t fatigue as quickly during high-volume training."
+    },
+    {
+      "id": 6,
+      "name": "Sandeep Rawat",
+      "country": "India",
+      "des": "Training late evenings used to be difficult because of caffeine. This gives energy without affecting sleep."
+    },
+    {
+      "id": 7,
+      "name": "Oliver Grant",
+      "country": "UK",
+      "des": "Perfect for athletes who want performance support but avoid high stim products."
+    },
+    {
+      "id": 8,
+      "name": "Imran Khan",
+      "country": "Pakistan",
+      "des": "Endurance during leg day improved. Recovery between sets feels faster."
+    },
+    {
+      "id": 9,
+      "name": "Ryan Brooks",
+      "country": "USA",
+      "des": "Feels like a clean ATP booster. Energy stays stable throughout the session."
+    },
+    {
+      "id": 10,
+      "name": "Vikas Chauhan",
+      "country": "India",
+      "des": "Great for people who train twice a day. No overstimulation, just consistent energy."
+    },
+    {
+      "id": 11,
+      "name": "Mateo Gonzalez",
+      "country": "Spain",
+      "des": "My cardio sessions feel longer and smoother with this."
+    },
+    {
+      "id": 12,
+      "name": "Aman Singh",
+      "country": "India",
+      "des": "Perfect supplement for endurance workouts."
+    },
+    {
+      "id": 13,
+      "name": "Daniel Park",
+      "country": "South Korea",
+      "des": "Focus stays stable without caffeine jitters."
+    },
+    {
+      "id": 14,
+      "name": "Victor Petrov",
+      "country": "Bulgaria",
+      "des": "Stacked it with pre workout and endurance improved."
+    },
+    {
+      "id": 15,
+      "name": "Aditya Sharma",
+      "country": "India",
+      "des": "Muscle fatigue feels reduced during high reps."
+    },
+    {
+      "id": 16,
+      "name": "Nathan Hughes",
+      "country": "UK",
+      "des": "Good energy system support without stimulants."
+    },
+    {
+      "id": 17,
+      "name": "Miguel Santos",
+      "country": "Portugal",
+      "des": "Feels more like metabolic energy rather than stimulation."
+    },
+    {
+      "id": 18,
+      "name": "Rohit Chatterjee",
+      "country": "India",
+      "des": "Perfect before long hypertrophy workouts."
+    },
+    {
+      "id": 19,
+      "name": "Ethan Carter",
+      "country": "USA",
+      "des": "My endurance during compound lifts improved noticeably."
+    },
+    {
+      "id": 20,
+      "name": "Harsh Gupta",
+      "country": "India",
+      "des": "Helps push through long gym sessions."
+    },
+    {
+      "id": 21,
+      "name": "Lucas Andrade",
+      "country": "Brazil",
+      "des": "Energy support feels smooth and natural."
+    },
+    {
+      "id": 22,
+      "name": "Rajeev Menon",
+      "country": "India",
+      "des": "Great for people who avoid caffeine."
+    },
+    {
+      "id": 23,
+      "name": "Kevin Larson",
+      "country": "Canada",
+      "des": "Training intensity stays stable throughout workout."
+    },
+    {
+      "id": 24,
+      "name": "Karan Malhotra",
+      "country": "India",
+      "des": "Helps reduce fatigue during high volume sessions."
+    },
+    {
+      "id": 25,
+      "name": "Omar Hassan",
+      "country": "UAE",
+      "des": "Good stackable energy formula."
+    },
+    {
+      "id": 26,
+      "name": "George Adams",
+      "country": "UK",
+      "des": "Works well for endurance athletes."
+    },
+    {
+      "id": 27,
+      "name": "Akash Sharma",
+      "country": "India",
+      "des": "Perfect for late-night training sessions."
+    },
+    {
+      "id": 28,
+      "name": "Victor Cruz",
+      "country": "Chile",
+      "des": "Improves stamina during workouts."
+    },
+    {
+      "id": 29,
+      "name": "Daniel Novak",
+      "country": "Slovakia",
+      "des": "Clean ATP energy support."
+    },
+    {
+      "id": 30,
+      "name": "Rakesh Kumar",
+      "country": "India",
+      "des": "Great non-stim energy supplement."
+    }
+  ],
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
@@ -340,7 +923,188 @@
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ],
+      ],  "reviews": [
+    {
+      "id": 1,
+      "name": "Jake Reynolds",
+      "country": "USA",
+      "des": "Stacked Hydra Pump with my pre workout and the vascularity during arm day was crazy."
+    },
+    {
+      "id": 2,
+      "name": "Rohit Sharma",
+      "country": "India",
+      "des": "Muscle fullness during chest workout stayed even after finishing the session."
+    },
+    {
+      "id": 3,
+      "name": "Luis Garcia",
+      "country": "Spain",
+      "des": "The hydration mechanism is noticeable. Pumps stay longer without bloating."
+    },
+    {
+      "id": 4,
+      "name": "Arjun Bhatia",
+      "country": "India",
+      "des": "Pump feels dense rather than watery."
+    },
+    {
+      "id": 5,
+      "name": "Daniel White",
+      "country": "UK",
+      "des": "Great non stim pump formula for evening workouts."
+    },
+    {
+      "id": 6,
+      "name": "Rahul Nair",
+      "country": "India",
+      "des": "Muscles stay fuller through the entire workout."
+    },
+    {
+      "id": 7,
+      "name": "Victor Costa",
+      "country": "Brazil",
+      "des": "Arm day pump lasted almost an hour after training."
+    },
+    {
+      "id": 8,
+      "name": "Karan Malhotra",
+      "country": "India",
+      "des": "Works perfectly with high stim pre workouts."
+    },
+    {
+      "id": 9,
+      "name": "Ahmed Karim",
+      "country": "UAE",
+      "des": "Hydration during intense sessions feels improved."
+    },
+    {
+      "id": 10,
+      "name": "Chris Dawson",
+      "country": "USA",
+      "des": "Vascularity increase was noticeable."
+    },
+    {
+      "id": 11,
+      "name": "Sahil Arora",
+      "country": "India",
+      "des": "Pump feels tight and controlled."
+    },
+    {
+      "id": 12,
+      "name": "Mark Davies",
+      "country": "UK",
+      "des": "Stackable formula works well."
+    },
+    {
+      "id": 13,
+      "name": "Rajeev Singh",
+      "country": "India",
+      "des": "Muscle endurance during high volume sets improved."
+    },
+    {
+      "id": 14,
+      "name": "Pedro Lopez",
+      "country": "Mexico",
+      "des": "Great pump product without stimulants."
+    },
+    {
+      "id": 15,
+      "name": "Ankit Jain",
+      "country": "India",
+      "des": "Helps with muscle fullness during hypertrophy workouts."
+    },
+    {
+      "id": 16,
+      "name": "Tom Harris",
+      "country": "Australia",
+      "des": "One of the better hydration pump formulas."
+    },
+    {
+      "id": 17,
+      "name": "Imran Siddiqui",
+      "country": "Pakistan",
+      "des": "No bloating but strong vascular pump."
+    },
+    {
+      "id": 18,
+      "name": "Aditya Raj",
+      "country": "India",
+      "des": "Perfect for pump-focused workouts."
+    },
+    {
+      "id": 19,
+      "name": "Carlos Silva",
+      "country": "Portugal",
+      "des": "Muscle fullness effect noticeable."
+    },
+    {
+      "id": 20,
+      "name": "Rahul Verghese",
+      "country": "India",
+      "des": "Helps during long sessions."
+    },
+    {
+      "id": 21,
+      "name": "Victor Sanchez",
+      "country": "Chile",
+      "des": "Great pre workout stack."
+    },
+    {
+      "id": 22,
+      "name": "Arvind Kumar",
+      "country": "India",
+      "des": "Pump stays consistent through sets."
+    },
+    {
+      "id": 23,
+      "name": "Ben Foster",
+      "country": "UK",
+      "des": "Good volumizing formula."
+    },
+    {
+      "id": 24,
+      "name": "Arjun Gupta",
+      "country": "India",
+      "des": "Works best during arm day."
+    },
+    {
+      "id": 25,
+      "name": "Luis Andrade",
+      "country": "Brazil",
+      "des": "Hydration and pump synergy works well."
+    },
+    {
+      "id": 26,
+      "name": "Rahul Yadav",
+      "country": "India",
+      "des": "Good vascularity boost."
+    },
+    {
+      "id": 27,
+      "name": "George Adams",
+      "country": "USA",
+      "des": "Clean pump formula."
+    },
+    {
+      "id": 28,
+      "name": "Rohit Chatterjee",
+      "country": "India",
+      "des": "Muscles feel fuller during workout."
+    },
+    {
+      "id": 29,
+      "name": "Daniel Novak",
+      "country": "Slovakia",
+      "des": "Great pump without stimulants."
+    },
+    {
+      "id": 30,
+      "name": "Akshay Mehta",
+      "country": "India",
+      "des": "Perfect stack with high stim pre workouts."
+    }
+  ],
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
@@ -413,7 +1177,188 @@
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ],
+      ],  "reviews": [
+    {
+      "id": 1,
+      "name": "David Coleman",
+      "country": "USA",
+      "des": "Using this during my cut phase and the thermogenic response is noticeable. Cardio sessions feel more productive."
+    },
+    {
+      "id": 2,
+      "name": "Rajat Malhotra",
+      "country": "India",
+      "des": "Morning fasted cardio feels easier. Metabolism feels active throughout the day."
+    },
+    {
+      "id": 3,
+      "name": "Luis Martinez",
+      "country": "Spain",
+      "des": "Fat burners rarely work for me but this one actually increases body heat during training."
+    },
+    {
+      "id": 4,
+      "name": "Mohit Yadav",
+      "country": "India",
+      "des": "Energy during calorie deficit is the biggest benefit."
+    },
+    {
+      "id": 5,
+      "name": "Alex Grant",
+      "country": "UK",
+      "des": "Clean thermogenic effect without making me anxious."
+    },
+    {
+      "id": 6,
+      "name": "Rahul Patil",
+      "country": "India",
+      "des": "Helps maintain workout intensity even while dieting."
+    },
+    {
+      "id": 7,
+      "name": "Daniel Perez",
+      "country": "Mexico",
+      "des": "Sweat rate increases during cardio sessions."
+    },
+    {
+      "id": 8,
+      "name": "Siddharth Jain",
+      "country": "India",
+      "des": "Metabolic boost is noticeable during HIIT."
+    },
+    {
+      "id": 9,
+      "name": "Omar Ali",
+      "country": "UAE",
+      "des": "Helps push through low-energy days during cutting."
+    },
+    {
+      "id": 10,
+      "name": "Chris Walker",
+      "country": "USA",
+      "des": "Feels like a metabolic accelerator rather than just caffeine."
+    },
+    {
+      "id": 11,
+      "name": "Kunal Thakur",
+      "country": "India",
+      "des": "Appetite control and clean energy during prep."
+    },
+    {
+      "id": 12,
+      "name": "Victor Santos",
+      "country": "Brazil",
+      "des": "Works well before cardio sessions."
+    },
+    {
+      "id": 13,
+      "name": "James Porter",
+      "country": "UK",
+      "des": "Clean fat burner without crazy jitters."
+    },
+    {
+      "id": 14,
+      "name": "Rohit Das",
+      "country": "India",
+      "des": "Helps maintain focus while cutting calories."
+    },
+    {
+      "id": 15,
+      "name": "Carlos Rivera",
+      "country": "Mexico",
+      "des": "Noticeable thermogenic heat during workouts."
+    },
+    {
+      "id": 16,
+      "name": "Ahmed Farooq",
+      "country": "UAE",
+      "des": "Great addition for morning training."
+    },
+    {
+      "id": 17,
+      "name": "Aditya Menon",
+      "country": "India",
+      "des": "Energy stays steady during diet phase."
+    },
+    {
+      "id": 18,
+      "name": "Mark Lewis",
+      "country": "Canada",
+      "des": "Thermogenic effect is consistent."
+    },
+    {
+      "id": 19,
+      "name": "Rahul Sinha",
+      "country": "India",
+      "des": "Helps push cardio sessions longer."
+    },
+    {
+      "id": 20,
+      "name": "Jake Turner",
+      "country": "Australia",
+      "des": "Clean metabolic energy."
+    },
+    {
+      "id": 21,
+      "name": "Arjun Patel",
+      "country": "India",
+      "des": "Good support for fat loss training."
+    },
+    {
+      "id": 22,
+      "name": "Daniel Costa",
+      "country": "Portugal",
+      "des": "Fat burning effect noticeable during cardio."
+    },
+    {
+      "id": 23,
+      "name": "Sahil Gupta",
+      "country": "India",
+      "des": "Works well during calorie deficit."
+    },
+    {
+      "id": 24,
+      "name": "George Ivanov",
+      "country": "Bulgaria",
+      "des": "Improves training output during cut."
+    },
+    {
+      "id": 25,
+      "name": "Naveen Kumar",
+      "country": "India",
+      "des": "Energy boost without crash."
+    },
+    {
+      "id": 26,
+      "name": "Tom Hughes",
+      "country": "UK",
+      "des": "Balanced thermogenic formula."
+    },
+    {
+      "id": 27,
+      "name": "Imran Sheikh",
+      "country": "Pakistan",
+      "des": "Cardio sessions feel more productive."
+    },
+    {
+      "id": 28,
+      "name": "Miguel Lopez",
+      "country": "Spain",
+      "des": "Clean energy and sweat increase."
+    },
+    {
+      "id": 29,
+      "name": "Akash Sharma",
+      "country": "India",
+      "des": "Helpful for stubborn fat phase."
+    },
+    {
+      "id": 30,
+      "name": "Kevin Hall",
+      "country": "USA",
+      "des": "One of the better thermogenic supplements I’ve used."
+    }
+  ],
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
