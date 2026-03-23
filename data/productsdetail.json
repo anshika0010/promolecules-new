@@ -1,41 +1,150 @@
 {
   "products": [
-    {
+      {
       "id": 1,
       "slug": "father-of-insane",
       "name": "FATHER OF INSANE",
-      "flipkartLink": "https://www.flipkart.com/promolecules-father-insane-ultra-high-stim-5200mg-power-blend-70-serv-half-scoop-35-full-pre-workout/p/itmb96e27fc7e10d?pid=PSLHHF3PGVGCETPU&marketplace=FLIPKART&lid=LSTPSLHHF3PGVGCETPUJQIL9D&q=pre+workout&fm=search-autosuggest&pageUID=1773210750250",
+      "flipkartLink": "https://www.flipkart.com/promolecules-father-insane-ultra-high-stim-5200mg-power-blend-70-serv-half-scoop-35-full-pre-workout/p/itmb96e27fc7e10d",
       "category": "PRE-WORKOUT",
-      "title": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout designed for experienced athletes who demand extreme energy, explosive strength, intense focus, and unstoppable endurance.",
-      "description": "Father of Insane by Promoleculesâ„¢ is an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy, laser-focused concentration, and unmatched endurance.  This intense formula delivers powerful stimulation through its 5200 mg Father of Insane Blend and 450 mg total caffeine, giving you explosive performance every session.  Manufactured in a GMP-certified facility using premium domestic and international ingredients, this pre-workout is designed ONLY for advanced users.",
-
+      "title": "Father of Insane by Promolecules is an ultra high-stimulant pre-workout designed for experienced athletes who demand extreme energy, explosive strength, intense focus, and unstoppable endurance.",
+      "description": "Father of Insane by Promolecules is an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy, laser-focused concentration, and unmatched endurance.",
+      "seo": {
+        "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+        "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+        "canonical": "https://www.promolecules.com/product/father-of-insane/",
+        "og": {
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "type": "website",
+          "image": "https://www.promolecules.com/promolecules-logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "url": "https://www.promolecules.com/product/father-of-insane/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "image": "https://www.promolecules.com/promolecules-logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/father-of-insane/",
+          "logo": "https://www.promolecules.com/promolecules-logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
+        }
+      },
       "images": [
-        "/Promolecules/fatherofinsane/frontside.png",
+        "/Promolecules/fatherofinsane/frontside.webp",
         "/Promolecules/fatherofinsane/backside.webp",
-        "/Promolecules/fatherofinsane2.jpeg",
+        "/Promolecules/fatherofinsane2.webp",
         "/Promolecules/fatherofinsane/father-of-insan-supplement-fact.webp"
       ],
+"variants": [
+  {"flavour":"Fruit-Punch",
+   "size": "35",
+   "price": 41.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Fruit-Punch",
+ "size": "65",
+  "price": 59.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+   "size": "35",
+   "price": 41.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+ "size": "65",
+  "price": 59.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+   "size": "35",
+   "price": 41.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+ "size": "65",
+  "price": 59.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+      {"flavour":"Purple-Pulse",
+   "size": "35",
+   "price": 41.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Purple-Pulse",
+ "size": "65",
+  "price": 59.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
+  }
+],
+
       "price": "43",
       "discounted": "41.2",
+      "servings": [
+        {
+          "size": "35",
+          "price": 41.99
+        },
+        {
+          "size": "65",
+          "price": 59.99
+        }
+      ],
       "flavours": [
         {
           "name": "Fruit Punch",
-          "images": ["/Promolecules/fatherofinsane/fruitpunch.png"]
+          "images": [
+            "/Promolecules/fatherofinsane/fruitpunch.webp"
+          ]
         },
         {
           "name": "Gummy Bliss",
-          "images": ["/Promolecules/fatherofinsane/gummybliss.png"]
+          "images": [
+            "/Promolecules/fatherofinsane/gummybliss.webp"
+          ]
         },
         {
           "name": "Purple Pulse Gummies",
-          "images": ["/Promolecules/fatherofinsane/purplepulsegummies.png"]
+          "images": [
+            "/Promolecules/fatherofinsane/purplepulsegummies.webp"
+          ]
         },
         {
           "name": "Blue Raspberry",
-          "images": ["/Promolecules/fatherofinsane/blueraspberry.png"]
+          "images": [
+            "/Promolecules/fatherofinsane/blueraspberry.webp"
+          ]
         }
       ],
-
       "keyBenefits": [
         "Extreme Energy Boost",
         "Laser-Sharp Focus",
@@ -44,7 +153,6 @@
         "Supports Endurance",
         "Helps Improve Workout Performance"
       ],
-
       "whychooseus": [
         "Supports muscle growth and recovery",
         "Helps improve strength and performance",
@@ -52,231 +160,13 @@
         "Supports lean muscle development",
         "Helps meet daily protein intake"
       ],
-
       "howToUse": "Mix 1 scoop (30g) with 200-250ml of water or milk. Consume after workout or as recommended by a healthcare professional.",
-
       "whatToAvoid": [
         "Do not exceed the recommended dosage",
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ], "reviews": [
-    {
-      "id": 1,
-      "name": "Ethan Parker",
-         "rating": 5,
-      "country": "USA",
-      "des": "Been using high stim pres for years. This one surprised me. Half scoop before heavy bench and the neural drive kicked in perfectly."
-    },
-    {
-      "id": 2,
-      "name": "Vikas Chauhan",
-           "rating": 4,
-      "country": "India",
-      "des": "Energy build-up feels controlled. No shaky hands, just solid focus through every set."
-    },
-    {
-      "id": 3,
-      "name": "Marco Bellini",
-      "country": "Italy",
-           "rating": 5,
-      "des": "I train late evenings and usually feel drained. With this pre, motivation and intensity stay high even on leg day."
-    },
-    {
-      "id": 4,
-      "name": "Deepak Rana",
-      "country": "India",
-           "rating": 5,
-      "des": "First time I actually understood what people mean by CNS activation. My deadlift session felt explosive."
-    },
-    {
-      "id": 5,
-      "name": "Oliver Scott",
-      "country": "UK",
-           "rating": 4,
-      "des": "The half scoop protocol makes sense. This formula hits harder than most two-scoop pres."
-    },
-    {
-      "id": 6,
-      "name": "Ravi Mehta",
-      "country": "India",
-      "des": "Focus during compound lifts improved immediately. Feels engineered rather than overloaded."
-    },
-    {
-      "id": 7,
-      "name": "Jason Ward",
-      "country": "USA",
-           "rating": 4,
-      "des": "What impressed me is the clean stimulation. No crash even after a 90-minute session."
-    },
-    {
-      "id": 8,
-      "name": "Abhishek Tripathi",
-      "country": "India",
-           "rating": 4,
-      "des": "Used it before squat day. Strength output stayed consistent till the last set."
-    },
-    {
-      "id": 9,
-      "name": "Nicolas Romero",
-      "country": "Argentina",
-      "des": "This is the first pre workout where the aggression actually feels controlled."
-    },
-    {
-      "id": 10,
-      "name": "Faizan Khan",
-      "country": "UAE",
-           "rating": 5,
-      "des": "Took half scoop before push workout. Energy spike felt smooth and stable."
-    },
-    {
-      "id": 11,
-      "name": "Andrew Foster",
-           "rating": 5,
-      "country": "Australia",
-      "des": "Not beginner friendly but perfect for experienced lifters."
-    },
-    {
-      "id": 12,
-      "name": "Aman Verma",
-      "country": "India",
-           "rating": 5,
-      "des": "Within 20 minutes my mind was fully locked into the workout."
-    },
-    {
-      "id": 13,
-      "name": "Carlos Rivera",
-      "country": "Mexico",
-      "des": "Great focus enhancement during heavy compound lifts."
-    },
-    {
-      "id": 14,
-      "name": "Rahul Thakur",
-      "country": "India",
-           "rating": 4,
-      "des": "Feels stronger than most imported pres I’ve used."
-    },
-    {
-      "id": 15,
-      "name": "Daniel Moore",
-      "country": "USA",
-           "rating": 5,
-      "des": "Energy stays consistent without that caffeine crash."
-    },
-    {
-      "id": 16,
-      "name": "Sanjay Deshmukh",
-      "country": "India",
-           "rating": 5,
-      "des": "Helps break through strength plateaus."
-    },
-    {
-      "id": 17,
-      "name": "Mateo Gonzalez",
-      "country": "Spain",
-           "rating": 4,
-      "des": "Perfect for high intensity training days."
-    },
-    {
-      "id": 18,
-      "name": "Imran Malik",
-      "country": "Pakistan",
-           "rating": 5,
-      "des": "The stimulation feels clean and controlled."
-    },
-    {
-      "id": 19,
-      "name": "Nathan Hughes",
-      "country": "UK",
-           "rating": 5,
-      "des": "Strong formula but not chaotic."
-    },
-    {
-      "id": 20,
-      "name": "Kunal Aggarwal",
-      "country": "India",
-           "rating": 3,
-      "des": "Helps push through the last few sets."
-    },
-    {
-      "id": 21,
-      "name": "Victor Almeida",
-      "country": "Brazil",
-           "rating": 4,
-      "des": "The focus effect is noticeable."
-    },
-    {
-      "id": 22,
-      "name": "Aditya Saxena",
-      "country": "India",
-           "rating": 5,
-      "des": "Makes workouts feel more aggressive."
-    },
-    {
-      "id": 23,
-      "name": "Eric Larson",
-      "country": "USA",
-           "rating": 5,
-      "des": "One of the strongest pres I’ve used."
-    },
-    {
-      "id": 24,
-      "name": "Rahul Khanna",
-      "country": "India",
-                 "rating": 5,
-
-      "des": "Energy stays stable for long workouts."
-    },
-    {
-      "id": 25,
-      "name": "Dmitry Ivanov",
-      "country": "Russia",
-                 "rating": 5,
-
-      "des": "Half scoop already feels powerful."
-    },
-    {
-      "id": 26,
-      "name": "Armaan Sheikh",
-      "country": "India",
-                 "rating": 4,
-
-      "des": "Good stimulation without jitters."
-    },
-    {
-      "id": 27,
-      "name": "Peter Wallace",
-      "country": "Canada",
-                 "rating": 5,
-
-      "des": "Helps maintain intensity."
-    },
-    {
-      "id": 28,
-      "name": "Harshit Arora",
-      "country": "India",
-                 "rating": 4,
-
-      "des": "Perfect for heavy training days."
-    },
-    {
-      "id": 29,
-      "name": "Antonio Ruiz",
-                 "rating": 5,
-
-      "country": "Spain",
-      "des": "Focus stays locked during workouts."
-    },
-    {
-      "id": 30,
-      "name": "Suresh Kumar",
-      "country": "India",
-                 "rating": 5,
-
-      "des": "Strong but balanced formula."
-    }
-  ],
-
+      ],
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
         "servingsPerContainer": "30",
@@ -302,10 +192,190 @@
             "amount": "5.5g"
           }
         ]
-      }
-
- 
- 
+      },
+     "reviews": [
+        {
+          "id": 1,
+          "name": "Ryan Carter",
+          
+          "title": "USA",
+          "text": "Been lifting 12 years. Half scoop before deadlifts and my CNS just switched on. Energy curve is smooth and aggression stays controlled through every set."
+        },
+        {
+          "id": 2,
+          "name": "Arjun Mehta",
+          "country": "India",
+          "des": "Most pre workouts in India feel watered down. This one is different. Took half scoop before squat day and the focus was unreal."
+        },
+        {
+          "id": 3,
+          "name": "Daniel Kovacs",
+          "country": "Hungary",
+          "des": "As a powerlifting coach I’m careful with stimulants. Surprisingly this formula gives clean activation without the jittery overload most high-stim products have."
+        },
+        {
+          "id": 4,
+          "name": "Jake Robinson",
+          "country": "UK",
+          "des": "Finally a pre workout that actually respects high stim users. The energy stays locked even during heavy compound sessions."
+        },
+        {
+          "id": 5,
+          "name": "Sandeep Rawat",
+          "country": "India",
+          "des": "Within 20 minutes the switch flipped. Bench session felt aggressive and focused. Didn’t feel that ugly caffeine crash afterwards."
+        },
+        {
+          "id": 6,
+          "name": "Miguel Santos",
+          "country": "Spain",
+          "des": "Tried many high stim formulas but this one feels engineered. My training intensity during leg day increased noticeably."
+        },
+        {
+          "id": 7,
+          "name": "Karan Singh",
+          "country": "India",
+          "des": "I’m usually skeptical about ultra high stim claims. But half scoop before pull day and the neural drive was obvious."
+        },
+        {
+          "id": 8,
+          "name": "Lucas Andrade",
+          "country": "Brazil",
+          "des": "This pre actually helps when training after a long workday. Focus stays sharp even during the last set of compound lifts."
+        },
+        {
+          "id": 9,
+          "name": "Ahmed Rashid",
+          "country": "UAE",
+          "des": "The stimulation curve is surprisingly balanced. Aggression during lifts but mentally still controlled."
+        },
+        {
+          "id": 10,
+          "name": "Tom Gallagher",
+          "country": "Ireland",
+          "des": "Used it before heavy squat session. Muscle activation felt real, not just caffeine buzz."
+        },
+        {
+          "id": 11,
+          "name": "Rahul Verma",
+          "country": "India",
+          "des": "Honestly didn’t expect much. But after 15 minutes my workout intensity went up automatically."
+        },
+        {
+          "id": 12,
+          "name": "Mark Jensen",
+          "country": "Denmark",
+          "des": "This one feels built for serious lifters. Energy output stays stable through long sessions."
+        },
+        {
+          "id": 13,
+          "name": "Omar Hassan",
+          "country": "Egypt",
+          "des": "Strong formula but not chaotic. Focus stays locked during compound lifts."
+        },
+        {
+          "id": 14,
+          "name": "Jason Miller",
+          "country": "USA",
+          "des": "Half scoop protocol makes sense. It’s strong but controlled."
+        },
+        {
+          "id": 15,
+          "name": "Nikhil Sharma",
+          "country": "India",
+          "des": "Deadlift day felt completely different. No mental fatigue between sets."
+        },
+        {
+          "id": 16,
+          "name": "Ben Clarke",
+          "country": "Australia",
+          "des": "Clean stimulation. No jittering hands or anxiety."
+        },
+        {
+          "id": 17,
+          "name": "Aditya Kapoor",
+          "country": "India",
+          "des": "Energy spike is smooth. The aggression helps push through last sets."
+        },
+        {
+          "id": 18,
+          "name": "Carlos Fernandez",
+          "country": "Mexico",
+          "des": "Actually noticed improved endurance during high volume training."
+        },
+        {
+          "id": 19,
+          "name": "Rohit Chauhan",
+          "country": "India",
+          "des": "Training sessions feel longer and more focused."
+        },
+        {
+          "id": 20,
+          "name": "Nathan Brooks",
+          "country": "Canada",
+          "des": "Feels like the formula was designed by someone who actually lifts."
+        },
+        {
+          "id": 21,
+          "name": "Imran Khan",
+          "country": "Pakistan",
+          "des": "Focus improvement was the biggest difference for me."
+        },
+        {
+          "id": 22,
+          "name": "George Martin",
+          "country": "UK",
+          "des": "High stim but surprisingly balanced."
+        },
+        {
+          "id": 23,
+          "name": "Harsh Vardhan",
+          "country": "India",
+          "des": "Compound lifts feel more explosive."
+        },
+        {
+          "id": 24,
+          "name": "Peter Novak",
+          "country": "Slovakia",
+          "des": "Good neural activation before heavy lifts."
+        },
+        {
+          "id": 25,
+          "name": "Arman Qureshi",
+          "country": "India",
+          "des": "Energy remains steady through the workout."
+        },
+        {
+          "id": 26,
+          "name": "Sebastian Cruz",
+          "country": "Chile",
+          "des": "Very strong but manageable stimulation."
+        },
+        {
+          "id": 27,
+          "name": "Jay Patel",
+          "country": "India",
+          "des": "Helps break through training plateaus."
+        },
+        {
+          "id": 28,
+          "name": "Victor Petrov",
+          "country": "Bulgaria",
+          "des": "Not a beginner product but works great for experienced lifters."
+        },
+        {
+          "id": 29,
+          "name": "Daniel Park",
+          "country": "South Korea",
+          "des": "Focus and aggression combination feels perfect."
+        },
+        {
+          "id": 30,
+          "name": "Rakesh Kumar",
+          "country": "India",
+          "des": "Half scoop already feels stronger than most pre workouts."
+        }
+      ]
     },
 
     {
@@ -314,33 +384,130 @@
       "flipkartLink": "https://www.flipkart.com/promolecules-warflex-high-stim-pre-workout-caffeine-strength-pump-focus-formula-35-servings/p/itm1370dc643500c?pid=PSLHKNVKCWGH6HRK&lid=LSTPSLHKNVKCWGH6HRKJSOMI5&marketplace=FLIPKART&q=pre+workout&store=hlc%2Fetg%2F1rx&srno=s_1_2&otracker=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&otracker1=AS_QueryStore_OrganicAutoSuggest_1_4_na_na_ps&fm=search-autosuggest&iid=2cd50d19-31e4-49cf-88e6-9e5c626e5239.PSLHKNVKCWGH6HRK.SEARCH&ppt=sp&ppn=sp&ssid=xf9ii1ed8w0000001773210715220&qH=8946701866792c7a&ov_redirect=true&ov_redirect=true",
       "category": "PRE-WORKOUT",
       "name": "WARFLEX",
-      "title": "WARFLEX is a powerful high-stimulant pre-workout with Boron Citrate designed for advanced serious lifters seeking extreme energy, laser focus, explosive strength, and boosted performance for 8â€“10 hours.",
-      "description": "WARFLEX by Promolecules is a high-stimulant, performance-enhancing pre-workout engineered for athletes who want extreme energy, tunnel-vision focus, powerful pumps, and explosive strength.  Fortified with Boron Citrate and a premium combination of stimulants, pump enhancers, nootropics, and endurance-support compounds, WARFLEXâ„¢ delivers a next-level training experience lasting up to 8â€“10 hours.  With 35 & 65 intense servings, it is formulated for advanced users who push beyond limits in every session.",
+      "title": "WARFLEX is a powerful high-stimulant pre-workout with Boron Citrate designed for advanced serious lifters seeking extreme energy, laser focus, explosive strength, and boosted performance for 8-10 hours.",
+      "description": "WARFLEX by Promolecules is a high-stimulant, performance-enhancing pre-workout engineered for athletes who want extreme energy, tunnel-vision focus, powerful pumps, and explosive strength.  Fortified with Boron Citrate and a premium combination of stimulants, pump enhancers, nootropics, and endurance-support compounds, WARFLEXâ„¢ delivers a next-level training experience lasting up to 8-10 hours.  With 35 & 65 intense servings, it is formulated for advanced users who push beyond limits in every session.",
+          "seo": {
+        "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+        "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+        "canonical": "https://www.promolecules.com/product/father-of-insane/",
+        "og": {
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "type": "website",
+          "image": "https://www.promolecules.com/promolecules-logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "url": "https://www.promolecules.com/product/father-of-insane/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/father-of-insane/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
+        }
+      },
       "price": "43",
       "discounted": "41.2",
       "images": [
-        "/Promolecules/warflex/promolecules-warflex-pre-workout.webp",
-        "/Promolecules/warflex/backside.png",
-        "/Promolecules/warflex3.jpeg",
+        "/Promolecules/warflexnew/promolecules-warflex-pre-workout_11zon.webp",
+        "/Promolecules/warflexnew/promolecules-warflex-supplements_11zon.webp",
+        "/Promolecules/warflex3.webp",
 
-        "/Promolecules/supplementfactwarflex.jpeg"
+        "/Promolecules/warflexnew/warflex-65-serving-supplement-facts.webp"
       ],
+      "variants": [
+  {"flavour":"Fruit-Punch",
+   "size": "35",
+   "price": 41.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Fruit-Punch",
+ "size": "65",
+  "price": 59.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+   "size": "35",
+   "price": 41.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+ "size": "65",
+  "price": 59.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+   "size": "35",
+   "price": 41.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+ "size": "65",
+  "price": 59.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+      {"flavour":"Purple-Pulse",
+   "size": "35",
+   "price": 41.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Purple-Pulse",
+ "size": "65",
+  "price": 59.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
+  }
+],
+      "servings": [
+  { "size": "35", "price": 37.99 },
+  { "size": "65", "price": 55.99 }
+],
+
       "flavours": [
         {
-          "name": "Blue Rasberry",
-          "images": ["/Promolecules/warflex/blueraspberry.png"]
+          "name": "Raspberry",
+          "images": ["/Promolecules/warflexnew/blue-rasberry-warflex-pre-workout-35-Servings_11zon.webp"]
         },
         {
           "name": "Purple Pulse Gummies",
-          "images": ["/Promolecules/warflex/warflexgrapes.jpeg"]
+          "images": ["/Promolecules/warflexnew/purple-pulse-gummies-warflex-pre-workout-35-Servings_11zon.webp"]
         },
         {
           "name": "Gummies",
-          "images": ["/Promolecules/warflex/warflexgummycandy.jpeg"]
+          "images": ["/Promolecules/warflexnew/gummies-candy-warflex-pre-workout-35-Servings.webp"]
         },
         {
           "name": "Fruit Punch",
-          "images": ["/Promolecules/warflex/warflexfruit.jpeg"]
+          "images": ["/Promolecules/warflexnew/fruit-punch-warflex-pre-workout-35-Servings_11zon.webp"]
         }
       ],
 
@@ -584,20 +751,117 @@
 
     {
       "id": 3,
-      "slug": "inpoer-r",
+      "slug": "inopower-r",
 
       "name": "INOPOWER-R",
       "category": "FAT BURNER",
       "title": "Inopower-R is a Russian-inspired ATP-boosting formula designed to maximize energy production, minimize fatigue, and elevate athletic performance.",
-      "description": "Inopower-Râ„¢ by Promoleculesâ„¢ is a Russian-inspired performance formula created to dramatically enhance ATP production, reduce fatigue, and elevate overall athletic output. It provides energy-support nutrients that help the body produce more cellular energy, improving strength, stamina, training capacity, and recovery. Designed for athletes seeking a powerful endurance-enhancing supplement.",
+      "description": "Inopower-R by Promolecules is a Russian-inspired performance formula created to dramatically enhance ATP production, reduce fatigue, and elevate overall athletic output. It provides energy-support nutrients that help the body produce more cellular energy, improving strength, stamina, training capacity, and recovery. Designed for athletes seeking a powerful endurance-enhancing supplement.",
+          "seo": {
+        "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+        "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+        "canonical": "https://www.promolecules.com/product/father-of-insane/",
+        "og": {
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "type": "website",
+          "image": "https://www.promolecules.com/promolecules-logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "url": "https://www.promolecules.com/product/father-of-insane/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/father-of-insane/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
+        }
+      },
+      "variants": [
+  {"flavour":"Fruit-Punch",
+   "size": "35",
+   "price": 41.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Fruit-Punch",
+ "size": "65",
+  "price": 59.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+   "size": "35",
+   "price": 41.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+ "size": "65",
+  "price": 59.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+   "size": "35",
+   "price": 41.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+ "size": "65",
+  "price": 59.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+      {"flavour":"Purple-Pulse",
+   "size": "35",
+   "price": 41.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Purple-Pulse",
+ "size": "65",
+  "price": 59.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
+  }
+],
       "price": "43",
       "discounted": "41.2",
       "images": [
-        "/Promolecules/inopower1.jpeg",
-        "/Promolecules/inopower2.jpeg",
+        "/Promolecules/inopower1.webp",
+        "/Promolecules/inopower2.webp",
         "/Promolecules/inpower3/promolecules-inpower-r-supplement.webp",
-        "/Promolecules/inpower3/promolecules-inpower-r-supplement-fact.jpeg"
+        "/Promolecules/inpower3/promolecules-inpower-r-supplement-fact.webp"
       ],
+          "servings": [
+   { "size": "120 capsules", "price": 45.99}
+
+],
+
       "flavours": [
         {
           "name": "Unfavoured",
@@ -848,14 +1112,111 @@
       "category": "PRE-WORKOUT",
       "title": "HydraPump+ is a liquid hydration and muscle pump formula featuring Liquid Glycerol, Citrulline Malate, and electrolytes for enhanced endurance, pumps, and fluid balance.",
       "description": "HydraPump+ by Promolecules Essential is a rapid hydration and explosive pump formula designed for athletes, lifters, and endurance performers. Powered by Liquid Glycerol, Citrulline Malate, and high-quality electrolytes (Sodium, Magnesium, Potassium), this formula helps retain fluid in muscles, improve blood flow, enhance pumps, and delay dehydration. Ideal for long training sessions, endurance events, and pump-focused workouts.",
+          "seo": {
+        "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+        "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+        "canonical": "https://www.promolecules.com/product/father-of-insane/",
+        "og": {
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "type": "website",
+          "image": "https://www.promolecules.com/logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "url": "https://www.promolecules.com/product/father-of-insane/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/father-of-insane/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
+        }
+      },
+      "variants": [
+  {"flavour":"Fruit-Punch",
+   "size": "35",
+   "price": 41.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Fruit-Punch",
+ "size": "65",
+  "price": 59.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+   "size": "35",
+   "price": 41.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+ "size": "65",
+  "price": 59.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+   "size": "35",
+   "price": 41.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+ "size": "65",
+  "price": 59.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+      {"flavour":"Purple-Pulse",
+   "size": "35",
+   "price": 41.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Purple-Pulse",
+ "size": "65",
+  "price": 59.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
+  }
+],
       "price": "43",
       "discounted": "41.2",
       "images": [
         "/Promolecules/hydrapump2/fruitpunch.webp",
         "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp",
-        "/Promolecules/hydrapump2/hydrapump1.jpeg",
-        "/Promolecules/hydrapump2/hydrapumpsupplement.jpeg"
+        "/Promolecules/hydrapump2/hydrapump1.webp",
+        "/Promolecules/hydrapump2/hydrapumpsupplement.webp"
       ],
+          "servings": [
+  { "size": "31", "price": 48.99 }
+
+],
+
       "flavours": [
         {
           "name": "Mint Mojito",
@@ -1140,17 +1501,113 @@
 
       "name": "THERMO NUKE XT ",
       "category": "FAT BURNER",
-      "title": "Thermo Nuke XTâ„¢ is an ultra-high potency thermogenic fat destroyer engineered for advanced users seeking extreme fat loss, explosive energy, and intense focus. Not for beginners.",
-      "description": "Thermo Nuke XT by Promoleculesâ„¢ is the strongest fat-destroying thermogenic formulated only for advanced users.  Powered by a 650 mg Nuke Thermo XT Blend, this supplement rapidly increases metabolism, elevates body temperature, boosts energy, and accelerates fat oxidation.  With patented ingredients like CitraSyn 50, 2XCAFF, and GBBxt, this formula is engineered to deliver extreme fat loss results while providing unstoppable focus and endurance.  Manufactured in a high-quality environment, Thermo Nuke XT is designed for athletes and experienced individuals aiming to shred fat aggressively.",
-      "price": "43",
+      "title": "Thermo Nuke XT is an ultra-high potency thermogenic fat destroyer engineered for advanced users seeking extreme fat loss, explosive energy, and intense focus. Not for beginners.",
+      "description": "Thermo Nuke XT by Promolecules is the strongest fat-destroying thermogenic formulated only for advanced users.  Powered by a 650 mg Nuke Thermo XT Blend, this supplement rapidly increases metabolism, elevates body temperature, boosts energy, and accelerates fat oxidation.  With patented ingredients like CitraSyn 50, 2XCAFF, and GBBxt, this formula is engineered to deliver extreme fat loss results while providing unstoppable focus and endurance.  Manufactured in a high-quality environment, Thermo Nuke XT is designed for athletes and experienced individuals aiming to shred fat aggressively.",
+         "seo": {
+        "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+        "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+        "canonical": "https://www.promolecules.com/product/father-of-insane/",
+        "og": {
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "type": "website",
+          "image": "https://www.promolecules.com/logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "url": "https://www.promolecules.com/product/father-of-insane/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ Father of Insane - Ultra High Stimulant Pre Workout",
+          "description": "Buy Father of Insane ultra high stimulant Pre Workout by Promolecules™. Get extreme energy, focus, strength & endurance. Perfect for advanced athletes. Order now.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/father-of-insane/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
+        }
+      },
+      "variants": [
+  {"flavour":"Fruit-Punch",
+   "size": "35",
+   "price": 41.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Fruit-Punch",
+ "size": "65",
+  "price": 59.99,
+   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+   "size": "35",
+   "price": 41.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Gummies-Bliss",
+ "size": "65",
+  "price": 59.99,
+   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+   "size": "35",
+   "price": 41.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Blue-Rasberry",
+ "size": "65",
+  "price": 59.99,
+   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
+  },
+      {"flavour":"Purple-Pulse",
+   "size": "35",
+   "price": 41.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
+  },
+    {"flavour":"Purple-Pulse",
+ "size": "65",
+  "price": 59.99,
+   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
+  }
+],
       "discounted": "41.2",
       "images": [
-        "/Promolecules/thermo2.jpeg",
+        "/Promolecules/thermo2.webp",
 
-        "/Promolecules/thermo1.jpeg",
+        "/Promolecules/thermo1.webp",
         "/Promolecules/thermo/promolecules-thermo-nuke-xt-fat-loss-supplement.webp",
-        "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.jpeg"
+        "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.webp"
       ],
+          "servings": [
+  { "size": "60 capsules", "price": 35.99 }
+
+],
+
       "flavours": [],
 
       "keyBenefits": [

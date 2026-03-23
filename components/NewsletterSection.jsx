@@ -38,7 +38,7 @@ const NewsletterSection = () => {
           width={220}
           height={80}
           className="w-36 sm:w-48 lg:w-[200px] h-auto"
-          priority
+     
         />
       </div>
 

@@ -37,13 +37,13 @@ export default function MoreInformationSection() {
 
   return (
     
-    <section className="relative w-full min-h-[50vh] lg:min-h-[50vh] flex items-center justify-center overflow-hidden">
+    <section className="relative max-auto-7xl mx-auto min-h-[50vh] lg:min-h-[50vh] flex items-center justify-center overflow-hidden">
       {/* Background */}
       <Image
         src="/dark-candle.webp"
         alt="Background"
         fill
-        priority
+   
         className="object-cover"
       />
       {/* Overlay */}
@@ -53,8 +53,8 @@ export default function MoreInformationSection() {
         {/* LEFT IMAGE */}
         <div className="relative w-full lg:w-1/2  h-[280px] sm:h-[350px] md:h-[450px] lg:h-[500px]  rounded-xl overflow-hidden shadow-2xl">
           <Image
-            src="/body.png"
-            alt="Gym Athlete"
+            src="/promolecules-background.webp"
+            alt="promolecules-background"
             fill
             className="object-cover"
           />

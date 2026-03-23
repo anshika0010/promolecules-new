@@ -5,41 +5,24 @@ import TrendingCategory from "@/components/TrendingCategory";
 import UltraHighPerformanceSection from "@/components/UltraHighPerformanceSection";
 import WarningTape from "@/components/WarningTape";
 import WhoWeAreSection from "@/components/WhoWeAreSection";
+import { getSEOMetadata, getJSONLD } from "@/lib/seo";
 
-export const metadata = {
-  title: "Promolecules | Premium Preworkout & Supplements",
-  description:
-    "Buy high-performance pre workout supplements created by the makers of Warflex. Premium sports nutrition available online in UAE, Russia, India and worldwide at the best prices.",
-  metadataBase: new URL("https://www.promolecules.com"),
-  alternates: {
-    canonical: "/",
-  },
-  openGraph: {
-    title: "Promolecules | Premium Preworkout & Supplements",
-    description:
-      "Buy high-performance pre workout supplements created by the makers of Warflex.",
-    url: "https://www.promolecules.com/",
-    siteName: "Promolecules",
-    images: [
-      {
-        url: "https://www.promolecules.com/logo.png",
-      },
-    ],
-    locale: "en_US",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Promolecules | Premium Preworkout & Supplements",
-    description:
-      "Buy high-performance pre workout supplements created by the makers of Warflex.",
-    images: ["https://www.promolecules.com/logo.png"],
-  },
-};
+// ✅ Yeh Next.js automatically <head> mein inject kar deta hai
+export const metadata = getSEOMetadata("home");
 
 export default function Home() {
+  const jsonld = getJSONLD("home");
+
   return (
     <>
+      {/* ✅ JSON-LD Structured Data (Google ke liye) */}
+      {jsonld && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonld }}
+        />
+      )}
+
       <HeroSlider />
       <WhoWeAreSection />
       <UltraHighPerformanceSection />

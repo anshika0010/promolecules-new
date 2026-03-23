@@ -1,13 +1,5 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /
+RewriteEngine On
 
-  # Redirect non-www → www
-  RewriteCond %{HTTP_HOST} !^www\. [NC]
-  RewriteRule ^(.*)$ https://www.%{HTTP_HOST}/$1 [L,R=301]
-
-  # React Router support
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^ index.html [L]
-</IfModule>
+# Redirect non-www to www
+RewriteCond %{HTTP_HOST} ^promolecules\.com$ [NC]
+RewriteRule ^ https://www.promolecules.com%{REQUEST_URI} [L,R=301]

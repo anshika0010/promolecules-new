@@ -4,7 +4,7 @@ import { DollarSign, ShoppingCart, ArrowUpRight } from "lucide-react";
 const DomesticDistributorHero = () => {
   return (
     <>
-    <section className="relative w-full h-[300px] md:h-[400px] bg-black overflow-hidden">
+    <section className="relative max-w-7xl mx-auto h-[300px] md:h-[400px] bg-black overflow-hidden">
       
       {/* Background Overlay (Optional gradient for depth) */}
       <div className="absolute inset-0 bg-gradient-to-r from-black via-black/90 to-black/70"></div>
@@ -42,8 +42,6 @@ const DomesticDistributorHero = () => {
      
     <section className="relative w-full min-h-[350px] bg-black text-white overflow-hidden">
       
-      {/* Background Texture Overlay */}
-      <div className="absolute inset-0 bg-[url('/texture.png')] bg-cover bg-center opacity-20"></div>
 
       <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 gap-10 px-6 md:px-20 py-12">
         
@@ -106,9 +104,6 @@ const DomesticDistributorHero = () => {
      
     <section className="relative w-full bg-black text-white py-20 overflow-hidden">
       
-      {/* Background Texture */}
-      <div className="absolute inset-0 bg-[url('/dark-texture.jpg')] bg-cover bg-center opacity-20"></div>
-
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
 
         {/* ================= TOP SECTION ================= */}
@@ -131,7 +126,7 @@ const DomesticDistributorHero = () => {
 
         {/* ================= ICON SECTION ================= */}
 
-        <div className="mt-20 space-y-16">
+        <div className="mt-4 space-y-16">
 
           {/* Prices Tailored */}
           <div>

@@ -3,7 +3,7 @@
 import ContactForm from "@/components/ContactForm";
 import React, { useState } from "react";
 
-export default function AboutheroSection() {
+export default function ContactheroSection() {
 
 
 
@@ -12,15 +12,15 @@ export default function AboutheroSection() {
     <>
       {/* HERO SECTION */}
       <section
-        className="relative min-h-[50vh] lg:min-h-[50vh] w-full bg-cover bg-center flex items-center py-16 mt-6 md:py-0"
+        className="relative max-w-7xl mx-auto bg-cover bg-center flex items-center py-16 mt-6 md:py-0"
         style={{ backgroundImage: "url('/candle.webp')" }}
       >
         <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 w-full">
 
-          <h1 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl creepster-regular uppercase leading-tight">
+          <h4 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl creepster-regular uppercase leading-tight">
             <span className="text-gray-200">Get In </span>
             <span className="text-red-600">Touch</span>
-          </h1>
+          </h4>
 
           <div className="mt-6">
             <h2 className="text-gray-300 text-lg sm:text-2xl md:text-4xl lg:text-5xl font-bold anton-regular break-all">

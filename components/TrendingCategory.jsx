@@ -8,35 +8,35 @@ const categories = [
   {
     title: "PRE-WORKOUT",
     desc: "Engineered stimulation systems designed to activate CNS, sharpen focus, and sustain strength output. Built for athletes who demand controlled intensity, not random caffeine spikes or underdosed performance formulas.",
-    image: "/product1.png",
-    hoverImage: "/hoverproduct2.webp",
-    link: "/productlist?category=PRE-WORKOUT",
+    image: "/father-of-insane-warflex-products.webp",
+    hoverImage: "/promolecules0father-of-insane-warflex-combo-offers.webp",
+    link: "/product/",
   },
   {
     title: "FAT BURNER",
     desc: "Structured thermogenic blends supporting metabolic acceleration, energy expenditure, and disciplined fat-loss phases without chaotic stimulant overload or crash-driven rebound fatigue.",
-    image: "/product2.png",
+    image: "/product2.webp",
     hoverImage: "/hoverproduct.webp",
-    link: "/productlist?category=FAT BURNER",
+    link: "/product/",
   },
   {
      title: "PRE-WORKOUT",
-    desc: "Advanced hydration and volumization systems enhancing intracellular expansion, vascularfullness, and muscular density without bloating, heaviness, or compromised performance output.",
-    image: "/product4.png",
-    hoverImage: "/hoverproduct4.png",
-       link: "/productlist?category=PRE-WORKOUT",
+    desc: "Advanced hydration and volumization systems enhance intracellular expansion, vascular fullness, and muscular density without bloating, heaviness, or compromised performance output.",
+    image: "/promolecules-hydrapump-products.webp",
+    hoverImage: "/promolecules-hydrapump.webp",
+       link: "/product/",
   },
   {
     title: "MERCHANDISE",
     desc: "Performance-driven apparel and training essentials designed for serious gym culture, representing discipline, intensity, and the Promolecules mindset beyond supplementation.",
-    image: "/product5.png",
-    hoverImage: "/hoverproduct5.png",
+    image: "/father-of-insane-fusion-merch-product.webp",
+    hoverImage: "/father-of-insane-fusion.webp",
     link: "/merch",
   },
 ];
 
   return (
-    <section className="relative w-full bg-black py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12 lg:px-16 overflow-hidden">
+    <section className="relative max-w-7xl mx-auto bg-black py-14 sm:py-16 md:py-20 px-4 sm:px-6 md:px-12 lg:px-16 overflow-hidden">
       
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.05),_transparent_60%)] opacity-30" />
@@ -47,14 +47,18 @@ const categories = [
         {/* Left */}
         <div className="relative z-10 w-full lg:max-w-[50%]">
           <h2 className="creepster-regular text-red-600 
-            text-4xl sm:text-5xl md:text-6xl lg:text-7xl 
-            leading-tight tracking-wide">
-            TRENDINGS <br /> CATEGORY
+    text-[50px] 
+    sm:text-[50px] 
+    md:text-[60px] 
+    lg:text-[80px] 
+    xl:text-[100px] 
+    leading-none text-center">
+            TRENDING <br /> CATEGORY
           </h2>
         </div>
 
         {/* Right */}
-        <div className="w-full lg:max-w-[40%]">
+        <div className="max-w-6xl mx-auto lg:max-w-[40%]">
           <p className="global-text-style leading-relaxed uppercase">
           In today’s fitness market, supplements are everywhere  but not all supplements are created
 equal. Many low-cost brands compromise on ingredient purity, use under-dosed blends, or
@@ -67,7 +71,7 @@ serious athletes.
       </div>
 
       {/* Categories */} 
-   <div className="relative z-10 mt-12">
+   <div className="relative z-10 mt-8">
   {categories.map((item, index) => (
     <Link
       key={index}
@@ -88,7 +92,7 @@ serious athletes.
           transition-opacity duration-500 -z-10"
         >
      <Image
-  src="/productcardbg.png"
+  src="/promolecules-productcardbg.webp"
   alt="hover bg"
   fill
   className="object-cover"
@@ -99,12 +103,12 @@ serious athletes.
         </div>
 
         {/* Left: Image + Text */}
-        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 w-full">
+        <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6 ">
 
           {/* Image */}
           <div
             className="relative 
-            w-full sm:w-[200px] md:w-[300px] lg:w-[300px] 
+           sm:w-[200px] md:w-[300px] lg:w-[300px] 
             h-[150px] sm:h-[170px] md:h-[200px] lg:h-[200px] 
             rounded-lg border border-white/10 overflow-hidden"
           >

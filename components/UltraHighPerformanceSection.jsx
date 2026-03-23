@@ -11,28 +11,28 @@ const UltraHighPerformanceSection = () => {
       title: " FOCUS",
       description:
         "Engineered neurological activation enhances mental clarity, reaction speed, and tunnel vision focus without overstimulation or distracting jitters during intense sessions.",
-      image: "/skeleton1.webp",
+      image: "/focus.webp",
       alt: "Razor Focus Skeleton",
     },
     {
       id: 2,
       title: " ENERGY",
       description:"Multi-phase stimulant architecture delivers fast activation and sustained output, supporting extended high-intensity training without sudden crashes or unstable spikes.",
-      image: "/skeleton2.webp",
+      image: "/energy.webp",
       alt: "Extreme Energy Skeleton",
     },
     {
       id: 3,
-      title: "STREGNTH ",
+      title: "StRENGTH ",
       description:
-        "Synergistic performance matrix supports explosive power, muscular endurance, and heavy compound lifts through structured ingredient balance and disciplined dosing strategy.",
-      image: "/skeleton3.webp",
+        "The Synergistic performance matrix supports explosive power, muscular endurance, and heavy compound lifts through structured ingredient balance and disciplined dosing strategy.",
+      image: "/strength.webp",
       alt: "Strength and Stamina Anatomy",
     },
   ];
 
   return (
-    <section className="relative bg-black overflow-hidden py-16 sm:py-20 lg:py-28">
+    <section className="relative bg-black max-w-7xl mx-auto overflow-hidden py-2  lg:py-3">
       <div className="relative z-10 max-w-[1600px] mx-auto px-4 sm:px-6">
 
         {/* Main Title */}
@@ -42,11 +42,11 @@ const UltraHighPerformanceSection = () => {
             <h2
 
               className="creepster-regular text-red-600 
-              text-3xl 
-              sm:text-5xl 
-              md:text-6xl 
-              lg:text-7xl 
-              xl:text-8xl 
+              text-[50px] 
+              sm:text-3xl 
+              md:text-4xl 
+              lg:text-5xl 
+              xl:text-6xl 
               leading-tight"
             >
               ULTRA-HIGH-PERFORMANCE
@@ -56,12 +56,12 @@ const UltraHighPerformanceSection = () => {
 
             <h2
               className="creepster-regular text-red-600 
-              text-3xl 
+              text-[50px]
               sm:text-5xl 
               md:text-6xl 
               lg:text-7xl 
               xl:text-8xl 
-              mt-2"
+              p-1"
             >
               FORMULA
             </h2>
@@ -76,55 +76,48 @@ const UltraHighPerformanceSection = () => {
           {features.map((feature) => (
             <div key={feature.id} className="group relative">
 
-              <div className="space-y-6 text-center">
+<div className="space-y-6 text-center">
 
-                {/* Feature Title */}
-                <h3
-                  className="text-white uppercase creepster-regular 
-                  text-2xl 
-                  sm:text-3xl 
-                  md:text-4xl 
-                  lg:text-5xl"
-                >
-                  {feature.title}
-                </h3>
+  {/* ✅ Image FIRST */}
+  <motion.div
+    initial={{ y: 80, opacity: 0 }}
+    whileInView={{ y: 0, opacity: 1 }}
+    viewport={{ once: true, amount: 0.3 }}
+    transition={{
+      duration: 0.8,
+      ease: [0.22, 1, 0.36, 1],
+    }}
+    className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md"
+  >
+    <div className="relative px-6 sm:px-10 lg:px-16 rounded-lg">
+      <div className="relative bg-black p-1 rounded-lg">
+        <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
+          <Image
+            src={feature.image}
+            alt={feature.alt}
+            fill
+            className="object-contain transition-all duration-500 group-hover:scale-105"
+          />
+          <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
+        </div>
+      </div>
+    </div>
+  </motion.div>
 
-                {/* Description */}
-                <p className="global-text-style uppercase sm:text-xs md:text-sm leading-relaxed uppercase tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
-                  {feature.description}
-                </p>
+  {/* ✅ Title */}
+  <h3
+    className="text-white uppercase creepster-regular 
+    text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+  >
+    {feature.title}
+  </h3>
 
-                {/* Image Card */}
-               <motion.div
-  initial={{ y: 80, opacity: 0 }}
-  whileInView={{ y: 0, opacity: 1 }}
-  viewport={{ once: true, amount: 0.3 }}
-  transition={{
-    duration: 0.8,
-    ease: [0.22, 1, 0.36, 1],
-  }}
-  className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md"
->
-                  <div className="relative px-6 sm:px-10 lg:px-16 rounded-lg">
-                    <div className="relative bg-black p-1 rounded-lg">
+  {/* ✅ Description */}
+  <p className="global-text-style uppercase sm:text-xs md:text-sm leading-relaxed tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
+    {feature.description}
+  </p>
 
-                      <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
-                        <Image
-                          src={feature.image}
-                          alt={feature.alt}
-                          fill
-                          className="object-contain transition-all duration-500 group-hover:scale-105"
-                        />
-
-                        <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
-                      </div>
-
-                    </div>
-                  </div>
-
-                </motion.div>
-
-              </div>
+</div>
             </div>
           ))}
 

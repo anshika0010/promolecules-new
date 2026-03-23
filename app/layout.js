@@ -4,6 +4,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Script from "next/script";
+import PreloaderWrapper from "@/components/PreloaderWrapper";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -15,10 +16,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-export const metadata = {
-  title: "Promolecules",
-  description: "High performance supplements by Promolecules",
-};
+
 
 export default function RootLayout({ children }) {
   return (
@@ -36,13 +34,7 @@ export default function RootLayout({ children }) {
           content="1e55fe6d40f8636b71b612318fdcb624"
         />
 
-        {/* Google Fonts */}
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Creepster&family=Permanent+Marker&display=swap"
-          rel="stylesheet"
-        />
+      
 
         {/* Google Tag Manager Script */}
         <Script
@@ -57,27 +49,33 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
+<body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
+  {/* Google Tag Manager (noscript) */}
+  <noscript>
+    <iframe
+      src="https://www.googletagmanager.com/ns.html?id=GTM-5LJDV8SJ"
+      height="0"
+      width="0"
+      style={{ display: "none", visibility: "hidden" }}
+    ></iframe>
+  </noscript>
 
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {/* Google Tag Manager (noscript) */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-5LJDV8SJ"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          ></iframe>
-        </noscript>
+  <PreloaderWrapper>
+    <div className="pt-[50px] bg-black">
+      
+      <Navbar />
 
-        <div className="pt-[50px] bg-black">
-          <Navbar />
-          {children}
-          <WhatsAppButton />
-          <Footer />
-        </div>
-      </body>
+      {/* ✅ MAIN LANDMARK ADDED */}
+      <main id="main-content">
+        {children}
+      </main>
+
+      <WhatsAppButton />
+      <Footer />
+
+    </div>
+  </PreloaderWrapper>
+</body>
     </html>
   );
 }

@@ -11,7 +11,8 @@ const message = "Hello! I'm interested in your products and would love to learn 
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
-      className="fixed bottom-10 right-8 bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg z-50 transition duration-300"
+       aria-label="Chat with us on WhatsApp"
+      className="fixed bottom-24 right-8 bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg z-50 transition duration-300"
     >
       <FaWhatsapp size={35} />
     </a>

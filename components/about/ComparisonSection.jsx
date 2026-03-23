@@ -55,7 +55,7 @@ export default function ComparisonSection() {
   ];
 
   return (
-    <section className="w-full bg-black text-white px-6 md:px-16 py-20">
+    <section className="max-w-7xl mx-auto bg-black text-white px-6 md:px-16 py-20">
       
       {/* Heading */}
       <div className="text-center mb-14">

@@ -1,11 +1,12 @@
 "use client";
 
-import React, { useState, useRef } from "react";
-import { ChevronRight, ChevronLeft, Quote } from "lucide-react";
+import React, { useRef } from "react";
+import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
 
-export default function BlogsSection () {
+export default function BlogsSection() {
   const scrollContainerRef = useRef(null);
 
   const blogs = [
@@ -16,7 +17,6 @@ export default function BlogsSection () {
         "THE POWER OF CONSISTENCY: HOW STAYING ON TRACK CAN TRANSFORM YOUR LIFE",
       description:
         "DISCOVER THE TRANSFORMATIVE POWER OF CONSISTENCY IN ACHIEVING YOUR HEALTH AND FITNESS GOALS. LEARN HOW TO BUILD SUSTAINABLE HABITS THAT LEAD TO LONG-TERM SUCCESS.",
-      tag: "READ MORE",
     },
     {
       id: 2,
@@ -24,7 +24,6 @@ export default function BlogsSection () {
       title: "FUEL YOUR BODY: SECRETS OF PROPER NUTRITION",
       description:
         "NUTRITION IS POWER. LEARN HOW TO FUEL YOUR BODY WITH THE RIGHT NUTRIENTS, MAXIMIZE PERFORMANCE, AND UNLOCK YOUR FULL POTENTIAL WITH SCIENCE-BACKED NUTRITION STRATEGIES.",
-      tag: "READ MORE",
     },
     {
       id: 3,
@@ -32,46 +31,32 @@ export default function BlogsSection () {
       title: "GET YOUR SLEEP: A CRUCIAL PIECE",
       description:
         "THE SECRET WEAPON BEHIND PEAK ATHLETIC PERFORMANCE IS QUALITY SLEEP. DISCOVER HOW PROPER REST IMPACTS YOUR RECOVERY, MUSCLE GROWTH, AND OVERALL PERFORMANCE.",
-      tag: "READ MORE",
     },
   ];
 
-  const scroll = (direction) => {
-    if (scrollContainerRef.current) {
-      const scrollAmount = 400;
-      scrollContainerRef.current.scrollBy({
-        left: direction === "left" ? -scrollAmount : scrollAmount,
-        behavior: "smooth",
-      });
-    }
-  };
-
   return (
     <section className="relative bg-black py-20 overflow-hidden">
-    
-
       <div className="relative z-10 max-w-[1600px] mx-auto px-6">
         {/* Title */}
         <div className="text-center mb-16 space-y-4">
           <div className="flex justify-center items-center">
             <motion.div
-  initial={{ x: 200, opacity: 0 }}   
-  whileInView={{ x: 0, opacity: 1 }} // 👈 END position
-  viewport={{ once: true, amount: 0.5 }}
-  transition={{
-    duration: 1,
-    ease: [0.22, 1, 0.36, 1],
-  }}
-  className="relative flex flex-col items-center"
->
-  <h2 className="creepster-regular text-red-600 text-9xl">
-    BLOGS
-  </h2>
+              initial={{ x: 200, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.5 }}
+              transition={{
+                duration: 1,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+              className="relative flex flex-col items-center"
+            >
+              <h2 className="creepster-regular text-red-600 text-9xl">
+                BLOGS
+              </h2>
 
-  {/* Underline Effect */}
-  <div className="h-1 bg-red-600 mt-1 w-full rounded-full" />
-</motion.div>
-
+              {/* Underline */}
+              <div className="h-1 bg-red-600 mt-1 w-full rounded-full" />
+            </motion.div>
           </div>
 
           <p className="text-white text-sm md:text-base tracking-wider max-w-4xl mx-auto font-light leading-relaxed">
@@ -83,8 +68,7 @@ export default function BlogsSection () {
           </p>
         </div>
 
-        {/* Blog Cards Slider */}
-        {/* Blog Cards Infinite Slider */}
+        {/* Blog Slider */}
         <div className="relative overflow-hidden">
           <div className="group">
             <div className="flex gap-6 w-max animate-marquee group-hover:[animation-play-state:paused]">
@@ -93,16 +77,14 @@ export default function BlogsSection () {
                   key={index}
                   className="flex-shrink-0 w-[400px] cursor-pointer"
                 >
+                  {/* Image Card */}
                   <div className="relative h-[300px] rounded-2xl overflow-hidden mb-4">
-                    {/* Image */}
-                    <img
-                      src={blog.image}
+                    <Image
+                      src={blog.image || "/blogdummy.webp"}
                       alt={blog.title}
-                      className="absolute inset-0 w-full h-full object-cover opacity-70 hover:scale-110 transition-all duration-500"
+                      fill
+                      className="object-cover opacity-70 hover:scale-110 transition-all duration-500"
                     />
-
-                    {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
 
                     {/* Content */}
                     <div className="absolute bottom-0 left-0 right-0 p-6 space-y-3">
@@ -115,10 +97,14 @@ export default function BlogsSection () {
                     </div>
                   </div>
 
-                  <button className="flex items-center cursor-pointer gap-3 bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-full transition-all duration-300 text-sm tracking-wider">
-                    <span>{blog.tag}</span>
+                  {/* Button */}
+                  <Link
+                    href="/blog"
+                    className="flex items-center justify-center gap-3 bg-red-600 hover:bg-red-700 text-white font-bold px-6 py-3 rounded-full transition-all duration-300 text-sm tracking-wider"
+                  >
+                    <span>Read More</span>
                     <ChevronRight size={18} />
-                  </button>
+                  </Link>
                 </div>
               ))}
             </div>
@@ -126,18 +112,21 @@ export default function BlogsSection () {
         </div>
 
         {/* View All Button */}
-        <div className="flex justify-center mt-12 ">
-          <button className="flex items-center cursor-pointer gap-3 bg-transparent border-2 border-red-600 hover:bg-red-600 text-white font-bold px-10 py-4 rounded-full transition-all duration-300 text-sm tracking-widest group">
+        <div className="flex justify-center mt-12">
+          <Link
+            href="/blog"
+            className="flex items-center gap-3 bg-transparent border-2 border-red-600 hover:bg-red-600 text-white font-bold px-10 py-4 rounded-full transition-all duration-300 text-sm tracking-widest group"
+          >
             <span>VIEW ALL</span>
-            <div className="bg-red-600  group-hover:bg-white p-2 rounded-full transition-colors">
+            <div className="bg-red-600 group-hover:bg-white p-2 rounded-full transition-colors">
               <ChevronRight
                 size={18}
                 className="text-white group-hover:text-red-600"
               />
             </div>
-          </button>
+          </Link>
         </div>
       </div>
     </section>
   );
-};
+}

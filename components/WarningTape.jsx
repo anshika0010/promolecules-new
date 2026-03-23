@@ -2,72 +2,81 @@ import Image from "next/image";
 
 export default function WarningTape() {
   return (
-    <section className="relative min-h-[500px] sm:min-h-[600px] lg:min-h-[700px] max-w-full mx-auto overflow-hidden bg-black">
+<section className="relative min-h-[500px] sm:min-h-[600px] lg:min-h-[650px] max-w-9xl mx-auto bg-black overflow-hidden">
 
- {/* Top Right Warning Text */}
-<div
-  className="
- uppercase absolute top-6 sm:top-80 lg:top-60 right-4 sm:right-8 lg:right-12 max-w-xs sm:max-w-md lg:max-w-lg text-right text-xs sm:text-xs lg:text-md font-extrabold text-white/70 tracking-wide leading-relaxed
-  "
->
-  <h4 className="text-red-600 font-bold text-base mb-2">
-    The Hidden Supplement Crisis
-  </h4>
+  {/* ================= MOBILE UI ================= */}
+  <div className="md:hidden flex flex-col px-4 py-8 space-y-8">
 
-  <p className="global-text-style">
-    The supplement industry faces a silent crisis—adulteration. Studies reveal
-    that nearly 70% of budget supplements contain less active ingredient than
-    claimed, with some containing harmful fillers or banned substances. This
-    isn't just about wasted money; it's about your health and performance goals
-    being sabotaged by inferior products.
-  </p>
-</div>
+    {/* Top Content */}
+    <div className="text-center">
+      <h4 className="text-red-400 font-bold text-base mb-2 uppercase">
+        The Hidden Supplement Crisis
+      </h4>
+      <p className="global-text-style  text-white/70 leading-relaxed">
+        The supplement industry faces a silent crisis—adulteration. Studies reveal
+        that nearly 70% of budget supplements contain less active ingredient than
+        claimed, with some containing harmful fillers or banned substances.
+      </p>
+    </div>
 
-      {/* Bottom Left Warning Text */}
- <div
-  className="
-    absolute 
-    bottom-6 sm:bottom-8 lg:bottom-10 
-    left-4 sm:left-8 lg:left-10 
-    max-w-xs sm:max-w-sm lg:max-w-md 
-    text-xs sm:text-sm lg:text-md 
-    font-extrabold 
-    text-white/70 
-    tracking-wide 
-    leading-relaxed
-  "
->
-  <h4 className="text-red-500 font-bold text-sm sm:text-base mb-2 uppercase">
-    Important Safety Information
-  </h4>
+    {/* Tape */}
+    <div className="rotate-[-5deg]">
+      <Tape />
+    </div>
 
-  <p className="global-text-style">
-    THIS PRODUCT IS INTENDED FOR ADULTS ONLY.
-    NOT RECOMMENDED FOR CHILDREN, PREGNANT OR LACTATING WOMEN.
-    CONSULT A PHYSICIAN BEFORE USE IF YOU HAVE ANY MEDICAL CONDITION.
-  </p>
-</div>
+    <div className="rotate-[10deg]">
+      <Tape reverse />
+    </div>
 
-      {/* Blood Tape 1 */}
-      <div
-        className="absolute right-[-1] top-[30%] 
-                w-[130%] 
-                rotate-[-5deg] 
-                flex justify-end"
-      >
-        <Tape  />
-      </div>
+    {/* Bottom Content */}
+    <div className="text-center">
+      <h4 className="text-red-400 font-bold text-sm mb-2 uppercase">
+        Important Safety Information
+      </h4>
+      <p className="global-text-style  text-white/70 leading-relaxed">
+        THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN or
+        PREGNANT OR LACTATING WOMEN. CONSULT A PHYSICIAN BEFORE USE.
+      </p>
+    </div>
 
-      {/* Blood Tape 2 */}
-      <div
-        className="absolute right-[-1] top-[50%] 
-                w-[130%] 
-                rotate-[10deg] 
-                flex justify-end"
-      >
-        <Tape reverse />
-      </div>
-    </section>
+  </div>
+
+  {/* ================= DESKTOP UI ================= */}
+  <div className="hidden md:block">
+
+    {/* Top Right Text */}
+    <div className="absolute top-40 right-8 lg:top-60 lg:right-12 max-w-md text-right z-20">
+      <h4 className="text-red-400 font-bold text-base mb-2 uppercase">
+        The Hidden Supplement Crisis
+      </h4>
+      <p className="global-text-style  text-white/70 leading-relaxed">
+        The supplement industry faces a silent crisis—adulteration. Studies reveal
+        that nearly 70% of budget supplements contain less active ingredient than claimed.
+      </p>
+    </div>
+
+    {/* Bottom Left Text */}
+    <div className="absolute bottom-10 left-10 max-w-md z-20">
+      <h4 className="text-red-400 font-bold text-base mb-2 uppercase">
+        Important Safety Information
+      </h4>
+      <p className="global-text-style text-white/70 leading-relaxed">
+        THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN or
+        PREGNANT OR LACTATING WOMEN.
+      </p>
+    </div>
+
+    {/* Tapes */}
+    <div className="absolute right-0 top-[30%] w-[130%] rotate-[-5deg]">
+      <Tape />
+    </div>
+
+    <div className="absolute right-0 top-[50%] w-[130%] rotate-[10deg]">
+      <Tape reverse />
+    </div>
+
+  </div>
+</section>
   );
 }
 
@@ -79,7 +88,7 @@ function Tape({ reverse = false }) {
         relative 
         h-14 sm:h-16 lg:h-20 
         overflow-hidden 
-        bg-[url('/tape2.webp')]
+        bg-[url('/promolecules-tape.webp')]
         bg-cover 
         bg-center
         shadow-[0_10px_30px_rgba(255,0,0,0.25)]

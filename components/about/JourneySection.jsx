@@ -1,6 +1,6 @@
 export default function JourneySection() {
   return (
-    <section className="w-full bg-black text-white px-6 md:px-16 py-20">
+    <section className="max-w-7xl mx-auto bg-black text-white px-3 md:px-4 py-6">
       
       {/* Main Heading */}
       <div className="text-center mb-16">
@@ -21,12 +21,12 @@ export default function JourneySection() {
       <div className="grid md:grid-cols-2 gap-10 items-start">
         
         {/* Left Red Tagline */}
-        <div>
-          <p className="text-red-600 uppercase text-sm tracking-wider font-semibold leading-relaxed">
+   
+          <p className="text-red-600 creepster-regular uppercase text-2xl sm:text-3xl  md:text-4xl  tracking-wider font-semibold leading-relaxed">
             Born From Science Built <br />
             For Performance
           </p>
-        </div>
+ 
 
         {/* Right Description */}
         <div>

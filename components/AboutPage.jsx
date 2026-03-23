@@ -23,14 +23,14 @@ const AboutPage = () => {
 
   
   return (
-    <section className="relative w-full min-h-[70vh] md:min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6 lg:px-10">
+    <section className="relative max-w-7xl mx-auto min-h-[70vh] md:min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6 lg:px-10">
 
       {/* Background Image */}
       <Image
-        src="/about.png"
+        src="/promolecules-about-banner.webp"
         alt="About Background"
         fill
-        priority
+      
         className="object-cover"
       />
 
@@ -39,7 +39,9 @@ const AboutPage = () => {
 
       {/* Main Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto py-12 sm:py-16 md:py-20">
-
+<h1 className="text-white text-center text-3xl font-bold uppercase p-4">
+  About Promolecules™
+</h1>
         <div className="flex flex-col gap-8 sm:gap-10 md:gap-14">
 
           {headings.map((item, index) => (

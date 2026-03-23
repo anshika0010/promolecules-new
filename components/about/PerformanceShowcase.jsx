@@ -3,89 +3,81 @@
 import Image from "next/image";
 
 export default function PerformanceShowcase() {
+  const data = [
+    {
+      id: 1,
+      image: "/promolecules-about.webp",
+      alt: "Left Performance",
+      text: `Stop chasing the "clown energy" of over-caffeinated gimmicks. Promolecules is performance-engineered CNS activation, not just a chaotic stimulant spike. Our Half-Scoop Protocol delivers controlled aggression and focus-locking for 3-hour elite sessions.`,
+      tag: "— We Are Performance First Nutrition",
+      align: "text-left",
+    },
+    {
+      id: 2,
+      image: "/promolecules-about-background-image.webp",
+      alt: "Center Athlete",
+      text: `Engineered for the disciplined. This is the Father of performance architecture — built for those who demand more from every session.`,
+      tag: "— Committed To Performance, Quality & Real Results",
+      align: "text-center",
+      center: true,
+    },
+    {
+      id: 3,
+      image: "/promolecules-aboutimage.webp",
+      alt: "promolecules-aboutimage",
+      text: `More than a product — a culture of strength. Join a community built on discipline, grit, and the relentless pursuit of elite performance.`,
+      tag: "— We Are A Strength Driven Community",
+      align: "text-right md:text-right sm:text-left",
+      hex: true,
+    },
+  ];
+
   return (
     <section className="relative w-full bg-black overflow-hidden">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-8">
 
+        {/* 🔥 Responsive Cards */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">
 
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-2 sm:px-6 py-6">
+          {data.map((item) => (
+            <div key={item.id} className="space-y-4">
 
-        {/* ── IMAGES ROW ── all 3 in one line at all screen sizes */}
-        <div className="grid grid-cols-3 gap-2 xs:gap-3 sm:gap-4 md:gap-6 lg:gap-8 items-end">
+              {/* Image */}
+              <div className="relative w-full aspect-[3/4] sm:aspect-[2/3] md:aspect-[3/5] overflow-hidden group">
 
-          {/* LEFT IMAGE */}
-          <div className="relative group overflow-hidden">
-            <div className="relative w-full aspect-[3/4] sm:aspect-[2/3] md:aspect-[3/5]">
-              <Image
-                src="/about1.png"
-                alt="Left Performance"
-                fill
-                className="object-cover brightness-75 group-hover:brightness-100 transition duration-500"
-              />
+                <Image
+                  src={item.image}
+                  alt={item.alt}
+                  fill
+                  className={`object-cover transition duration-500 
+                  ${item.center ? "brightness-90 group-hover:scale-105" : "brightness-75 group-hover:brightness-100"}`}
+                />
+
+                {/* Hexagon (only for 3rd card) */}
+                {item.hex && (
+                  <div
+                    className="absolute top-3 right-3 w-10 h-10 border-2 border-red-600 opacity-80"
+                    style={{
+                      clipPath:
+                        "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)",
+                    }}
+                  />
+                )}
+              </div>
+
+              {/* Text */}
+              <div className={item.align}>
+                <p className="text-xs sm:text-sm md:text-sm lg:text-base text-white uppercase leading-relaxed creepster-regular">
+                  {item.text}
+                </p>
+
+                <p className="mt-2 text-[10px] sm:text-xs text-red-500 uppercase tracking-widest">
+                  {item.tag}
+                </p>
+              </div>
+
             </div>
-          </div>
-
-          {/* CENTER IMAGE — taller */}
-          <div className="relative group overflow-hidden shadow-2xl">
-            <div className="relative w-full aspect-[2/3] sm:aspect-[3/5] md:aspect-[1/2]">
-              <Image
-                src="/about2.png"
-                alt="Center Athlete"
-                fill
-                className="object-cover brightness-90 group-hover:scale-105 transition duration-700"
-              />
-            </div>
-          </div>
-
-          {/* RIGHT IMAGE */}
-          <div className="relative group overflow-hidden">
-            {/* Hexagon accent — hidden on very small screens */}
-            <div className="absolute top-2 right-2 sm:top-4 sm:right-4 w-8 h-8 sm:w-12 sm:h-12 border-2 border-red-600 opacity-80 z-10"
-              style={{ clipPath: "polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)" }}
-            />
-            <div className="relative w-full aspect-[3/4] sm:aspect-[2/3] md:aspect-[3/5]">
-              <Image
-                src="/about3.png"
-                alt="Right Performance"
-                fill
-                className="object-cover brightness-75 group-hover:brightness-100 transition duration-500"
-              />
-            </div>
-          </div>
-
-        </div>
-
-        {/* ── TEXT ROW — below all images ── */}
-        <div className="grid grid-cols-3 gap-2 xs:gap-3 sm:gap-4 md:gap-6 lg:gap-8 mt-4 sm:mt-6 md:mt-8">
-
-          {/* LEFT TEXT */}
-          <div>
-            <p className="text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base text-white uppercase leading-relaxed creepster-regular">
-              Stop chasing the "clown energy" of over-caffeinated gimmicks. Promolecules is performance-engineered CNS activation, not just a chaotic stimulant spike. Our Half-Scoop Protocol delivers controlled aggression and focus-locking for 3-hour elite sessions.
-            </p>
-            <p className="mt-2 sm:mt-3 text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs text-red-500 uppercase tracking-widest">
-              — We Are Performance First<br className="hidden sm:block" /> Nutrition
-            </p>
-          </div>
-
-          {/* CENTER TEXT */}
-          <div className="text-center">
-            <p className="text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base text-white uppercase leading-relaxed creepster-regular">
-              Engineered for the disciplined. This is the Father of performance architecture — built for those who demand more from every session.
-            </p>
-            <p className="mt-2 sm:mt-3 text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs text-red-500 uppercase tracking-widest">
-              — Committed To Performance,<br className="hidden sm:block" /> Quality &amp; Real Results
-            </p>
-          </div>
-
-          {/* RIGHT TEXT */}
-          <div className="text-right">
-            <p className="text-[9px] xs:text-[10px] sm:text-xs md:text-sm lg:text-base text-white uppercase leading-relaxed creepster-regular">
-              More than a product — a culture of strength. Join a community built on discipline, grit, and the relentless pursuit of elite performance.
-            </p>
-            <p className="mt-2 sm:mt-3 text-[8px] xs:text-[9px] sm:text-[10px] md:text-xs text-red-500 uppercase tracking-widest">
-              — We Are A Strength Driven<br className="hidden sm:block" /> Community
-            </p>
-          </div>
+          ))}
 
         </div>
       </div>

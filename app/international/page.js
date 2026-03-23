@@ -17,7 +17,6 @@ const InternationalDistributors = () => {
   return (
     <section className="relative min-h-screen pt-10  bg-black text-white overflow-hidden">
       {/* Background texture */}
-      <div className="absolute inset-0 bg-[url('/dark-texture.jpg')] bg-cover bg-center opacity-20"></div>
 
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-16">
         {/* ================= HEADING ================= */}
@@ -47,6 +46,7 @@ const InternationalDistributors = () => {
                xl:text-9xl
                text-red-600 
                creepster-regular 
+               letter-wide 
                font-bold 
                uppercase"
           >

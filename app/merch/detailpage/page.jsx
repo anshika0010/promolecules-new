@@ -38,7 +38,7 @@ export default function ProductDetail() {
       name: "Father Of Insane Skell",
       price: "Rs 699.00",
       oldPrice: "Rs 799.00",
-      image: "/tshirt1.png",
+      image: "/tshirt1.webp",
       link: "/merch/detailpage",
     },
 
@@ -47,7 +47,7 @@ export default function ProductDetail() {
       name: "Father Of Insane Fusion",
       price: "Rs 899.00",
       oldPrice: "Rs 999.00",
-      image: "/tshirt2.png",
+      image: "/tshirt2.webp",
       link: "/merch/detailpage",
     },
 
@@ -56,11 +56,11 @@ export default function ProductDetail() {
       name: "Father Of Insane Nitro",
       price: "Rs 899.00",
       oldPrice: "Rs 999.00",
-      image: "/tshirt3.png",
+    image: "/tshirt3.webp",
       link: "/merch/detailpage",
     },
   ];
-  const tshirts = ["/tshirt1.png", "/tshirtback.png", "/tshirtside.png"];
+  const tshirts = ["/tshirt1.webp", "/tshirtback.webp", "/tshirtside.webp"];
 
   return (
     <>
@@ -82,7 +82,7 @@ export default function ProductDetail() {
                     src={tshirts[index]}
                     alt="Tshirt"
                     fill
-                    priority
+                 
                     className="object-contain drop-shadow-2xl"
                   />
                 </motion.div>

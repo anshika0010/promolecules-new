@@ -1,15 +1,29 @@
 import Image from "next/image";
 import React from "react";
+import { getSEOMetadata, getJSONLD } from "@/lib/seo";
+
+export const metadata = getSEOMetadata("cookiesPolicy");
+
 
 const CookiesPolicy = () => {
+
+    const jsonld = getJSONLD("cookiesPolicy");
+
   return (
+    <>
+       {jsonld && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonld }}
+        />
+      )}
   <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-center px-4 sm:px-6">
         {/* Background */}
         <Image
-          src="/about.png"
+          src="/promolecules-about-banner.webp"
           alt="Background"
           fill
-          priority
+        
           className="object-cover"
         />
       <div className="max-w-4xl bg-black mx-auto  relative z-10 shadow-2xl rounded-2xl p-6 sm:p-10">
@@ -215,6 +229,7 @@ const CookiesPolicy = () => {
 
       </div>
     </section>
+    </>
   );
 };
 

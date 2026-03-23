@@ -34,13 +34,16 @@ export default function GrowthEvolution() {
 
   return (
 
-    <section className="relative w-full min-h-screen bg-black text-white px-6 md:px-16 py-20 overflow-hidden">
+    <section className="relative max-w-7xl mx-auto min-h-screen bg-black text-white px-3 md:px-4 py-6 overflow-hidden">
 
       <div className="grid md:grid-cols-2 gap-10 items-start">
         {/* LEFT CONTENT */}
         <div>
+          <h2 className="text-2xl md:text-2xl sm:text-md font-black uppercase tracking-widest text-red-600 mb-2 creepster-regular">
+  Engineered Stimulation, Not Guesswork
+</h2>
           {/* Top Description */}
-          <p className="global-text-style text-red-600 tracking-wide mb-10 max-w-lg">
+          <p className="global-text-style text-red-600  tracking-wide mb-10 max-w-lg">
             The brand’s first focus was neurological activation — understanding
             how the central nervous system responds to layered stimulant
             delivery rather than single-source caffeine overload. This led to
@@ -56,27 +59,29 @@ export default function GrowthEvolution() {
           <div className="space-y-4">
             {faqs.map((item, index) => (
               <div key={index}>
-                <button
-                  onClick={() => setActive(active === index ? null : index)}
-                  className="w-full flex items-center justify-between text-left py-4 border-b border-gray-800 group"
-                >
-                  <span className="text-red-600 font-semibold tracking-wide text-sm md:text-base">
-                    {item.question}
-                  </span>
+      <button
+  onClick={() => setActive(active === index ? null : index)}
+  className="w-full flex items-center justify-between text-left py-4 border-b border-gray-800 group"
+  aria-expanded={active === index}
+  aria-controls={`faq-content-${index}`}
+>
+  <span className="text-red-600 font-semibold tracking-wide text-sm md:text-base">
+    {item.question}
+  </span>
 
-                  <ChevronRight
-                    size={18}
-                    className={`transition-transform duration-300 ${
-                      active === index
-                        ? "rotate-90 text-red-600"
-                        : "text-gray-500"
-                    }`}
-                  />
-                </button>
+  <ChevronRight
+    size={18}
+    className={`transition-transform duration-300 ${
+      active === index
+        ? "rotate-90 text-red-600"
+        : "text-gray-500"
+    }`}
+  />
+</button>
 
                 {/* Optional expandable content */}
                 {active === index && (
-                  <div className="global-text-style py-4 leading-relaxed">
+                  <div className="global-text-style py-4 scale-up-ver-top leading-relaxed">
                     {item.answer}
                   </div>
                 )}
@@ -101,8 +106,6 @@ export default function GrowthEvolution() {
               className="w-full h-full object-cover opacity-80"
             />
 
-            {/* Dark Overlay */}
-            <div className="absolute inset-0 bg-black/40"></div>
           </div>
         </div>
       </div>

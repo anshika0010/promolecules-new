@@ -64,7 +64,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="relative bg-black py-12 sm:py-14 md:py-16 overflow-hidden">
+    <section className="relative bg-black py-2 sm:py-4 md:py-6 max-w-7xl mx-auto overflow-hidden">
       <style>{`
         @keyframes shimmer {
           0% { background-position: -200% center; }
@@ -96,7 +96,7 @@ const Testimonials = () => {
             <div className="flex items-center justify-center lg:justify-start gap-4">
               <button
                 onClick={prevTestimonial}
-                className="bg-red-600 hover:bg-red-700 cursor-pointer active:scale-95 p-3 sm:p-4 rounded-full transition-all duration-200"
+                className="bg-red-600 hover:bg-red-700 cursor-pointer active:scale-95 p-3 sm:p-4 rounded-full transition-all duration-200"   aria-label="Previous testimonial"
               >
                 <ChevronLeft size={20} className="text-white" />
               </button>
@@ -117,6 +117,7 @@ const Testimonials = () => {
               <button
                 onClick={nextTestimonial}
                 className="bg-red-600 hover:bg-red-700 active:scale-95 cursor-pointer p-3 sm:p-4 rounded-full transition-all duration-200"
+                aria-label="next testimonial"
               >
                 <ChevronRight size={20} className="text-white" />
               </button>

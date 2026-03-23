@@ -9,19 +9,19 @@ import Link from "next/link";
 const slides = [
   {
     id: 1,
-    productImage: "/thermo.png",
+    productImage: "/thermo.webp",
     title: "Thermo Nuke-XT",
-    backgroundImage: "/photo1.png",
-    link: "/products",
+    backgroundImage: "/promolecules-inpower-r-banner.webp",
+    link: "/shop",
     description:
       "THERMO NUKE-XT™ is Promolecules’ aggressive thermogenic formula. Strongest Fat Destroyer, 650mg Thermogenic Matrix. It is engineered for fat oxidation.",
   },
   {
     id: 2,
-    productImage: "/fatherof.png",
+    productImage: "/father-of-insane-pre-workout-65-Servings.webp",
     title: "FATHER OF INSANE",
-    backgroundImage: "/photo2.webp",
-    link: "/products",
+    backgroundImage: "/father-of-insane-pre-workout-banner.webp",
+    link: "/shop",
     description:
       "FATHER OF INSANE BY PROMOLECULES™ IS AN ULTRA HIGH-STIMULANT PRE-WORKOUT DESIGNED FOR EXPERIENCED ATHLETES WHO DEMAND EXTREME ENERGY, EXPLOSIVE STRENGTH, INTENSE FOCUS, AND UNSTOPPABLE ENDURANCE.",
   },
@@ -39,7 +39,7 @@ const HeroSlider = () => {
   }, []);
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden pt-10">
+    <div className="relative min-h-[50vh] lg:min-h-[100vh] w-full overflow-hidden pt-4">
       {/* Background */}
       <motion.div
         key={currentSlide}
@@ -51,9 +51,12 @@ const HeroSlider = () => {
         <Image
           src={slides[currentSlide].backgroundImage}
           alt="Background"
-          fill
+              width={1200}
+      height={600}
+      priority
+
           className="object-cover"
-          priority
+    
         />
         <div className="absolute inset-0 bg-black/40" />
       </motion.div>
@@ -64,7 +67,7 @@ const HeroSlider = () => {
           <div className="grid lg:grid-cols-2 gap-6 items-center">
             
             {/* Product Image */}
-            <div className="relative h-[400px] sm:h-[500px] lg:h-[700px] flex items-center justify-center overflow-hidden">
+            <div className="relative h-[100px] sm:h-[500px] lg:h-[700px] flex items-center justify-center overflow-hidden">
              
             </div>
 
@@ -83,7 +86,7 @@ const HeroSlider = () => {
                 {slides[currentSlide].title}
               </motion.h1>
 
-              <p className="global-text-style   max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
+              <p className="global-text-style    max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
                 {slides[currentSlide].description}
               </p>
 
@@ -120,6 +123,7 @@ const HeroSlider = () => {
       src={slide.productImage}
       alt={slide.title}
       fill
+      priority
       className="object-contain object-right p-2 "
     />
   </div>
@@ -136,9 +140,9 @@ const HeroSlider = () => {
       )
   )}
 </div>
-              <div className="flex justify-center lg:justify-start">
+              {/* <div className="flex justify-center lg:justify-start">
                 <Link
-                  href={"/productlist"}
+                  href={"/product"}
               
                   className="group flex items-center gap-2 bg-black border-2 border-white/30 hover:border-white/60 text-white px-6 py-2 rounded-full transition-all duration-300 hover:bg-white/5"
                 >
@@ -149,7 +153,7 @@ const HeroSlider = () => {
                     <ChevronRight size={14} />
                   </div>
                 </Link>
-              </div>
+              </div> */}
 
             </div>
           </div>

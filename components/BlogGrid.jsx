@@ -18,37 +18,37 @@ const posts = [
   {
     id: 1,
     title: "DON’T GET SOFT",
-   image: "/blog1.png",
+   image: "/blog1.webp",
     desc: "An effective pre workout formula to help you increase muscle mass.",
   },
   {
     id: 2,
     title: "THE BEST BICEP WORKOUT FOR MASS GAIN",
-    image: "/blog2.png",
+    image: "/blog2.webp",
     desc: "Build bigger arms with this proven hypertrophy training method.",
   },
   {
     id: 3,
     title: "FIVE FORMS PLAYS A CRUCIAL ROLE",
-    image: "/blog3.png",
+    image: "/blog3.webp",
     desc: "Pre workout supplements can help maximize your training.",
   },
   {
     id: 4,
     title: "PUMP-AFTER",
-   image: "/blog3.png",
+   image: "/blog3.webp",
     desc: "Unlock insane muscle pumps with this advanced stack.",
   },
   {
     id: 5,
     title: "THE BEST CHEST WORKOUT FOR MASS",
-   image: "/blog2.png",
+   image: "/blog2.webp",
     desc: "Advanced chest routines to build strength and volume.",
   },
   {
     id: 6,
     title: "THE BEST CHEST WORKOUT FOR MASS",
-   image: "/blog1.png",
+   image: "/blog1.webp",
     desc: "Boost endurance and muscle density with smart training.",
   },
 ];
@@ -86,7 +86,7 @@ export default function BlogGrid() {
               {/* Image */}
               <div className="relative h-60 w-full overflow-hidden">
                 <Image
-                  src={post.image}
+                  src={post.image || "/blogdummy.webp"} 
                   alt={post.title}
                   fill
                   className="object-cover transition-transform duration-500 group-hover:scale-110"
@@ -104,11 +104,13 @@ export default function BlogGrid() {
                 <p className="text-xs text-white/80 mb-4">
                   {post.desc}
                 </p>
-<Link href={"/blogs/blogdetail"}>                <button className="flex items-center gap-2 bg-red-600 text-xs px-4 py-1 rounded-full uppercase tracking-wide hover:bg-red-700 transition">
-                  Read More
+<Link href={"/blogs"}>                <button className="flex items-center gap-2 bg-red-600 text-xs px-4 py-1 rounded-full uppercase tracking-wide hover:bg-red-700 transition">
+                  Learn More
                   <ChevronRight size={14} />
                 </button>
                 </Link>
+
+                
 
               </div>
             </div>

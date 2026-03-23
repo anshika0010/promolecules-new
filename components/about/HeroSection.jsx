@@ -3,19 +3,18 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section className="relative w-full min-h-screen pt-14 overflow-hidden">
+    <section className="relative max-w-7xl mx-auto min-h-[50vh] lg:min-h-[100vh] pt-8 overflow-hidden">
       
       {/* Background Image */}
       <Image
-        src="/whoweare.jpg"
-        alt="Hero Background"
+        src="/promolecules-who-we-are.webp"
+        alt="promolecules-who-we-are"
         fill
         priority
         className="object-cover"
       />
 
-      {/* Overlay (optional but improves readability on small screens) */}
-      <div className="absolute inset-0 bg-black/40 z-10" />
+
 
       {/* Bottom Right Text */}
       <div className="absolute bottom-6 right-4 sm:bottom-8 sm:right-8 md:bottom-16 md:right-16 
@@ -25,7 +24,7 @@ export default function HeroSection() {
         <h1 className="creepster-regular 
                        text-3xl sm:text-5xl md:text-7xl lg:text-8xl 
                        text-red-700 font-bold leading-tight">
-          WE ARE PROMOCULES
+          WE ARE PROMOLECULES
         </h1>
 
         <p className="global-text-style
