@@ -1,12 +1,16 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
 import { ChevronRight, ChevronLeft, Quote } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(1);
+
+  // Drag / swipe tracking
+  const dragStartX = useRef(null);
+  const isDragging = useRef(false);
 
   const testimonials = [
     {
@@ -63,69 +67,119 @@ const Testimonials = () => {
     testimonials[(currentIndex + 1) % testimonials.length],
   ];
 
+  // ── Mouse handlers ──
+  const handleMouseDown = (e) => {
+    dragStartX.current = e.clientX;
+    isDragging.current = false;
+  };
+
+  const handleMouseMove = (e) => {
+    if (dragStartX.current === null) return;
+    if (Math.abs(e.clientX - dragStartX.current) > 5) {
+      isDragging.current = true;
+    }
+  };
+
+  const handleMouseUp = (e) => {
+    if (dragStartX.current === null) return;
+    const diff = dragStartX.current - e.clientX;
+    if (Math.abs(diff) > 50) {
+      diff > 0 ? nextTestimonial() : prevTestimonial();
+    }
+    dragStartX.current = null;
+    isDragging.current = false;
+  };
+
+  const handleMouseLeave = () => {
+    dragStartX.current = null;
+    isDragging.current = false;
+  };
+
+  // ── Touch handlers ──
+  const handleTouchStart = (e) => {
+    dragStartX.current = e.touches[0].clientX;
+  };
+
+  const handleTouchEnd = (e) => {
+    if (dragStartX.current === null) return;
+    const diff = dragStartX.current - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 50) {
+      diff > 0 ? nextTestimonial() : prevTestimonial();
+    }
+    dragStartX.current = null;
+  };
+
   return (
     <section className="relative bg-black py-2 sm:py-4 md:py-6 max-w-7xl mx-auto overflow-hidden">
-      <style>{`
-        @keyframes shimmer {
-          0% { background-position: -200% center; }
-          100% { background-position: 200% center; }
-        }
-      `}</style>
-
       <div className="relative z-10 max-w-[1400px] mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-12 items-center">
 
           {/* Left Side */}
           <div className="space-y-6 text-center lg:text-left">
             <div className="flex flex-col items-center lg:items-start">
-              <h2 className="creepster-regular text-red-700 text-4xl sm:text-5xl md:text-6xl lg:text-8xl leading-tight">
+              <h2 className="creepster-regular heading leading-none">
                 WHAT OUR
               </h2>
-              <h2 className="creepster-regular text-red-700 text-4xl sm:text-5xl md:text-6xl lg:text-8xl leading-tight">
-                CUSTOMERS  SAY
+              <h2 className="creepster-regular heading leading-none">
+                CUSTOMERS SAY
               </h2>
-              
             </div>
 
-            <p className="global-text-style max-w-md mx-auto lg:mx-0">
-              PROMOLECULES™ FUELS THE RITUAL – BUILT FOR THOSE WHO TRAIN
-              HARDER, GO FURTHER AND NEVER BACK DOWN.
+            <p className="global-text-style max-w-md mx-auto lg:mx-0 text-sm sm:text-sm md:text-lg">
+              PROMOLECULES™ FUELS THE RITUAL – BUILT FOR THOSE WHO TRAIN HARDER,
+              GO FURTHER AND NEVER BACK DOWN.
             </p>
 
             {/* Arrows */}
             <div className="flex items-center justify-center lg:justify-start gap-4">
               <button
                 onClick={prevTestimonial}
-                className="bg-red-600 hover:bg-red-700 cursor-pointer active:scale-95 p-3 sm:p-4 rounded-full transition-all duration-200"   aria-label="Previous testimonial"
+                className="bg-red-600 hover:bg-red-700 cursor-pointer active:scale-95 p-3 sm:p-4 rounded-full transition-all duration-200"
+                aria-label="Previous testimonial"
               >
                 <ChevronLeft size={20} className="text-white" />
               </button>
 
               <div className="flex gap-2">
-                {Array.from({ length: Math.ceil(testimonials.length / 2) }).map((_, i) => (
-                  <div
-                    key={i}
-                    className={`h-1.5 rounded-full transition-all duration-300 ${
-                      Math.floor(currentIndex / 2) === i
-                        ? "w-6 bg-red-600"
-                        : "w-2 bg-red-600/30"
-                    }`}
-                  />
-                ))}
+                {Array.from({ length: Math.ceil(testimonials.length / 2) }).map(
+                  (_, i) => (
+                    <div
+                      key={i}
+                      className={`h-1.5 rounded-full transition-all duration-300 ${
+                        Math.floor(currentIndex / 2) === i
+                          ? "w-6 bg-red-600"
+                          : "w-2 bg-red-600/30"
+                      }`}
+                    />
+                  )
+                )}
               </div>
 
               <button
                 onClick={nextTestimonial}
                 className="bg-red-600 hover:bg-red-700 active:scale-95 cursor-pointer p-3 sm:p-4 rounded-full transition-all duration-200"
-                aria-label="next testimonial"
+                aria-label="Next testimonial"
               >
                 <ChevronRight size={20} className="text-white" />
               </button>
             </div>
+
+            {/* Swipe hint — visible only on touch devices */}
+            <p className="text-white/20 text-xs tracking-widest uppercase text-center lg:text-left select-none sm:hidden">
+              ← swipe to explore →
+            </p>
           </div>
 
-          {/* Right Side - Two Cards */}
-          <div className="relative overflow-hidden">
+          {/* Right Side — draggable + swipeable */}
+          <div
+            className="relative overflow-hidden cursor-grab active:cursor-grabbing select-none"
+            onMouseDown={handleMouseDown}
+            onMouseMove={handleMouseMove}
+            onMouseUp={handleMouseUp}
+            onMouseLeave={handleMouseLeave}
+            onTouchStart={handleTouchStart}
+            onTouchEnd={handleTouchEnd}
+          >
             <AnimatePresence mode="wait" custom={direction}>
               <motion.div
                 key={currentIndex}
@@ -134,25 +188,35 @@ const Testimonials = () => {
                 animate={{ x: 0, opacity: 1 }}
                 exit={{ x: direction * -100, opacity: 0 }}
                 transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
-                className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-6"
+                className="grid grid-cols-1 sm:grid-cols-2 gap-1 sm:gap-4 md:gap-6"
+                // Prevent framer-motion drag conflicting with our manual tracking
+                drag={false}
               >
                 {visibleCards.map((testimonial, index) => (
                   <div
                     key={index}
-                    className="bg-gradient-to-br from-red-900/40 to-red-950/60 backdrop-blur-sm border-2 border-red-600/30 rounded-3xl p-6 sm:p-7 space-y-5 flex flex-col justify-between min-h-[280px] sm:min-h-[320px]"
+                    className="
+                      bg-gradient-to-br from-red-900/40 to-red-950/60
+                      backdrop-blur-sm border-2 border-red-600/30 rounded-2xl md:rounded-3xl
+                      p-3 sm:p-4 md:p-6 lg:p-8
+                      flex flex-col justify-between
+                      min-h-[200px] sm:min-h-[240px] md:min-h-[300px] lg:min-h-[340px]
+                      space-y-2 md:space-y-4
+                      pointer-events-none
+                    "
                   >
-                    <div className="space-y-4">
-                      <Quote size={36} className="text-red-600" />
-                      <p className="global-text-style">
+                    <div className="space-y-2 md:space-y-4">
+                      <Quote size={24} className="text-red-600 md:w-9 md:h-9" />
+                      <p className="global-text-style text-xs sm:text-sm md:text-base leading-relaxed">
                         {testimonial.quote}
                       </p>
                     </div>
 
-                    <div className="pt-4 border-t border-white/10">
-                      <p className="text-white font-bold text-base sm:text-lg tracking-wider">
+                    <div className="pt-2 md:pt-4 border-t border-white/10">
+                      <p className="text-white font-bold text-sm md:text-base lg:text-lg tracking-wider">
                         {testimonial.author}
                       </p>
-                      <p className="global-text-style">
+                      <p className="global-text-style text-xs md:text-sm">
                         {testimonial.role}
                       </p>
                     </div>

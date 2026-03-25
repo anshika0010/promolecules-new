@@ -9,16 +9,7 @@ import Link from "next/link";
 
 export default function ProductClient({ jsonld }) {
   const products = [
-    {
-      title: "Warflex",
-      image: "/warflex-pre-workout-35-Servings.webp",
-      price: "$1899",
-      description:
-        "Warflex promotes muscle gains via an ultra high-stimulant pre-workout engineered for serious athletes who need extreme energy and endurance.",
-      thumbnail: "/promolecules-warflex-pre-workout-35-Servings.webp",
-      link: "/product/warflex",
-    },
-    {
+     {
       title: "Father of Insane",
       image: "/father-of-insane-pre-workout-65-Servings.webp",
       price: "$1599",
@@ -28,11 +19,21 @@ export default function ProductClient({ jsonld }) {
       link: "/product/father-of-insane",
     },
     {
-      title: "Inpower-R",
+      title: "Warflex",
+      image: "/warflex-pre-workout-35-Servings.webp",
+      price: "$1899",
+      description:
+        "Hybrid pre workout built for real performance Combines energy, pump, and focus Balanced high-stim formula.",
+      thumbnail: "/promolecules-warflex-pre-workout-35-Servings.webp",
+      link: "/product/warflex",
+    },
+   
+    {
+      title: "Inopower-R",
       image: "/promolecules-inpower-r.webp",
       price: "$2099",
       description:
-        "Beast Mode delivers insane pumps and unstoppable workout intensity.",
+        "Clean energy without caffeine dependency Built on ATP energy system Supports endurance at cellular level.",
       thumbnail: "/promolecules-inpower-r-thumbnail.webp",
       link: "/product/inopower-r/",
     },
@@ -41,7 +42,7 @@ export default function ProductClient({ jsonld }) {
       image: "/thermonuke.png",
       price: "$1799",
       description:
-        "Alpha Rage fuels your body with clean energy and laser focus.",
+        "Built for serious fat loss phases Targets metabolism, not just stimulation.Thermogenic formula that increases heat output.",
       thumbnail: "/thermo-nuke-xt-thumb.webp",
       link: "/product/thermo-nuke-xt/",
     },
@@ -50,7 +51,7 @@ export default function ProductClient({ jsonld }) {
       image: "/hydra.webp",
       price: "$1799",
       description:
-        "Alpha Rage fuels your body with clean energy and laser focus.",
+        "Hydrapump + is a liquid glycerol-based pump system built for real muscle performance.",
       thumbnail: "/hydrapump-thumb.webp",
       link: "/product/hydrapump",
     },

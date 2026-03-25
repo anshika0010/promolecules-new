@@ -12,7 +12,8 @@ const Blogs = () => {
     {
       id: 1,
       image: "/blogdummy.webp",
-      title: "THE POWER OF CONSISTENCY: HOW STAYING ON TRACK CAN TRANSFORM YOUR LIFE",
+      title:
+        "THE POWER OF CONSISTENCY: HOW STAYING ON TRACK CAN TRANSFORM YOUR LIFE",
       description:
         "DISCOVER THE TRANSFORMATIVE POWER OF CONSISTENCY IN ACHIEVING YOUR HEALTH AND FITNESS GOALS. LEARN HOW TO BUILD SUSTAINABLE HABITS THAT LEAD TO LONG-TERM SUCCESS.",
       tag: "READ MORE",
@@ -51,35 +52,27 @@ const Blogs = () => {
       `}</style>
 
       <div className="relative z-10 max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-10">
-        
         {/* Title */}
         <div className="text-center mb-10 sm:mb-14 md:mb-16 space-y-4">
-<div className="flex justify-center items-center px-4 min-h-[80px]">
-  <motion.div
-    initial={{ x: 200, opacity: 0 }}
-    whileInView={{ x: 0, opacity: 1 }}
-    viewport={{ once: true, amount: 0.3 }}
-    transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-    className="relative flex flex-col items-center w-full"
-  >
-    <h2 className="creepster-regular text-red-600 
-    text-[50px] 
-    sm:text-[50px] 
-    md:text-[60px] 
-    lg:text-[90px] 
-    xl:text-[100px] 
-    leading-none text-center text-center">
-      BLOGS
-    </h2>
+          <div className="flex justify-center items-center px-4 min-h-[80px]">
+            <motion.div
+              initial={{ x: 200, opacity: 0 }}
+              whileInView={{ x: 0, opacity: 1 }}
+              viewport={{ once: true, amount: 0.3 }}
+              transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+              className="relative flex flex-col items-center w-full"
+            >
+              <h2
+                className="creepster-regular heading
+    leading-none text-center text-center"
+              >
+                BLOGS
+              </h2>
 
-    <div className="h-1 bg-red-600 mt-2 w-20 sm:w-32 md:w-60 rounded-full" />
-  </motion.div>
-</div>
-          <p className="global-text-style tracking-wider max-w-4xl mx-auto leading-relaxed text-[10px] sm:text-xs md:text-sm px-2">
-            WELCOME TO PROMOLECULES™, THE NEXT EVOLUTION IN FITNESS SCIENCE –
-            WHERE EVERY FORMULA IS ENGINEERED WITH ONE GOAL: TO UNLOCK YOUR
-            BODY'S FULL POTENTIAL.
-          </p>
+              <div className="h-1 bg-red-600 mt-2 w-20 sm:w-32 md:w-60 rounded-full" />
+            </motion.div>
+          </div>
+       
         </div>
 
         {/* Blog Cards Infinite Slider */}
@@ -116,15 +109,14 @@ const Blogs = () => {
                   </div>
                 </div>
 
-      <Link
-  href="/blog"
-  aria-label="Learn more about our blogs and fitness articles"
-  className="flex items-center justify-center cursor-pointer gap-2 sm:gap-3 bg-red-600 hover:bg-red-700 text-white font-bold px-4 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm tracking-wider"
->
-  <span>Explore Blogs</span>
-  <ChevronRight size={16} aria-hidden="true" />
-</Link>
-  
+                <Link
+                  href="/blog"
+                  aria-label="Learn more about our blogs and fitness articles"
+                  className="flex items-center justify-center cursor-pointer gap-2 sm:gap-3 bg-red-600 hover:bg-red-700 text-white font-bold px-4 sm:px-6 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm tracking-wider"
+                >
+                  <span>Explore Blogs</span>
+                  <ChevronRight size={16} aria-hidden="true" />
+                </Link>
               </div>
             ))}
           </div>

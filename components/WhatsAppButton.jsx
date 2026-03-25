@@ -12,7 +12,7 @@ const message = "Hello! I'm interested in your products and would love to learn 
       target="_blank"
       rel="noopener noreferrer"
        aria-label="Chat with us on WhatsApp"
-      className="fixed bottom-24 right-8 bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg z-50 transition duration-300"
+      className="fixed bottom-20 right-6 bg-green-500 hover:bg-green-600 text-white p-2 rounded-full shadow-lg z-50 transition duration-300"
     >
       <FaWhatsapp size={35} />
     </a>

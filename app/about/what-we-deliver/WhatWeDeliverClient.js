@@ -13,7 +13,7 @@ export default function WhatWeDeliverClient({ jsonld }) {
         />
       )}
 
-      <section className="relative max-w-7xl mx-auto min-h-[50vh] lg:min-h-[100vh] overflow-hidden">
+      <section className="relative max-w-9xl mx-auto min-h-[50vh] lg:min-h-[100vh] overflow-hidden">
         {/* Background Image */}
         <Image
           src="/whatwedeliver.webp"

@@ -23,7 +23,7 @@ export default function ContactheroSection() {
           </h4>
 
           <div className="mt-6">
-            <h2 className="text-gray-300 text-lg sm:text-2xl md:text-4xl lg:text-5xl font-bold anton-regular break-all">
+            <h2 className="text-gray-300 lowercase text-md sm:text-xl md:text-2xl lg:text-5xl font-bold anton-regular break-all">
               CONTACT@PROMOLECULES.COM
             </h2>
           </div>

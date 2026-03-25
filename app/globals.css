@@ -107,6 +107,12 @@ body {
 .global-text-style {
   @apply text-gray-200 uppercase text-xs sm:text-xs leading-[1.6] tracking-[0.08em] font-bold hover:text-white;
 }
+.heading {
+  @apply text-[30px] sm:text-[32px] md:text-[60px] lg:text-[90px] xl:text-[90px] text-red-600;
+  
+}
+
+
 .react-tel-input .country-list {
   background: white;
   color: black;

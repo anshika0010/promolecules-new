@@ -10,14 +10,15 @@ const UltraHighPerformanceSection = () => {
       id: 1,
       title: " FOCUS",
       description:
-        "Engineered neurological activation enhances mental clarity, reaction speed, and tunnel vision focus without overstimulation or distracting jitters during intense sessions.",
+        "Engineered neurological activation boosts clarity, reaction speed, and tunnel-vision focus without jitters.",
       image: "/focus.webp",
       alt: "Razor Focus Skeleton",
     },
     {
       id: 2,
       title: " ENERGY",
-      description:"Multi-phase stimulant architecture delivers fast activation and sustained output, supporting extended high-intensity training without sudden crashes or unstable spikes.",
+      description:
+        "Multi-phase stimulants deliver rapid activation and sustained energy for intense training without crashes.",
       image: "/energy.webp",
       alt: "Extreme Energy Skeleton",
     },
@@ -25,102 +26,81 @@ const UltraHighPerformanceSection = () => {
       id: 3,
       title: "StRENGTH ",
       description:
-        "The Synergistic performance matrix supports explosive power, muscular endurance, and heavy compound lifts through structured ingredient balance and disciplined dosing strategy.",
+        "Synergistic formula boosts explosive power, endurance, and stronger lifts with precise balanced dosing.",
       image: "/strength.webp",
       alt: "Strength and Stamina Anatomy",
     },
   ];
 
   return (
-    <section className="relative bg-black max-w-7xl mx-auto overflow-hidden py-2  lg:py-3">
+    <section className="relative bg-black max-w-7xl mx-auto overflow-hidden py-4  lg:py-6">
       <div className="relative z-10 max-w-[1600px] mx-auto px-4 sm:px-6">
-
         {/* Main Title */}
         <div className="flex justify-center text-center mb-12 sm:mb-16">
           <div className="relative flex flex-col items-center">
-
-            <h2
-
-              className="creepster-regular text-red-600 
-              text-[50px] 
-              sm:text-3xl 
-              md:text-4xl 
-              lg:text-5xl 
-              xl:text-6xl 
-              leading-tight"
-            >
+            <h2 className="creepster-regular heading">
               ULTRA-HIGH-PERFORMANCE
             </h2>
 
-            <div className="h-1 bg-red-600 mt-2 w-24 sm:w-40 md:w-60 lg:w-full max-w-[900px] rounded-full" />
+            <div className="h-1 bg-red-600  w-24 sm:w-40 md:w-60 lg:w-full max-w-[900px] rounded-full" />
 
-            <h2
-              className="creepster-regular text-red-600 
-              text-[50px]
-              sm:text-5xl 
-              md:text-6xl 
-              lg:text-7xl 
-              xl:text-8xl 
-              p-1"
+            <h3 className="creepster-regular heading"
             >
               FORMULA
-            </h2>
+            </h3>
 
-            <div className="h-1 bg-red-600 mt-3 w-16 sm:w-24 rounded-full" />
+            <div className="h-1 bg-red-600  w-16 sm:w-24 rounded-full" />
           </div>
         </div>
 
+        
+
         {/* Features Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 lg:gap-12">
-
           {features.map((feature) => (
             <div key={feature.id} className="group relative">
+              <div className="space-y-6 text-center">
+                {/* ✅ Image FIRST */}
+                <motion.div
+                  initial={{ y: 80, opacity: 0 }}
+                  whileInView={{ y: 0, opacity: 1 }}
+                  viewport={{ once: true, amount: 0.3 }}
+                  transition={{
+                    duration: 0.8,
+                    ease: [0.22, 1, 0.36, 1],
+                  }}
+                  className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md"
+                >
+                  <div className="relative px-6 sm:px-10 lg:px-16 rounded-lg">
+                    <div className="relative bg-black p-1 rounded-lg">
+                      <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
+                        <Image
+                          src={feature.image}
+                          alt={feature.alt}
+                          fill
+                          className="object-contain transition-all duration-500 group-hover:scale-105"
+                        />
+                        <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
+                      </div>
+                    </div>
+                  </div>
+                </motion.div>
 
-<div className="space-y-6 text-center">
-
-  {/* ✅ Image FIRST */}
-  <motion.div
-    initial={{ y: 80, opacity: 0 }}
-    whileInView={{ y: 0, opacity: 1 }}
-    viewport={{ once: true, amount: 0.3 }}
-    transition={{
-      duration: 0.8,
-      ease: [0.22, 1, 0.36, 1],
-    }}
-    className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md"
-  >
-    <div className="relative px-6 sm:px-10 lg:px-16 rounded-lg">
-      <div className="relative bg-black p-1 rounded-lg">
-        <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
-          <Image
-            src={feature.image}
-            alt={feature.alt}
-            fill
-            className="object-contain transition-all duration-500 group-hover:scale-105"
-          />
-          <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
-        </div>
-      </div>
-    </div>
-  </motion.div>
-
-  {/* ✅ Title */}
-  <h3
-    className="text-white uppercase creepster-regular 
+                {/* ✅ Title */}
+                <h3
+                  className="text-white uppercase creepster-regular 
     text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
-  >
-    {feature.title}
-  </h3>
+                >
+                  {feature.title}
+                </h3>
 
-  {/* ✅ Description */}
-  <p className="global-text-style uppercase sm:text-xs md:text-sm leading-relaxed tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
-    {feature.description}
-  </p>
-
-</div>
+                {/* ✅ Description */}
+                <p className="global-text-style uppercase sm:text-xs md:text-sm leading-relaxed tracking-wider max-w-xs sm:max-w-sm mx-auto font-light">
+                  {feature.description}
+                </p>
+              </div>
             </div>
           ))}
-
         </div>
       </div>
 

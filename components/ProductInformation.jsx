@@ -135,7 +135,7 @@ export default function ProductInformation() {
             </p>
 
             <p className="text-gray-500 text-sm uppercase">
-              Top Brand 4.2 Rating
+              Top other Brand 4.2 Rating
             </p>
           </div>
 

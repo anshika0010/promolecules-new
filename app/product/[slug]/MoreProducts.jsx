@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import productsData from "@/data/productsdetail.json";
@@ -11,26 +12,25 @@ export default function MoreProducts() {
       <div className="max-w-4xl mx-auto">
 
         {/* Heading */}
-        <h2 className="text-red-600 creepster-regular text-4xl mb-6 ">
-          Don’t Miss Out – Rod & Save
+        <h2 className="text-red-600 creepster-regular text-2xl sm:text-3xl md:text-4xl mb-6">
+          Don’t Miss Out – Shop & Save
         </h2>
 
         {/* Product List */}
-        <div className="border border-white/20 divide-y divide-white/20">
+        <div className="border border-white/20 divide-y divide-white/20 rounded-lg overflow-hidden">
 
           {products.map((item, index) => (
-            
             <Link
               key={index}
-              href={`/product/${item.slug}`}  // ✅ dynamic route
+              href={`/product/${item.slug}`}
               className="block"
             >
-              <div className="flex items-center justify-between p-4 hover:bg-white/5 transition cursor-pointer">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 p-4 hover:bg-white/5 transition">
 
                 {/* Left Side */}
                 <div className="flex items-center gap-4">
 
-                  <div className="relative w-16 h-16">
+                  <div className="relative w-14 h-14 sm:w-16 sm:h-16">
                     <Image
                       src={item.images[0]}
                       alt={item.name}
@@ -40,31 +40,27 @@ export default function MoreProducts() {
                   </div>
 
                   <div>
-                    <h3 className="font-semibold text-sm tracking-wide">
+                    <h3 className="font-semibold text-xs sm:text-sm tracking-wide">
                       {item.name}
                     </h3>
 
-                    <p className="text-xs text-white/70">
-                      <span className="line-through mr-2">${item.price}</span>
+                    <p className="text-xs text-white/70 mt-1">
                       <span className="font-semibold text-white">
-                        {item.discounted}
+                        ${item.servings?.[0]?.price}
                       </span>
                     </p>
                   </div>
-
                 </div>
 
                 {/* Button */}
                 <button
-              
-                  className="border border-white px-5 py-2 text-xs tracking-wider uppercase hover:bg-white hover:text-black transition"
+                  className="w-full sm:w-auto border border-white px-5 py-2 text-xs tracking-wider uppercase hover:bg-white hover:text-black transition"
                 >
                   Add To Cart
                 </button>
 
               </div>
             </Link>
-
           ))}
         </div>
       </div>

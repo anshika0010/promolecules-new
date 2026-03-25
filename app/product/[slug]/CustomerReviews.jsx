@@ -5,11 +5,13 @@ import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import { useState } from "react";
 
-export default function CustomerReviews({ reviews, openModal }) {
+export default function CustomerReviews({ reviews }) {
   const [visibleCount, setVisibleCount] = useState(5); // show 5 reviews initially
 
   if (!reviews || reviews.length === 0) {
-    return <p className="text-white p-10">No reviews found for this product.</p>;
+    return (
+      <p className="text-white p-10">No reviews found for this product.</p>
+    );
   }
 
   const ratingBars = [
@@ -26,14 +28,12 @@ export default function CustomerReviews({ reviews, openModal }) {
 
   return (
     <section className="bg-black text-white py-16 px-3 lg:px-2 max-w-7xl mx-auto">
-
       {/* TITLE */}
       <h2 className="text-red-600 text-4xl md:text-6xl font-extrabold creepster-regular tracking-wide mb-10">
         CUSTOMER REVIEWS
       </h2>
 
       <div className="grid lg:grid-cols-2 gap-6">
-
         {/* LEFT SIDE */}
         <div>
           <div className="flex items-center gap-4 mb-1">
@@ -50,20 +50,18 @@ export default function CustomerReviews({ reviews, openModal }) {
             </span>
           </div>
 
-          <p className="text-gray-500 text-sm mb-1">
-            Rating since Dec 7, 2025
-          </p>
+          <p className="text-gray-500 text-sm mb-1">Rating since Dec 7, 2025</p>
 
-          <p className="text-gray-400 text-sm mb-8">
-            Top brand 4.2 rating
-          </p>
-
-          <button
-            onClick={openModal}
-            className="px-6 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600"
+          <p className="text-gray-400 text-sm mb-8">Top other brand 4.2 rating</p>
+          {/* <Link
+            href="https://cost2costsupplement.com/"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Write a Review
-          </button>
+            <button className="px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-400 cursor-pointer">
+              Write a Review
+            </button>
+          </Link> */}
         </div>
 
         {/* RIGHT SIDE RATING BARS */}
@@ -96,8 +94,12 @@ export default function CustomerReviews({ reviews, openModal }) {
               ))}
             </div>
 
-            <p className="font-bold uppercase mb-1 text-gray-200">{review.country}</p>
-            <p className="text-gray-400 text-sm max-w-4xl leading-relaxed">{review.des}</p>
+            <p className="font-bold uppercase mb-1 text-gray-200">
+              {review.country}
+            </p>
+            <p className="text-gray-400 text-sm max-w-4xl leading-relaxed">
+              {review.des}
+            </p>
           </div>
         ))}
       </div>

@@ -55,8 +55,8 @@ const posts = [
 
 export default function BlogGrid() {
   return (
-    <section className="bg-black text-white py-2 px-6">
-      <div className="max-w-7xl mx-auto">
+    <section className="max-w-7xl mx-auto bg-black text-white py-2 px-6">
+    
         
  {/* CATEGORY FILTERS */}
 <div className="w-full overflow-x-auto mb-16">
@@ -139,7 +139,7 @@ export default function BlogGrid() {
 
           <button className="text-white/50 hover:text-white">&gt;</button>
         </div>
-      </div>
+     
     </section>
   );
 }

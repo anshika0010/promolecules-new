@@ -18,7 +18,7 @@ export default function HistoryClient({ jsonld }) {
       )}
 
       {/* Hero + BG Image Combined Section */}
-      <section className="relative max-w-7xl mx-auto min-h-[50vh] lg:min-h-screen overflow-hidden">
+      <section className="relative max-w-9xl mx-auto min-h-[50vh] lg:min-h-screen overflow-hidden">
         {/* Background Image */}
         <Image
           src="/promolecules-footer-background-historyimages.webp"

@@ -2,22 +2,22 @@ import Image from "next/image";
 
 export default function WarningTape() {
   return (
-<section className="relative min-h-[500px] sm:min-h-[600px] lg:min-h-[650px] max-w-9xl mx-auto bg-black overflow-hidden">
+<section className="relative min-h-[320px] sm:min-h-[600px] lg:min-h-[650px] max-w-9xl mx-auto bg-black overflow-hidden">
 
   {/* ================= MOBILE UI ================= */}
   <div className="md:hidden flex flex-col px-4 py-8 space-y-8">
 
     {/* Top Content */}
-    <div className="text-center">
-      <h4 className="text-red-400 font-bold text-base mb-2 uppercase">
+    {/* <div className="text-center">
+      <h4 className="text-red-600 font-bold text-xl text-base mb-1 ">
         The Hidden Supplement Crisis
       </h4>
-      <p className="global-text-style  text-white/70 leading-relaxed">
+      <p className="global-text-style leading-relaxed">
         The supplement industry faces a silent crisis—adulteration. Studies reveal
         that nearly 70% of budget supplements contain less active ingredient than
         claimed, with some containing harmful fillers or banned substances.
       </p>
-    </div>
+    </div> */}
 
     {/* Tape */}
     <div className="rotate-[-5deg]">
@@ -30,12 +30,12 @@ export default function WarningTape() {
 
     {/* Bottom Content */}
     <div className="text-center">
-      <h4 className="text-red-400 font-bold text-sm mb-2 uppercase">
+      <h5 className="text-red-600 font-bold text-xl text-base mb-1 ">
         Important Safety Information
-      </h4>
-      <p className="global-text-style  text-white/70 leading-relaxed">
-        THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN or
-        PREGNANT OR LACTATING WOMEN. CONSULT A PHYSICIAN BEFORE USE.
+      </h5>
+      <p className="global-text-style  leading-relaxed">
+        THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN,
+        PREGNANT & LACTATING WOMEN.
       </p>
     </div>
 
@@ -46,7 +46,7 @@ export default function WarningTape() {
 
     {/* Top Right Text */}
     <div className="absolute top-40 right-8 lg:top-60 lg:right-12 max-w-md text-right z-20">
-      <h4 className="text-red-400 font-bold text-base mb-2 uppercase">
+      <h4 className="text-red-600 font-bold text-xl text-base mb-1 ">
         The Hidden Supplement Crisis
       </h4>
       <p className="global-text-style  text-white/70 leading-relaxed">
@@ -57,12 +57,12 @@ export default function WarningTape() {
 
     {/* Bottom Left Text */}
     <div className="absolute bottom-10 left-10 max-w-md z-20">
-      <h4 className="text-red-400 font-bold text-base mb-2 uppercase">
+      <h4 className="text-red-600 font-bold text-xl text-base mb-1 ">
         Important Safety Information
       </h4>
       <p className="global-text-style text-white/70 leading-relaxed">
-        THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN or
-        PREGNANT OR LACTATING WOMEN.
+        THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN,
+        PREGNANT & LACTATING WOMEN.
       </p>
     </div>
 

@@ -90,48 +90,47 @@ export default function ContactForm() {
 
   return (
     <section className="max-w-7xl mx-auto min-h-screen bg-black text-white py-24 relative">
-
       <div
         className={`max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 transition-all duration-300 ${
           showPopup ? "blur-md pointer-events-none" : ""
         }`}
       >
-
         {/* LEFT SIDE (same as yours) */}
         <div className="space-y-10">
-          <div>
-            <h1 className="text-6xl md:text-8xl anton-regular font-bold uppercase">JUST</h1>
-            <h3 className="text-6xl md:text-8xl anton-regular font-bold uppercase">SEND IT.</h3>
-          </div>
-
+        
+          <h1 className="text-6xl md:text-8xl anton-regular font-bold uppercase">
+            JUST
+          </h1>
+          <h3 className="text-6xl md:text-8xl anton-regular font-bold uppercase">
+            SEND IT.
+          </h3>
           <div className="w-24 h-[2px] bg-gray-500"></div>
-
           <div className="grid grid-cols-2 gap-8 global-text-style uppercase tracking-wider">
-            <p>Connect with Promolecules™ for product guidance and collaboration inquiries.</p>
+            <p>
+              Connect with Promolecules™ for product guidance and collaboration
+              inquiries.
+            </p>
             <p>Reach us via email or official social platforms.</p>
           </div>
+          <div className="flex flex-col sm:flex-row items-center gap-4 text-white text-sm">
+            {/* Phone */}
+            <a
+              href="tel:+17867892121"
+              className="flex items-center gap-2 hover:text-red-500 transition"
+            >
+              <Phone size={16} className="text-red-500" />
+              <span>+1 (786) 789-2121</span>
+            </a>
 
-   <div className="flex flex-col sm:flex-row items-center gap-4 text-white text-sm">
-
-  {/* Phone */}
-  <a
-    href="tel:+17867892121"
-    className="flex items-center gap-2 hover:text-red-500 transition"
-  >
-    <Phone size={16} className="text-red-500" />
-    <span>+1 (786) 789-2121</span>
-  </a>
-
-  {/* Email */}
-  <a
-    href="mailto:info@promolecules.com"
-    className="flex items-center gap-2 hover:text-red-500 transition"
-  >
-    <Mail size={16} className="text-red-500" />
-    <span>info@promolecules.com</span>
-  </a>
-
-</div>
+            {/* Email */}
+            <a
+              href="mailto:info@promolecules.com"
+              className="flex items-center gap-2 hover:text-red-500 transition"
+            >
+              <Mail size={16} className="text-red-500" />
+              <span>info@promolecules.com</span>
+            </a>
+          </div>
         </div>
 
         {/* RIGHT FORM */}
@@ -141,7 +140,6 @@ export default function ContactForm() {
           </h2>
 
           <form onSubmit={handleSubmit} className="space-y-6">
-
             {/* NAME */}
             <InputField
               label="FULL NAME"
@@ -219,8 +217,8 @@ export default function ContactForm() {
             >
               Send Message
             </button>
-
           </form>
+
         </div>
       </div>
 
@@ -242,7 +240,15 @@ export default function ContactForm() {
 }
 
 /* INPUT COMPONENT */
-function InputField({ label, name, value, onChange, placeholder, type = "text", error }) {
+function InputField({
+  label,
+  name,
+  value,
+  onChange,
+  placeholder,
+  type = "text",
+  error,
+}) {
   return (
     <div>
       <label className="block text-xs text-gray-400 mb-2 tracking-widest">

@@ -34,12 +34,11 @@ const AboutPage = () => {
         className="object-cover"
       />
 
-      {/* Overlay for better text visibility */}
-      <div className="absolute inset-0 bg-black/10"></div>
+
 
       {/* Main Content */}
       <div className="relative z-10 w-full max-w-7xl mx-auto py-12 sm:py-16 md:py-20">
-<h1 className="text-white text-center text-3xl font-bold uppercase p-4">
+<h1 className="text-black text-start text-3xl creepster-regular font-bold uppercase p-4">
   About Promolecules™
 </h1>
         <div className="flex flex-col gap-8 sm:gap-10 md:gap-14">
@@ -99,9 +98,9 @@ const AboutPage = () => {
                   className="
                   text-red-600
                   hidden md:block
-                  transition-all duration-300
+                  
                   group-hover:text-white
-                  group-hover:translate-x-4
+                 
                   "
                 />
 
@@ -113,9 +112,9 @@ const AboutPage = () => {
       </div>
 
       {/* Social Links */}
-      <div className="absolute bottom-4 md:bottom-6 left-0 right-0 z-10">
+ 
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 flex flex-wrap justify-center md:justify-between gap-3 sm:gap-5 text-white uppercase tracking-widest">
+        <div className="absolute bottom-6 md:bottom-9 left-0 right-0 z-10  max-w-7xl mx-auto px-4 sm:px-6 md:px-10  flex flex-wrap justify-center md:justify-between gap-3 sm:gap-5 text-white uppercase tracking-widest">
 
           {socials.map((social, index) => (
             <a
@@ -127,7 +126,7 @@ const AboutPage = () => {
               anton-regular
               font-bold
               transition
-              text-xs sm:text-sm md:text-lg lg:text-xl
+              text-xs sm:text-sm md:text-md lg:text-lg
               hover:text-red-500
               "
             >
@@ -136,7 +135,7 @@ const AboutPage = () => {
           ))}
 
         </div>
-      </div>
+
 
     </section>
   );

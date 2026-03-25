@@ -13,7 +13,7 @@ export default function FAQClient({ jsonld }) {
           dangerouslySetInnerHTML={{ __html: jsonld }}
         />
       )}
-      <section className="relative max-w-7xl mx-auto min-h-[50vh] lg:min-h-[100vh] overflow-hidden text-white lg:pt-1 sm:mt-0">
+      <section className="relative max-w-9xl mx-auto min-h-[50vh] lg:min-h-[100vh] overflow-hidden text-white lg:pt-1 sm:mt-0">
         {/* Background Image */}
         <Image
           src="/promolecules-faq-banner.webp"
