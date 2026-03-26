@@ -36,19 +36,37 @@ export default function CustomerReviews({ reviews }) {
       <div className="grid lg:grid-cols-2 gap-6">
         {/* LEFT SIDE */}
         <div>
-          <div className="flex items-center gap-4 mb-1">
-            <span className="text-5xl font-bold">4.4</span>
+         <div className="flex items-center gap-4 mb-1">
+  <span className="text-5xl font-bold">4.5</span>
 
-            <div className="flex text-red-600">
-              {[...Array(5)].map((_, i) => (
-                <Star key={i} size={20} fill="currentColor" />
-              ))}
-            </div>
-
-            <span className="text-gray-400 uppercase text-sm">
-              Based on {reviews.length} Ratings
+  <div className="flex text-red-600">
+    {[...Array(5)].map((_, i) => {
+      if (i < 4) {
+        // Full star
+        return <Star key={i} size={20} fill="currentColor" />;
+      } else {
+        // Half star using SVG clip
+        return (
+          <span key={i} className="relative inline-block" style={{ width: 20, height: 20 }}>
+            {/* Empty star (background) */}
+            <Star size={20} className="text-gray-600" fill="currentColor" />
+            {/* Half filled star (foreground, clipped to left 50%) */}
+            <span
+              className="absolute inset-0 overflow-hidden"
+              style={{ width: "50%" }}
+            >
+              <Star size={20} fill="currentColor" className="text-red-600" />
             </span>
-          </div>
+          </span>
+        );
+      }
+    })}
+  </div>
+
+  <span className="text-gray-400 uppercase text-sm">
+    Based on {reviews.length} Ratings
+  </span>
+</div>
 
           <p className="text-gray-500 text-sm mb-1">Rating since Dec 7, 2025</p>
 

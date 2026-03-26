@@ -201,23 +201,28 @@ export default function ProductDetail({ product }) {
   const [quantity, setQuantity] = useState(1);
   const [factsOpen, setFactsOpen] = useState(false);
   const [open, setOpen] = useState(0);
- 
-  const [selectedFlavour, setSelectedFlavour] = useState(product.variants[0].flavour);
+
+  const [selectedFlavour, setSelectedFlavour] = useState(
+    product.variants[0].flavour,
+  );
   const [selectedSize, setSelectedSize] = useState(product.variants[0].size);
-const [activeImg, setActiveImg] = useState(product.variants[0].image);
+  const [activeImg, setActiveImg] = useState(product.variants[0].image);
   const [cartOpen, setCartOpen] = useState(false);
   const [cartMode, setCartMode] = useState("cart");
 
   // ✅ Add these two lines
-  const flavours = [...new Set(product.variants.map(v => v.flavour))];
-  const sizes = [...new Set(product.variants.map(v => v.size))];  const handleAddToCart = () => {
+  const flavours = [...new Set(product.variants.map((v) => v.flavour))];
+  const sizes = [...new Set(product.variants.map((v) => v.size))];
+  const handleAddToCart = () => {
     setCartMode("cart");
     setCartOpen(true);
   };
   // Unique sizes with their prices from variants
-const servings = [...new Map(
-  product.variants.map(v => [v.size, { size: v.size, price: v.price }])
-).values()];
+  const servings = [
+    ...new Map(
+      product.variants.map((v) => [v.size, { size: v.size, price: v.price }]),
+    ).values(),
+  ];
   const handleBuyNow = () => {
     setCartMode("buynow");
     setCartOpen(true);
@@ -254,13 +259,13 @@ const servings = [...new Map(
               {/* Main image */}
               <div className="relative flex items-center justify-center h-[280px] sm:h-[380px] md:h-[500px] overflow-hidden border border-gray-800 rounded-2xl bg-[#0d0d0d]">
                 <div className="absolute w-[200px] sm:w-[300px] h-[260px] sm:h-[360px] rounded-full bg-[radial-gradient(circle,rgba(224,0,27,0.12)_0%,transparent_70%)]" />
-             <Image
-  src={activeImg}
-  alt="product"
-  width={400}
-  height={400}
-  className="h-[240px] sm:h-[320px] md:h-[460px] w-auto object-contain relative z-10 transition-all duration-500 ease-in-out"
-/>
+                <Image
+                  src={activeImg}
+                  alt="product"
+                  width={400}
+                  height={400}
+                  className="h-[240px] sm:h-[320px] md:h-[460px] w-auto object-contain relative z-10 transition-all duration-500 ease-in-out"
+                />
               </div>
 
               {/* Thumbnails */}
@@ -297,18 +302,32 @@ const servings = [...new Map(
               <div className="h-[2px] bg-gradient-to-r from-red-600 to-transparent" />
 
               {/* Stars */}
-              <div className="flex gap-1">
-                {[1, 2, 3, 4, 5].map((i) => (
-                  <StarIcon key={i} filled={i <= 4} />
-                ))}
-              </div>
+           <div className="flex gap-1">
+  {[1, 2, 3, 4, 5].map((i) => {
+    if (i <= 4) {
+      return <StarIcon key={i} filled={true} />;
+    } else {
+      return (
+        <span key={i} className="relative inline-block w-[1em] h-[1em]">
+          {/* Empty star base */}
+          <StarIcon filled={false} />
+          {/* Half filled overlay */}
+          <span className="absolute inset-0 overflow-hidden w-[50%]">
+            <StarIcon filled={true} />
+          </span>
+        </span>
+      );
+    }
+  })}
+</div>
+
 
               <p className="global-text-style text-xs sm:text-sm md:text-base">
                 {product.title}
               </p>
               {/* Price */}
               <div className="text-xl sm:text-4xl font-black leading-none text-white">
-              ${selectedServing?.price}
+                ${selectedServing?.price}
               </div>
 
               {/* Flavours */}
@@ -316,58 +335,69 @@ const servings = [...new Map(
                 <p className="text-red-600 font-bold text-xs uppercase tracking-[2px] mb-2">
                   FLAVOURS
                 </p>
-              <div className="flex gap-2 flex-wrap">
-  {flavours.map((flavour) => (
-    <button
-      key={flavour}
-    onClick={() => {
-  setSelectedFlavour(flavour);
-  const match = product.variants.find(
-    v => v.flavour === flavour && v.size === selectedSize
-  ) || product.variants.find(v => v.flavour === flavour);
-  setActiveImg(match.image); // ✅ add prefix
-}}
-      className={`px-3 sm:px-4 py-1.5 text-xs sm:text-sm uppercase tracking-wider border rounded transition ${
-        selectedFlavour === flavour
-          ? "bg-red-600 border-red-600 text-white"
-          : "bg-[#1a1a1a] border-[#333] hover:border-red-500"
-      }`}
-    >
-      {flavour}
-    </button>
-  ))}
-</div>
+                <div className="flex gap-2 flex-wrap">
+                  {flavours.map((flavour) => (
+                    <button
+                      key={flavour}
+                      onClick={() => {
+                        setSelectedFlavour(flavour);
+                        const match =
+                          product.variants.find(
+                            (v) =>
+                              v.flavour === flavour && v.size === selectedSize,
+                          ) ||
+                          product.variants.find((v) => v.flavour === flavour);
+                        setActiveImg(match.image); // ✅ add prefix
+                      }}
+                      className={`px-3 sm:px-4 py-1.5 text-xs sm:text-sm uppercase tracking-wider border rounded transition ${
+                        selectedFlavour === flavour
+                          ? "bg-red-600 border-red-600 text-white"
+                          : "bg-[#1a1a1a] border-[#333] hover:border-red-500"
+                      }`}
+                    >
+                      {flavour}
+                    </button>
+                  ))}
+                </div>
               </div>
 
               {/* Servings */}
-      {/* Servings */}
-<div>
-  <p className="text-red-600 font-bold text-xs uppercase tracking-[2px] mb-2">
-    SERVINGS
-  </p>
-  <div className="flex gap-2 flex-wrap">
-    {servings.map((s) => (        // ✅ product.servings → servings
-      <button
-        key={s.size}
-        onClick={() => {
-          setSelectedServing(s);
-          setSelectedSize(s.size); // ✅ size state bhi update karo
-          const match = product.variants.find(
-            v => v.size === s.size && v.flavour === selectedFlavour
-          ) || product.variants.find(v => v.size === s.size);
-          if (match) setActiveImg(match.image); // ✅ image update
-        }}
-        className={`px-3 sm:px-4 py-1.5 text-xs sm:text-sm uppercase tracking-wider border rounded transition ${
-          selectedServing?.size === s.size
-            ? "bg-red-600 border-red-600 text-white"
-            : "bg-[#1a1a1a] border-[#333] hover:border-red-500"
-        }`}
-      >
-        {s.size}
-      </button>
-    ))}
-  </div>
-</div>
+              {/* Servings */}
+              <div>
+                <p className="text-red-600 font-bold text-xs uppercase tracking-[2px] mb-2">
+                  SERVINGS
+                </p>
+                <div className="flex gap-2 flex-wrap">
+                  {servings.map(
+                    (
+                      s, // ✅ product.servings → servings
+                    ) => (
+                      <button
+                        key={s.size}
+                        onClick={() => {
+                          setSelectedServing(s);
+                          setSelectedSize(s.size); // ✅ size state bhi update karo
+                          const match =
+                            product.variants.find(
+                              (v) =>
+                                v.size === s.size &&
+                                v.flavour === selectedFlavour,
+                            ) ||
+                            product.variants.find((v) => v.size === s.size);
+                          if (match) setActiveImg(match.image); // ✅ image update
+                        }}
+                        className={`px-3 sm:px-4 py-1.5 text-xs sm:text-sm uppercase tracking-wider border rounded transition ${
+                          selectedServing?.size === s.size
+                            ? "bg-red-600 border-red-600 text-white"
+                            : "bg-[#1a1a1a] border-[#333] hover:border-red-500"
+                        }`}
+                      >
+                        {s.size}
+                      </button>
+                    ),
+                  )}
+                </div>
+              </div>
 
               {/* Quantity */}
               <div className="pt-3 border-t border-[#2a2a2a]">
@@ -411,41 +441,43 @@ const servings = [...new Map(
                 </button>
               </div>
 
-          {/* Supplement Facts */}
-<div className="border-t border-[#2a2a2a] pt-3">
-  <div
-    onClick={() => setFactsOpen(!factsOpen)}
-    className="flex justify-between items-center py-3 cursor-pointer uppercase font-bold tracking-[2px] text-sm hover:text-red-500 transition"
-  >
-    <span>Supplement Facts</span>
-    <span
-      className={`transition-transform duration-300 ${factsOpen ? "rotate-45" : ""}`}
-    >
-      <PlusIcon />
-    </span>
-  </div>
+              {/* Supplement Facts */}
+              <div className="border-t border-[#2a2a2a] pt-3">
+                <div
+                  onClick={() => setFactsOpen(!factsOpen)}
+                  className="flex justify-between items-center py-3 cursor-pointer uppercase font-bold tracking-[2px] text-sm hover:text-red-500 transition"
+                >
+                  <span>Supplement Facts</span>
+                  <span
+                    className={`transition-transform duration-300 ${factsOpen ? "rotate-45" : ""}`}
+                  >
+                    <PlusIcon />
+                  </span>
+                </div>
 
-  {/* Animated dropdown */}
-  <div
-    className={`overflow-hidden transition-all duration-500 ease-in-out ${
-      factsOpen ? "max-h-[600px] opacity-100" : "max-h-0 opacity-0"
-    }`}
-  >
-    <div className="pb-4">
-      {product?.images?.[3] && (
-        <div className="relative w-full rounded-xl overflow-hidden border border-white/10">
-          <Image
-            src={product.images[3]}
-            alt="Supplement Facts"
-            width={600}
-            height={800}
-            className="w-full h-auto object-contain"
-          />
-        </div>
-      )}
-    </div>
-  </div>
-</div>
+                {/* Animated dropdown */}
+                <div
+                  className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                    factsOpen
+                      ? "max-h-[600px] opacity-100"
+                      : "max-h-0 opacity-0"
+                  }`}
+                >
+                  <div className="pb-4">
+                    {product?.images?.[3] && (
+                      <div className="relative w-full rounded-xl overflow-hidden border border-white/10">
+                        <Image
+                          src={product.images[3]}
+                          alt="Supplement Facts"
+                          width={600}
+                          height={800}
+                          className="w-full h-auto object-contain"
+                        />
+                      </div>
+                    )}
+                  </div>
+                </div>
+              </div>
               <MoreProducts />
             </div>
           </div>
