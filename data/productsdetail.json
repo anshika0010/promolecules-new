@@ -1,6 +1,6 @@
 {
   "products": [
-      {
+    {
       "id": 1,
       "slug": "father-of-insane",
       "name": "FATHER OF INSANE",
@@ -61,54 +61,60 @@
       "images": [
         "/Promolecules/fatherofinsane/frontside.webp",
         "/Promolecules/fatherofinsane/backside.webp",
-        "/Promolecules/fatherofinsane2.webp",
-        "/Promolecules/fatherofinsane/father-of-insan-supplement-fact.webp"
+        "/Promolecules/fatherofinsane/father-of-insane.webp",
+        "/Promolecules/fatherofinsane/father-of-insane-supplement-facts.webp"
       ],
-      "featuredimg":"/Promolecules/fatherofinsane/father-of-insane-pre-workout.webp",
-
-      
-"variants": [
-  {"flavour":"Fruit-Punch",
-   "size": "35",
-   "price": 41.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Fruit-Punch",
- "size": "65",
-  "price": 59.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
-   "size": "35",
-   "price": 41.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
- "size": "65",
-  "price": 59.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
-   "size": "35",
-   "price": 41.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
- "size": "65",
-  "price": 59.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-      {"flavour":"Purple-Pulse",
-   "size": "35",
-   "price": 41.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Purple-Pulse",
- "size": "65",
-  "price": 59.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
-  }
-],
+      "featuredimg": "/Promolecules/fatherofinsane/father-of-insane-pre-workout.webp",
+      "variants": [
+        {
+          "flavour": "Fruit-Punch",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-35-Servings.webp"
+        },
+        {
+          "flavour": "Fruit-Punch",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-65-Servings.webp"
+        },
+        {
+          "flavour": "Gummies-Bliss",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/fatherofinsane/gummies-bliss-father-of-insane-pre-workout-35-Servings.webp"
+        },
+        {
+          "flavour": "Gummies-Bliss",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/fatherofinsane/gummies-bliss-father-of-insane-pre-workout-65-Servings.webp"
+        },
+        {
+          "flavour": "Blue-Rasberry",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/fatherofinsane/blue-rasberry-father-of-insane-pre-workout-35-Servings.webp"
+        },
+        {
+          "flavour": "Blue-Rasberry",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/fatherofinsane/blue-rasberry-father-of-insane-pre-workout-65-Servings.webp"
+        },
+        {
+          "flavour": "Purple-Pulse",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/fatherofinsane/purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp"
+        },
+        {
+          "flavour": "Purple-Pulse",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/fatherofinsane/purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp"
+        }
+      ],
 
       "price": "43",
       "discounted": "41.2",
@@ -196,11 +202,11 @@
           }
         ]
       },
-     "reviews": [
+      "reviews": [
         {
           "id": 1,
           "name": "Ryan Carter",
-          
+
           "title": "USA",
           "text": "Been lifting 12 years. Half scoop before deadlifts and my CNS just switched on. Energy curve is smooth and aggression stays controlled through every set."
         },
@@ -389,132 +395,128 @@
       "name": "WARFLEX",
       "title": "WARFLEX is a powerful high-stimulant pre-workout with Boron Citrate designed for advanced serious lifters seeking extreme energy, laser focus, explosive strength, and boosted performance for 8-10 hours.",
       "description": "WARFLEX by Promolecules is a high-stimulant, performance-enhancing pre-workout engineered for athletes who want extreme energy, tunnel-vision focus, powerful pumps, and explosive strength.  Fortified with Boron Citrate and a premium combination of stimulants, pump enhancers, nootropics, and endurance-support compounds, WARFLEXâ„¢ delivers a next-level training experience lasting up to 8-10 hours.  With 35 & 65 intense servings, it is formulated for advanced users who push beyond limits in every session.",
-"seo": {
-  "title": "Promolecules™ Warflex - Best High Stim Pre Workout Buy Online",
-  "description": "Shop Warflex pre workout by Promolecules™. Get extreme energy, focus, pump & strength. High stimulant formula for advanced athletes. Order now in Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India.",
-  "canonical": "https://www.promolecules.com/product/warflex/",
-  "og": {
-    "title": "Promolecules™ Warflex - Best High Stim Pre Workout Buy Online",
-    "type": "website",
-    "image": "https://www.promolecules.com/logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Shop Warflex pre workout by Promolecules™. Get extreme energy, focus, pump & strength. High stimulant formula for advanced athletes. Order now in Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India.",
-    "url": "https://www.promolecules.com/product/warflex/"
-  },
-  "author": "www.promolecules.com",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "English",
-  "robots": "index,follow",
-  "twitter": {
-    "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Promolecules™ Warflex - Best High Stim Pre Workout Buy Online",
-    "description": "Shop Warflex pre workout by Promolecules™. Get extreme energy, focus, pump & strength. High stimulant formula for advanced athletes. Order now in Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India.",
-    "image": "https://www.promolecules.com/logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.com/product/warflex/",
-    "logo": "https://www.promolecules.com/logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
-  }
-},
-      "price": "43",
+      "seo": {
+        "title": "Promolecules™ Warflex - Best High Stim Pre Workout Buy Online",
+        "description": "Shop Warflex pre workout by Promolecules™. Get extreme energy, focus, pump & strength. High stimulant formula for advanced athletes. Order now in Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India.",
+        "canonical": "https://www.promolecules.com/product/warflex/",
+        "og": {
+          "title": "Promolecules™ Warflex - Best High Stim Pre Workout Buy Online",
+          "type": "website",
+          "image": "https://www.promolecules.com/logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Shop Warflex pre workout by Promolecules™. Get extreme energy, focus, pump & strength. High stimulant formula for advanced athletes. Order now in Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India.",
+          "url": "https://www.promolecules.com/product/warflex/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ Warflex - Best High Stim Pre Workout Buy Online",
+          "description": "Shop Warflex pre workout by Promolecules™. Get extreme energy, focus, pump & strength. High stimulant formula for advanced athletes. Order now in Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/warflex/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
+        }
+      },
+   "price": "43",
+     "servings": [
+        {
+          "size": "35",
+          "price": 41.99
+        },
+        {
+          "size": "65",
+          "price": 59.99
+        }
+      ],
       "discounted": "41.2",
       "images": [
         "/Promolecules/warflexnew/promolecules-warflex-pre-workout_11zon.webp",
         "/Promolecules/warflexnew/promolecules-warflex-supplements_11zon.webp",
         "/Promolecules/warflex3.webp",
 
-        "/Promolecules/warflexnew/warflex-65-serving-supplement-facts.webp"
+        "/Promolecules/warflexnew/warflex-supplements-facts.webp"
       ],
-              "featuredimg":"/Promolecules/warflexnew/warfle-pre-workout.webp",
+      "featuredimg": "/Promolecules/warflexnew/warfle-pre-workout.webp",
 
       "variants": [
-  {"flavour":"Fruit-Punch",
-   "size": "35",
-   "price": 41.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Fruit-Punch",
- "size": "65",
-  "price": 59.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
-   "size": "35",
-   "price": 41.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
- "size": "65",
-  "price": 59.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
-   "size": "35",
-   "price": 41.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
- "size": "65",
-  "price": 59.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-      {"flavour":"Purple-Pulse",
-   "size": "35",
-   "price": 41.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Purple-Pulse",
- "size": "65",
-  "price": 59.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
-  }
-],
-      "servings": [
-  { "size": "35", "price": 37.99 },
-  { "size": "65", "price": 55.99 }
-],
-
-      "flavours": [
         {
-          "name": "Raspberry",
-          "images": ["/Promolecules/warflexnew/blue-rasberry-warflex-pre-workout-35-Servings_11zon.webp"]
+          "flavour": "Fruit-Punch",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/warflexnew/fruit-punch-warflex-pre-workout-35-Servings.webp"
         },
         {
-          "name": "Purple Pulse Gummies",
-          "images": ["/Promolecules/warflexnew/purple-pulse-gummies-warflex-pre-workout-35-Servings_11zon.webp"]
+          "flavour": "Fruit-Punch",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/warflexnew/fruit-punch-warflex-pre-workout-65-Servings_11zon.webp"
         },
         {
-          "name": "Gummies",
-          "images": ["/Promolecules/warflexnew/gummies-candy-warflex-pre-workout-35-Servings.webp"]
+          "flavour": "Gummies-Bliss",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/warflexnew/gummies-candy-warflex-pre-workout-35-Servings.webp"
         },
         {
-          "name": "Fruit Punch",
-          "images": ["/Promolecules/warflexnew/fruit-punch-warflex-pre-workout-35-Servings_11zon.webp"]
+          "flavour": "Gummies-Bliss",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/warflexnew/gummies-candy-warflex-pre-workout-65-Servings.webp"
+        },
+        {
+          "flavour": "Blue-Rasberry",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/warflexnew/blue-rasberry-warflex-pre-workout-35-Servings_11zon.webp"
+        },
+        {
+          "flavour": "Blue-Rasberry",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/warflexnew/blue-rasberry-warflex-pre-workout-65-Servings_11zon.webp"
+        },
+        {
+          "flavour": "Purple-Pulse",
+          "size": "35",
+          "price": 41.99,
+          "image": "/Promolecules/warflexnew/purple-pulse-gummies-warflex-pre-workout-35-Servings_11zon.webp"
+        },
+        {
+          "flavour": "Purple-Pulse",
+          "size": "65",
+          "price": 59.99,
+          "image": "/Promolecules/warflexnew/purple-pulse-gummies-warflex-pre-workout-65-Servings_11zon.webp"
         }
       ],
+   
 
       "keyBenefits": [
         "Extreme Energy Boost",
@@ -541,11 +543,11 @@
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
       ],
-           "reviews": [
+      "reviews": [
         {
           "id": 1,
           "name": "Ryan Carter",
-          
+
           "title": "USA",
           "text": "Been lifting 12 years. Half scoop before deadlifts and my CNS just switched on. Energy curve is smooth and aggression stays controlled through every set."
         },
@@ -724,7 +726,6 @@
           "des": "Half scoop already feels stronger than most pre workouts."
         }
       ],
-   
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
@@ -762,122 +763,85 @@
       "category": "FAT BURNER",
       "title": "Inopower-R is a Russian-inspired ATP-boosting formula designed to maximize energy production, minimize fatigue, and elevate athletic performance.",
       "description": "Inopower-R by Promolecules is a Russian-inspired performance formula created to dramatically enhance ATP production, reduce fatigue, and elevate overall athletic output. It provides energy-support nutrients that help the body produce more cellular energy, improving strength, stamina, training capacity, and recovery. Designed for athletes seeking a powerful endurance-enhancing supplement.",
-   
-  "seo": {
-    "title": "Promolecules Inopower-R | Energy & Endurance Boost",
-    "description": "Shop Inopower-R by Promolecules™. Boost ATP, energy, stamina & recovery. Designed for athletes seeking strength, endurance & peak performance. Shop online now.",
-    "canonical": "https://www.promolecules.com/product/inopower-r/",
-    "og": {
-      "title": "Promolecules Inopower-R | Energy & Endurance Boost",
-      "type": "website",
-      "image": "https://www.promolecules.com/logo.webp",
-      "locale": "AE-DU",
-      "site_name": "Promolecules",
-      "description": "Shop Inopower-R by Promolecules™. Boost ATP, energy, stamina & recovery. Designed for athletes seeking strength, endurance & peak performance. Shop online now.",
-      "url": "https://www.promolecules.com/product/inopower-r/"
-    },
-    "author": "www.promolecules.com",
-    "geo": {
-      "region": "AE-DU",
-      "placename": "Dubai"
-    },
-    "language": "English",
-    "robots": "index,follow",
-    "twitter": {
-      "card": "summary_large_image",
-      "site": "Promolecules",
-      "title": "Promolecules Inopower-R | Energy & Endurance Boost",
-      "description": "Shop Inopower-R by Promolecules™. Boost ATP, energy, stamina & recovery. Designed for athletes seeking strength, endurance & peak performance. Shop online now.",
-      "image": "https://www.promolecules.com/logo.webp"
-    },
-    "ldjson": {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Promolecules",
-      "url": "https://www.promolecules.com/product/inopower-r/",
-      "logo": "https://www.promolecules.com/logo.webp",
-      "sameAs": [
-        "https://www.instagram.com/promolecules/",
-        "https://www.threads.com/@promolecules",
-        "https://x.com/promolecules",
-        "https://in.pinterest.com/promolecules/",
-        "https://www.youtube.com/@Promolecules",
-        "https://www.facebook.com/promolecules.official"
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "email": "contact@promolecules.com"
+
+      "seo": {
+        "title": "Promolecules Inopower-R | Energy & Endurance Boost",
+        "description": "Shop Inopower-R by Promolecules™. Boost ATP, energy, stamina & recovery. Designed for athletes seeking strength, endurance & peak performance. Shop online now.",
+        "canonical": "https://www.promolecules.com/product/inopower-r/",
+        "og": {
+          "title": "Promolecules Inopower-R | Energy & Endurance Boost",
+          "type": "website",
+          "image": "https://www.promolecules.com/logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Shop Inopower-R by Promolecules™. Boost ATP, energy, stamina & recovery. Designed for athletes seeking strength, endurance & peak performance. Shop online now.",
+          "url": "https://www.promolecules.com/product/inopower-r/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules Inopower-R | Energy & Endurance Boost",
+          "description": "Shop Inopower-R by Promolecules™. Boost ATP, energy, stamina & recovery. Designed for athletes seeking strength, endurance & peak performance. Shop online now.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/inopower-r/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
         }
-      ]
-    }
-  },
+      },
+        "servings": [
+        {
+          "size": "35",
+          "price": 45.99
+        }
+      
+      ],
 
       "variants": [
-  {"flavour":"Fruit-Punch",
-   "size": "35",
-   "price": 41.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Fruit-Punch",
- "size": "65",
-  "price": 59.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
-   "size": "35",
-   "price": 41.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
- "size": "65",
-  "price": 59.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
-   "size": "35",
-   "price": 41.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
- "size": "65",
-  "price": 59.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-      {"flavour":"Purple-Pulse",
-   "size": "35",
-   "price": 41.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Purple-Pulse",
- "size": "65",
-  "price": 59.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
-  }
-],
+        {
+          "flavour": "Unflavoured",
+          "size": "120 capsule",
+          "price": 45.99,
+          "image": "/Promolecules/inopower1.webp"
+        }
+   
+      ],
       "price": "43",
       "discounted": "41.2",
       "images": [
         "/Promolecules/inopower1.webp",
         "/Promolecules/inpower3/inpower-r-supplements.webp",
         "/Promolecules/inpower3/promolecules-inpower-r-supplements.webp",
-        "/Promolecules/inpower3/promolecules-inpower-r-supplement-fact.webp"
+        "/Promolecules/inpower3/inpower-r-supplement-facts.webp"
       ],
-      "featuredimg":"/Promolecules/inpower3/inopower-r-ultra-high-stimulant-pre-workout.webp",
+      "featuredimg": "/Promolecules/inpower3/inopower-r-ultra-high-stimulant-pre-workout.webp",
 
-      
-          "servings": [
-   { "size": "120 capsules", "price": 45.99}
 
-],
-
-      "flavours": [
-        {
-          "name": "Unfavoured",
-          "images": ["/Promolecules/inpower3/promolecules-inpower-r.webp"]
-        }
-      ],
 
       "keyBenefits": [
         "Extreme Energy Boost",
@@ -903,188 +867,189 @@
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ],  "reviews": [
-    {
-      "id": 1,
-      "name": "Jason Miller",
-      "country": "USA",
-      "des": "What I like about INOPOWER-R is the clean energy. No caffeine spike, just steady endurance during long hypertrophy sessions."
-    },
-    {
-      "id": 2,
-      "name": "Rahul Verma",
-      "country": "India",
-      "des": "Used this before a back workout and noticed I wasn’t getting tired between sets. Energy felt natural, not overstimulated."
-    },
-    {
-      "id": 3,
-      "name": "Daniel Kovacs",
-      "country": "Hungary",
-      "des": "As someone sensitive to stimulants, this is exactly what I needed. ATP support without caffeine overload."
-    },
-    {
-      "id": 4,
-      "name": "Arjun Mehta",
-      "country": "India",
-      "des": "Stacked it with my pump formula and the endurance increase was obvious. Finished my workout without feeling drained."
-    },
-    {
-      "id": 5,
-      "name": "Carlos Rivera",
-      "country": "Mexico",
-      "des": "Good intra-style energy support. Muscles don’t fatigue as quickly during high-volume training."
-    },
-    {
-      "id": 6,
-      "name": "Sandeep Rawat",
-      "country": "India",
-      "des": "Training late evenings used to be difficult because of caffeine. This gives energy without affecting sleep."
-    },
-    {
-      "id": 7,
-      "name": "Oliver Grant",
-      "country": "UK",
-      "des": "Perfect for athletes who want performance support but avoid high stim products."
-    },
-    {
-      "id": 8,
-      "name": "Imran Khan",
-      "country": "Pakistan",
-      "des": "Endurance during leg day improved. Recovery between sets feels faster."
-    },
-    {
-      "id": 9,
-      "name": "Ryan Brooks",
-      "country": "USA",
-      "des": "Feels like a clean ATP booster. Energy stays stable throughout the session."
-    },
-    {
-      "id": 10,
-      "name": "Vikas Chauhan",
-      "country": "India",
-      "des": "Great for people who train twice a day. No overstimulation, just consistent energy."
-    },
-    {
-      "id": 11,
-      "name": "Mateo Gonzalez",
-      "country": "Spain",
-      "des": "My cardio sessions feel longer and smoother with this."
-    },
-    {
-      "id": 12,
-      "name": "Aman Singh",
-      "country": "India",
-      "des": "Perfect supplement for endurance workouts."
-    },
-    {
-      "id": 13,
-      "name": "Daniel Park",
-      "country": "South Korea",
-      "des": "Focus stays stable without caffeine jitters."
-    },
-    {
-      "id": 14,
-      "name": "Victor Petrov",
-      "country": "Bulgaria",
-      "des": "Stacked it with pre workout and endurance improved."
-    },
-    {
-      "id": 15,
-      "name": "Aditya Sharma",
-      "country": "India",
-      "des": "Muscle fatigue feels reduced during high reps."
-    },
-    {
-      "id": 16,
-      "name": "Nathan Hughes",
-      "country": "UK",
-      "des": "Good energy system support without stimulants."
-    },
-    {
-      "id": 17,
-      "name": "Miguel Santos",
-      "country": "Portugal",
-      "des": "Feels more like metabolic energy rather than stimulation."
-    },
-    {
-      "id": 18,
-      "name": "Rohit Chatterjee",
-      "country": "India",
-      "des": "Perfect before long hypertrophy workouts."
-    },
-    {
-      "id": 19,
-      "name": "Ethan Carter",
-      "country": "USA",
-      "des": "My endurance during compound lifts improved noticeably."
-    },
-    {
-      "id": 20,
-      "name": "Harsh Gupta",
-      "country": "India",
-      "des": "Helps push through long gym sessions."
-    },
-    {
-      "id": 21,
-      "name": "Lucas Andrade",
-      "country": "Brazil",
-      "des": "Energy support feels smooth and natural."
-    },
-    {
-      "id": 22,
-      "name": "Rajeev Menon",
-      "country": "India",
-      "des": "Great for people who avoid caffeine."
-    },
-    {
-      "id": 23,
-      "name": "Kevin Larson",
-      "country": "Canada",
-      "des": "Training intensity stays stable throughout workout."
-    },
-    {
-      "id": 24,
-      "name": "Karan Malhotra",
-      "country": "India",
-      "des": "Helps reduce fatigue during high volume sessions."
-    },
-    {
-      "id": 25,
-      "name": "Omar Hassan",
-      "country": "UAE",
-      "des": "Good stackable energy formula."
-    },
-    {
-      "id": 26,
-      "name": "George Adams",
-      "country": "UK",
-      "des": "Works well for endurance athletes."
-    },
-    {
-      "id": 27,
-      "name": "Akash Sharma",
-      "country": "India",
-      "des": "Perfect for late-night training sessions."
-    },
-    {
-      "id": 28,
-      "name": "Victor Cruz",
-      "country": "Chile",
-      "des": "Improves stamina during workouts."
-    },
-    {
-      "id": 29,
-      "name": "Daniel Novak",
-      "country": "Slovakia",
-      "des": "Clean ATP energy support."
-    },
-    {
-      "id": 30,
-      "name": "Rakesh Kumar",
-      "country": "India",
-      "des": "Great non-stim energy supplement."
-    }
-  ],
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Jason Miller",
+          "country": "USA",
+          "des": "What I like about INOPOWER-R is the clean energy. No caffeine spike, just steady endurance during long hypertrophy sessions."
+        },
+        {
+          "id": 2,
+          "name": "Rahul Verma",
+          "country": "India",
+          "des": "Used this before a back workout and noticed I wasn’t getting tired between sets. Energy felt natural, not overstimulated."
+        },
+        {
+          "id": 3,
+          "name": "Daniel Kovacs",
+          "country": "Hungary",
+          "des": "As someone sensitive to stimulants, this is exactly what I needed. ATP support without caffeine overload."
+        },
+        {
+          "id": 4,
+          "name": "Arjun Mehta",
+          "country": "India",
+          "des": "Stacked it with my pump formula and the endurance increase was obvious. Finished my workout without feeling drained."
+        },
+        {
+          "id": 5,
+          "name": "Carlos Rivera",
+          "country": "Mexico",
+          "des": "Good intra-style energy support. Muscles don’t fatigue as quickly during high-volume training."
+        },
+        {
+          "id": 6,
+          "name": "Sandeep Rawat",
+          "country": "India",
+          "des": "Training late evenings used to be difficult because of caffeine. This gives energy without affecting sleep."
+        },
+        {
+          "id": 7,
+          "name": "Oliver Grant",
+          "country": "UK",
+          "des": "Perfect for athletes who want performance support but avoid high stim products."
+        },
+        {
+          "id": 8,
+          "name": "Imran Khan",
+          "country": "Pakistan",
+          "des": "Endurance during leg day improved. Recovery between sets feels faster."
+        },
+        {
+          "id": 9,
+          "name": "Ryan Brooks",
+          "country": "USA",
+          "des": "Feels like a clean ATP booster. Energy stays stable throughout the session."
+        },
+        {
+          "id": 10,
+          "name": "Vikas Chauhan",
+          "country": "India",
+          "des": "Great for people who train twice a day. No overstimulation, just consistent energy."
+        },
+        {
+          "id": 11,
+          "name": "Mateo Gonzalez",
+          "country": "Spain",
+          "des": "My cardio sessions feel longer and smoother with this."
+        },
+        {
+          "id": 12,
+          "name": "Aman Singh",
+          "country": "India",
+          "des": "Perfect supplement for endurance workouts."
+        },
+        {
+          "id": 13,
+          "name": "Daniel Park",
+          "country": "South Korea",
+          "des": "Focus stays stable without caffeine jitters."
+        },
+        {
+          "id": 14,
+          "name": "Victor Petrov",
+          "country": "Bulgaria",
+          "des": "Stacked it with pre workout and endurance improved."
+        },
+        {
+          "id": 15,
+          "name": "Aditya Sharma",
+          "country": "India",
+          "des": "Muscle fatigue feels reduced during high reps."
+        },
+        {
+          "id": 16,
+          "name": "Nathan Hughes",
+          "country": "UK",
+          "des": "Good energy system support without stimulants."
+        },
+        {
+          "id": 17,
+          "name": "Miguel Santos",
+          "country": "Portugal",
+          "des": "Feels more like metabolic energy rather than stimulation."
+        },
+        {
+          "id": 18,
+          "name": "Rohit Chatterjee",
+          "country": "India",
+          "des": "Perfect before long hypertrophy workouts."
+        },
+        {
+          "id": 19,
+          "name": "Ethan Carter",
+          "country": "USA",
+          "des": "My endurance during compound lifts improved noticeably."
+        },
+        {
+          "id": 20,
+          "name": "Harsh Gupta",
+          "country": "India",
+          "des": "Helps push through long gym sessions."
+        },
+        {
+          "id": 21,
+          "name": "Lucas Andrade",
+          "country": "Brazil",
+          "des": "Energy support feels smooth and natural."
+        },
+        {
+          "id": 22,
+          "name": "Rajeev Menon",
+          "country": "India",
+          "des": "Great for people who avoid caffeine."
+        },
+        {
+          "id": 23,
+          "name": "Kevin Larson",
+          "country": "Canada",
+          "des": "Training intensity stays stable throughout workout."
+        },
+        {
+          "id": 24,
+          "name": "Karan Malhotra",
+          "country": "India",
+          "des": "Helps reduce fatigue during high volume sessions."
+        },
+        {
+          "id": 25,
+          "name": "Omar Hassan",
+          "country": "UAE",
+          "des": "Good stackable energy formula."
+        },
+        {
+          "id": 26,
+          "name": "George Adams",
+          "country": "UK",
+          "des": "Works well for endurance athletes."
+        },
+        {
+          "id": 27,
+          "name": "Akash Sharma",
+          "country": "India",
+          "des": "Perfect for late-night training sessions."
+        },
+        {
+          "id": 28,
+          "name": "Victor Cruz",
+          "country": "Chile",
+          "des": "Improves stamina during workouts."
+        },
+        {
+          "id": 29,
+          "name": "Daniel Novak",
+          "country": "Slovakia",
+          "des": "Clean ATP energy support."
+        },
+        {
+          "id": 30,
+          "name": "Rakesh Kumar",
+          "country": "India",
+          "des": "Great non-stim energy supplement."
+        }
+      ],
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
@@ -1122,156 +1087,144 @@
       "category": "PRE-WORKOUT",
       "title": "HydraPump+ is a liquid hydration and muscle pump formula featuring Liquid Glycerol, Citrulline Malate, and electrolytes for enhanced endurance, pumps, and fluid balance.",
       "description": "HydraPump+ by Promolecules Essential is a rapid hydration and explosive pump formula designed for athletes, lifters, and endurance performers. Powered by Liquid Glycerol, Citrulline Malate, and high-quality electrolytes (Sodium, Magnesium, Potassium), this formula helps retain fluid in muscles, improve blood flow, enhance pumps, and delay dehydration. Ideal for long training sessions, endurance events, and pump-focused workouts.",
-  "seo": {
-    "title": "Promolecules™ HydraPump+ | Post-Workout Recovery & Muscle Repair",
-    "description": "Shop HydraPump+ by Promolecules™. Boost pumps, hydration & endurance with glycerol, citrulline & electrolytes. Perfect for intense workouts.",
-    "canonical": "https://www.promolecules.com/product/hydrapump/",
-    "og": {
-      "title": "Promolecules™ HydraPump+ | Post-Workout Recovery & Muscle Repair",
-      "type": "website",
-      "image": "https://www.promolecules.com/logo.webp",
-      "locale": "AE-DU",
-      "site_name": "Promolecules",
-      "description": "Shop HydraPump+ by Promolecules™. Boost pumps, hydration & endurance with glycerol, citrulline & electrolytes. Perfect for intense workouts.",
-      "url": "https://www.promolecules.com/product/hydrapump/"
-    },
-    "author": "www.promolecules.com",
-    "geo": {
-      "region": "AE-DU",
-      "placename": "Dubai"
-    },
-    "language": "English",
-    "robots": "index,follow",
-    "twitter": {
-      "card": "summary_large_image",
-      "site": "Promolecules",
-      "title": "Promolecules™ HydraPump+ | Post-Workout Recovery & Muscle Repair",
-      "description": "Shop HydraPump+ by Promolecules™. Boost pumps, hydration & endurance with glycerol, citrulline & electrolytes. Perfect for intense workouts.",
-      "image": "https://www.promolecules.com/logo.webp"
-    },
-    "ldjson": {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Promolecules",
-      "url": "https://www.promolecules.com/product/hydrapump/",
-      "logo": "https://www.promolecules.com/logo.webp",
-      "sameAs": [
-        "https://www.instagram.com/promolecules/",
-        "https://www.threads.com/@promolecules",
-        "https://x.com/promolecules",
-        "https://in.pinterest.com/promolecules/",
-        "https://www.youtube.com/@Promolecules",
-        "https://www.facebook.com/promolecules.official"
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "email": "contact@promolecules.com"
+      "seo": {
+        "title": "Promolecules™ HydraPump+ | Post-Workout Recovery & Muscle Repair",
+        "description": "Shop HydraPump+ by Promolecules™. Boost pumps, hydration & endurance with glycerol, citrulline & electrolytes. Perfect for intense workouts.",
+        "canonical": "https://www.promolecules.com/product/hydrapump/",
+        "og": {
+          "title": "Promolecules™ HydraPump+ | Post-Workout Recovery & Muscle Repair",
+          "type": "website",
+          "image": "https://www.promolecules.com/logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Shop HydraPump+ by Promolecules™. Boost pumps, hydration & endurance with glycerol, citrulline & electrolytes. Perfect for intense workouts.",
+          "url": "https://www.promolecules.com/product/hydrapump/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ HydraPump+ | Post-Workout Recovery & Muscle Repair",
+          "description": "Shop HydraPump+ by Promolecules™. Boost pumps, hydration & endurance with glycerol, citrulline & electrolytes. Perfect for intense workouts.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/hydrapump/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
         }
-      ]
-    }
-  },
+      },
+        "servings": [
+        {
+          "size": "35",
+          "price": 48.99
+        },
+        {
+          "size": "65",
+          "price": 59.99
+        }
+      ],
       "variants": [
-  {"flavour":"Fruit-Punch",
-   "size": "35",
-   "price": 41.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Fruit-Punch",
- "size": "65",
-  "price": 59.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
-   "size": "35",
-   "price": 41.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
- "size": "65",
-  "price": 59.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
-   "size": "35",
-   "price": 41.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
- "size": "65",
-  "price": 59.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-      {"flavour":"Purple-Pulse",
-   "size": "35",
-   "price": 41.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Purple-Pulse",
- "size": "65",
-  "price": 59.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
-  }
-],
+        {
+          "flavour": "Mint-Mojito",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/mintmojito.jpeg"
+        },
+        {
+          "flavour": "Blue-Razz",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/bluerazz.webp"
+        },
+        {
+          "flavour": "BubbleGum",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/bubblegumhydra.webp"
+        },
+         {
+          "flavour": "Cherry-Lemonade",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/cherrylemon.webp"
+        },
+             {
+          "flavour": "Cola",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/cola.webp"
+        },
+                  {
+          "flavour": "Juicy-Grapes",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/juicygrapes.webp"
+        },
+                  {
+          "flavour": "Mango-Pineapple",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/mangopineapple.webp"
+        },
+                {
+          "flavour": "Orange",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/oranges.webp"
+        },
+            {
+          "flavour": "Fruit-Punch",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/fruitpunch.webp"
+        },
+          {
+          "flavour": "Sour-Apple",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/SOURAPPLE.webp"
+        },
+          {
+          "flavour": "Strawberry",
+          "size": "31",
+          "price": 48.99,
+          "image": "/Promolecules/hydrapump2/strawberry.webp"
+        }
+      
+      ],
       "price": "43",
       "discounted": "41.2",
       "images": [
         "/Promolecules/hydrapump2/promolecules-hydrapump+.webp",
         "/Promolecules/hydrapump2/promolecules-hydrapump+-pre-workout.webp",
         "/Promolecules/hydrapump2/hydrapump1.webp",
-        "/Promolecules/hydrapump2/hydrapumpsupplement.webp"
+        "/Promolecules/hydrapump2/hydrapump-supplements-facts.webp"
       ],
-                  "featuredimg":"/Promolecules/hydrapump2/hydrapump-liquid-glycerol.webp",
-
-          "servings": [
-  { "size": "31", "price": 48.99 }
-
-],
-
-      "flavours": [
-        {
-          "name": "Mint-Mojito",
-          "images": ["/Promolecules/hydrapump2/mintmojito.jpeg"]
-        },
-         {
-          "name": "Blue-Razz",
-          "images": ["/Promolecules/hydrapump2/bluerazz.webp"]
-        },
-         {
-          "name": "BubbleGum",
-          "images": ["/Promolecules/hydrapump2/bubblegumhydra.webp"]
-        },
-         {
-          "name": "Cherry-Lemonade",
-          "images": ["/Promolecules/hydrapump2/cherrylemon.webp"]
-        },
-         {
-          "name": "Cola",
-          "images": ["/Promolecules/hydrapump2/cola.webp"]
-        }, 
-        {
-          "name": "Juicy-Grapes",
-          "images": ["/Promolecules/hydrapump2/juicygrapes.webp"]
-        }, {
-          "name": "Mango-Pineapple",
-          "images": ["/Promolecules/hydrapump2/mangopineapple.webp"]
-        }, {
-          "name": "Orange",
-          "images": ["/Promolecules/hydrapump2/oranges.webp"]
-        }, {
-          "name": "Fruit-Punch",
-          "images": ["/Promolecules/hydrapump2/fruitpunch.webp"]
-        },
-        {
-          "name": "Sour-Apple",
-          "images": ["/Promolecules/hydrapump2/SOURAPPLE.webp"]
-        },
-          {
-          "name": "Strawberry",
-          "images": ["/Promolecules/hydrapump2/strawberry.webp"]
-        }
-      ],
+      "featuredimg": "/Promolecules/hydrapump2/hydrapump-liquid-glycerol.webp",
       "keyBenefits": [
         "Extreme Energy Boost",
         "Laser-Sharp Focus",
@@ -1296,188 +1249,189 @@
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ],  "reviews": [
-    {
-      "id": 1,
-      "name": "Jake Reynolds",
-      "country": "USA",
-      "des": "Stacked Hydra Pump with my pre workout and the vascularity during arm day was crazy."
-    },
-    {
-      "id": 2,
-      "name": "Rohit Sharma",
-      "country": "India",
-      "des": "Muscle fullness during chest workout stayed even after finishing the session."
-    },
-    {
-      "id": 3,
-      "name": "Luis Garcia",
-      "country": "Spain",
-      "des": "The hydration mechanism is noticeable. Pumps stay longer without bloating."
-    },
-    {
-      "id": 4,
-      "name": "Arjun Bhatia",
-      "country": "India",
-      "des": "Pump feels dense rather than watery."
-    },
-    {
-      "id": 5,
-      "name": "Daniel White",
-      "country": "UK",
-      "des": "Great non stim pump formula for evening workouts."
-    },
-    {
-      "id": 6,
-      "name": "Rahul Nair",
-      "country": "India",
-      "des": "Muscles stay fuller through the entire workout."
-    },
-    {
-      "id": 7,
-      "name": "Victor Costa",
-      "country": "Brazil",
-      "des": "Arm day pump lasted almost an hour after training."
-    },
-    {
-      "id": 8,
-      "name": "Karan Malhotra",
-      "country": "India",
-      "des": "Works perfectly with high stim pre workouts."
-    },
-    {
-      "id": 9,
-      "name": "Ahmed Karim",
-      "country": "UAE",
-      "des": "Hydration during intense sessions feels improved."
-    },
-    {
-      "id": 10,
-      "name": "Chris Dawson",
-      "country": "USA",
-      "des": "Vascularity increase was noticeable."
-    },
-    {
-      "id": 11,
-      "name": "Sahil Arora",
-      "country": "India",
-      "des": "Pump feels tight and controlled."
-    },
-    {
-      "id": 12,
-      "name": "Mark Davies",
-      "country": "UK",
-      "des": "Stackable formula works well."
-    },
-    {
-      "id": 13,
-      "name": "Rajeev Singh",
-      "country": "India",
-      "des": "Muscle endurance during high volume sets improved."
-    },
-    {
-      "id": 14,
-      "name": "Pedro Lopez",
-      "country": "Mexico",
-      "des": "Great pump product without stimulants."
-    },
-    {
-      "id": 15,
-      "name": "Ankit Jain",
-      "country": "India",
-      "des": "Helps with muscle fullness during hypertrophy workouts."
-    },
-    {
-      "id": 16,
-      "name": "Tom Harris",
-      "country": "Australia",
-      "des": "One of the better hydration pump formulas."
-    },
-    {
-      "id": 17,
-      "name": "Imran Siddiqui",
-      "country": "Pakistan",
-      "des": "No bloating but strong vascular pump."
-    },
-    {
-      "id": 18,
-      "name": "Aditya Raj",
-      "country": "India",
-      "des": "Perfect for pump-focused workouts."
-    },
-    {
-      "id": 19,
-      "name": "Carlos Silva",
-      "country": "Portugal",
-      "des": "Muscle fullness effect noticeable."
-    },
-    {
-      "id": 20,
-      "name": "Rahul Verghese",
-      "country": "India",
-      "des": "Helps during long sessions."
-    },
-    {
-      "id": 21,
-      "name": "Victor Sanchez",
-      "country": "Chile",
-      "des": "Great pre workout stack."
-    },
-    {
-      "id": 22,
-      "name": "Arvind Kumar",
-      "country": "India",
-      "des": "Pump stays consistent through sets."
-    },
-    {
-      "id": 23,
-      "name": "Ben Foster",
-      "country": "UK",
-      "des": "Good volumizing formula."
-    },
-    {
-      "id": 24,
-      "name": "Arjun Gupta",
-      "country": "India",
-      "des": "Works best during arm day."
-    },
-    {
-      "id": 25,
-      "name": "Luis Andrade",
-      "country": "Brazil",
-      "des": "Hydration and pump synergy works well."
-    },
-    {
-      "id": 26,
-      "name": "Rahul Yadav",
-      "country": "India",
-      "des": "Good vascularity boost."
-    },
-    {
-      "id": 27,
-      "name": "George Adams",
-      "country": "USA",
-      "des": "Clean pump formula."
-    },
-    {
-      "id": 28,
-      "name": "Rohit Chatterjee",
-      "country": "India",
-      "des": "Muscles feel fuller during workout."
-    },
-    {
-      "id": 29,
-      "name": "Daniel Novak",
-      "country": "Slovakia",
-      "des": "Great pump without stimulants."
-    },
-    {
-      "id": 30,
-      "name": "Akshay Mehta",
-      "country": "India",
-      "des": "Perfect stack with high stim pre workouts."
-    }
-  ],
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "Jake Reynolds",
+          "country": "USA",
+          "des": "Stacked Hydra Pump with my pre workout and the vascularity during arm day was crazy."
+        },
+        {
+          "id": 2,
+          "name": "Rohit Sharma",
+          "country": "India",
+          "des": "Muscle fullness during chest workout stayed even after finishing the session."
+        },
+        {
+          "id": 3,
+          "name": "Luis Garcia",
+          "country": "Spain",
+          "des": "The hydration mechanism is noticeable. Pumps stay longer without bloating."
+        },
+        {
+          "id": 4,
+          "name": "Arjun Bhatia",
+          "country": "India",
+          "des": "Pump feels dense rather than watery."
+        },
+        {
+          "id": 5,
+          "name": "Daniel White",
+          "country": "UK",
+          "des": "Great non stim pump formula for evening workouts."
+        },
+        {
+          "id": 6,
+          "name": "Rahul Nair",
+          "country": "India",
+          "des": "Muscles stay fuller through the entire workout."
+        },
+        {
+          "id": 7,
+          "name": "Victor Costa",
+          "country": "Brazil",
+          "des": "Arm day pump lasted almost an hour after training."
+        },
+        {
+          "id": 8,
+          "name": "Karan Malhotra",
+          "country": "India",
+          "des": "Works perfectly with high stim pre workouts."
+        },
+        {
+          "id": 9,
+          "name": "Ahmed Karim",
+          "country": "UAE",
+          "des": "Hydration during intense sessions feels improved."
+        },
+        {
+          "id": 10,
+          "name": "Chris Dawson",
+          "country": "USA",
+          "des": "Vascularity increase was noticeable."
+        },
+        {
+          "id": 11,
+          "name": "Sahil Arora",
+          "country": "India",
+          "des": "Pump feels tight and controlled."
+        },
+        {
+          "id": 12,
+          "name": "Mark Davies",
+          "country": "UK",
+          "des": "Stackable formula works well."
+        },
+        {
+          "id": 13,
+          "name": "Rajeev Singh",
+          "country": "India",
+          "des": "Muscle endurance during high volume sets improved."
+        },
+        {
+          "id": 14,
+          "name": "Pedro Lopez",
+          "country": "Mexico",
+          "des": "Great pump product without stimulants."
+        },
+        {
+          "id": 15,
+          "name": "Ankit Jain",
+          "country": "India",
+          "des": "Helps with muscle fullness during hypertrophy workouts."
+        },
+        {
+          "id": 16,
+          "name": "Tom Harris",
+          "country": "Australia",
+          "des": "One of the better hydration pump formulas."
+        },
+        {
+          "id": 17,
+          "name": "Imran Siddiqui",
+          "country": "Pakistan",
+          "des": "No bloating but strong vascular pump."
+        },
+        {
+          "id": 18,
+          "name": "Aditya Raj",
+          "country": "India",
+          "des": "Perfect for pump-focused workouts."
+        },
+        {
+          "id": 19,
+          "name": "Carlos Silva",
+          "country": "Portugal",
+          "des": "Muscle fullness effect noticeable."
+        },
+        {
+          "id": 20,
+          "name": "Rahul Verghese",
+          "country": "India",
+          "des": "Helps during long sessions."
+        },
+        {
+          "id": 21,
+          "name": "Victor Sanchez",
+          "country": "Chile",
+          "des": "Great pre workout stack."
+        },
+        {
+          "id": 22,
+          "name": "Arvind Kumar",
+          "country": "India",
+          "des": "Pump stays consistent through sets."
+        },
+        {
+          "id": 23,
+          "name": "Ben Foster",
+          "country": "UK",
+          "des": "Good volumizing formula."
+        },
+        {
+          "id": 24,
+          "name": "Arjun Gupta",
+          "country": "India",
+          "des": "Works best during arm day."
+        },
+        {
+          "id": 25,
+          "name": "Luis Andrade",
+          "country": "Brazil",
+          "des": "Hydration and pump synergy works well."
+        },
+        {
+          "id": 26,
+          "name": "Rahul Yadav",
+          "country": "India",
+          "des": "Good vascularity boost."
+        },
+        {
+          "id": 27,
+          "name": "George Adams",
+          "country": "USA",
+          "des": "Clean pump formula."
+        },
+        {
+          "id": 28,
+          "name": "Rohit Chatterjee",
+          "country": "India",
+          "des": "Muscles feel fuller during workout."
+        },
+        {
+          "id": 29,
+          "name": "Daniel Novak",
+          "country": "Slovakia",
+          "des": "Great pump without stimulants."
+        },
+        {
+          "id": 30,
+          "name": "Akshay Mehta",
+          "country": "India",
+          "des": "Perfect stack with high stim pre workouts."
+        }
+      ],
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",
@@ -1515,121 +1469,88 @@
       "category": "FAT BURNER",
       "title": "Thermo Nuke XT is an ultra-high potency thermogenic fat destroyer engineered for advanced users seeking extreme fat loss, explosive energy, and intense focus. Not for beginners.",
       "description": "Thermo Nuke XT by Promolecules is the strongest fat-destroying thermogenic formulated only for advanced users.  Powered by a 650 mg Nuke Thermo XT Blend, this supplement rapidly increases metabolism, elevates body temperature, boosts energy, and accelerates fat oxidation.  With patented ingredients like CitraSyn 50, 2XCAFF, and GBBxt, this formula is engineered to deliver extreme fat loss results while providing unstoppable focus and endurance.  Manufactured in a high-quality environment, Thermo Nuke XT is designed for athletes and experienced individuals aiming to shred fat aggressively.",
-   
-  "seo": {
-    "title": "Promolecules™ Thermo Nuke XT | Best Fat Burner Supplement",
-    "description": "Shop Thermo Nuke XT by Promolecules™. Boost metabolism, energy & fat burn with high stim formula. Designed for aggressive fat loss. Order now.",
-    "canonical": "https://www.promolecules.com/product/thermo-nuke-xt/",
-    "og": {
-      "title": "Promolecules™ Thermo Nuke XT | Best Fat Burner Supplement",
-      "type": "website",
-      "image": "https://www.promolecules.com/logo.webp",
-      "locale": "AE-DU",
-      "site_name": "Promolecules",
-      "description": "Shop Thermo Nuke XT by Promolecules™. Boost metabolism, energy & fat burn with high stim formula. Designed for aggressive fat loss. Order now.",
-      "url": "https://www.promolecules.com/product/thermo-nuke-xt/"
-    },
-    "author": "www.promolecules.com",
-    "geo": {
-      "region": "AE-DU",
-      "placename": "Dubai"
-    },
-    "language": "English",
-    "robots": "index,follow",
-    "twitter": {
-      "card": "summary_large_image",
-      "site": "Promolecules",
-      "title": "Promolecules™ Thermo Nuke XT | Best Fat Burner Supplement",
-      "description": "Shop Thermo Nuke XT by Promolecules™. Boost metabolism, energy & fat burn with high stim formula. Designed for aggressive fat loss. Order now.",
-      "image": "https://www.promolecules.com/logo.webp"
-    },
-    "ldjson": {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Promolecules",
-      "url": "https://www.promolecules.com/product/thermo-nuke-xt/",
-      "logo": "https://www.promolecules.com/logo.webp",
-      "sameAs": [
-        "https://www.instagram.com/promolecules/",
-        "https://www.threads.com/@promolecules",
-        "https://x.com/promolecules",
-        "https://in.pinterest.com/promolecules/",
-        "https://www.youtube.com/@Promolecules",
-        "https://www.facebook.com/promolecules.official"
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "email": "contact@promolecules.com"
+
+      "seo": {
+        "title": "Promolecules™ Thermo Nuke XT | Best Fat Burner Supplement",
+        "description": "Shop Thermo Nuke XT by Promolecules™. Boost metabolism, energy & fat burn with high stim formula. Designed for aggressive fat loss. Order now.",
+        "canonical": "https://www.promolecules.com/product/thermo-nuke-xt/",
+        "og": {
+          "title": "Promolecules™ Thermo Nuke XT | Best Fat Burner Supplement",
+          "type": "website",
+          "image": "https://www.promolecules.com/logo.webp",
+          "locale": "AE-DU",
+          "site_name": "Promolecules",
+          "description": "Shop Thermo Nuke XT by Promolecules™. Boost metabolism, energy & fat burn with high stim formula. Designed for aggressive fat loss. Order now.",
+          "url": "https://www.promolecules.com/product/thermo-nuke-xt/"
+        },
+        "author": "www.promolecules.com",
+        "geo": {
+          "region": "AE-DU",
+          "placename": "Dubai"
+        },
+        "language": "English",
+        "robots": "index,follow",
+        "twitter": {
+          "card": "summary_large_image",
+          "site": "Promolecules",
+          "title": "Promolecules™ Thermo Nuke XT | Best Fat Burner Supplement",
+          "description": "Shop Thermo Nuke XT by Promolecules™. Boost metabolism, energy & fat burn with high stim formula. Designed for aggressive fat loss. Order now.",
+          "image": "https://www.promolecules.com/logo.webp"
+        },
+        "ldjson": {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Promolecules",
+          "url": "https://www.promolecules.com/product/thermo-nuke-xt/",
+          "logo": "https://www.promolecules.com/logo.webp",
+          "sameAs": [
+            "https://www.instagram.com/promolecules/",
+            "https://www.threads.com/@promolecules",
+            "https://x.com/promolecules",
+            "https://in.pinterest.com/promolecules/",
+            "https://www.youtube.com/@Promolecules",
+            "https://www.facebook.com/promolecules.official"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "contactType": "customer service",
+              "email": "contact@promolecules.com"
+            }
+          ]
         }
-      ]
+      },
+      "servings": [
+        {
+          "size": "35",
+          "price": 45.99
+        },
+        {
+          "size": "65",
+          "price": 59.99
+        }
+      ],
+  "variants": [
+    {
+      "flavour": "Unflavoured",
+      "size": "60 capsule",
+      "price": 35.99,
+      "image": "/Promolecules/thermo/promolecules-thermo-nuke-xt.webp"
     }
-  },
+  ],
+  "discounted": 41.2,
+  "images": [
+    "/Promolecules/thermo/promolecules-thermo-nuke-xt.webp",
+    "/Promolecules/thermo/thermo-nuke-xt-fat-burner.webp",
+    "/Promolecules/thermo/thermo-nuke-xt-fat-burning-capsules.webp",
+    "/Promolecules/thermo/thermo-nuke-xt-supplement-facts.webp"
+  ],
 
-      "variants": [
-  {"flavour":"Fruit-Punch",
-   "size": "35",
-   "price": 41.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Fruit-Punch",
- "size": "65",
-  "price": 59.99,
-   "image":"fruit-punch-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
-   "size": "35",
-   "price": 41.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Gummies-Bliss",
- "size": "65",
-  "price": 59.99,
-   "image":"gummies-bliss-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
-   "size": "35",
-   "price": 41.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Blue-Rasberry",
- "size": "65",
-  "price": 59.99,
-   "image":"blue-rasberry-father-of-insane-pre-workout-65-Servings.webp" 
-  },
-      {"flavour":"Purple-Pulse",
-   "size": "35",
-   "price": 41.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-35-Servings.webp" 
-  },
-    {"flavour":"Purple-Pulse",
- "size": "65",
-  "price": 59.99,
-   "image":"purple-pulse-gummies-father-of-insane-pre-workout-65-Servings.webp" 
-  }
-],
-      "discounted": "41.2",
-      "images": [
-        "/Promolecules/thermo/promolecules-thermo-nuke-xt.webp",
-        "/Promolecules/thermo/thermo-nuke-xt-fat-burner.webp",
-        "/Promolecules/thermo/thermo-nuke-xt-fat-burning-capsules.webp",
-        "/Promolecules/thermo/promolecules-thermo-nuke-xt-supplement-fact.webp"
-      ],
-       "featuredimg":"/Promolecules/thermo/promolecules-thermo-nuke-xt-img.webp",
-       
+      "featuredimg": "/Promolecules/thermo/promolecules-thermo-nuke-xt-img.webp",
 
-          "servings": [
-  { "size": "60 capsules", "price": 35.99 }
+      "servings": [{ "size": "60 capsules", "price": 35.99 }],
 
-],
-
-       "flavours": [
-        {
-          "name": "Unfavoured",
-          "images": ["/Promolecules/thermo/promolecules-thermo-nuke-xt.webp"]
-        }
-      ],
+    
 
       "keyBenefits": [
         "Extreme Energy Boost",
@@ -1655,188 +1576,189 @@
         "Not suitable for individuals under 18",
         "Avoid if allergic to milk or whey",
         "Consult a doctor if pregnant or under medication"
-      ],  "reviews": [
-    {
-      "id": 1,
-      "name": "David Coleman",
-      "country": "USA",
-      "des": "Using this during my cut phase and the thermogenic response is noticeable. Cardio sessions feel more productive."
-    },
-    {
-      "id": 2,
-      "name": "Rajat Malhotra",
-      "country": "India",
-      "des": "Morning fasted cardio feels easier. Metabolism feels active throughout the day."
-    },
-    {
-      "id": 3,
-      "name": "Luis Martinez",
-      "country": "Spain",
-      "des": "Fat burners rarely work for me but this one actually increases body heat during training."
-    },
-    {
-      "id": 4,
-      "name": "Mohit Yadav",
-      "country": "India",
-      "des": "Energy during calorie deficit is the biggest benefit."
-    },
-    {
-      "id": 5,
-      "name": "Alex Grant",
-      "country": "UK",
-      "des": "Clean thermogenic effect without making me anxious."
-    },
-    {
-      "id": 6,
-      "name": "Rahul Patil",
-      "country": "India",
-      "des": "Helps maintain workout intensity even while dieting."
-    },
-    {
-      "id": 7,
-      "name": "Daniel Perez",
-      "country": "Mexico",
-      "des": "Sweat rate increases during cardio sessions."
-    },
-    {
-      "id": 8,
-      "name": "Siddharth Jain",
-      "country": "India",
-      "des": "Metabolic boost is noticeable during HIIT."
-    },
-    {
-      "id": 9,
-      "name": "Omar Ali",
-      "country": "UAE",
-      "des": "Helps push through low-energy days during cutting."
-    },
-    {
-      "id": 10,
-      "name": "Chris Walker",
-      "country": "USA",
-      "des": "Feels like a metabolic accelerator rather than just caffeine."
-    },
-    {
-      "id": 11,
-      "name": "Kunal Thakur",
-      "country": "India",
-      "des": "Appetite control and clean energy during prep."
-    },
-    {
-      "id": 12,
-      "name": "Victor Santos",
-      "country": "Brazil",
-      "des": "Works well before cardio sessions."
-    },
-    {
-      "id": 13,
-      "name": "James Porter",
-      "country": "UK",
-      "des": "Clean fat burner without crazy jitters."
-    },
-    {
-      "id": 14,
-      "name": "Rohit Das",
-      "country": "India",
-      "des": "Helps maintain focus while cutting calories."
-    },
-    {
-      "id": 15,
-      "name": "Carlos Rivera",
-      "country": "Mexico",
-      "des": "Noticeable thermogenic heat during workouts."
-    },
-    {
-      "id": 16,
-      "name": "Ahmed Farooq",
-      "country": "UAE",
-      "des": "Great addition for morning training."
-    },
-    {
-      "id": 17,
-      "name": "Aditya Menon",
-      "country": "India",
-      "des": "Energy stays steady during diet phase."
-    },
-    {
-      "id": 18,
-      "name": "Mark Lewis",
-      "country": "Canada",
-      "des": "Thermogenic effect is consistent."
-    },
-    {
-      "id": 19,
-      "name": "Rahul Sinha",
-      "country": "India",
-      "des": "Helps push cardio sessions longer."
-    },
-    {
-      "id": 20,
-      "name": "Jake Turner",
-      "country": "Australia",
-      "des": "Clean metabolic energy."
-    },
-    {
-      "id": 21,
-      "name": "Arjun Patel",
-      "country": "India",
-      "des": "Good support for fat loss training."
-    },
-    {
-      "id": 22,
-      "name": "Daniel Costa",
-      "country": "Portugal",
-      "des": "Fat burning effect noticeable during cardio."
-    },
-    {
-      "id": 23,
-      "name": "Sahil Gupta",
-      "country": "India",
-      "des": "Works well during calorie deficit."
-    },
-    {
-      "id": 24,
-      "name": "George Ivanov",
-      "country": "Bulgaria",
-      "des": "Improves training output during cut."
-    },
-    {
-      "id": 25,
-      "name": "Naveen Kumar",
-      "country": "India",
-      "des": "Energy boost without crash."
-    },
-    {
-      "id": 26,
-      "name": "Tom Hughes",
-      "country": "UK",
-      "des": "Balanced thermogenic formula."
-    },
-    {
-      "id": 27,
-      "name": "Imran Sheikh",
-      "country": "Pakistan",
-      "des": "Cardio sessions feel more productive."
-    },
-    {
-      "id": 28,
-      "name": "Miguel Lopez",
-      "country": "Spain",
-      "des": "Clean energy and sweat increase."
-    },
-    {
-      "id": 29,
-      "name": "Akash Sharma",
-      "country": "India",
-      "des": "Helpful for stubborn fat phase."
-    },
-    {
-      "id": 30,
-      "name": "Kevin Hall",
-      "country": "USA",
-      "des": "One of the better thermogenic supplements I’ve used."
-    }
-  ],
+      ],
+      "reviews": [
+        {
+          "id": 1,
+          "name": "David Coleman",
+          "country": "USA",
+          "des": "Using this during my cut phase and the thermogenic response is noticeable. Cardio sessions feel more productive."
+        },
+        {
+          "id": 2,
+          "name": "Rajat Malhotra",
+          "country": "India",
+          "des": "Morning fasted cardio feels easier. Metabolism feels active throughout the day."
+        },
+        {
+          "id": 3,
+          "name": "Luis Martinez",
+          "country": "Spain",
+          "des": "Fat burners rarely work for me but this one actually increases body heat during training."
+        },
+        {
+          "id": 4,
+          "name": "Mohit Yadav",
+          "country": "India",
+          "des": "Energy during calorie deficit is the biggest benefit."
+        },
+        {
+          "id": 5,
+          "name": "Alex Grant",
+          "country": "UK",
+          "des": "Clean thermogenic effect without making me anxious."
+        },
+        {
+          "id": 6,
+          "name": "Rahul Patil",
+          "country": "India",
+          "des": "Helps maintain workout intensity even while dieting."
+        },
+        {
+          "id": 7,
+          "name": "Daniel Perez",
+          "country": "Mexico",
+          "des": "Sweat rate increases during cardio sessions."
+        },
+        {
+          "id": 8,
+          "name": "Siddharth Jain",
+          "country": "India",
+          "des": "Metabolic boost is noticeable during HIIT."
+        },
+        {
+          "id": 9,
+          "name": "Omar Ali",
+          "country": "UAE",
+          "des": "Helps push through low-energy days during cutting."
+        },
+        {
+          "id": 10,
+          "name": "Chris Walker",
+          "country": "USA",
+          "des": "Feels like a metabolic accelerator rather than just caffeine."
+        },
+        {
+          "id": 11,
+          "name": "Kunal Thakur",
+          "country": "India",
+          "des": "Appetite control and clean energy during prep."
+        },
+        {
+          "id": 12,
+          "name": "Victor Santos",
+          "country": "Brazil",
+          "des": "Works well before cardio sessions."
+        },
+        {
+          "id": 13,
+          "name": "James Porter",
+          "country": "UK",
+          "des": "Clean fat burner without crazy jitters."
+        },
+        {
+          "id": 14,
+          "name": "Rohit Das",
+          "country": "India",
+          "des": "Helps maintain focus while cutting calories."
+        },
+        {
+          "id": 15,
+          "name": "Carlos Rivera",
+          "country": "Mexico",
+          "des": "Noticeable thermogenic heat during workouts."
+        },
+        {
+          "id": 16,
+          "name": "Ahmed Farooq",
+          "country": "UAE",
+          "des": "Great addition for morning training."
+        },
+        {
+          "id": 17,
+          "name": "Aditya Menon",
+          "country": "India",
+          "des": "Energy stays steady during diet phase."
+        },
+        {
+          "id": 18,
+          "name": "Mark Lewis",
+          "country": "Canada",
+          "des": "Thermogenic effect is consistent."
+        },
+        {
+          "id": 19,
+          "name": "Rahul Sinha",
+          "country": "India",
+          "des": "Helps push cardio sessions longer."
+        },
+        {
+          "id": 20,
+          "name": "Jake Turner",
+          "country": "Australia",
+          "des": "Clean metabolic energy."
+        },
+        {
+          "id": 21,
+          "name": "Arjun Patel",
+          "country": "India",
+          "des": "Good support for fat loss training."
+        },
+        {
+          "id": 22,
+          "name": "Daniel Costa",
+          "country": "Portugal",
+          "des": "Fat burning effect noticeable during cardio."
+        },
+        {
+          "id": 23,
+          "name": "Sahil Gupta",
+          "country": "India",
+          "des": "Works well during calorie deficit."
+        },
+        {
+          "id": 24,
+          "name": "George Ivanov",
+          "country": "Bulgaria",
+          "des": "Improves training output during cut."
+        },
+        {
+          "id": 25,
+          "name": "Naveen Kumar",
+          "country": "India",
+          "des": "Energy boost without crash."
+        },
+        {
+          "id": 26,
+          "name": "Tom Hughes",
+          "country": "UK",
+          "des": "Balanced thermogenic formula."
+        },
+        {
+          "id": 27,
+          "name": "Imran Sheikh",
+          "country": "Pakistan",
+          "des": "Cardio sessions feel more productive."
+        },
+        {
+          "id": 28,
+          "name": "Miguel Lopez",
+          "country": "Spain",
+          "des": "Clean energy and sweat increase."
+        },
+        {
+          "id": 29,
+          "name": "Akash Sharma",
+          "country": "India",
+          "des": "Helpful for stubborn fat phase."
+        },
+        {
+          "id": 30,
+          "name": "Kevin Hall",
+          "country": "USA",
+          "des": "One of the better thermogenic supplements I’ve used."
+        }
+      ],
 
       "supplementFacts": {
         "servingSize": "1 Scoop (30g)",

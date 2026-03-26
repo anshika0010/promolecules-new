@@ -70,27 +70,19 @@ export default function ContactheroSection() {
    <ContactForm/>
 
 
-      {/* CTA SECTION */}
-   <section className="bg-black py-6 px-4 border-t border-gray-800">
-  <div className="max-w-7xl mx-auto creepster-regular text-center sm:text-left">
-    
-    <h2 className="uppercase tracking-wider leading-tight
-      text-4xl 
-      sm:text-5xl 
-      md:text-6xl 
-      lg:text-7xl 
-      xl:text-8xl 
-      2xl:text-9xl">
-
-      <span className="text-gray-200 block sm:inline">
-        Lets Start To
-      </span>{" "}
-      <span className="text-red-600 block sm:inline">
-        Work
-      </span>
-
+{/* CTA SECTION */}
+<section className="bg-black py-10 sm:py-14 md:py-16 px-4 border-t border-gray-800">
+  <div className="max-w-7xl mx-auto flex flex-col items-center justify-center text-center">
+    <h2 className="creepster-regular uppercase tracking-wider leading-tight
+      text-4xl
+      xs:text-5xl
+      sm:text-6xl
+      md:text-7xl
+      lg:text-8xl
+      xl:text-9xl">
+      <span className="text-gray-200">Lets Start To </span>
+      <span className="text-red-600">Work</span>
     </h2>
-
   </div>
 </section>
 

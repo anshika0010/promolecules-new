@@ -89,7 +89,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section className="max-w-7xl mx-auto min-h-screen bg-black text-white py-24 relative">
+    <section className="max-w-7xl mx-auto min-h-screen bg-black text-white py-1 sm:py-2 md:py-10 relative">
       <div
         className={`max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 transition-all duration-300 ${
           showPopup ? "blur-md pointer-events-none" : ""

@@ -5,8 +5,9 @@ import Link from "next/link";
 import Image from "next/image";
 import { ShoppingCart, Menu, X, Search } from "lucide-react";
 import { usePathname } from "next/navigation";
-
+import SearchModal from "../components/SearchModal";
 const Navbar = () => {
+  const [searchOpen, setSearchOpen] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
@@ -91,12 +92,12 @@ const Navbar = () => {
           {/* Right Side Icons */}
           <div className="hidden md:flex items-center gap-3">
             {/* Search */}
-            <button
-              className="flex-shrink-0 bg-black/30 backdrop-blur-md border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200"
-              aria-label="Search"
-            >
-              <Search size={22} className="text-white" />
-            </button>
+           <button
+  onClick={() => setSearchOpen(true)} // ✅ 
+  className="..."
+>
+  <Search size={22} className="text-white" />
+</button>
 
             {/* Cart */}
             <button
@@ -140,12 +141,12 @@ const Navbar = () => {
             {/* Mobile Icons */}
             <div className="flex items-center gap-3">
               {/* Search */}
-              <button
-                className="flex-1 flex items-center justify-center bg-black/30 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-colors duration-200"
-                aria-label="Search"
-              >
-                <Search size={22} className="text-white" />
-              </button>
+             <button
+  onClick={() => setSearchOpen(true)} // ✅ 
+  className="..."
+>
+  <Search size={22} className="text-white" />
+</button>
 
               {/* Cart */}
               <button
@@ -233,6 +234,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
+       <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
     </>
   );
 };

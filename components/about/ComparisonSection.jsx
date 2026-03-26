@@ -25,7 +25,7 @@ export default function ComparisonSection() {
     {
       factor: "ATP PRESERVATION TECHNOLOGY",
       gray: "UNSTABLE PRECISION DEGRADATION",
-      pro: "RUSSIAN PEPTIDE CELLULAR ENERGY ARCHITECTURE",
+      pro: "Russian Peptide Energy System",
     },
     {
       factor: "HEPATIC STRESS MANAGEMENT",

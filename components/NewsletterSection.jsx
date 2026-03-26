@@ -22,7 +22,7 @@ const NewsletterSection = () => {
   };
 
   return (
- <section className="relative min-h-screen bg-black flex items-center justify-center overflow-hidden py-16 sm:py-20 lg:py-24">
+ <section className="relative min-h-screen bg-black flex items-center justify-center overflow-hidden py-6 sm:py-20 lg:py-24">
   {/* Background */}
   <div className="absolute inset-0 bg-gradient-to-br from-black via-black to-red-950/10" />
 

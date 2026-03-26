@@ -50,7 +50,7 @@ function ProductCard({ product }) {
 
           {/* Price + CTA */}
           <div className="flex items-center justify-between pt-1">
-            <span className="text-red-500 font-black text-lg sm:text-2xl">
+            <span className="text-white font-black text-sm sm:text-2xl">
               ${product.servings?.[0]?.price}
             </span>
             <Link href={`/product/${product.slug}`}>
