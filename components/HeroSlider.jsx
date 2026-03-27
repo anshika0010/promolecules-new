@@ -10,20 +10,20 @@ const slides = [
   {
     id: 1,
     productImage: "/thermo.webp",
-    title: "Inopower-r",
-    backgroundImage: "/promolecules-inpower-r-banner.webp",
-    link: "/product/inopower-r/",
+    title: "Thermo-nuke-xt",
+    backgroundImage: "/promolecules-thermo-nuke-xt.webp",
+    link: "/product/thermo-nuke-xt/",
     description:
-      "INOPOWER-R:Clean energy without caffeine dependency Built on ATP energy system Supports endurance at cellular level.",
+      "Burn stubborn fat faster with thermogenic power, boost metabolism, increase sweat, maintain energy, and dominate cutting phase workouts daily.",
   },
   {
     id: 2,
-    productImage: "/father-of-insane-pre-workout-65-Servings.webp",
-    title: "FATHER OF INSANE",
-    backgroundImage: "/father-of-insane-pre-workout-banner.webp",
-    link: "/product/father-of-insane/",
+    productImage: "/hydra.webp",
+    title: "Hydrapump+",
+    backgroundImage: "/promolecules-hydrapump-img.webp",
+    link: "/product/hydrapump/",
     description:
-      "Promolecules' Father of Insane is an extremely high-stim pre-workout supplement that offers incredible energy, explosive strength, laser-like focus, and incredible endurance.",
+      "Experience liquid glycerol pump, extreme muscle fullness, rapid hydration, enhanced vascularity, and endurance without caffeine for peak performance every workout",
   },
 ];
 
@@ -39,26 +39,24 @@ const HeroSlider = () => {
   }, []);
 
   return (
-    <div className="relative min-h-[50vh] lg:min-h-[100vh] w-full overflow-hidden pt-4">
-      {/* Background */}
-      <motion.div
-        key={currentSlide}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-        className="absolute inset-0 z-0"
-      >
-        <Image
-          src={slides[currentSlide].backgroundImage}
-          alt="Background"
-          width={1200}
-          height={600}
-          priority
-          className="object-cover"
-        />
-        <div className="absolute inset-0 bg-black/40" />
-      </motion.div>
-
+  <div className="relative min-h-[50vh] lg:min-h-[100vh] w-full overflow-hidden pt-4">
+    
+    {/* Background - Full Screen */}
+    <motion.div
+      key={currentSlide}
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.8 }}
+      className="absolute inset-0 z-0 w-screen left-1/2 -translate-x-1/2"  
+    >
+      <Image
+        src={slides[currentSlide].backgroundImage}
+        alt="Background"
+        fill        
+        priority
+        className="object-cover"
+      />
+    </motion.div>
       {/* Hero Content */}
       <div className="relative z-10 flex items-center">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 w-full">
@@ -68,7 +66,7 @@ const HeroSlider = () => {
 
             {/* Content */}
             <div className="space-y-4 text-center anton-regular font-extrabold lg:text-left">
-              <motion.h1
+              <motion.p
                 key={currentSlide}
                 initial={{ x: 200, opacity: 0 }}
                 animate={{ x: 0, opacity: 1 }}
@@ -76,10 +74,10 @@ const HeroSlider = () => {
                   duration: 0.9,
                   ease: [0.22, 1, 0.36, 1],
                 }}
-                className="text-3xl creepster-regular sm:text-5xl lg:text-6xl font-black uppercase text-white leading-tight"
+                className="text-3xl creepster-regular sm:text-5xl lg:text-6xl font-black uppercase tracking-wider text-white "
               >
                 {slides[currentSlide].title}
-              </motion.h1>
+              </motion.p>
 
               <p className="hidden md:block  global-text-style    max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
                 {slides[currentSlide].description}
@@ -100,38 +98,46 @@ const HeroSlider = () => {
               </div>
 
     {/* Mini Slides */}
-<div className="pt-3 lg:pt-10 space-y-4">
+<div className="pt-3 lg:pt-10 space-y-3">
   {slides.map(
     (slide, index) =>
       index !== currentSlide && (
         <div
           key={slide.id}
           onClick={() => setCurrentSlide(index)}
-          className="cursor-pointer transition-all duration-300 hover:scale-[1.02]"
+          className="cursor-pointer transition-all duration-300 active:scale-95 hover:scale-[1.02]"
         >
-          <div className="flex flex-row items-center gap-3 sm:gap-4 rounded-xl rounded-l-full bg-white/10 backdrop-blur-md px-3 sm:px-5 py-3 sm:py-4 shadow-lg">
+          <div className="flex items-center gap-3 pr-4 rounded-r-2xl rounded-l-full border border-white/15 bg-white/7 backdrop-blur-md">
             
-            {/* Image - Left Side */}
-            <div className="relative flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 md:w-20 md:h-20 ml-2">
+            {/* Circular Image */}
+            <div className="relative flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-full border border-white/20 bg-white/10 overflow-hidden">
               <Image
                 src={slide.productImage}
                 alt={slide.title}
                 fill
                 priority
-                className="object-contain p-1"
+                className="object-contain p-1.5"
               />
             </div>
 
-            {/* Text - Right Side */}
-            <div className="flex-1 min-w-0">
-              <p className="global-text-style line-clamp-2 text-left text-xs sm:text-sm md:text-base leading-relaxed">
+            {/* Text */}
+            <div className="flex-1 min-w-0 py-3">
+              <p className="creepster-regular text-red-500 text-sm sm:text-base font-bold uppercase tracking-wide truncate">
+                {slide.title}
+              </p>
+              <p className="text-white/55 text-[11px] sm:text-xs leading-snug line-clamp-2 mt-0.5">
                 {slide.description}
               </p>
             </div>
 
+            {/* Arrow */}
+            <div className="flex-shrink-0 w-6 h-6 rounded-full border border-white/20 flex items-center justify-center">
+              <ChevronRight size={12} className="text-white/60" />
+            </div>
+
           </div>
         </div>
-      ),
+      )
   )}
 </div>
         

@@ -1,6 +1,61 @@
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
 
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "Engineered Stimulation, Not Guesswork",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The brand's first focus was neurological activation — understanding how the central nervous system responds to layered stimulant delivery rather than single-source caffeine overload. This led to the development of multi-phase stimulation systems seen in products like Father of Insane™, where intensity is engineered, not randomly increased.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "WHEN WAS PROMOLECULES FOUNDED?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Promolecules™ was founded in the early 2020s during a period when high-stimulant supplements were rapidly gaining popularity but lacked structured formulation. It emerged in response to growing demand for stronger yet more intelligently engineered performance systems.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "WHY WAS PROMOLECULES CREATED?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Promolecules™ was created to challenge the industry's habit of underdosing key ingredients or overdosing caffeine for marketing impact. The goal was to build performance supplements that deliver real intensity through structured formulation, not hype-driven stimulation.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "WHAT PROBLEM DID PROMOLECULES AIM TO SOLVE?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "The brand aimed to solve three core issues: hidden proprietary blends, chaotic stimulant crashes, and inconsistent batch quality. Promolecules™ focused on creating disciplined, bioengineered formulas that provide controlled activation, sustained output, and transparent positioning for serious athletes.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "HOW HAS PROMOLECULES EVOLVED OVER TIME?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Promolecules™ begin with ultra high-stim performance systems and expanded into hybrid pre-workouts, thermogenics, stimulant-free ATP enhancers, hydration-based pump systems, and protein support. The evolution reflects a broader performance ecosystem rather than a single product category.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "WHAT HAS REMAINED CONSTANT SINCE THE BEGINNING?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "What has remained constant is the principle of structured intensity. Promolecules™ continues to prioritize controlled stimulation, athlete-focused positioning, transparent messaging about product strength, and performance systems built for progression — not casual consumption",
+      },
+    },
+  ],
+};
+
 export default function GrowthEvolution() {
   const [active, setActive] = useState(0);
 
@@ -13,7 +68,7 @@ export default function GrowthEvolution() {
     {
       question: "WHY WAS PROMOLECULES CREATED?",
       answer:
-        "Promolecules™ was created to challenge the industry’s habit of underdosing key ingredients or overdosing caffeine for marketing impact. The goal was to build performance supplements that deliver real intensity through structured formulation, not hype-driven stimulation.",
+        "Promolecules™ was created to challenge the industry's habit of underdosing key ingredients or overdosing caffeine for marketing impact. The goal was to build performance supplements that deliver real intensity through structured formulation, not hype-driven stimulation.",
     },
     {
       question: "WHAT PROBLEM DID PROMOLECULES AIM TO SOLVE?",
@@ -33,84 +88,74 @@ export default function GrowthEvolution() {
   ];
 
   return (
+    <>
+      {/* ✅ FAQ Schema Injection */}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
 
-    <section className="relative max-w-7xl mx-auto min-h-screen bg-black text-white px-3 md:px-4 py-6 overflow-hidden">
+      <section className="relative max-w-7xl mx-auto min-h-screen bg-black text-white px-3 md:px-4 py-0 md:py-5 overflow-hidden">
+        <div className="grid md:grid-cols-2 gap-10 items-start">
+          {/* LEFT CONTENT */}
+          <div className="order-2 md:order-1">
+            <p className="global-text-style text-red-600 tracking-wide mb-10 max-w-lg">
+              The brand's first focus was neurological activation — understanding
+              how the central nervous system responds to layered stimulant
+              delivery rather than single-source caffeine overload.
+            </p>
 
-      <div className="grid md:grid-cols-2 gap-10 items-start">
-        {/* LEFT CONTENT */}
-        <div>
-          <h2 className="text-2xl md:text-2xl sm:text-md font-black uppercase tracking-widest text-red-600 mb-2 creepster-regular">
-  Engineered Stimulation, Not Guesswork
-</h2>
-          {/* Top Description */}
-          <p className="global-text-style text-red-600  tracking-wide mb-10 max-w-lg">
-            The brand’s first focus was neurological activation — understanding
-            how the central nervous system responds to layered stimulant
-            delivery rather than single-source caffeine overload. This led to
-            the development of multi-phase stimulation systems seen in products
-            like Father of Insane™, where intensity is engineered, not randomly
-            increased.
-          </p>
+            <div className="border-t border-gray-800 mb-6"></div>
 
-          {/* Divider Line */}
-          <div className="border-t border-gray-800 mb-6"></div>
+            <div className="space-y-4">
+              {faqs.map((item, index) => (
+                <div key={index}>
+                  <button
+                    onClick={() => setActive(active === index ? null : index)}
+                    className="w-full flex items-center justify-between text-left py-4 border-b border-gray-800 group"
+                    aria-expanded={active === index}
+                    aria-controls={`faq-content-${index}`}
+                  >
+                    <span className="text-red-600 font-semibold tracking-wide text-sm md:text-base">
+                      {item.question}
+                    </span>
 
-          {/* FAQ Accordion */}
-          <div className="space-y-4">
-            {faqs.map((item, index) => (
-              <div key={index}>
-      <button
-  onClick={() => setActive(active === index ? null : index)}
-  className="w-full flex items-center justify-between text-left py-4 border-b border-gray-800 group"
-  aria-expanded={active === index}
-  aria-controls={`faq-content-${index}`}
->
-  <span className="text-red-600 font-semibold tracking-wide text-sm md:text-base">
-    {item.question}
-  </span>
+                    <ChevronRight
+                      size={18}
+                      className={`transition-transform duration-300 ${
+                        active === index
+                          ? "rotate-90 text-red-600"
+                          : "text-gray-500"
+                      }`}
+                    />
+                  </button>
 
-  <ChevronRight
-    size={18}
-    className={`transition-transform duration-300 ${
-      active === index
-        ? "rotate-90 text-red-600"
-        : "text-gray-500"
-    }`}
-  />
-</button>
-
-                {/* Optional expandable content */}
-                {active === index && (
-                  <div className="global-text-style py-4 scale-up-ver-top leading-relaxed">
-                    {item.answer}
-                  </div>
-                )}
-              </div>
-            ))}
+                  {active === index && (
+                    <div className="global-text-style py-4 scale-up-ver-top leading-relaxed">
+                      {item.answer}
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
 
-        </div>
+          {/* RIGHT SIDE */}
+          <div className="relative order-1 md:order-2">
+            <h2 className="hidden md:block text-red-600 creepster-regular text-4xl md:text-7xl text-center mb-8">
+              GROWTH & EVOLUTION
+            </h2>
 
-        {/* RIGHT SIDE */}
-        <div className="relative">
-          {/* Gothic Heading */}
-          <h2 className="text-red-600 creepster-regular text-4xl md:text-6xl font-bold text-right mb-8">
-            GROWTH & EVOLUTION
-          </h2>
-
-          {/* Image Box */}
-          <div className="relative w-full h-[450px] bg-gradient-to-b from-red-900/40 to-black overflow-hidden">
-            <img
-              src="/history2.webp"
-              alt="Growth"
-              className="w-full h-full object-cover opacity-80"
-            />
-
+            <div className="relative w-full h-[450px] bg-gradient-to-b from-red-900/40 to-black overflow-hidden">
+              <img
+                src="/history2.webp"
+                alt="Growth"
+                className="w-full h-full object-cover opacity-80"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      
-    </section>
-
+      </section>
+    </>
   );
 }

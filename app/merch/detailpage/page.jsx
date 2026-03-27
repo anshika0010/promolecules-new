@@ -254,7 +254,7 @@ export default function ProductDetail() {
       <section className="w-full  bg-black flex items-center justify-center px-6">
         <div className="text-center max-w-4xl">
           {/* Heading */}
-          <h1 className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase leading-tight tracking-wide">
+          <h1 className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase ">
             Empower Every Move <br /> With Style
           </h1>
 

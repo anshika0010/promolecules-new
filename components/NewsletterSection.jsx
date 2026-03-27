@@ -56,11 +56,11 @@ const NewsletterSection = () => {
           }}
           className="flex flex-col items-center lg:items-start"
         >
-          <h2 className="creepster-regular text-red-600 text-2xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight">
+          <h2 className="creepster-regular text-red-600 text-2xl sm:text-4xl lg:text-5xl xl:text-6xl ">
             SUBSCRIBE-TO
           </h2>
 
-          <h2 className="creepster-regular text-red-600 text-2xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight">
+          <h2 className="creepster-regular text-red-600 text-2xl sm:text-4xl lg:text-5xl xl:text-6xl ">
             PROMOLECULES™
           </h2>
         </motion.div>

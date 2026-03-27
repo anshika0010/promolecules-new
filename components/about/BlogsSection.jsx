@@ -88,7 +88,7 @@ export default function BlogsSection() {
 
                     {/* Content */}
                     <div className="absolute bottom-0 left-0 right-0 p-6 space-y-3">
-                      <h3 className="text-red-500 anton-regular text-lg font-bold leading-tight tracking-wide">
+                      <h3 className="text-red-500 anton-regular text-lg font-bold l">
                         {blog.title}
                       </h3>
                       <p className="text-white/80 anton-regular text-xs leading-relaxed tracking-wide">

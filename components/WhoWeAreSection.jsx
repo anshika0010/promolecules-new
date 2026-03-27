@@ -11,12 +11,12 @@ const WhoWeAreSection = () => {
 
         {/* Title Block */}
     <div className="flex flex-col items-center mb-6 sm:mb-8 md:mb-10 text-center px-4">
-      <h1
+      <p
      
-        className="creepster-regular heading leading-tight text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
+        className="creepster-regular heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl"
       >
         WHO-WE-ARE
-      </h1>
+      </p>
  
       <motion.div
         initial={{ scaleX: 0 }}

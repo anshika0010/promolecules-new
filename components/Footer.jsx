@@ -38,20 +38,21 @@ const Footer = () => {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 sm:gap-8 lg:gap-10">
           {/* DISCLAIMER */}
           <div className="col-span-2 lg:col-span-1">
-            <h3 className="text-red-600 creepster-regular sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
+            <h3 className="text-red-600 tracking-wide  creepster-regular sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
               DISCLAIMER
             </h3>
             <p className="global-text-style">
-              Promolecules supplements are for healthy adults and for educational
-              purposes only, not medical advice. Consult a healthcare professional
-              before use. Do not exceed the recommended dosage. Not intended to
-              diagnose, treat, cure, or prevent any disease. Results may vary.
+              Promolecules supplements are for healthy adults and for
+              educational purposes only, not medical advice. Consult a
+              healthcare professional before use. Do not exceed the recommended
+              dosage. Not intended to diagnose, treat, cure, or prevent any
+              disease. Results may vary.
             </p>
           </div>
 
           {/* QUICK LINKS */}
           <div>
-            <h3 className="text-red-600 creepster-regular sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
+            <h3 className="text-red-600 tracking-wide  creepster-regular sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
               QUICK LINKS
             </h3>
             <nav className="flex flex-col gap-1 sm:gap-2 global-text-style">
@@ -67,7 +68,7 @@ const Footer = () => {
 
           {/* CATEGORIES */}
           <div>
-            <h3 className="text-red-600 creepster-regular sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
+            <h3 className="text-red-600 tracking-wide  creepster-regular sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
               CATEGORIES
             </h3>
             <nav className="flex flex-col gap-1 sm:gap-2 global-text-style">
@@ -83,7 +84,7 @@ const Footer = () => {
 
           {/* CONTACT */}
           <div className="global-text-style">
-            <h3 className="text-red-600 creepster-regular sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
+            <h3 className="text-red-600 creepster-regular tracking-wide sm:text-2xl xl:text-4xl mb-2 sm:mb-3">
               CONTACT
             </h3>
             <div className="space-y-2 text-sm">
@@ -106,21 +107,20 @@ const Footer = () => {
         </div>
 
         {/* BIG BRAND TEXT */}
-     <div className="mt-10 sm:mt-12 lg:mt-8 overflow-hidden text-center">
-  <motion.h2
-    initial={{ x: 200, opacity: 0 }}
-    whileInView={{ x: 0, opacity: 1 }}
-    viewport={{ once: true }}
-    transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
-    className="creepster-regular text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-red-700 tracking-wide leading-none relative inline-block"
-  >
-    PROMOLECULES
-
-    <span className="absolute top-4 right-0 translate-x-full -translate-y-1/2 text-xl sm:text-3xl md:text-5xl">
-      TM
-    </span>
-  </motion.h2>
-</div>
+        <div className="mt-10 sm:mt-12 lg:mt-8 overflow-hidden text-center">
+          <motion.h2
+            initial={{ x: 200, opacity: 0 }}
+            whileInView={{ x: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 1, ease: [0.22, 1, 0.36, 1] }}
+            className="creepster-regular text-5xl xs:text-6xl sm:text-7xl md:text-8xl lg:text-9xl text-red-700 tracking-wide leading-none relative inline-block"
+          >
+            PROMOLECULES
+            <span className="absolute top-4 md:top-6 right-0 translate-x-full -translate-y-1/2 text-lg sm:text-xl md:text-3xl">
+              TM
+            </span>
+          </motion.h2>
+        </div>
 
         {/* BOTTOM BAR */}
         <div className="border-t border-white/10 mt-2 sm:mt-4 lg:mt-5 pt-3 sm:pt-4">
@@ -133,7 +133,10 @@ const Footer = () => {
             {/* Policy links */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 global-text-style">
               <FooterSmallLink href="/privacy-policy" label="PRIVACY POLICY" />
-              <FooterSmallLink href="/terms-conditions" label="TERMS OF SERVICE" />
+              <FooterSmallLink
+                href="/terms-conditions"
+                label="TERMS OF SERVICE"
+              />
               <FooterSmallLink href="/cookies-policy" label="COOKIE POLICY" />
             </div>
           </div>

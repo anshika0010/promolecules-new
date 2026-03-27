@@ -171,7 +171,7 @@ const DomesticDistributorHero = () => {
 
 <div className="flex flex-col md:flex-row items-start md:items-center justify-between px-6 sm:px-10 md:px-20 py-8 md:py-10 bg-black gap-6">
   
-  <h2 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold creepster-regular uppercase tracking-wide leading-tight">
+  <h2 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-bold creepster-regular uppercase">
     <span className="text-red-600 block sm:inline">
       International,
     </span>{" "}

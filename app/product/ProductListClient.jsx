@@ -35,7 +35,7 @@ function ProductCard({ product }) {
               {product.category}
             </p>
             <Link href={`/product/${product.slug}`}>
-             <h3 className="text-red-700 font-black text-xl sm:text-2xl md:text-5xl creepster-regular text-center group-hover:text-red-400 transition-colors leading-tight truncate">
+             <h3 className="text-red-700 font-black text-xl sm:text-2xl md:text-5xl creepster-regular text-center group-hover:text-red-400 transition-colorst truncate">
   {product.name}
 </h3>
             </Link>

@@ -21,7 +21,7 @@ const InternationalDistributors = () => {
       <div className="relative z-10 max-w-6xl mx-auto px-6 md:px-12 py-16">
         {/* ================= HEADING ================= */}
 
-        <h1 className="leading-tight mb-6">
+        <h1 className=" mb-6">
           <span
             className="block 
                text-3xl 
@@ -141,9 +141,8 @@ const InternationalDistributors = () => {
                 bg-black gap-6"
       >
         <h2
-          className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl 
-                 font-bold creepster-regular 
-                 uppercase tracking-wide leading-tight"
+          className="heading creepster-regular 
+                 uppercase "
         >
           <span className="text-red-600 block sm:inline">DOMESTIC,</span>{" "}
           <span className="block sm:inline">Distributor</span>

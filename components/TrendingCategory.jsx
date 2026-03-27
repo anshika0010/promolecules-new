@@ -112,9 +112,9 @@ export default function TrendingCategory() {
               <div className="flex flex-col justify-center flex-1 min-w-0 px-1 sm:px-3">
                 <h3
                   className="creepster-regular text-red-600 
-                    text-lg xs:text-xl sm:text-3xl md:text-4xl tracking-wider
+                    text-lg xs:text-xl sm:text-3xl md:text-4xl
                     transition-colors duration-500 group-hover:text-white
-                    leading-tight"
+                  "
                 >
                   {item.title}
                 </h3>

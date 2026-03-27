@@ -27,7 +27,7 @@ export default function FAQClient({ jsonld }) {
           <div className="grid md:grid-cols-2 gap-10 items-center">
             {/* LEFT CONTENT */}
             <div>
-              <h1 className="text-2xl md:text-4xl lg:text-5xl creepster-regular leading-tight">
+              <h1 className="text-2xl md:text-4xl lg:text-5xl creepster-regular ">
                 WHY <span className="text-red-600">PROMOLECULES™</span> STANDS ABOVE
                 EVERY CHEAP SUPPLEMENT BRAND
               </h1>

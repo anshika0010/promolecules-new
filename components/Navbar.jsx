@@ -92,17 +92,18 @@ const Navbar = () => {
           {/* Right Side Icons */}
           <div className="hidden md:flex items-center gap-3">
             {/* Search */}
-           <button
-  onClick={() => setSearchOpen(true)} // ✅ 
-  className="..."
->
-  <Search size={22} className="text-white" />
-</button>
+            <button
+              onClick={() => setSearchOpen(true)} // ✅
+              className="flex-shrink-0 cursor-pointer bg-black/30 backdrop-blur-md border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200"
+             aria-label="seach product"
+             >
+              <Search size={22} className="text-white" />
+            </button>
 
             {/* Cart */}
             <button
               onClick={() => setCartOpen(true)}
-              className="flex-shrink-0 bg-black/30 backdrop-blur-md border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200"
+              className="flex-shrink-0 bg-black/30 cursor-pointer backdrop-blur-md border border-white/10 hover:bg-white/10 p-3.5 rounded-full transition-colors duration-200"
               aria-label="View shopping cart"
             >
               <ShoppingCart size={22} className="text-white" />
@@ -141,16 +142,20 @@ const Navbar = () => {
             {/* Mobile Icons */}
             <div className="flex items-center gap-3">
               {/* Search */}
-             <button
-  onClick={() => setSearchOpen(true)} // ✅ 
-  className="..."
->
-  <Search size={22} className="text-white" />
-</button>
+              <button
+                onClick={() => setSearchOpen(true)} // ✅
+                      className="flex-1 flex items-center justify-center bg-black/30 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-colors duration-200"
+                aria-label="seach product"
+              >
+                <Search size={22} className="text-white" />
+              </button>
 
               {/* Cart */}
               <button
-                onClick={() => { setCartOpen(true); setIsOpen(false); }}
+                onClick={() => {
+                  setCartOpen(true);
+                  setIsOpen(false);
+                }}
                 className="flex-1 flex items-center justify-center bg-black/30 border border-white/10 hover:bg-white/10 p-3 rounded-full transition-colors duration-200"
                 aria-label="View shopping cart"
               >
@@ -167,7 +172,9 @@ const Navbar = () => {
       <div
         onClick={() => setCartOpen(false)}
         className={`fixed inset-0 z-[60] bg-black/60 backdrop-blur-sm transition-opacity duration-300 ${
-          cartOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          cartOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
         }`}
       />
 
@@ -210,7 +217,8 @@ const Navbar = () => {
               We're Working On It
             </h2>
             <p className="text-white/40 text-sm leading-relaxed max-w-[240px]">
-              Our cart experience is currently under construction. Check back soon — something powerful is coming.
+              Our cart experience is currently under construction. Check back
+              soon — something powerful is coming.
             </p>
           </div>
 
@@ -234,7 +242,7 @@ const Navbar = () => {
           </Link>
         </div>
       </div>
-       <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+      <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
     </>
   );
 };

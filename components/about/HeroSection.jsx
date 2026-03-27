@@ -23,7 +23,7 @@ export default function HeroSection() {
 
         <h1 className="creepster-regular 
                        text-3xl sm:text-5xl md:text-7xl lg:text-8xl 
-                       text-red-700 font-bold leading-tight">
+                       text-red-700 font-bold tracking-wide">
           WE ARE PROMOLECULES
         </h1>
 

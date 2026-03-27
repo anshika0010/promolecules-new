@@ -8,7 +8,7 @@ export default function PerformanceShowcase() {
       id: 1,
       image: "/promolecules-about.webp",
       alt: "Left Performance",
-      text: `Stop chasing the "clown energy" of over-caffeinated gimmicks. Promolecules is performance-engineered CNS activation, not just a chaotic stimulant spike. Our Half-Scoop Protocol delivers controlled aggression and focus-locking for 3-hour elite sessions.`,
+      text: `Stop chasing the "clown energy" of over-caffeinated gimmicks. Promolecules is performance-engineered CNS activation, not just a chaotic stimulant spike.`,
       tag: "— We Are Performance First Nutrition",
       align: "text-left",
     },
@@ -67,7 +67,7 @@ export default function PerformanceShowcase() {
 
               {/* Text */}
               <div className={item.align}>
-                <p className="text-xs sm:text-sm md:text-sm lg:text-base text-white uppercase leading-relaxed creepster-regular">
+                <p className="global-text-style text-white ">
                   {item.text}
                 </p>
 

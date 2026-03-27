@@ -38,9 +38,9 @@ const UltraHighPerformanceSection = () => {
         {/* Main Title */}
         <div className="flex justify-center text-center mb-12 sm:mb-16">
           <div className="relative flex flex-col items-center">
-            <h2 className="creepster-regular heading">
+            <h1 className="creepster-regular heading">
               ULTRA-HIGH-PERFORMANCE
-            </h2>
+            </h1>
 
             <div className="h-1 bg-red-600  w-24 sm:w-40 md:w-60 lg:w-full max-w-[900px] rounded-full" />
 

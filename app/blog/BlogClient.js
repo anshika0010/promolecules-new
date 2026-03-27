@@ -82,7 +82,7 @@ export default function BlogClient({ jsonld }) {
                 </p>
               </div>
               <div className="text-left lg:text-right space-y-6">
-                <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl creepster-regular uppercase leading-tight font-bold">
+                <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl creepster-regular uppercase  font-bold">
                   <span className="block text-white tracking-widest">
                     All Fitness
                   </span>

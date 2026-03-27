@@ -132,7 +132,7 @@ function CartPopup({ isOpen, onClose, product, flavour, quantity, mode }) {
           </div>
           <div className="flex flex-col justify-between flex-1 min-w-0">
             <div>
-              <h1 className="font-black uppercase tracking-wider text-red-500 text-sm leading-tight truncate creepster-regular">
+              <h1 className="font-black uppercase tracking-wider text-red-500 text-sm  truncate creepster-regular">
                 {product.name}
               </h1>
               {flavour && (

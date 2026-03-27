@@ -25,7 +25,7 @@ export default function WhatWeDeliverClient({ jsonld }) {
 
         {/* Text Content */}
         <div className="absolute inset-0 flex flex-col items-center  justify-end text-center px-6">
-          <h1 className="text-4xl creepster-regular sm:text-7xl lg:text-9xl font-extrabold tracking-widest uppercase">
+          <h1 className="text-4xl creepster-regular sm:text-7xl lg:text-9xl font-extrabold tracking-wide uppercase">
             <span className="text-white">WHAT WE</span>{" "}
             <span className="text-red-600">DELIVER</span>
           </h1>

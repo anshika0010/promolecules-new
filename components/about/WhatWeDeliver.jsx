@@ -30,8 +30,8 @@ export default function WhatWeDeliver() {
       {/* MIDDLE STATEMENT */}
       <div className="border-b border-gray-800 py-6 sm:py-8 px-1 sm:px-3 text-center">
         <p className="max-w-5xl mx-auto 
-          text-base xs:text-sm sm:text-sm md:text-md lg:text-lg 
-          font-extrabold leading-relaxed uppercase">
+          text-base xs:text-sm sm:text-sm md:text-sm lg:text-md 
+          font-bold leading-relaxed uppercase">
           Promolecules is built for{" "}
           <span className="text-red-600">Individuals</span> who take their{" "}
           <span className="text-red-600">Fitness Seriously</span>. We serve a
@@ -50,7 +50,7 @@ export default function WhatWeDeliver() {
         </h3>
 
         <p className="global-text-style mt-4 sm:mt-6 max-w-3xl mx-auto uppercase tracking-wide
-          text-xs sm:text-sm md:text-base px-2">
+          text-[5px] sm:text-xs md:text-base px-2">
           At Promolecules, our services go beyond selling supplements. We provide
           performance-driven nutrition solutions designed to support every
           stage of your fitness journey.
@@ -69,15 +69,14 @@ export default function WhatWeDeliver() {
             `}
           >
             {/* Number + Title */}
-            <h4 className="text-red-600 creepster-regular font-extrabold uppercase
-              text-lg sm:text-xl md:text-xl lg:text-2xl xl:text-3xl
-              leading-tight">
+            <h4 className="text-red-600 creepster-regular  uppercase
+              text-xl sm:text-xl md:text-lg lg:text-xl xl:text-2xl
+              ">
               {service.number}. {service.title}
             </h4>
 
             {/* Description */}
-            <p className="global-text-style leading-relaxed uppercase
-              text-xs sm:text-xs md:text-sm lg:text-base">
+            <p className="global-text-style ">
               {service.desc}
             </p>
 

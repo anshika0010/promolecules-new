@@ -125,12 +125,12 @@ const Blogs = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
                   {/* Content */}
                   <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 space-y-2">
-                    <h3 className="text-red-500 anton-regular text-xs sm:text-sm font-bold leading-tight tracking-wide line-clamp-2">
+                    <h3 className="text-red-500 anton-regular text-xs sm:text-sm font-bold  line-clamp-1">
                       {blog.title}
                     </h3>
-                    <p className="global-text-style text-[9px] sm:text-[10px] md:text-xs leading-relaxed line-clamp-2 sm:line-clamp-3">
-                      {blog.description}
-                    </p>
+                 <p className="global-text-style text-[9px] sm:text-[10px] md:text-xs leading-relaxed line-clamp-2">
+  {blog.description}
+</p>
                   </div>
                 </div>
 

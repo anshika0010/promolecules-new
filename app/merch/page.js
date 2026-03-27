@@ -184,7 +184,7 @@ const PowerYouCanWear = () => {
 
       <section className="w-full min-h-screen bg-black flex items-center justify-center px-6">
         <div className="text-center max-w-4xl">
-          <h3 className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase leading-tight tracking-wide">
+          <h3 className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase">
             Empower Every Move <br /> With Style
           </h3>
           <p className="text-gray-400 text-sm md:text-base mt-6 uppercase tracking-widest">
