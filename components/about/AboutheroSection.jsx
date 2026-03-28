@@ -23,16 +23,16 @@ export default function ContactheroSection() {
           </h4>
 
           <div className="mt-6">
-            <h1 className="text-gray-300 lowercase text-md sm:text-xl md:text-2xl lg:text-5xl font-bold anton-regular break-all">
+            <p className="text-gray-300 luppercase text-md sm:text-lg md:text-xl lg:text-3xl font-bold anton-regular break-all">
               CONTACT@PROMOLECULES.COM
-            </h1>
+            </p>
           </div>
 
           {/* LOWER INFO */}
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-start pt-16 text-white">
 
-            <div>
-              <h2 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl creepster-regular uppercase leading-snug text-gray-200">
+            <div className="flex item-center justify-center ">
+              <h2 className="text-2xl creepster-regular uppercase leading-snug text-gray-200">
                 Let’s Make Something <br /> Amazing, Together
               </h2>
             </div>
@@ -40,23 +40,23 @@ export default function ContactheroSection() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-xs uppercase tracking-wider">
 
               <div>
-                <h4 className="text-red-600 mb-3 text-xl font-bold">Strength</h4>
+                <h4 className="text-red-600  text-md font-bold">Strength</h4>
                 <p className="global-text-style">
                   Engineered to amplify neurological drive and muscular output.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-red-600 mb-3 text-xl font-bold">Design</h4>
+                <h5 className="text-red-600  text-md font-bold">Design</h5>
                 <p className="global-text-style">
-                  Structured ingredient architecture balancing stimulation and endurance.
+                  Structured ingredient architecture balancing stimulatio.
                 </p>
               </div>
 
               <div>
-                <h4 className="text-red-600 mb-3 text-xl font-bold">Development</h4>
+                <h6 className="text-red-600 text-md font-bold">Development</h6>
                 <p className="global-text-style">
-                  Built through performance-first research and athlete testing.
+                  Built through performance-first research & testing.
                 </p>
               </div>
 

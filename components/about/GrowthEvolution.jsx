@@ -94,15 +94,45 @@ export default function GrowthEvolution() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
+   <section className="max-w-[1600px] mx-auto bg-black text-white px-4 sm:px-6 md:px-8 py-10 sm:py-14">
+  {/* Main Heading */}
+  <div className=" text-center">
+    <h2 className="creepster-regular text-[36px] sm:text-[52px] md:text-[68px] lg:text-[80px] leading-tight">
+      <span className="text-white">THE JOURNEY BEHIND </span>
+      <span className="text-red-600">PROMOLECULES</span>
+    </h2>
 
-      <section className="relative max-w-7xl mx-auto min-h-screen bg-black text-white px-3 md:px-4 py-0 md:py-5 overflow-hidden">
+  
+  </div>
+
+  {/* Divider */}
+  <div className=" border-t border-gray-800" />
+</section>
+      <section className="relative max-w-[1600px] mx-auto min-h-screen bg-black text-white px-3 md:px-4 py-0 md:py-5 mb-6 overflow-hidden">
+          {/* Content Grid */}
+    <div className="flex flex-col md:grid md:grid-cols-2 gap-2 items-center">
+      {/* Red Tagline */}
+      <p className="text-red-600 leading-tight flex items-start creepster-regular uppercase text-[22px] sm:text-[28px] md:text-[36px] lg:text-[42px] tracking-wider leading-snug text-center">
+        Born From Science <br className="hidden sm:block" />
+        Built For Performance
+      </p>
+
+  <p className="text-gray-300 flex items-end justify-end text-sm sm:text-xl md:text-md text-center w-full md:w-[500px] lg:w-[600px] mx-auto">
+  Promolecules™ was not created to follow the supplement trend
+  cycle. It was born from frustration inside real gym environments
+  where serious lifters were forced to choose between two extremes.
+</p>
+    </div>
+        <h2 className="hidden md:block text-red-600 creepster-regular text-4xl md:text-7xl text-center mb-8">
+          GROWTH & EVOLUTION
+        </h2>
         <div className="grid md:grid-cols-2 gap-10 items-start">
           {/* LEFT CONTENT */}
           <div className="order-2 md:order-1">
             <p className="global-text-style text-red-600 tracking-wide mb-10 max-w-lg">
-              The brand's first focus was neurological activation — understanding
-              how the central nervous system responds to layered stimulant
-              delivery rather than single-source caffeine overload.
+              The brand's first focus was neurological activation —
+              understanding how the central nervous system responds to layered
+              stimulant delivery rather than single-source caffeine overload.
             </p>
 
             <div className="border-t border-gray-800 mb-6"></div>
@@ -142,10 +172,6 @@ export default function GrowthEvolution() {
 
           {/* RIGHT SIDE */}
           <div className="relative order-1 md:order-2">
-            <h2 className="hidden md:block text-red-600 creepster-regular text-4xl md:text-7xl text-center mb-8">
-              GROWTH & EVOLUTION
-            </h2>
-
             <div className="relative w-full h-[450px] bg-gradient-to-b from-red-900/40 to-black overflow-hidden">
               <img
                 src="/history2.webp"

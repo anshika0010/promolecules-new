@@ -57,43 +57,51 @@ export default function WhatWeDeliver() {
         </p>
       </div>
 
-      {/* SERVICES GRID */}
-      <div className="grid grid-cols-1 md:grid-cols-3 border-t border-gray-800 px-0">
-        {services.map((service, index) => (
-          <div
-            key={index}
-            className={`
-              p-6 sm:p-8 md:p-10 text-center space-y-4 sm:space-y-6
-              border-b border-gray-800
-              ${index < services.length - 1 ? "md:border-r" : ""}
-            `}
-          >
-            {/* Number + Title */}
-            <h4 className="text-red-600 creepster-regular  uppercase
-              text-xl sm:text-xl md:text-lg lg:text-xl xl:text-2xl
-              ">
-              {service.number}. {service.title}
-            </h4>
+{/* SERVICES GRID */}
+<div className="grid grid-cols-1 md:grid-cols-3 border-t border-gray-800 px-0">
+  {services.map((service, index) => (
+    <div
+      key={index}
+      className={`
+        group
+        p-6 sm:p-8 md:p-10 text-center space-y-4 sm:space-y-6
+        border-b border-gray-800
+        transition-all duration-500
+        hover:bg-gradient-to-b hover:from-red-950/60 hover:via-red-900/30 hover:to-transparent
+        ${index < services.length - 1 ? "md:border-r" : ""}
+      `}
+    >
+      {/* Number + Title */}
+      <h4 className="text-red-600 creepster-regular uppercase
+        text-xl sm:text-xl md:text-lg lg:text-xl xl:text-2xl
+        transition-all duration-300
+        group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-red-400 group-hover:to-orange-400
+      ">
+        {service.number}. {service.title}
+      </h4>
 
-            {/* Description */}
-            <p className="global-text-style ">
-              {service.desc}
-            </p>
+      {/* Description */}
+      <p className="global-text-style transition-colors duration-300 group-hover:text-red-100">
+        {service.desc}
+      </p>
 
-            {/* Image */}
-            <div className="relative w-full 
-              h-[180px] xs:h-[200px] sm:h-[220px] md:h-[200px] lg:h-[240px] xl:h-[260px]
-              mt-2 rounded-lg overflow-hidden">
-              <Image
-                src={service.image}
-                alt={service.title}
-                fill
-                className="object-cover brightness-75"
-              />
-            </div>
-          </div>
-        ))}
+      {/* Image */}
+      <div className="relative w-full 
+        h-[180px] xs:h-[200px] sm:h-[220px] md:h-[200px] lg:h-[240px] xl:h-[260px]
+        mt-2 rounded-lg overflow-hidden">
+        <Image
+          src={service.image}
+          alt={service.title}
+          fill
+          className="object-cover brightness-75 transition-all duration-500 group-hover:brightness-50 group-hover:saturate-0"
+        />
+        {/* Red gradient overlay on image */}
+        <div className="absolute inset-0 bg-gradient-to-t from-red-900/80 via-red-700/40 to-transparent 
+          opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg" />
       </div>
+    </div>
+  ))}
+</div>
     </section>
   );
 }

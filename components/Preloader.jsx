@@ -116,9 +116,10 @@ export default function Preloader() {
         </div>
 
         {/* Title */}
-        <h1 className="font-sans font-extrabold text-red-500 text-3xl sm:text-5xl md:text-6xl tracking-widest mt-6">
-          PRMOLECULES™
-        </h1>
+      <h1 className="relative  font-extrabold text-red-500 text-3xl sm:text-5xl md:text-6xl tracking-widest mt-6">
+  PROMOLECULES™
+
+</h1>
 
 
         {/* Phase */}

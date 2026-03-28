@@ -145,13 +145,10 @@ export default function FAQSection() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
       />
 
-      <section className="relative max-w-7xl mx-auto min-h-screen bg-black text-white overflow-hidden">
-        <Image
-          src="/candle.webp"
-          alt="Background"
-          fill
-          className="object-cover object-center"
-        />
+      <section
+  className="relative max-w-[1600px] mx-auto min-h-screen bg-black text-white overflow-hidden"
+  style={{ backgroundImage: "url('/candle.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
+>
 
         {/* Content */}
         <div className="relative z-10 px-3 md:px-4 py-3 max-w-6xl mx-auto">

@@ -1,9 +1,11 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft } from "lucide-react";
 
 export default function HeroSection() {
   return (
-    <section className="relative max-w-7xl mx-auto min-h-[50vh] lg:min-h-[100vh] pt-8 overflow-hidden">
+    <section className="relative max-w-[1600px] mx-auto min-h-[50vh] lg:min-h-[100vh] pt-8 overflow-hidden">
       
       {/* Background Image */}
       <Image
@@ -14,12 +16,21 @@ export default function HeroSection() {
         className="object-cover"
       />
 
-
+   <div className="absolute top-12 sm:top-12 right-9 sm:right-9 z-20">
+          <Link href={"/about"}>
+            <button
+              className="w-9 h-9 sm:w-10 sm:h-10 rounded-full bg-red-600 flex items-center justify-center hover:bg-red-700 transition"
+              aria-label="Go back to about page"
+            >
+              <ArrowLeft size={16} className="text-white" />
+            </button>
+          </Link>
+        </div>
 
       {/* Bottom Right Text */}
-      <div className="absolute bottom-6 right-4 sm:bottom-8 sm:right-8 md:bottom-16 md:right-16 
+      <div className="absolute bottom-6  sm:bottom-8 sm:right-8 md:bottom-16  
                       max-w-xs sm:max-w-md md:max-w-3xl lg:max-w-5xl 
-                      z-20 text-right px-2 sm:px-0">
+                      z-20 text-right sm:px-0">
 
         <h1 className="creepster-regular 
                        text-3xl sm:text-5xl md:text-7xl lg:text-8xl 

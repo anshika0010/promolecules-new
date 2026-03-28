@@ -35,29 +35,34 @@ export default function TrendingCategory() {
   ];
 
   return (
-    <section className="relative max-w-7xl mx-auto bg-black py-10 sm:py-14 md:py-20 px-4 sm:px-6 md:px-12 lg:px-16 overflow-hidden">
+    <section className="relative max-w-[1600px] mx-auto bg-black py-10 sm:py-14 md:py-20 px-4 sm:px-6 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.05),_transparent_60%)] opacity-30" />
 
       {/* Heading */}
-      <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 lg:gap-10">
-        {/* Left */}
-        <div className="relative z-10 w-full lg:max-w-[50%]">
-          <h2 className="creepster-regular heading leading-none text-center">
-            TRENDING <br /> CATEGORY
-          </h2>
-        </div>
+    <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 lg:gap-10">
+  
+  {/* Left — Heading */}
+  <div className="flex-shrink-0">
+    <h2 className="creepster-regular heading leading-none text-start">
+      TRENDING <br />
+      <span className="creepster-regular heading leading-none ml-0 sm:ml-4 md:ml-[100px]">
+        CATEGORY
+      </span>
+    </h2>
+  </div>
 
-        {/* Right — hidden on mobile */}
-        <div className="hidden md:block max-w-6xl mx-auto lg:max-w-[40%]">
-          <p className="global-text-style uppercase text-justify">
-            In today's fitness market, supplements are everywhere but not all
-            supplements are created equal. Many low-cost brands compromise on
-            ingredient purity, use under-dosed blends, or source unverified raw
-            materials that deliver no real results.
-          </p>
-        </div>
-      </div>
+  {/* Right — Para */}
+  <div className="hidden md:flex justify-end max-w-[40%]">
+    <p className="global-text-style uppercase text-justify">
+      In today's fitness market, supplements are everywhere but not all
+      supplements are created equal. Many low-cost brands compromise on
+      ingredient purity, use under-dosed blends, or source unverified raw
+      materials that deliver no real results.
+    </p>
+  </div>
+
+</div>
 
       {/* Categories */}
       <div className="relative z-10 mt-8 space-y-0">

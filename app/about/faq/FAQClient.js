@@ -13,7 +13,7 @@ export default function FAQClient({ jsonld }) {
           dangerouslySetInnerHTML={{ __html: jsonld }}
         />
       )}
-      <section className="relative max-w-9xl mx-auto min-h-[50vh] lg:min-h-[100vh] overflow-hidden text-white lg:pt-1 sm:mt-0">
+      <section className="relative max-w-[1600px] mx-auto min-h-[50vh] lg:min-h-[100vh] overflow-hidden text-white lg:pt-1 sm:mt-0">
         {/* Background Image */}
         <Image
           src="/promolecules-faq-banner.webp"
@@ -27,16 +27,21 @@ export default function FAQClient({ jsonld }) {
           <div className="grid md:grid-cols-2 gap-10 items-center">
             {/* LEFT CONTENT */}
             <div>
-              <h1 className="text-2xl md:text-4xl lg:text-5xl creepster-regular ">
-                WHY <span className="text-red-600">PROMOLECULES™</span> STANDS ABOVE
-                EVERY CHEAP SUPPLEMENT BRAND
-              </h1>
+             <h1 className="text-2xl md:text-4xl lg:text-5xl creepster-regular">
+  WHY{" "}
+  <span className="text-red-600 relative inline-block">
+    PROMOLECULES
+    <span className="absolute creepster-regular -top-2 -right-4 md:-right-5 text-sm md:text-base lg:text-lg">
+      TM
+    </span>
+  </span>{" "}
+  STANDS ABOVE EVERY CHEAP SUPPLEMENT BRAND
+</h1>
 
-              <p className="mt-6 text-gray-300 anton-regular font-bold text-sm md:text-base max-w-lg leading-relaxed uppercase">
+              <p className="mt-6 text-gray-300 anton-regular font-semibold text-sm md:text-base max-w-2xl leading-relaxed uppercase">
                 The global supplement market suffers from what we call formula
                 degradation syndrome where products lose effectiveness within
-                3–14 days due to stimulant cycling manipulation and batch
-                instability corruption.
+                3–14 days.
               </p>
             </div>
           </div>

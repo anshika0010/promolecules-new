@@ -33,8 +33,8 @@ export default function PerformanceShowcase() {
   ];
 
   return (
-    <section className="relative w-full bg-black overflow-hidden">
-      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 py-8">
+    <section className="relative  bg-black overflow-hidden">
+      <div className="relative z-10  max-w-[1600px] mx-auto px-4 sm:px-6 py-8">
 
         {/* 🔥 Responsive Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-8">

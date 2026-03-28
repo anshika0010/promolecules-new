@@ -15,7 +15,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1599",
       description:
         "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
-      thumbnail: "/promolecules-father-of-insane-pre-workout-65-Servings.webp",
+      thumbnail: "/father-of-insane-pre-workout-65-Servings.webp",
       link: "/product/father-of-insane",
     },
     {
@@ -24,7 +24,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1899",
       description:
         "Hybrid pre workout built for real performance Combines energy, pump, and focus Balanced high-stim formula.",
-      thumbnail: "/promolecules-warflex-pre-workout-35-Servings.webp",
+      thumbnail: "/promolecules/warflex/promolecules-warflex-pre-workout.webp",
       link: "/product/warflex",
     },
    
@@ -34,7 +34,7 @@ export default function ProductClient({ jsonld }) {
       price: "$2099",
       description:
         "Clean energy without caffeine dependency Built on ATP energy system Supports endurance at cellular level.",
-      thumbnail: "/promolecules-inpower-r-thumbnail.webp",
+      thumbnail: "/promolecules/inpower3/promolecules-inpower-r.webp",
       link: "/product/inopower-r/",
     },
     {
@@ -43,7 +43,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1799",
       description:
         "Built for serious fat loss phases Targets metabolism, not just stimulation.Thermogenic formula that increases heat output.",
-      thumbnail: "/thermo-nuke-xt-thumb.webp",
+      thumbnail: "/thermonuke.webp",
       link: "/product/thermo-nuke-xt/",
     },
     {
@@ -52,7 +52,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1799",
       description:
         "Hydrapump + is a liquid glycerol-based pump system built for real muscle performance.",
-      thumbnail: "/hydrapump-thumb.webp",
+      thumbnail: "/hydra.webp",
       link: "/product/hydrapump",
     },
   ];
@@ -69,7 +69,7 @@ export default function ProductClient({ jsonld }) {
       )}
 
       <section
-        className="relative w-full bg-black text-white overflow-hidden bg-cover bg-center bg-no-repeat pt-1"
+        className="relative max-w-[1600px] mx-auto bg-black text-white overflow-hidden bg-cover bg-center bg-no-repeat pt-1"
         style={{ backgroundImage: "url('/smoke2.gif')" }}
       >
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
@@ -116,11 +116,11 @@ export default function ProductClient({ jsonld }) {
                       <div
                         key={index}
                         onClick={() => setActiveProduct(product)}
-                        className={`relative w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 transition cursor-pointer rounded-lg border
-                          ${isActive
-                            ? "shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100"
-                            : "opacity-60 hover:opacity-100"
-                          }`}
+                  className={`relative w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 transition cursor-pointer rounded-lg border
+  ${isActive
+    ? "shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100 grayscale-0"
+    : "opacity-60 hover:opacity-100 grayscale hover:grayscale-0"
+  }`}
                       >
                         <Image
                           src={product.thumbnail}

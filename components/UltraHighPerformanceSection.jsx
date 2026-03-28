@@ -78,7 +78,7 @@ const UltraHighPerformanceSection = () => {
                           src={feature.image}
                           alt={feature.alt}
                           fill
-                          className="object-contain transition-all duration-500 group-hover:scale-105"
+                          className="object-contain transition-all duration-500 group-hover:scale-95"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
                       </div>

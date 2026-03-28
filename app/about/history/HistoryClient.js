@@ -3,7 +3,6 @@
 import Image from "next/image";
 import { ArrowLeft } from "lucide-react";
 import GrowthEvolution from "@/components/about/GrowthEvolution";
-import JourneySection from "@/components/about/JourneySection";
 import Blogs from "@/components/Blogs";
 import Link from "next/link";
 
@@ -40,30 +39,30 @@ export default function HistoryClient({ jsonld }) {
           </Link>
         </div>
 
-        {/* Hero Content */}
-        <div className="relative z-10 flex flex-col  min-h-[50vh] lg:min-h-[100vh] px-4 sm:px-8 md:px-16 lg:px-20 pt-16 sm:pt-20 pb-10 sm:pb-14">
-          <h1 className=" text-center text-[36px] xs:text-[44px] sm:text-[52px] md:text-[88px] lg:text-[110px] creepster-regular text-white">
-            WHERE IT ALL <span className="text-red-600">BEGINNING</span>
-          </h1>
+      {/* Hero Content */}
+<div className="relative z-10 flex flex-col justify-center items-center min-h-[50vh] lg:min-h-[100vh] px-4 sm:px-8 md:px-16 lg:px-20 pt-16 sm:pt-20 pb-10 sm:pb-14">
+  <h1 className="text-center text-[36px] xs:text-[44px] sm:text-[52px] md:text-[88px] lg:text-[110px] creepster-regular text-white">
+    WHERE IT ALL <span className="text-red-600">BEGINNING</span>
+  </h1>
 
-          <p className="text-center max-w-4xl mx-auto py-3 global-text-style anton-regular uppercase  text-gray-200">
-            Promolecules™ was not created to follow the supplement trend cycle.
-            It was born from frustration inside real gym environments — where
-            serious lifters were forced to choose between two extremes:
-            underdosed "safe" formulas that barely activate performance.
-          </p>
+  <p className="text-center max-w-4xl mx-auto py-3 global-text-style anton-regular uppercase text-gray-200">
+    Promolecules™ was not created to follow the supplement trend cycle.
+    It was born from frustration inside real gym environments — where
+    serious lifters were forced to choose between two extremes:
+    underdosed "safe" formulas that barely activate performance.
+  </p>
 
-          {/* Bottom: Subtitle */}
-          <div className="mt-auto pt-10">
-            <p className="text-base text-center sm:text-lg md:text-xl lg:text-2xl anton-regular uppercase leading-relaxed tracking-wide text-gray-200">
-              Promolecules™ – History & Reason Behind the Formulation
-            </p>
-          </div>
-        </div>
+  {/* Bottom: Subtitle */}
+  <div className="pt-10">
+    <p className="text-base text-center sm:text-lg md:text-xl lg:text-2xl anton-regular uppercase leading-relaxed tracking-wide text-gray-200">
+      Promolecules™ – History & Reason Behind the Formulation
+    </p>
+  </div>
+</div>
       </section>
 
       <Blogs />
-      <JourneySection />
+   
       <GrowthEvolution />
     </>
   );

@@ -24,7 +24,7 @@ export default function WarningTape() {
       <Tape />
     </div>
 
-    <div className="rotate-[10deg]">
+    <div className="rotate-[5deg]">
       <Tape reverse />
     </div>
 
@@ -71,7 +71,7 @@ export default function WarningTape() {
       <Tape />
     </div>
 
-    <div className="absolute right-0 top-[50%] w-[130%] rotate-[10deg]">
+    <div className="absolute right-0 top-[50%] w-[130%] rotate-[5deg]">
       <Tape reverse />
     </div>
 

@@ -30,6 +30,10 @@ body {
   font-weight: 800;
   font-style: bold;
 }
+.anton-regularnew {
+  font-family: "Anton", sans-serif;
+
+}
 
 
 @keyframes slideInFromRight {

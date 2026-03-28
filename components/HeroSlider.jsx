@@ -42,27 +42,28 @@ const HeroSlider = () => {
   <div className="relative min-h-[50vh] lg:min-h-[100vh] w-full overflow-hidden pt-4">
     
     {/* Background - Full Screen */}
-    <motion.div
-      key={currentSlide}
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.8 }}
-      className="absolute inset-0 z-0 w-screen left-1/2 -translate-x-1/2"  
-    >
-      <Image
-        src={slides[currentSlide].backgroundImage}
-        alt="Background"
-        fill        
-        priority
-        className="object-cover"
-      />
-    </motion.div>
+ <motion.div
+  key={currentSlide}
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.8 }}
+  className="absolute inset-0 z-0 flex items-center justify-center"
+>
+  <Image
+    src={slides[currentSlide].backgroundImage}
+    alt="Background"
+    width={1920}
+    height={1080}
+    priority
+    className=" object-contain"
+  />
+</motion.div>
       {/* Hero Content */}
       <div className="relative z-10 flex items-center">
         <div className="max-w-[1600px] mx-auto px-4 sm:px-6 w-full">
           <div className="grid lg:grid-cols-2 gap-6 items-center">
             {/* Product Image */}
-            <div className="relative h-[100px] sm:h-[500px] lg:h-[700px] flex items-center justify-center overflow-hidden"></div>
+            <div className="relative h-[100px] sm:h-[500px] lg:h-[900px] flex items-center justify-center overflow-hidden"></div>
 
             {/* Content */}
             <div className="space-y-4 text-center anton-regular font-extrabold lg:text-left">

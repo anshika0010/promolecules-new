@@ -96,23 +96,23 @@ export default function ContactForm() {
         }`}
       >
         {/* LEFT SIDE (same as yours) */}
-        <div className="space-y-10">
+        <div className="space-y-0 mt-[160px]">
         
-          <h1 className="text-6xl md:text-8xl anton-regular font-bold uppercase">
+          <p className="flex justify-center text-4xl md:text-9xl anton-regularnew leading-tight font-bold uppercase">
             JUST
-          </h1>
-          <h3 className="text-6xl md:text-8xl anton-regular font-bold uppercase">
+          </p>
+          <h3 className="flex justify-center  text-4xl md:text-9xl leading-tight anton-regularnew font-bold uppercase">
             SEND IT.
           </h3>
-          <div className="w-24 h-[2px] bg-gray-500"></div>
-          <div className="grid grid-cols-2 gap-8 global-text-style uppercase tracking-wider">
+          <div className="flex justify-center  w-full px-12 h-[2px] bg-gray-500 "></div>
+          <div className="grid grid-cols-2 gap-6 global-text-style uppercase tracking-wider px-2 py-5">
             <p>
               Connect with Promolecules™ for product guidance and collaboration
               inquiries.
             </p>
             <p>Reach us via email or official social platforms.</p>
           </div>
-          <div className="flex flex-col sm:flex-row items-center gap-4 text-white text-sm">
+          <div className="flex flex-col sm:flex-row items-center gap-4 px-2 text-white text-sm py-3">
             {/* Phone */}
             <a
               href="tel:+17867892121"
@@ -135,9 +135,9 @@ export default function ContactForm() {
 
         {/* RIGHT FORM */}
         <div className="max-w-xl w-full">
-          <h2 className="text-4xl mb-10 creepster-regular text-red-600">
+          <h1 className="text-4xl mb-10 creepster-regular text-red-600">
             Contact Us
-          </h2>
+          </h1>
 
           <form onSubmit={handleSubmit} className="space-y-6">
             {/* NAME */}
