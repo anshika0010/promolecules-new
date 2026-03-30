@@ -28,7 +28,6 @@ export default function RootLayout({ children }) {
         <meta name="msvalidate.01" content="3D8DB2D729E6AD52E55F3CC39AC38797" />
         <meta name="yandex-verification" content="de6e1736200df180" />
 
-
         {/* Pinterest Verification */}
         <meta
           name="p:domain_verify"
@@ -48,6 +47,7 @@ export default function RootLayout({ children }) {
           }}
         />
       </head>
+
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
@@ -65,7 +65,7 @@ export default function RootLayout({ children }) {
           <div className="pt-[50px] bg-black">
             <Navbar />
 
-            {/* ✅ MAIN LANDMARK ADDED */}
+            {/* MAIN CONTENT */}
             <main id="main-content">{children}</main>
 
             <WhatsAppButton />
