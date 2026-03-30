@@ -1,9 +1,19 @@
 import React from "react";
 import { ArrowRight } from "lucide-react";
 import { DollarSign, ShoppingCart, ArrowUpRight } from "lucide-react";
+import { getSEOMetadata, getJSONLD } from "@/lib/seo";
+export const metadata = getSEOMetadata("domestic");
+
 const DomesticDistributorHero = () => {
+  const jsonld = getJSONLD("domestic");
   return (
     <>
+         {jsonld && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonld }}
+        />
+      )}
     <section className="relative max-w-7xl mx-auto h-[300px] md:h-[400px] bg-black overflow-hidden">
       
       {/* Background Overlay (Optional gradient for depth) */}

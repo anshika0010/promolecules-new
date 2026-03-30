@@ -75,7 +75,7 @@ export default function TrendingCategory() {
           >
             <div
               className="group relative flex items-center justify-between 
-                border-b border-white/10 overflow-hidden py-3 sm:py-4
+                border-b border-white/10 overflow-hidden 
                 transition-all duration-500 hover:rounded-xl cursor-pointer
                 gap-3 sm:gap-4"
             >

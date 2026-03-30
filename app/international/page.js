@@ -1,7 +1,8 @@
 import React from "react";
 import { Search } from "lucide-react";
 import { ArrowRight } from "lucide-react";
-
+import { getSEOMetadata, getJSONLD } from "@/lib/seo";
+export const metadata = getSEOMetadata("international");
 const distributors = [
   { country: "Georgia", name: "Muscle Strength", city: "Tbilisi" },
   { country: "India", name: "Muscle Strength", city: "Mumbai" },
@@ -14,7 +15,14 @@ const distributors = [
 ];
 
 const InternationalDistributors = () => {
+    const jsonld = getJSONLD("international");
   return (
+    <>    {jsonld && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonld }}
+        />
+      )}
     <section className="relative min-h-screen pt-10  bg-black text-white overflow-hidden">
       {/* Background texture */}
 
@@ -158,6 +166,7 @@ const InternationalDistributors = () => {
         />
       </div>
     </section>
+    </>
   );
 };
 

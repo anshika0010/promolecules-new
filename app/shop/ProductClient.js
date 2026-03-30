@@ -8,14 +8,15 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 export default function ProductClient({ jsonld }) {
+  
   const products = [
-     {
+    {
       title: "Father of Insane",
       image: "/father-of-insane-pre-workout-65-Servings.webp",
       price: "$1599",
       description:
         "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
-      thumbnail: "/father-of-insane-pre-workout-65-Servings.webp",
+      thumbnail: "/promolecules/thumbnail/father-of-insane.webp",
       link: "/product/father-of-insane",
     },
     {
@@ -24,17 +25,17 @@ export default function ProductClient({ jsonld }) {
       price: "$1899",
       description:
         "Hybrid pre workout built for real performance Combines energy, pump, and focus Balanced high-stim formula.",
-      thumbnail: "/promolecules/warflex/promolecules-warflex-pre-workout.webp",
+      thumbnail: "/promolecules/thumbnail/warflex.webp",
       link: "/product/warflex",
     },
-   
+
     {
       title: "Inopower-R",
       image: "/promolecules-inpower-r.webp",
       price: "$2099",
       description:
         "Clean energy without caffeine dependency Built on ATP energy system Supports endurance at cellular level.",
-      thumbnail: "/promolecules/inpower3/promolecules-inpower-r.webp",
+      thumbnail: "/promolecules/thumbnail/inpower.webp",
       link: "/product/inopower-r/",
     },
     {
@@ -43,7 +44,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1799",
       description:
         "Built for serious fat loss phases Targets metabolism, not just stimulation.Thermogenic formula that increases heat output.",
-      thumbnail: "/thermonuke.webp",
+      thumbnail: "/promolecules/thumbnail/thermo.webp",
       link: "/product/thermo-nuke-xt/",
     },
     {
@@ -73,10 +74,8 @@ export default function ProductClient({ jsonld }) {
         style={{ backgroundImage: "url('/smoke2.gif')" }}
       >
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
-
           {/* ── DESKTOP LAYOUT (lg+) ── */}
-          <div className="hidden lg:flex flex-row items-center justify-between gap-10">
-
+          <div className="hidden lg:flex flex-row items-center justify-between gap-18">
             {/* LEFT: text + thumbnails */}
             <div className="flex-1 space-y-6 text-left">
               <AnimatePresence mode="wait">
@@ -89,17 +88,17 @@ export default function ProductClient({ jsonld }) {
                 >
                   {activeProduct?.link && (
                     <Link href={activeProduct.link}>
-                      <h1 className="text-4xl md:text-5xl font-bold creepster-regular text-red-600 uppercase hover:underline">
+                      <h1 className="text-4xl md:text-7xl font-bold creepster-regular text-red-600 uppercase tracking-wide line-camp-1 hover:underline">
                         {activeProduct.title}
                       </h1>
                     </Link>
                   )}
-                  <p className="global-text-style max-w-md">
+                  <p className="global-text-style py-6 max-w-md">
                     {activeProduct.description}
                   </p>
                   {activeProduct?.link && (
                     <Link href={activeProduct.link}>
-                      <button className="bg-red-600 mt-4 hover:bg-red-700 transition px-6 py-3 rounded-2xl text-xs uppercase tracking-wider font-semibold">
+                      <button className="bg-red-600 mt-4 cursor-pointer hover:bg-red-700 active:scale-95 transition-all px-4 py-2.5 sm:px-6 sm:py-3 rounded-2xl text-[10px] sm:text-xs uppercase tracking-wider font-semibold w-full sm:w-auto">
                         Buy Now →
                       </button>
                     </Link>
@@ -108,7 +107,7 @@ export default function ProductClient({ jsonld }) {
               </AnimatePresence>
 
               {/* Thumbnails */}
-              <div className="relative z-10 pt-6">
+              <div className="relative z-10 pt-[200px]">
                 <div className="flex flex-wrap justify-start gap-3 sm:gap-4">
                   {products.map((product, index) => {
                     const isActive = activeProduct.title === product.title;
@@ -116,10 +115,11 @@ export default function ProductClient({ jsonld }) {
                       <div
                         key={index}
                         onClick={() => setActiveProduct(product)}
-                  className={`relative w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 transition cursor-pointer rounded-lg border
-  ${isActive
-    ? "shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100 grayscale-0"
-    : "opacity-60 hover:opacity-100 grayscale hover:grayscale-0"
+                        className={`relative w-16 h-16 sm:w-18 sm:h-18 md:w-20 md:h-20 transition cursor-pointer rounded-lg border
+  ${
+    isActive
+      ? "shadow-[0_0_25px_rgba(220,38,38,0.9)] scale-110 opacity-100 grayscale-0"
+      : "opacity-60 hover:opacity-100 grayscale hover:grayscale-0"
   }`}
                       >
                         <Image
@@ -159,7 +159,6 @@ export default function ProductClient({ jsonld }) {
 
           {/* ── MOBILE / TABLET LAYOUT (<lg) ── */}
           <div className="flex lg:hidden flex-col items-center gap-6 w-full">
-
             {/* 1. THUMBNAILS ROW */}
             <div className="flex flex-wrap justify-center gap-3 w-full">
               {products.map((product, index) => {
@@ -169,9 +168,10 @@ export default function ProductClient({ jsonld }) {
                     key={index}
                     onClick={() => setActiveProduct(product)}
                     className={`relative w-14 h-14 xs:w-16 xs:h-16 sm:w-20 sm:h-20 transition cursor-pointer rounded-lg border
-                      ${isActive
-                        ? "shadow-[0_0_20px_rgba(220,38,38,0.9)] scale-110 opacity-100"
-                        : "opacity-55 hover:opacity-90"
+                      ${
+                        isActive
+                          ? "shadow-[0_0_20px_rgba(220,38,38,0.9)] scale-110 opacity-100"
+                          : "opacity-55 hover:opacity-90"
                       }`}
                   >
                     <Image
@@ -220,9 +220,7 @@ export default function ProductClient({ jsonld }) {
                 <h3 className="text-3xl xs:text-4xl sm:text-5xl font-bold creepster-regular text-red-600 uppercase">
                   {activeProduct.title}
                 </h3>
-                <p className="global-text-style">
-                  {activeProduct.description}
-                </p>
+                <p className="global-text-style">{activeProduct.description}</p>
                 {activeProduct?.link && (
                   <Link href={activeProduct.link}>
                     <button className="bg-red-600 mt-2 hover:bg-red-700 transition px-6 py-3 rounded-2xl text-xs uppercase tracking-wider font-semibold">
@@ -232,7 +230,6 @@ export default function ProductClient({ jsonld }) {
                 )}
               </motion.div>
             </AnimatePresence>
-
           </div>
         </div>
       </section>

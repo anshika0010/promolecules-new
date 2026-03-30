@@ -11,7 +11,8 @@ const slides = [
     id: 1,
     productImage: "/thermo.webp",
     title: "Thermo-nuke-xt",
-    backgroundImage: "/promolecules-thermo-nuke-xt.webp",
+    backgroundImage: "/thermoo nuke xt new banner .webp",
+    mobileBackgroundImage: "/thermo mobile.webp", // ← add your mobile banner here
     link: "/product/thermo-nuke-xt/",
     description:
       "Burn stubborn fat faster with thermogenic power, boost metabolism, increase sweat, maintain energy, and dominate cutting phase workouts daily.",
@@ -20,7 +21,8 @@ const slides = [
     id: 2,
     productImage: "/hydra.webp",
     title: "Hydrapump+",
-    backgroundImage: "/promolecules-hydrapump-img.webp",
+    backgroundImage: "/bannnerrr.webp",
+    mobileBackgroundImage: "/hydra-mobile.webp", // ← add your mobile banner here
     link: "/product/hydrapump/",
     description:
       "Experience liquid glycerol pump, extreme muscle fullness, rapid hydration, enhanced vascularity, and endurance without caffeine for peak performance every workout",
@@ -38,115 +40,190 @@ const HeroSlider = () => {
     return () => clearInterval(interval);
   }, []);
 
+  const slide = slides[currentSlide];
+
   return (
-  <div className="relative min-h-[50vh] lg:min-h-[100vh] w-full overflow-hidden pt-4">
-    
-    {/* Background - Full Screen */}
- <motion.div
-  key={currentSlide}
-  initial={{ opacity: 0 }}
-  animate={{ opacity: 1 }}
-  transition={{ duration: 0.8 }}
-  className="absolute inset-0 z-0 flex items-center justify-center"
->
-  <Image
-    src={slides[currentSlide].backgroundImage}
-    alt="Background"
-    width={1920}
-    height={1080}
-    priority
-    className=" object-contain"
-  />
-</motion.div>
-      {/* Hero Content */}
-      <div className="relative z-10 flex items-center">
-        <div className="max-w-[1600px] mx-auto px-4 sm:px-6 w-full">
-          <div className="grid lg:grid-cols-2 gap-6 items-center">
-            {/* Product Image */}
-            <div className="relative h-[100px] sm:h-[500px] lg:h-[900px] flex items-center justify-center overflow-hidden"></div>
-
-            {/* Content */}
-            <div className="space-y-4 text-center anton-regular font-extrabold lg:text-left">
-              <motion.p
-                key={currentSlide}
-                initial={{ x: 200, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                transition={{
-                  duration: 0.9,
-                  ease: [0.22, 1, 0.36, 1],
-                }}
-                className="text-3xl creepster-regular sm:text-5xl lg:text-6xl font-black uppercase tracking-wider text-white "
-              >
-                {slides[currentSlide].title}
-              </motion.p>
-
-              <p className="hidden md:block  global-text-style    max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
-                {slides[currentSlide].description}
-              </p>
-
-              <div className="flex justify-center lg:justify-start">
-                <Link
-                  href={slides[currentSlide].link}
-                  className="group flex items-center gap-2 bg-black border-2 border-white/30 hover:border-white/60 text-white px-6 py-2 rounded-full transition-all duration-300 hover:bg-white/5"
-                >
-                  <span className="font-bold text-sm tracking-wider">
-                    BUY NOW
-                  </span>
-                  <div className="bg-white/20 group-hover:bg-white/30 p-2 rounded-full transition-colors">
-                    <ChevronRight size={14} />
-                  </div>
-                </Link>
-              </div>
-
-    {/* Mini Slides */}
-<div className="pt-3 lg:pt-10 space-y-3">
-  {slides.map(
-    (slide, index) =>
-      index !== currentSlide && (
-        <div
-          key={slide.id}
-          onClick={() => setCurrentSlide(index)}
-          className="cursor-pointer transition-all duration-300 active:scale-95 hover:scale-[1.02]"
+    <>
+      {/* ─────────────────────────────────────────────
+          MOBILE LAYOUT  (hidden on sm and above)
+      ───────────────────────────────────────────── */}
+      <div className="relative sm:hidden w-full overflow-hidden">
+        {/* Full-bleed mobile banner */}
+        <motion.div
+          key={`mobile-bg-${currentSlide}`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="relative w-full aspect-[9/14]"
         >
-          <div className="flex items-center gap-3 pr-4 rounded-r-2xl rounded-l-full border border-white/15 bg-white/7 backdrop-blur-md">
-            
-            {/* Circular Image */}
-            <div className="relative flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-full border border-white/20 bg-white/10 overflow-hidden">
-              <Image
-                src={slide.productImage}
-                alt={slide.title}
-                fill
-                priority
-                className="object-contain p-1.5"
-              />
-            </div>
+          <Image
+            src={slide.mobileBackgroundImage || slide.backgroundImage}
+            alt={slide.title}
+            fill
+            priority
+            className="object-cover object-center"
+          />
 
-            {/* Text */}
-            <div className="flex-1 min-w-0 py-3">
-              <p className="creepster-regular text-red-500 text-sm sm:text-base font-bold uppercase tracking-wide truncate">
-                {slide.title}
-              </p>
-              <p className="text-white/55 text-[11px] sm:text-xs leading-snug line-clamp-2 mt-0.5">
-                {slide.description}
-              </p>
-            </div>
+          {/* Dark gradient overlay at bottom */}
+          <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+        </motion.div>
 
-            {/* Arrow */}
-            <div className="flex-shrink-0 w-6 h-6 rounded-full border border-white/20 flex items-center justify-center">
-              <ChevronRight size={12} className="text-white/60" />
-            </div>
+        {/* Name + Button — overlaid at bottom of banner */}
+        <div className="absolute bottom-0 left-0 right-0 px-5 pb-6 z-10">
+          <motion.p
+            key={`mobile-title-${currentSlide}`}
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
+            className="creepster-regular text-white text-3xl font-black uppercase tracking-wider mb-3"
+          >
+            {slide.title}
+          </motion.p>
 
-          </div>
+          <motion.div
+            key={`mobile-btn-${currentSlide}`}
+            initial={{ y: 20, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.6, delay: 0.1, ease: [0.22, 1, 0.36, 1] }}
+            className="flex items-center gap-4"
+          >
+            <Link
+              href={slide.link}
+              className="group flex items-center gap-2 bg-black border-2 border-white/30 hover:border-white/60 text-white px-6 py-2 rounded-full transition-all duration-300 hover:bg-white/5"
+            >
+              <span className="font-bold text-sm tracking-wider">BUY NOW</span>
+              <div className="bg-white/20 group-hover:bg-white/30 p-2 rounded-full transition-colors">
+                <ChevronRight size={14} />
+              </div>
+            </Link>
+
+            {/* Dot indicators */}
+            <div className="flex gap-1.5 ml-auto">
+              {slides.map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => setCurrentSlide(i)}
+                  className={`h-1.5 rounded-full transition-all duration-300 ${
+                    i === currentSlide
+                      ? "w-5 bg-white"
+                      : "w-1.5 bg-white/40"
+                  }`}
+                />
+              ))}
+            </div>
+          </motion.div>
         </div>
-      )
-  )}
-</div>
-        
+      </div>
+
+      {/* ─────────────────────────────────────────────
+          DESKTOP LAYOUT  (hidden on mobile)
+      ───────────────────────────────────────────── */}
+      <div className="relative hidden sm:block min-h-[50vh] lg:min-h-[100vh] w-full overflow-hidden pt-4">
+
+        {/* Background - Full Screen */}
+        <motion.div
+          key={`desktop-bg-${currentSlide}`}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
+          className="absolute inset-0 z-0 flex items-center justify-center"
+        >
+          <Image
+            src={slide.backgroundImage}
+            alt="Background"
+            width={1920}
+            height={1080}
+            priority
+            className="object-contain"
+          />
+        </motion.div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 flex items-center">
+          <div className="max-w-[1600px] mx-auto px-4 sm:px-6 w-full">
+            <div className="grid lg:grid-cols-2 gap-6 items-center">
+
+              {/* Left spacer / product image placeholder */}
+              <div className="relative h-[100px] sm:h-[500px] lg:h-[900px] flex items-center justify-center overflow-hidden" />
+
+              {/* Content */}
+              <div className="space-y-4 text-center anton-regular font-extrabold lg:text-left">
+                <motion.p
+                  key={`desktop-title-${currentSlide}`}
+                  initial={{ x: 200, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
+                  className="text-3xl creepster-regular sm:text-5xl lg:text-6xl font-black uppercase tracking-wider text-white"
+                >
+                  {slide.title}
+                </motion.p>
+
+                <p className="hidden md:block global-text-style max-w-xl lg:max-w-2xl mx-auto lg:mx-0">
+                  {slide.description}
+                </p>
+
+                <div className="flex justify-center lg:justify-start">
+                  <Link
+                    href={slide.link}
+                    className="group flex items-center gap-2 bg-black border-2 border-white/30 hover:border-white/60 text-white px-6 py-2 rounded-full transition-all duration-300 hover:bg-white/5"
+                  >
+                    <span className="font-bold text-sm tracking-wider">BUY NOW</span>
+                    <div className="bg-white/20 group-hover:bg-white/30 p-2 rounded-full transition-colors">
+                      <ChevronRight size={14} />
+                    </div>
+                  </Link>
+                </div>
+
+                {/* Mini Slides — desktop only */}
+                <div className="pt-3 lg:pt-10 space-y-3">
+                  {slides.map(
+                    (s, index) =>
+                      index !== currentSlide && (
+                        <div
+                          key={s.id}
+                          onClick={() => setCurrentSlide(index)}
+                          className="cursor-pointer transition-all duration-300 active:scale-95 hover:scale-[1.02]"
+                        >
+                          <div className="flex items-center gap-3 pr-4 rounded-r-2xl rounded-l-full border border-white/15 bg-white/7 backdrop-blur-md">
+
+                            {/* Circular Image */}
+                            <div className="relative flex-shrink-0 w-14 h-14 sm:w-16 sm:h-16 rounded-full border border-white/20 bg-white/10 overflow-hidden">
+                              <Image
+                                src={s.productImage}
+                                alt={s.title}
+                                fill
+                                priority
+                                className="object-contain p-1.5"
+                              />
+                            </div>
+
+                            {/* Text */}
+                            <div className="flex-1 min-w-0 py-3">
+                              <p className="creepster-regular text-red-500 text-sm sm:text-base font-bold uppercase tracking-wide truncate">
+                                {s.title}
+                              </p>
+                              <p className="text-white/55 text-[11px] sm:text-xs leading-snug line-clamp-2 mt-0.5">
+                                {s.description}
+                              </p>
+                            </div>
+
+                            {/* Arrow */}
+                            <div className="flex-shrink-0 w-6 h-6 rounded-full border border-white/20 flex items-center justify-center">
+                              <ChevronRight size={12} className="text-white/60" />
+                            </div>
+
+                          </div>
+                        </div>
+                      )
+                  )}
+                </div>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
