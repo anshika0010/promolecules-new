@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 export default function ProductClient({ jsonld }) {
-  
+
   const products = [
     {
       title: "Father of Insane",
@@ -16,7 +16,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1599",
       description:
         "Nitrox boosts explosive power and stamina with advanced nitric oxide technology.",
-      thumbnail: "/promolecules/thumbnail/father-of-insane.webp",
+      thumbnail: "/father-of-insane.webp",
       link: "/product/father-of-insane",
     },
     {
@@ -25,7 +25,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1899",
       description:
         "Hybrid pre workout built for real performance Combines energy, pump, and focus Balanced high-stim formula.",
-      thumbnail: "/promolecules/thumbnail/warflex.webp",
+      thumbnail: "/warflex-thumbnail.webp",
       link: "/product/warflex",
     },
 
@@ -35,7 +35,7 @@ export default function ProductClient({ jsonld }) {
       price: "$2099",
       description:
         "Clean energy without caffeine dependency Built on ATP energy system Supports endurance at cellular level.",
-      thumbnail: "/promolecules/thumbnail/inpower.webp",
+      thumbnail: "/inpower.webp",
       link: "/product/inopower-r/",
     },
     {
@@ -44,7 +44,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1799",
       description:
         "Built for serious fat loss phases Targets metabolism, not just stimulation.Thermogenic formula that increases heat output.",
-      thumbnail: "/promolecules/thumbnail/thermo.webp",
+      thumbnail: "/thermo-thumbnail.webp",
       link: "/product/thermo-nuke-xt/",
     },
     {
@@ -53,7 +53,7 @@ export default function ProductClient({ jsonld }) {
       price: "$1799",
       description:
         "Hydrapump + is a liquid glycerol-based pump system built for real muscle performance.",
-      thumbnail: "/hydra.webp",
+      thumbnail: "/hydrapump-thumbnail.webp",
       link: "/product/hydrapump",
     },
   ];
