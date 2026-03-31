@@ -46,10 +46,12 @@ export default function HistoryClient({ jsonld }) {
   </h1>
 
   <p className="text-center max-w-4xl mx-auto py-3 global-text-style anton-regular uppercase text-gray-200">
-    Promolecules™ was not created to follow the supplement trend cycle.
-    It was born from frustration inside real gym environments — where
-    serious lifters were forced to choose between two extremes:
-    underdosed "safe" formulas that barely activate performance.
+It started in the shadows of real gyms.
+Where lifters kept chasing something they could never feel.
+Weak formulas. No activation. No edge.
+Then came the other side. Overloaded stimulants that hit hard… and left harder.
+That’s where Promolecules took a different path.
+Not weak. Not reckless.
   </p>
 
   {/* Bottom: Subtitle */}

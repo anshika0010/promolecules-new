@@ -42,11 +42,11 @@ const Footer = () => {
               DISCLAIMER
             </h3>
             <p className="global-text-style">
-              Promolecules supplements are for healthy adults and for
-              educational purposes only, not medical advice. Consult a
-              healthcare professional before use. Do not exceed the recommended
-              dosage. Not intended to diagnose, treat, cure, or prevent any
-              disease. Results may vary.
+       Built for serious athletes and healthy adults only. Promolecules products are designed to
+support training performance, not replace professional medical advice. Always consult your
+healthcare professional before use, especially if you have any existing conditions.<br></br>
+Use responsibly. Start with recommended servings and assess your tolerance. Do not exceed
+suggested dosage.
             </p>
           </div>
 

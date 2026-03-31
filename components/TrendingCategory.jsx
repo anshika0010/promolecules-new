@@ -6,21 +6,21 @@ export default function TrendingCategory() {
   const categories = [
     {
       title: "PRE-WORKOUT",
-      desc: "Engineered to boost focus, activate CNS, and sustain strength—without caffeine spikes or underdosed formulas.",
+      desc: "Multi-source caffeine + nootropics for CNS activation, sharp focus, and sustained strength.",
       image: "/father-of-insane-warflex-products.webp",
       hoverImage: "/promolecules0father-of-insane-warflex-combo-offers.webp",
       link: "/product/",
     },
     {
       title: "FAT BURNER",
-      desc: "Supports metabolism, energy burn, and fat loss—without stimulant overload or crashes.",
+      desc: "Caffeine stack + yohimbine + thermogenics to drive metabolism, fat burn, and energy output.",
       image: "/product2.webp",
       hoverImage: "/hoverproduct.webp",
       link: "/product/",
     },
     {
       title: "MUSCLE HYDRATION",
-      desc: "Enhances hydration, muscle fullness, and density—without bloating or heaviness.",
+      desc: "Liquid glycerol + citrulline + pink salt for deep hydration, fuller pumps, and endurance",
       image: "/promolecules-hydrapump-new.webp",
       hoverImage: "/promolecules-hydrapump.webp",
       link: "/product/",

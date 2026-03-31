@@ -10,7 +10,7 @@ const UltraHighPerformanceSection = () => {
       id: 1,
       title: " FOCUS",
       description:
-        "Engineered neurological activation boosts clarity, reaction speed, and tunnel-vision focus without jitters.",
+        "Enhances clarity, reaction speed, and deep workout focus, designed to activate within 15 minutes.Stay locked in",
       image: "/focus.webp",
       alt: "Razor Focus Skeleton",
     },
@@ -18,7 +18,7 @@ const UltraHighPerformanceSection = () => {
       id: 2,
       title: " ENERGY",
       description:
-        "Multi-phase stimulants deliver rapid activation and sustained energy for intense training without crashes.",
+        "Multi-phase stimulation for fast activation and smooth, sustained energy without sudden drop-offs.Power every set",
       image: "/energy.webp",
       alt: "Extreme Energy Skeleton",
     },
@@ -26,7 +26,7 @@ const UltraHighPerformanceSection = () => {
       id: 3,
       title: "StRENGTH ",
       description:
-        "Synergistic formula boosts explosive power, endurance, and stronger lifts with precise balanced dosing.",
+        "Supports explosive power, endurance, and stronger lifts while driving full-body activation that naturally pushes muscle output higher..",
       image: "/strength.webp",
       alt: "Strength and Stamina Anatomy",
     },
