@@ -100,18 +100,7 @@ export default function ProductInformation() {
 
       <div className="relative z-10 max-w-7xl mx-auto">
 
-        {/* Top Title */}
-        <h2 className="text-3xl md:text-4xl creepster-regular font-extrabold text-red-600 tracking-widest mb-6">
-          LOOKING FOR SPECIAL INFO ?
-        </h2>
 
-        {/* Search Box */}
-        <div className="w-full border border-gray-600 rounded-lg px-6 py-4 flex justify-between items-center text-gray-400 mb-14 backdrop-blur-md bg-black/40">
-          <span className="uppercase tracking-wide text-sm md:text-base">
-            Ask Rufus or search reviews and Q&A
-          </span>
-          <span className="text-xl">→</span>
-        </div>
 
         {/* Customer Reviews Section */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">

@@ -50,7 +50,7 @@ const WhoWeAreSection = () => {
             className="hover:scale-[1.03] transition-transform duration-300 px-2"
           >
          <div className="hidden lg:block">
-  <h2 className="text-red-600 font-extrabold text-2xl mb-3">
+  <h2 className="text-red-600 font-extrabold uppercase text-xl mb-3">
     Train. Fuel. Dominate.
   </h2>
   <p className="global-text-style leading-relaxed">
@@ -90,7 +90,7 @@ const WhoWeAreSection = () => {
   transition={{ duration: 0.5, delay: 0.2 }}
   className="hidden lg:block hover:scale-[1.03] transition-transform duration-300 px-2"
 >
-  <h2 className="text-red-600 font-extrabold text-2xl mb-3">
+  <h2 className="text-red-600 font-extrabold uppercase text-xl mb-3">
     No Secrets. Just Pure Power.
   </h2>
   <p className="global-text-style leading-relaxed">

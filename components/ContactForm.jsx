@@ -98,7 +98,7 @@ export default function ContactForm() {
         {/* LEFT SIDE (same as yours) */}
         <div className="space-y-0 mt-[160px]">
         
-          <p className="flex justify-center text-4xl md:text-9xl anton-regularnew leading-tight font-bold uppercase">
+          <p className="flex justify-end text-4xl md:text-9xl anton-regularnew leading-tight font-bold uppercase">
             JUST
           </p>
           <h3 className="flex justify-center  text-4xl md:text-9xl leading-tight anton-regularnew font-bold uppercase">

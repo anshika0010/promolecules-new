@@ -146,7 +146,7 @@ export default function FAQSection() {
       />
 
       <section
-  className="relative max-w-[1600px] mx-auto min-h-screen bg-black text-white overflow-hidden"
+  className="relative max-w-full mx-auto min-h-[320px] sm:min-h-[600px] lg:min-h-[600px] bg-black text-white overflow-hidden"
   style={{ backgroundImage: "url('/candle.webp')", backgroundSize: "cover", backgroundPosition: "center" }}
 >
 
@@ -158,9 +158,9 @@ export default function FAQSection() {
                 onClick={() =>
                   setActiveIndex(activeIndex === index ? null : index)
                 }
-                className="w-full flex items-center justify-between py-5 text-left group"
+                className="w-full flex items-center justify-between py-3 text-left group"
               >
-                <span className="text-red-600 uppercase text-xl md:text-lg tracking-wide font-bold">
+                <span className="text-red-600 uppercase text-sm sm:text-sm md:text-lg tracking-wide font-bold">
                   {item.question}
                 </span>
 
@@ -175,7 +175,7 @@ export default function FAQSection() {
               </button>
 
               {activeIndex === index && (
-                <div className="pb-6 global-text-style scale-up-ver-top leading-relaxed">
+                <div className="pb-6 global-text-style text-sm sm:text-md md:text-lg scale-up-ver-top leading-relaxed">
                   {item.answer}
                 </div>
               )}

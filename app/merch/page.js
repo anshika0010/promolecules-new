@@ -13,26 +13,29 @@ const PowerYouCanWear = () => {
     {
       id: 1,
       name: "Father Of Insane Skell",
-      price: "Rs 699.00",
-      oldPrice: "Rs 799.00",
+       price: "$ 49.00",
+      oldPrice: "$50.00",
       image: "/tshirt1.webp",
       link: "/merch/detailpage",
+      outOfStock: true 
     },
     {
       id: 2,
       name: "Father Of Insane Fusion",
-      price: "Rs 899.00",
-      oldPrice: "Rs 999.00",
+    price: "$ 49.00",
+      oldPrice: "$50.00",
       image: "/tshirt2.webp",
       link: "/merch/detailpage",
+      outOfStock: true 
     },
     {
       id: 3,
       name: "Father Of Insane Nitro",
-      price: "Rs 899.00",
-      oldPrice: "Rs 999.00",
+     price: "$ 49.00",
+      oldPrice: "$50.00",
       image: "/tshirt3.webp",
       link: "/merch/detailpage",
+      outOfStock: true 
     },
   ];
 
@@ -68,58 +71,61 @@ const PowerYouCanWear = () => {
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-20 overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{ backgroundImage: "url('/candle.webp')" }}
-        />
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center mb-16 gap-8">
-            <p className="text-gray-400 text-xs uppercase tracking-wider max-w-sm">
-              Stay ahead of the trend with bold designs, premium comfort, and
-              statement styles. Made for those who don't follow fashion — they create it.
-            </p>
-            <div className="text-right">
-              <h2 className="text-red-600 text-4xl md:text-6xl creepster-regular uppercase drop-shadow-[0_0_15px_rgba(255,0,0,0.8)]">
-                Trending T-Shirts
-              </h2>
-              <h3 className="text-white text-3xl md:text-5xl creepster-regular uppercase">
-                Collection
-              </h3>
-              <p className="text-gray-400 text-xs uppercase tracking-wider mt-4 max-w-md ml-auto">
-                Stay ahead of the trend with bold designs, premium comfort, and
-                statement styles. Made for those who don't follow fashion — they create it.
-              </p>
-            </div>
+
+     <section className="relative w-full bg-black text-white py-20 overflow-hidden">
+  <div
+    className="absolute inset-0 bg-cover bg-center opacity-20"
+    style={{ backgroundImage: "url('/candle.webp')" }}
+  />
+  <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+      {products.map((product) => (
+        <div key={product.id} className="group text-center transition duration-500">
+          
+          {/* Image wrapper with overlay */}
+          <div className="relative flex justify-center mb-6">
+            <img
+              src={product.image}
+              alt={product.name}
+              className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
+            />
+
+            {/* Out of Stock overlay — only shown if product.outOfStock is true */}
+            {product.outOfStock && (
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <div className="bg-black/70 backdrop-blur-sm border border-red-600 px-6 py-3 rounded-xl">
+                  <span className="text-red-500 font-extrabold uppercase tracking-widest text-lg">
+                    Out of Stock
+                  </span>
+                </div>
+              </div>
+            )}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {products.map((product) => (
-              <div key={product.id} className="group text-center cursor-pointer transition duration-500">
-                <div className="flex justify-center mb-6">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
-                  />
-                </div>
-                <h4 className="uppercase text-lg anton-regular font-extrabold tracking-wider mb-2">
-                  {product.name}
-                </h4>
-                <div className="flex justify-center anton-regular gap-3 text-md">
-                  <span className="text-white font-bold">{product.price}</span>
-                  <span className="text-gray-500 line-through">{product.oldPrice}</span>
-                </div>
-                <Link href={product.link}>
-                  <button className="px-4 py-2 bg-red-600 rounded-xl font-bold text-white hover:bg-red-700 transition">
-                    VIEW NOW
-                  </button>
-                </Link>
-              </div>
-            ))}
+          <h4 className="uppercase text-lg anton-regular font-extrabold tracking-wider mb-2">
+            {product.name}
+          </h4>
+          <div className="flex justify-center anton-regular gap-3 text-md">
+            <span className="text-white font-bold">{product.price}</span>
+            <span className="text-gray-500 line-through">{product.oldPrice}</span>
           </div>
+          <Link href={product.link}>
+            <button
+              className={`px-4 py-2 rounded-xl font-bold text-white transition ${
+                product.outOfStock
+                  ? "bg-gray-600 cursor-not-allowed opacity-60"
+                  : "bg-red-600 hover:bg-red-700"
+              }`}
+              disabled={product.outOfStock}
+            >
+              {product.outOfStock ? "OUT OF STOCK" : "VIEW NOW"}
+            </button>
+          </Link>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
 
       <section className="relative w-full min-h-[50vh] lg:min-h-[50vh] bg-black text-white overflow-hidden">
         <div className="relative z-10 flex items-center justify-between h-full px-6 md:px-16">
@@ -148,59 +154,61 @@ const PowerYouCanWear = () => {
         </div>
       </section>
 
-      <section className="relative w-full bg-black text-white py-20 overflow-hidden">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-20"
-          style={{ backgroundImage: "url('/candle.webp')" }}
-        />
-        <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
-            {products.map((product) => (
-              <div key={product.id} className="group text-center transition duration-500">
-                <div className="flex justify-center mb-6">
-                  <img
-                    src={product.image}
-                    alt={product.name}
-                    className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
-                  />
-                </div>
-                <h4 className="uppercase text-lg anton-regular font-extrabold tracking-wider mb-2">
-                  {product.name}
-                </h4>
-                <div className="flex justify-center anton-regular gap-3 text-md">
-                  <span className="text-white font-bold">{product.price}</span>
-                  <span className="text-gray-500 line-through">{product.oldPrice}</span>
-                </div>
-                <Link href={product.link}>
-                  <button className="px-4 py-2 bg-red-600 rounded-xl font-bold text-white hover:bg-red-700 transition">
-                    VIEW NOW
-                  </button>
-                </Link>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+     <section className="relative w-full bg-black text-white py-20 overflow-hidden">
+  <div
+    className="absolute inset-0 bg-cover bg-center opacity-20"
+    style={{ backgroundImage: "url('/candle.webp')" }}
+  />
+  <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-16">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+      {products.map((product) => (
+        <div key={product.id} className="group text-center transition duration-500">
+          
+          {/* Image wrapper with overlay */}
+          <div className="relative flex justify-center mb-6">
+            <img
+              src={product.image}
+              alt={product.name}
+              className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
+            />
 
-      <section className="w-full min-h-screen bg-black flex items-center justify-center px-6">
-        <div className="text-center max-w-4xl">
-          <h3 className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase">
-            Empower Every Move <br /> With Style
-          </h3>
-          <p className="text-gray-400 text-sm md:text-base mt-6 uppercase tracking-widest">
-            Designed for confidence. Built for performance. <br />
-            Wear the attitude. Own the moment.
-          </p>
-          <div className="mt-10 flex justify-center">
-            <button className="group flex items-center gap-4 border border-gray-600 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300">
-              <span className="uppercase text-sm tracking-wider">Explore Now</span>
-              <span className="bg-gray-700 group-hover:bg-black p-2 rounded-full transition-all duration-300">
-                <ArrowRight size={16} />
-              </span>
-            </button>
+            {/* Out of Stock overlay — only shown if product.outOfStock is true */}
+            {product.outOfStock && (
+              <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                <div className="bg-black/70 backdrop-blur-sm border border-red-600 px-6 py-3 rounded-xl">
+                  <span className="text-red-500 font-extrabold uppercase tracking-widest text-lg">
+                    Out of Stock
+                  </span>
+                </div>
+              </div>
+            )}
           </div>
+
+          <h4 className="uppercase text-lg anton-regular font-extrabold tracking-wider mb-2">
+            {product.name}
+          </h4>
+          <div className="flex justify-center anton-regular gap-3 text-md">
+            <span className="text-white font-bold">{product.price}</span>
+            <span className="text-gray-500 line-through">{product.oldPrice}</span>
+          </div>
+          <Link href={product.link}>
+            <button
+              className={`px-4 py-2 rounded-xl font-bold text-white transition ${
+                product.outOfStock
+                  ? "bg-gray-600 cursor-not-allowed opacity-60"
+                  : "bg-red-600 hover:bg-red-700"
+              }`}
+              disabled={product.outOfStock}
+            >
+              {product.outOfStock ? "OUT OF STOCK" : "VIEW NOW"}
+            </button>
+          </Link>
         </div>
-      </section>
+      ))}
+    </div>
+  </div>
+</section>
+
     </>
   );
 };

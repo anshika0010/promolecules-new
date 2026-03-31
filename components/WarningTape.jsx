@@ -2,22 +2,12 @@ import Image from "next/image";
 
 export default function WarningTape() {
   return (
-<section className="relative min-h-[320px] sm:min-h-[600px] lg:min-h-[650px] max-w-9xl mx-auto bg-black overflow-hidden">
+<section className="relative min-h-[320px] sm:min-h-[600px] lg:min-h-[530px] max-w-9xl mx-auto bg-black overflow-hidden">
 
   {/* ================= MOBILE UI ================= */}
-  <div className="md:hidden flex flex-col px-4 py-8 space-y-8">
+  <div className="md:hidden flex flex-col px-4 py-2 space-y-8">
 
-    {/* Top Content */}
-    {/* <div className="text-center">
-      <h4 className="text-red-600 font-bold text-xl text-base mb-1 ">
-        The Hidden Supplement Crisis
-      </h4>
-      <p className="global-text-style leading-relaxed">
-        The supplement industry faces a silent crisis—adulteration. Studies reveal
-        that nearly 70% of budget supplements contain less active ingredient than
-        claimed, with some containing harmful fillers or banned substances.
-      </p>
-    </div> */}
+
 
     {/* Tape */}
     <div className="rotate-[-5deg]">
@@ -45,8 +35,8 @@ export default function WarningTape() {
   <div className="hidden md:block">
 
     {/* Top Right Text */}
-    <div className="absolute top-40 right-8 lg:top-60 lg:right-12 max-w-md text-right z-20">
-      <h4 className="text-red-600 font-bold text-xl text-base mb-1 ">
+    <div className="absolute top-40 right-8 lg:top-50 lg:right-12 max-w-md text-right z-20">
+      <h4 className="text-red-600 font-bold text-xl text-base  ">
         The Hidden Supplement Crisis
       </h4>
       <p className="global-text-style  text-white/70 leading-relaxed">

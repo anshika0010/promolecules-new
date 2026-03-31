@@ -112,7 +112,7 @@ export default function CustomerReviews({ reviews }) {
               ))}
             </div>
 
-            <p className="font-bold uppercase mb-1 text-gray-200">
+            <p className="font-bold mb-1 text-gray-200">
               {review.country}
             </p>
             <p className="text-gray-400 text-sm max-w-4xl leading-relaxed">

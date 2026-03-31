@@ -32,7 +32,7 @@ export default function ContactheroSection() {
           <div className="grid md:grid-cols-2 gap-12 md:gap-16 items-start pt-16 text-white">
 
             <div className="flex item-center justify-center ">
-              <h2 className="text-2xl creepster-regular uppercase leading-snug text-gray-200">
+              <h2 className="text-3xl creepster-regular uppercase leading-snug text-gray-200">
                 Let’s Make Something <br /> Amazing, Together
               </h2>
             </div>

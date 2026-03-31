@@ -36,8 +36,8 @@ export default function ProductDetail() {
     {
       id: 1,
       name: "Father Of Insane Skell",
-      price: "Rs 699.00",
-      oldPrice: "Rs 799.00",
+   price: "$ 49.00",
+      oldPrice: "$50.00",
       image: "/tshirt1.webp",
       link: "/merch/detailpage",
     },
@@ -45,8 +45,8 @@ export default function ProductDetail() {
     {
       id: 2,
       name: "Father Of Insane Fusion",
-      price: "Rs 899.00",
-      oldPrice: "Rs 999.00",
+       price: "$ 49.00",
+      oldPrice: "$50.00",
       image: "/tshirt2.webp",
       link: "/merch/detailpage",
     },
@@ -54,8 +54,8 @@ export default function ProductDetail() {
     {
       id: 3,
       name: "Father Of Insane Nitro",
-      price: "Rs 899.00",
-      oldPrice: "Rs 999.00",
+      price: "$ 49.00",
+      oldPrice: "$50.00",
     image: "/tshirt3.webp",
       link: "/merch/detailpage",
     },
@@ -123,9 +123,9 @@ export default function ProductDetail() {
 
             {/* Price */}
             <div className="flex items-center gap-4 mb-6">
-              <span className="text-3xl font-bold"> $699.00</span>
+              <span className="text-3xl font-bold"> $49.00</span>
               <span className="line-through text-gray-400 text-xl">
-                $799.00
+                $50.00
               </span>
             </div>
 
@@ -251,33 +251,7 @@ export default function ProductDetail() {
         </div>
       </section>
       <ProductInformation />
-      <section className="w-full  bg-black flex items-center justify-center px-6">
-        <div className="text-center max-w-4xl">
-          {/* Heading */}
-          <h1 className="text-red-600 text-5xl md:text-7xl creepster-regular font-extrabold uppercase ">
-            Empower Every Move <br /> With Style
-          </h1>
 
-          {/* Subtitle */}
-          <p className="text-gray-400 text-sm md:text-base mt-6 uppercase tracking-widest">
-            Designed for confidence. Built for performance. <br />
-            Wear the attitude. Own the moment.
-          </p>
-
-          {/* Button */}
-          <div className="mt-10 flex justify-center">
-            <button className="group flex items-center gap-4 border border-gray-600 text-white px-8 py-3 rounded-full hover:bg-white hover:text-black transition-all duration-300">
-              <span className="uppercase text-sm tracking-wider">
-                Explore Now
-              </span>
-
-              <span className="bg-gray-700 group-hover:bg-black p-2 rounded-full transition-all duration-300">
-                <ArrowRight size={16} />
-              </span>
-            </button>
-          </div>
-        </div>
-      </section>
     </>
   );
 }

@@ -230,6 +230,7 @@ export default function ProductDetail({ product }) {
   const [selectedServing, setSelectedServing] = useState(servings[0]);
 
   const sections = [
+
     { title: "DESCRIPTION", content: product.description },
     { title: "KEY BENEFITS", content: product.keyBenefits },
     { title: "WHY CHOOSE US?", content: product.whychooseus },

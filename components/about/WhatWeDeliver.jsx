@@ -43,7 +43,7 @@ export default function WhatWeDeliver() {
       </div>
 
       {/* OUR SERVICES TITLE */}
-      <div className="border-b border-gray-800 py-3 sm:py-4 text-center px-4">
+      <div className="border-b border-gray-800 py-3 sm:py-4 w-full text-center px-4">
         <h3 className="creepster-regular heading">
           <span className="text-white">OUR</span>{" "}
           <span className="text-red-600">SERVICES</span>
@@ -58,7 +58,7 @@ export default function WhatWeDeliver() {
       </div>
 
 {/* SERVICES GRID */}
-<div className="grid grid-cols-1 md:grid-cols-3 border-t border-gray-800 px-0">
+<div className="grid grid-cols-1 md:grid-cols-3 border-t border-gray-800 px-0 mb-4 md:mb-16">
   {services.map((service, index) => (
     <div
       key={index}
@@ -93,11 +93,9 @@ export default function WhatWeDeliver() {
           src={service.image}
           alt={service.title}
           fill
-          className="object-cover brightness-75 transition-all duration-500 group-hover:brightness-50 group-hover:saturate-0"
+          className="object-cover transition-all duration-500 saturate-0 brightness-75 group-hover:saturate-100 group-hover:brightness-50"
         />
-        {/* Red gradient overlay on image */}
-        <div className="absolute inset-0 bg-gradient-to-t from-red-900/80 via-red-700/40 to-transparent 
-          opacity-0 group-hover:opacity-100 transition-opacity duration-500 rounded-lg" />
+       
       </div>
     </div>
   ))}
