@@ -35,7 +35,7 @@ export default function TrendingCategory() {
   ];
 
   return (
-    <section className="relative max-w-[1600px] mx-auto bg-black py-10 sm:py-14 md:py-20 px-4 sm:px-6 overflow-hidden">
+    <section className="relative max-w-[1600px] mx-auto bg-black py-10 sm:py-14 md:py-20 px-6 sm:px-9 overflow-hidden">
       {/* Background */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_top,_rgba(255,255,255,0.05),_transparent_60%)] opacity-30" />
 
