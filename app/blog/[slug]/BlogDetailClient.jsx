@@ -11,7 +11,7 @@ function formatDate(dateStr) {
     year: "numeric",
     month: "long",
     day: "numeric",
-    timeZone: "UTC", // ✅ timezone mismatch fix
+    timeZone: "UTC", 
   });
 }
 
@@ -27,12 +27,7 @@ export default function BlogDetailClient({ blog }) {
           <p className="text-gray-500 text-sm uppercase tracking-widest">
             This article doesn't exist or was removed.
           </p>
-          <Link
-            href="/blog"
-            className="mt-4 px-8 py-1 bg-red-600 text-white text-xs uppercase tracking-widest hover:bg-red-700 transition"
-          >
-            ← Back to Blogs
-          </Link>
+       
         </div>
       </div>
     );
@@ -41,19 +36,18 @@ export default function BlogDetailClient({ blog }) {
   const initial = blog.author?.name?.charAt(0)?.toUpperCase() ?? "A";
 
   return (
-    <div className="bg-[#0a0a0a] text-[#f0ece4] min-h-screen max-w-7xl mx-auto">
+    <div className="bg-[#0a0a0a] text-[#f0ece4] min-h-screen max-w-7xl mx-auto ">
       <Navbar />
 
       {/* HERO */}
-      <section className=" w-full h-[60vh] overflow-hidden">
+      <section className=" w-full h-[60vh]  overflow-hidden">
         <Image
           src={blog.featured_image ?? "/blogdummy.webp"}
           alt={blog.name}
           fill
           priority
-          className="object-cover brightness-40"
+          className="object-cover brightness-40 "
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent z-10" />
 
         <div className="absolute inset-0 z-20 flex flex-col justify-end pb-12 px-6 max-w-4xl mx-auto left-0 right-0 w-full">
           <div className="flex items-center gap-3 mb-5 text-xs uppercase tracking-widest">
@@ -61,34 +55,34 @@ export default function BlogDetailClient({ blog }) {
               {blog.category?.name ?? "Blog"}
             </span>
             <span className="text-gray-500">•</span>
-            <span className="text-gray-400">{formatDate(blog.publish_date)}</span>
+            <span className="text-gray-400">
+           {blog.publish_date}
+            </span>
           </div>
 
-          <h1 className="creepster-regular text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide text-white leading-tight">
+          {/* <h1 className="creepster-regular text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide text-white leading-tight">
             {blog.name}
-          </h1>
+          </h1> */}
 
           <div className="flex items-center gap-3 mt-6">
             <div className="w-9 h-9 rounded-full bg-red-600 flex items-center justify-center text-white font-bold text-sm shrink-0">
               {initial}
             </div>
             <div>
-              <p className="text-sm text-white font-semibold">{blog.author?.name}</p>
-              <p className="text-[10px] text-gray-500 uppercase tracking-wider">Author</p>
+              <p className="text-sm text-white font-semibold">
+                {blog.author?.name}
+              </p>
+              <p className="text-[10px] text-gray-500 uppercase tracking-wider">
+                Author
+              </p>
             </div>
           </div>
         </div>
       </section>
 
       {/* CONTENT */}
-      <div className="max-w-4xl mx-auto px-6 py-14">
-        <Link
-          href="/blog"
-          className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-gray-500 hover:text-red-500 transition mb-10 group"
-        >
-          <span className="group-hover:-translate-x-1 transition-transform inline-block">←</span>
-          Back to All Blogs
-        </Link>
+      <div className="max-w-6xl mx-auto px-6 py-14">
+        
 
         <div className="w-full h-[2px] bg-gradient-to-r from-red-600 via-red-600/40 to-transparent mb-12" />
 
@@ -105,7 +99,7 @@ export default function BlogDetailClient({ blog }) {
               {initial}
             </div>
             <div>
-              <p className="text-white font-semibold">{blog.author?.name}</p>
+              <p className="text-white font-semibold">Promolecules</p>
               <p className="text-xs text-gray-500 uppercase tracking-wider">
                 Published {formatDate(blog.publish_date)}
               </p>

@@ -1,73 +1,46 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 import Image from "next/image";
 
 const Blogs = () => {
-  const blogs = [
-    {
-      id: 1,
-      image: "/blogdummy.webp",
-      title:
-        "THE POWER OF CONSISTENCY: HOW STAYING ON TRACK CAN TRANSFORM YOUR LIFE",
-      description:
-        "DISCOVER THE TRANSFORMATIVE POWER OF CONSISTENCY IN ACHIEVING YOUR HEALTH AND FITNESS GOALS. LEARN HOW TO BUILD SUSTAINABLE HABITS THAT LEAD TO LONG-TERM SUCCESS.",
-    },
-    {
-      id: 2,
-      image: "/blogdummy.webp",
-      title: "FUEL YOUR BODY: SECRETS OF PROPER NUTRITION",
-      description:
-        "NUTRITION IS POWER. LEARN HOW TO FUEL YOUR BODY WITH THE RIGHT NUTRIENTS, MAXIMIZE PERFORMANCE, AND UNLOCK YOUR FULL POTENTIAL WITH SCIENCE-BACKED NUTRITION STRATEGIES.",
-    },
-    {
-      id: 3,
-      image: "/blogdummy.webp",
-      title: "GET YOUR SLEEP: A CRUCIAL PIECE",
-      description:
-        "THE SECRET WEAPON BEHIND PEAK ATHLETIC PERFORMANCE IS QUALITY SLEEP. DISCOVER HOW PROPER REST IMPACTS YOUR RECOVERY, MUSCLE GROWTH, AND OVERALL PERFORMANCE.",
-    },
-      {
-      id: 4,
-      image: "/blogdummy.webp",
-      title: "FUEL YOUR BODY: SECRETS OF PROPER NUTRITION",
-      description:
-        "NUTRITION IS POWER. LEARN HOW TO FUEL YOUR BODY WITH THE RIGHT NUTRIENTS, MAXIMIZE PERFORMANCE, AND UNLOCK YOUR FULL POTENTIAL WITH SCIENCE-BACKED NUTRITION STRATEGIES.",
-    },
-    {
-      id: 5,
-      image: "/blogdummy.webp",
-      title: "GET YOUR SLEEP: A CRUCIAL PIECE",
-      description:
-        "THE SECRET WEAPON BEHIND PEAK ATHLETIC PERFORMANCE IS QUALITY SLEEP. DISCOVER HOW PROPER REST IMPACTS YOUR RECOVERY, MUSCLE GROWTH, AND OVERALL PERFORMANCE.",
-    },
-  ];
+  const [blogs, setBlogs] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+useEffect(() => {
+  async function loadBlogs() {
+    try {
+      const res = await fetch("/api/blogs?page=1"); // ✅ proxy route
+      const json = await res.json();
+      console.log("Blogs response:", json); // debug
+      setBlogs(json?.data ?? []);
+    } catch (err) {
+      console.error("Blogs fetch error:", err);
+      setBlogs([]);
+    } finally {
+      setLoading(false);
+    }
+  }
+  loadBlogs();
+}, []);
 
   return (
     <section className="relative bg-black py-4 sm:py-6 md:py-4 max-w-7xl mx-auto overflow-hidden">
       <style>{`
-        .blogs-swiper .swiper-pagination {
-          bottom: 0px;
-        }
+        .blogs-swiper .swiper-pagination { bottom: 0px; }
         .blogs-swiper .swiper-pagination-bullet {
           background: rgba(255, 255, 255, 0.4);
-          opacity: 1;
-          width: 6px;
-          height: 6px;
+          opacity: 1; width: 6px; height: 6px;
         }
         .blogs-swiper .swiper-pagination-bullet-active {
-          background: #dc2626;
-          width: 20px;
-          border-radius: 4px;
+          background: #dc2626; width: 20px; border-radius: 4px;
         }
       `}</style>
 
@@ -90,66 +63,88 @@ const Blogs = () => {
           </div>
         </div>
 
-        {/* Swiper Slider */}
-        <Swiper
-          modules={[Autoplay, Pagination]}
-          autoplay={{
-            delay: 2000,
-            disableOnInteraction: false,
-            pauseOnMouseEnter: true,
-          }}
-          pagination={{ clickable: true }}
-          loop={true}
-          spaceBetween={16}
-          slidesPerView={1.15}
-          centeredSlides={false}
-          breakpoints={{
-            480: { slidesPerView: 1.3, spaceBetween: 16 },
-            640: { slidesPerView: 1.8, spaceBetween: 20 },
-            768: { slidesPerView: 2.2, spaceBetween: 24 },
-            1024: { slidesPerView: 2.8, spaceBetween: 28 },
-            1280: { slidesPerView: 3, spaceBetween: 32 },
-          }}
-          className="blogs-swiper !pb-10"
-        >
-          {blogs.map((blog, index) => (
-            <SwiperSlide key={index}>
-              <div className="cursor-pointer">
-                {/* Card Image */}
-                <div className="relative h-[220px] sm:h-[260px] md:h-[290px] lg:h-[300px] rounded-2xl overflow-hidden mb-3 sm:mb-4">
-                  <Image
-                    src={blog.image}
-                    alt={blog.title}
-                    width={400}
-                    height={400}
-                    className="absolute inset-0 w-full h-full object-cover opacity-70 hover:scale-110 transition-all duration-500"
-                  />
-                  {/* Overlay */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
-                  {/* Content */}
-                  <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 space-y-2">
-                    <h3 className="text-red-500 anton-regular text-xs sm:text-sm font-bold  line-clamp-1">
-                      {blog.title}
-                    </h3>
-                 <p className="global-text-style text-[9px] sm:text-[10px] md:text-xs leading-relaxed line-clamp-2">
-  {blog.description}
-</p>
-                  </div>
-                </div>
+        {/* Loading Skeleton */}
+        {loading && (
+          <div className="flex gap-4 overflow-hidden">
+            {[1, 2, 3].map((i) => (
+              <div
+                key={i}
+                className="min-w-[280px] h-[300px] rounded-2xl bg-neutral-900 animate-pulse"
+              />
+            ))}
+          </div>
+        )}
 
-                {/* CTA Button */}
-                <Link
-                  href="/blog"
-                  aria-label="Learn more about our blogs and fitness articles"
-                  className="flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-4 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm tracking-wider"
-                >
-                  <span>Explore Blogs</span>
-                  <ChevronRight size={16} aria-hidden="true" />
+        {/* Swiper */}
+        {!loading && blogs.length > 0 && (
+          <Swiper
+            modules={[Autoplay, Pagination]}
+            autoplay={{
+              delay: 2000,
+              disableOnInteraction: false,
+              pauseOnMouseEnter: true,
+            }}
+            pagination={{ clickable: true }}
+            loop={true}
+            spaceBetween={16}
+            slidesPerView={1.15}
+            centeredSlides={false}
+            breakpoints={{
+              480: { slidesPerView: 1.3, spaceBetween: 16 },
+              640: { slidesPerView: 1.8, spaceBetween: 20 },
+              768: { slidesPerView: 2.2, spaceBetween: 24 },
+              1024: { slidesPerView: 2.8, spaceBetween: 28 },
+              1280: { slidesPerView: 3, spaceBetween: 32 },
+            }}
+            className="blogs-swiper !pb-10"
+          >
+            {blogs.map((blog) => (
+              <SwiperSlide key={blog.id}>
+                <Link href={`/blog/${blog.slug}`} className="cursor-pointer block">
+                  {/* Card Image */}
+                  <div className="relative h-[220px] sm:h-[260px] md:h-[290px] lg:h-[300px] rounded-2xl overflow-hidden mb-3 sm:mb-4">
+                    <Image
+                      src={blog.featured_image || "/dummyimage.webp"} 
+                      alt={blog.name}
+                      width={400}
+                      height={400}
+                      className="absolute inset-0 w-full h-full object-cover opacity-70 hover:scale-110 transition-all duration-500"
+                    />
+                    {/* Overlay */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+
+                    {/* Content */}
+                    <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 space-y-2">
+                      {/* Category Badge */}
+                      <span className="text-[9px] uppercase tracking-widest text-red-400 border border-red-600/40 px-2 py-[2px] rounded-full">
+                        {blog.category?.name}
+                      </span>
+                      <h3 className="text-white anton-regular text-xs sm:text-sm font-bold line-clamp-1 mt-1">
+                        {blog.name} {/* ✅ blog.title → blog.name */}
+                      </h3>
+                      <p className="global-text-style text-[9px] sm:text-[10px] md:text-xs leading-relaxed line-clamp-2 text-gray-400">
+                        By {blog.author?.name} • {blog.publish_date}
+                      </p>
+                    </div>
+                  </div>
+
+                  {/* CTA Button */}
+                  <div className="flex items-center justify-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-4 py-2.5 sm:py-3 rounded-full transition-all duration-300 text-xs sm:text-sm tracking-wider">
+                    <span>Read More</span>
+                    <ChevronRight size={16} />
+                  </div>
                 </Link>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
+              </SwiperSlide>
+            ))}
+          </Swiper>
+        )}
+
+        {/* No blogs fallback */}
+        {!loading && blogs.length === 0 && (
+          <p className="text-center text-gray-500 py-10 text-sm uppercase tracking-widest">
+            No blogs found.
+          </p>
+        )}
 
         {/* View All Button */}
         <div className="flex justify-center mt-6 sm:mt-10">

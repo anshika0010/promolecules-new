@@ -122,10 +122,7 @@ export default function Preloader() {
 </h1>
 
 
-        {/* Phase */}
-        <p className="text-red-400 mt-4 tracking-wides heading text-xs sm:text-sm min-h-[80px]">
-          {phases[phase]}
-        </p>
+     
 
         {/* Progress Bar */}
         <div className="w-full max-w-[300px] mt-6">
