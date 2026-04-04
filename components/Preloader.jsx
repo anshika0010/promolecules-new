@@ -123,13 +123,13 @@ export default function Preloader() {
 
 
         {/* Phase */}
-        <p className="text-red-400 mt-4 text-xs sm:text-sm tracking-widest">
+        <p className="text-red-400 mt-4 tracking-wides heading text-xs sm:text-sm min-h-[80px]">
           {phases[phase]}
         </p>
 
         {/* Progress Bar */}
         <div className="w-full max-w-[300px] mt-6">
-          <div className="w-full h-2 bg-red-900/20 rounded-full overflow-hidden">
+          <div className="w-full h-2 w-5  bg-red-900/20 rounded-full overflow-hidden">
             <div
               className="h-full bg-gradient-to-r from-red-800 to-red-400 transition-all duration-300"
               style={{ width: `${progress}%` }}

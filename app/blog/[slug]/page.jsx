@@ -1,19 +1,25 @@
+import { fetchAllBlogs } from "@/lib/api";
 import BlogDetailClient from "./BlogDetailClient";
 
+// ✅ Build time pe saare slugs generate karo
 export async function generateStaticParams() {
-  const res = await fetch(
-    "https://blogs-backend-l1z4.onrender.com/api/posts"
-  );
-
-  const posts = await res.json();
-
-  return posts.map((post) => ({
-    slug: post.slug,
-  }));
+  try {
+    const allBlogs = await fetchAllBlogs();
+    return allBlogs.map((blog) => ({ slug: blog.slug }));
+  } catch {
+    return [];
+  }
 }
 
-export default async function Page({ params }) {
+export default async function BlogDetailPage({ params }) {
   const { slug } = await params;
 
-  return <BlogDetailClient slug={slug} />;
+  try {
+    const allBlogs = await fetchAllBlogs(); // ✅ cached — dobara API call nahi hogi
+    const blog = allBlogs.find((b) => b.slug === slug) ?? null;
+    return <BlogDetailClient blog={blog} />;
+  } catch (err) {
+    console.error("Blog detail error:", err);
+    return <BlogDetailClient blog={null} />;
+  }
 }

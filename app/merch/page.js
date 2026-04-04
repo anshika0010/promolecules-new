@@ -3,6 +3,7 @@ import React from "react";
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
 import { getSEOMetadata, getJSONLD } from "@/lib/seo";
+import Image from "next/image";
 
 export const metadata = getSEOMetadata("merch");
 
@@ -84,11 +85,13 @@ const PowerYouCanWear = () => {
           
           {/* Image wrapper with overlay */}
           <div className="relative flex justify-center mb-6">
-            <img
-              src={product.image}
-              alt={product.name}
-              className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
-            />
+       <Image
+  src={product.image}
+  alt={product.name}
+  width={800}
+  height={400}
+  className="w-full h-[400px] object-contain"
+/>
 
             {/* Out of Stock overlay — only shown if product.outOfStock is true */}
             {product.outOfStock && (
@@ -130,7 +133,7 @@ const PowerYouCanWear = () => {
       <section className="relative w-full min-h-[50vh] lg:min-h-[50vh] bg-black text-white overflow-hidden">
         <div className="relative z-10 flex items-center justify-between h-full px-6 md:px-16">
           <div className="hidden md:flex items-end justify-center">
-            <img src="/father-of-insane-fusion-merchboy.webp" alt="father-of-insane-fusion-merchboy" className="left-0 bottom-0 object-cover" />
+            <Image src="/father-of-insane-fusion-merchboy.webp" alt="father-of-insane-fusion-merchboy" fill className="left-0 bottom-0 object-cover" />
           </div>
           <div className="w-full md:w-1/2 max-w-xl ml-auto">
             <p className="text-white text-xl md:text-2xl creepster-regular uppercase tracking-widest mb-2">
@@ -166,9 +169,10 @@ const PowerYouCanWear = () => {
           
           {/* Image wrapper with overlay */}
           <div className="relative flex justify-center mb-6">
-            <img
+            <Image
               src={product.image}
               alt={product.name}
+              fill
               className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
             />
 

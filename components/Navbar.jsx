@@ -245,7 +245,7 @@ const Navbar = () => {
             <h2 className="text-white font-extrabold text-lg sm:text-xl tracking-wide uppercase">
               We're Working On It
             </h2>
-            <p className="text-white/40 text-xs sm:text-sm leading-relaxed max-w-[240px]">
+            <p className="text-white text-xs sm:text-sm leading-relaxed max-w-[240px]">
               Our cart experience is currently under construction. Check back
               soon — something powerful is coming.
             </p>

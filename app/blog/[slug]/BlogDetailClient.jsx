@@ -1,59 +1,123 @@
 "use client";
 
-import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 import Navbar from "@/components/Navbar";
-import Preloader from "@/components/Preloader";
 
-export default function BlogDetailClient({ slug }) {
-  const [blog, setBlog] = useState(null);
+// ✅ Hydration fix — locale hardcode karo, browser locale use mat karo
+function formatDate(dateStr) {
+  if (!dateStr) return "";
+  return new Date(dateStr).toLocaleDateString("en-GB", {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+    timeZone: "UTC", // ✅ timezone mismatch fix
+  });
+}
 
-  useEffect(() => {
-    const fetchBlog = async () => {
-      const res = await fetch(
-        "https://blogs-backend-l1z4.onrender.com/api/posts"
-      );
+export default function BlogDetailClient({ blog }) {
+  if (!blog) {
+    return (
+      <div className="bg-[#0a0a0a] min-h-screen flex flex-col">
+        <Navbar />
+        <div className="flex flex-col items-center justify-center flex-1 gap-6 mt-32">
+          <h1 className="text-5xl font-bold text-red-600 creepster-regular uppercase tracking-widest">
+            Blog Not Found
+          </h1>
+          <p className="text-gray-500 text-sm uppercase tracking-widest">
+            This article doesn't exist or was removed.
+          </p>
+          <Link
+            href="/blog"
+            className="mt-4 px-8 py-1 bg-red-600 text-white text-xs uppercase tracking-widest hover:bg-red-700 transition"
+          >
+            ← Back to Blogs
+          </Link>
+        </div>
+      </div>
+    );
+  }
 
-      const data = await res.json();
-
-      const found = data.find((p) => p.slug === slug);
-      setBlog(found);
-    };
-
-    fetchBlog();
-  }, [slug]);
-
-  if (!blog) return <div className="text-white p-20"><Preloader/></div>;
+  const initial = blog.author?.name?.charAt(0)?.toUpperCase() ?? "A";
 
   return (
-    <div className="bg-black text-white min-h-screen">
-
+    <div className="bg-[#0a0a0a] text-[#f0ece4] min-h-screen max-w-7xl mx-auto">
       <Navbar />
 
-      <div className="relative w-full h-[500px]">
+      {/* HERO */}
+      <section className=" w-full h-[60vh] overflow-hidden">
         <Image
-          src={blog.image || "/blogdummy.webp"}
-          alt={blog.title}
+          src={blog.featured_image ?? "/blogdummy.webp"}
+          alt={blog.name}
           fill
-          className="object-cover"
+          priority
+          className="object-cover brightness-40"
         />
-      </div>
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-[#0a0a0a]/50 to-transparent z-10" />
 
-      <div className="max-w-4xl mx-auto px-6 py-16">
+        <div className="absolute inset-0 z-20 flex flex-col justify-end pb-12 px-6 max-w-4xl mx-auto left-0 right-0 w-full">
+          <div className="flex items-center gap-3 mb-5 text-xs uppercase tracking-widest">
+            <span className="bg-red-600 text-white px-3 py-1 font-bold">
+              {blog.category?.name ?? "Blog"}
+            </span>
+            <span className="text-gray-500">•</span>
+            <span className="text-gray-400">{formatDate(blog.publish_date)}</span>
+          </div>
 
-        <h1 className="text-4xl font-bold mb-6">
-          {blog.title}
-        </h1>
+          <h1 className="creepster-regular text-3xl sm:text-4xl md:text-5xl uppercase tracking-wide text-white leading-tight">
+            {blog.name}
+          </h1>
 
-        <div className="text-gray-400 mb-10">
-          {new Date(blog.createdAt).toDateString()}
+          <div className="flex items-center gap-3 mt-6">
+            <div className="w-9 h-9 rounded-full bg-red-600 flex items-center justify-center text-white font-bold text-sm shrink-0">
+              {initial}
+            </div>
+            <div>
+              <p className="text-sm text-white font-semibold">{blog.author?.name}</p>
+              <p className="text-[10px] text-gray-500 uppercase tracking-wider">Author</p>
+            </div>
+          </div>
         </div>
+      </section>
 
-        <div
-          className="prose prose-invert max-w-none"
-          dangerouslySetInnerHTML={{ __html: blog.content }}
+      {/* CONTENT */}
+      <div className="max-w-4xl mx-auto px-6 py-14">
+        <Link
+          href="/blog"
+          className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-gray-500 hover:text-red-500 transition mb-10 group"
+        >
+          <span className="group-hover:-translate-x-1 transition-transform inline-block">←</span>
+          Back to All Blogs
+        </Link>
+
+        <div className="w-full h-[2px] bg-gradient-to-r from-red-600 via-red-600/40 to-transparent mb-12" />
+
+        <article
+          className="blog-content"
+          dangerouslySetInnerHTML={{ __html: blog.description }}
         />
 
+        <div className="w-full h-[2px] bg-gradient-to-r from-red-600 via-red-600/40 to-transparent mt-14 mb-10" />
+
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+          <div className="flex items-center gap-4">
+            <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center text-white font-bold text-lg shrink-0">
+              {initial}
+            </div>
+            <div>
+              <p className="text-white font-semibold">{blog.author?.name}</p>
+              <p className="text-xs text-gray-500 uppercase tracking-wider">
+                Published {formatDate(blog.publish_date)}
+              </p>
+            </div>
+          </div>
+          <Link
+            href="/blog"
+            className="px-6 py-3 border border-red-600 text-red-500 text-xs uppercase tracking-widest hover:bg-red-600 hover:text-white transition"
+          >
+            ← All Blogs
+          </Link>
+        </div>
       </div>
     </div>
   );

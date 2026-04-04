@@ -3,7 +3,7 @@ import Head from "next/head";
 
 export default function SEO({ seo }) {
   if (!seo) return null;
-console.log(seo);
+
   return (
     <Head>
       <title>{seo.title} </title>

@@ -50,18 +50,20 @@ body {
 .animate-slide-in-right {
   animation: slideInFromRight 1.2s ease-out forwards;
 }
-@font-face {
+/* @font-face {
   font-family: "Noxa Gothic";
   src: url("/gloomy_things/Gloomy Things.ttf")  format("truetype");
 
   font-weight: 400;
   font-style: normal;
-}
+} */
 
 .creepster-regular {
      
-      font-family: "Noxa Gothic";
+      font-family: var(--font-gloomy), cursive;
     }
+
+    
     @keyframes marquee {
   0% {
     transform: translateX(0);
@@ -172,3 +174,15 @@ body {
             transform-origin: 100% 0%;
   }
 }
+
+
+.blog-content { color: #d1d5db; font-size: 1rem; line-height: 1.9; }
+.blog-content h2 { font-size: 1.8rem; font-weight: 700; color: #fff; margin-top: 2.5rem; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.05em; }
+.blog-content h3 { font-size: 1.3rem; font-weight: 600; color: #ef4444; margin-top: 2rem; margin-bottom: 0.75rem; }
+.blog-content h4 { font-size: 1rem; font-weight: 600; color: #e5e7eb; margin-top: 1.5rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 0.08em; }
+.blog-content p { margin-bottom: 1.25rem; color: #9ca3af; }
+.blog-content strong { color: #fff; font-weight: 700; }
+.blog-content a { color: #ef4444; text-decoration: none; }
+.blog-content a:hover { color: #fca5a5; }
+.blog-content ul, .blog-content ol { padding-left: 1.5rem; margin-bottom: 1.25rem; color: #9ca3af; }
+.blog-content li { margin-bottom: 0.4rem; line-height: 1.8; }

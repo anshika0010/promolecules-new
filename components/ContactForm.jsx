@@ -73,7 +73,7 @@ export default function ContactForm() {
       return;
     }
 
-    console.log(formData);
+   
 
     setShowPopup(true);
 

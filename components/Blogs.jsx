@@ -10,6 +10,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import Image from "next/image";
 
 const Blogs = () => {
   const blogs = [
@@ -116,9 +117,11 @@ const Blogs = () => {
               <div className="cursor-pointer">
                 {/* Card Image */}
                 <div className="relative h-[220px] sm:h-[260px] md:h-[290px] lg:h-[300px] rounded-2xl overflow-hidden mb-3 sm:mb-4">
-                  <img
+                  <Image
                     src={blog.image}
                     alt={blog.title}
+                    width={400}
+                    height={400}
                     className="absolute inset-0 w-full h-full object-cover opacity-70 hover:scale-110 transition-all duration-500"
                   />
                   {/* Overlay */}

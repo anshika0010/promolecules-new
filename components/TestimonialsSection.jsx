@@ -164,10 +164,7 @@ const Testimonials = () => {
               </button>
             </div>
 
-            {/* Swipe hint — visible only on touch devices */}
-            <p className="text-white/20 text-xs tracking-widest uppercase text-center lg:text-left select-none sm:hidden">
-              ← swipe to explore →
-            </p>
+       
           </div>
 
           {/* Right Side — draggable + swipeable */}

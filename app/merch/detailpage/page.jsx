@@ -222,9 +222,10 @@ export default function ProductDetail() {
               >
                 {/* Product Image */}
                 <div className="flex justify-center mb-6">
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.name}
+                    fill
                     className="h-[400px] object-contain group-hover:scale-105 transition duration-500 drop-shadow-[0_20px_40px_rgba(0,0,0,0.8)]"
                   />
                 </div>

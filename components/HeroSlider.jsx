@@ -62,7 +62,7 @@ const HeroSlider = () => {
           key={i}
           onClick={() => setCurrentSlide(i)}
           aria-label={`Go to slide ${i + 1}`}
-          className={`h-1.5 rounded-full transition-all duration-300 ${
+          className={`h-2 w-5  rounded-full transition-all duration-300 ${
             i === currentSlide ? "w-5 bg-white" : "w-1.5 bg-white/40"
           }`}
         />

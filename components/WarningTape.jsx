@@ -20,9 +20,9 @@ export default function WarningTape() {
 
     {/* Bottom Content */}
     <div className="text-center">
-      <h5 className="text-red-600 font-bold text-xl text-base mb-1 ">
+      <p className="text-red-600 font-bold text-xl text-base mb-1 ">
         Important Safety Information
-      </h5>
+      </p>
       <p className="global-text-style  leading-relaxed">
         THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN,
         PREGNANT & LACTATING WOMEN.
@@ -47,9 +47,9 @@ export default function WarningTape() {
 
     {/* Bottom Left Text */}
     <div className="absolute bottom-10 left-10 max-w-md z-20">
-      <h4 className="text-red-600 font-bold text-xl text-base mb-1 ">
+      <p className="text-red-600 font-bold text-xl text-base mb-1 ">
         Important Safety Information
-      </h4>
+      </p>
       <p className="global-text-style text-white/70 leading-relaxed">
         THIS PRODUCT IS INTENDED FOR ADULTS ONLY. NOT RECOMMENDED FOR CHILDREN,
         PREGNANT & LACTATING WOMEN.

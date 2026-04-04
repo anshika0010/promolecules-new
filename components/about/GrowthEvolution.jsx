@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ChevronRight } from "lucide-react";
+import Image from "next/image";
 
 const faqSchema = {
   "@context": "https://schema.org",
@@ -171,9 +172,10 @@ export default function GrowthEvolution() {
           {/* RIGHT SIDE */}
           <div className="relative order-1 md:order-2">
             <div className="relative w-full h-[450px] bg-gradient-to-b from-red-900/40 to-black overflow-hidden">
-              <img
+              <Image
                 src="/history2.webp"
                 alt="Growth"
+                fill
                 className="w-full h-full object-cover opacity-80"
               />
             </div>

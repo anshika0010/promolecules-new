@@ -3,7 +3,16 @@ const nextConfig = {
   trailingSlash: true,
 
   images: {
-    unoptimized: true,
+    unoptimized: true, // optional (keep if you want)
+    formats: ["image/avif", "image/webp"],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "magnus.cost2costsupplement.com",
+      },
+    ],
+    deviceSizes: [640, 750, 828, 1080, 1200],
+    minimumCacheTTL: 31536000,
   },
 
   async headers() {
@@ -29,15 +38,16 @@ const nextConfig = {
           },
           {
             key: "Content-Security-Policy",
-            value: `
-              default-src 'self';
-              script-src 'self' 'unsafe-inline' 'unsafe-eval';
-              style-src 'self' 'unsafe-inline';
-              img-src 'self' data: blob:;
-              font-src 'self' data:;
-              connect-src 'self' https:;
-              frame-ancestors 'none';
-            `.replace(/\n/g, ""),
+            value: [
+              "default-src 'self'",
+              "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://ssl.google-analytics.com",
+              "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
+              "img-src 'self' data: blob: https://magnus.cost2costsupplement.com https://www.google-analytics.com https://www.googletagmanager.com https://stats.g.doubleclick.net",
+              "font-src 'self' data: https://fonts.gstatic.com",
+              "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://www.googletagmanager.com",
+              "frame-src https://www.googletagmanager.com",
+              "frame-ancestors 'self'",
+            ].join("; "),
           },
         ],
       },
