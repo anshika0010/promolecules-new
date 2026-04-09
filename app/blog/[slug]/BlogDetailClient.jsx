@@ -18,7 +18,7 @@ function formatDate(dateStr) {
 export default function BlogDetailClient({ blog }) {
   if (!blog) {
     return (
-      <div className="bg-[#0a0a0a] min-h-screen flex flex-col">
+      <div className="bg-[#0a0a0a] min-h-screen flex flex-col mt-6">
         <Navbar />
         <div className="flex flex-col items-center justify-center flex-1 gap-6 mt-32">
           <h1 className="text-5xl font-bold text-red-600 creepster-regular uppercase tracking-widest">
@@ -27,7 +27,6 @@ export default function BlogDetailClient({ blog }) {
           <p className="text-gray-500 text-sm uppercase tracking-widest">
             This article doesn't exist or was removed.
           </p>
-       
         </div>
       </div>
     );
@@ -46,7 +45,7 @@ export default function BlogDetailClient({ blog }) {
           alt={blog.name}
           fill
           priority
-          className="object-cover brightness-40 "
+          className="object-contain brightness-40 "
         />
 
         <div className="absolute inset-0 z-20 flex flex-col justify-end pb-12 px-6 max-w-4xl mx-auto left-0 right-0 w-full">

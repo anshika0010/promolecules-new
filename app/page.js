@@ -28,7 +28,7 @@ export default function Home() {
       <UltraHighPerformanceSection />
       <WarningTape />
       <TrendingCategory />
-      <Blogs />
+      <Blogs/>
       <Testimonials />
     </>
   );

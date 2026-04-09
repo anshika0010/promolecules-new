@@ -63,33 +63,47 @@ export default function ContactForm() {
     setErrors({ ...errors, [name]: "" });
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+const handleSubmit = async (e) => {
+  e.preventDefault();
 
-    const validationErrors = validate();
+  const validationErrors = validate();
 
-    if (Object.keys(validationErrors).length > 0) {
-      setErrors(validationErrors);
-      return;
+  if (Object.keys(validationErrors).length > 0) {
+    setErrors(validationErrors);
+    return;
+  }
+
+  try {
+  const response = await fetch("/api/contact", {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify({
+    name: formData.name,
+    email: formData.email,
+    phone: formData.phone,
+    message: formData.subject,
+  }),
+});
+
+    if (!response.ok) {
+      throw new Error("Server error: " + response.status);
     }
-
-   
 
     setShowPopup(true);
 
     setTimeout(() => {
       setShowPopup(false);
-      setFormData({
-        name: "",
-        phone: "",
-        email: "",
-        subject: "",
-      });
+      setFormData({ name: "", phone: "", email: "", subject: "" });
     }, 3000);
-  };
+
+  } catch (error) {
+    console.error("Form submission failed:", error);
+    alert("Something went wrong. Please try again.");
+  }
+};
 
   return (
-    <section className="max-w-7xl mx-auto min-h-screen bg-black text-white py-1 sm:py-2 md:py-10 relative">
+    <section className="max-w-7xl mx-auto min-h-[280px] sm:min-h-[500px] lg:min-h-[530px]  bg-black text-white py-1 sm:py-2 md:py-10 relative">
       <div
         className={`max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 transition-all duration-300 ${
           showPopup ? "blur-md pointer-events-none" : ""
@@ -101,14 +115,13 @@ export default function ContactForm() {
           <p className="flex justify-end text-4xl md:text-9xl anton-regularnew leading-tight font-bold uppercase">
             JUST
           </p>
-          <h3 className="flex justify-center  text-4xl md:text-9xl leading-tight anton-regularnew font-bold uppercase">
+          <h3 className="flex justify-end  text-4xl md:text-9xl leading-tight anton-regularnew font-bold uppercase">
             SEND IT.
           </h3>
           <div className="flex justify-center  w-full px-12 h-[2px] bg-gray-500 "></div>
           <div className="grid grid-cols-2 gap-6 global-text-style uppercase tracking-wider px-2 py-5">
             <p>
-              Connect with Promolecules™ for product guidance and collaboration
-              inquiries.
+              Connect with Promolecules™ for product guidance and collab.
             </p>
             <p>Reach us via email or official social platforms.</p>
           </div>

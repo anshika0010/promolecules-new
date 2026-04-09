@@ -12,10 +12,10 @@ export default function ContactheroSection() {
     <>
       {/* HERO SECTION */}
       <section
-        className="relative max-w-[1600px] mx-auto bg-cover bg-center flex items-center py-16 mt-6 md:py-0"
+        className="relative  bg-cover bg-center flex items-center py-2 sm:py-4 md:py-10 mt-6 md:py-0"
         style={{ backgroundImage: "url('/candle.webp')" }}
       >
-        <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 w-full">
+        <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 w-full max-w-[1600px] mx-auto">
 
           <h4 className="text-white text-4xl sm:text-6xl md:text-7xl lg:text-8xl creepster-regular uppercase ">
             <span className="text-gray-200">Get In </span>

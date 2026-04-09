@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useEffect, useState } from "react";
@@ -108,10 +109,10 @@ useEffect(() => {
                       alt={blog.name}
                       width={400}
                       height={400}
-                      className="absolute inset-0 w-full h-full object-cover opacity-70 hover:scale-110 transition-all duration-500"
+                      className="absolute inset-0 w-full h-full object-contain opacity-70 hover:scale-110 transition-all duration-500"
                     />
                     {/* Overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" />
+                    {/* <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" /> */}
 
                     {/* Content */}
                     <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-5 space-y-2">
