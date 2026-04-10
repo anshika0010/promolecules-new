@@ -103,7 +103,7 @@ const handleSubmit = async (e) => {
 };
 
   return (
-    <section className="max-w-7xl mx-auto min-h-[280px] sm:min-h-[500px] lg:min-h-[530px]  bg-black text-white py-1 sm:py-2 md:py-10 relative">
+    <section className="max-w-7xl mx-auto min-h-[280px] sm:min-h-[350px] lg:min-h-[530px]  bg-black text-white py-1 sm:py-2 md:py-10 relative">
       <div
         className={`max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 transition-all duration-300 ${
           showPopup ? "blur-md pointer-events-none" : ""
@@ -112,12 +112,13 @@ const handleSubmit = async (e) => {
         {/* LEFT SIDE (same as yours) */}
         <div className="space-y-0 mt-[160px]">
         
-          <p className="flex justify-end text-4xl md:text-9xl anton-regularnew leading-tight font-bold uppercase">
-            JUST
-          </p>
-          <h3 className="flex justify-end  text-4xl md:text-9xl leading-tight anton-regularnew font-bold uppercase">
-            SEND IT.
-          </h3>
+        <p className="flex justify-center md:justify-end text-4xl md:text-9xl anton-regularnew leading-tight font-bold uppercase">
+  JUST
+</p>
+
+<h3 className="flex justify-center md:justify-end text-4xl md:text-9xl leading-tight anton-regularnew font-bold uppercase">
+  SEND IT.
+</h3>
           <div className="flex justify-center  w-full px-12 h-[2px] bg-gray-500 "></div>
           <div className="grid grid-cols-2 gap-6 global-text-style uppercase tracking-wider px-2 py-5">
             <p>

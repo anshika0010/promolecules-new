@@ -121,7 +121,7 @@ useEffect(() => {
                         {blog.category?.name}
                       </span>
                       <h3 className="text-white anton-regular text-xs sm:text-sm font-bold line-clamp-1 mt-1">
-                        {blog.name} {/* ✅ blog.title → blog.name */}
+                        {blog.name} 
                       </h3>
                       <p className="global-text-style text-[9px] sm:text-[10px] md:text-xs leading-relaxed line-clamp-2 text-gray-400">
                         By {blog.author?.name} • {blog.publish_date}

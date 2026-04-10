@@ -23,7 +23,7 @@ const AboutPage = () => {
 
   
   return (
-    <section className="relative max-w-7xl mx-auto min-h-[70vh] md:min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6 lg:px-10">
+    <section className="relative max-w-7xl mx-auto min-h-[50vh] md:min-h-screen overflow-hidden flex items-center justify-center px-4 sm:px-6 lg:px-10">
 
       {/* Background Image */}
       <Image
@@ -37,7 +37,7 @@ const AboutPage = () => {
 
 
       {/* Main Content */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto py-12 sm:py-16 md:py-20">
+      <div className="relative z-10 w-full max-w-7xl mx-auto  sm:py-6 md:py-10">
 <h1 className="text-black text-start text-3xl creepster-regular font-bold uppercase p-4">
   About Promolecules™
 </h1>
