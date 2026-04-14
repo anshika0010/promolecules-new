@@ -109,14 +109,14 @@ export default function GrowthEvolution() {
       </section>
       <section className="relative max-w-[1600px] mx-auto min-h-screen bg-black text-white px-3 md:px-4 py-0 md:py-5 mb-6 overflow-hidden">
         {/* Content Grid */}
-        <div className="flex flex-col md:grid md:grid-cols-2 gap-2 items-center px-6">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-2  ">
           {/* Red Tagline */}
-          <p className="text-red-600 leading-tight flex items-start creepster-regular uppercase text-[22px] sm:text-[28px] md:text-[36px] lg:text-[42px] tracking-wider leading-snug text-center">
+          <p className="text-red-600 leading-tight flex items-start creepster-regular uppercase text-[22px] sm:text-[28px] md:text-[36px] lg:text-[42px] tracking-wider leading-snug ">
             Born From Science <br className="hidden sm:block" />
             Built For Performance
           </p>
 
-          <p className="text-gray-300 items-end  text-sm sm:text-xl md:text-xl text-center">
+          <p className="text-gray-300 items-end max-w-2xl mx-auto text-sm sm:text-xl md:text-xl text-center">
             Promolecules™ was not created to follow the supplement trend cycle.
             It was born from frustration inside real gym environments where
             serious lifters were forced to choose between two extremes.

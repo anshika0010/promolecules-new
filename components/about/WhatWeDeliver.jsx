@@ -25,6 +25,7 @@ export default function WhatWeDeliver() {
   ];
 
   return (
+    <>
     <section className="bg-black text-white max-w-7xl mx-auto border-t border-gray-800">
 
       {/* MIDDLE STATEMENT */}
@@ -41,7 +42,8 @@ export default function WhatWeDeliver() {
           <span className="text-red-600">Real Results</span>.
         </p>
       </div>
-
+      </section>
+<section className="bg-black text-white max-w-full mx-auto ">
       {/* OUR SERVICES TITLE */}
       <div className="border-b border-gray-800 py-3 sm:py-4 w-full text-center px-4">
         <h3 className="creepster-regular heading">
@@ -58,7 +60,7 @@ export default function WhatWeDeliver() {
       </div>
 
 {/* SERVICES GRID */}
-<div className="grid grid-cols-1 md:grid-cols-3 border-t border-gray-800 px-0 mb-4 md:mb-16">
+<div className="grid grid-cols-1 md:grid-cols-3 border-t border-gray-800 px-0 mb-4 md:mb-16 w-full">
   {services.map((service, index) => (
     <div
       key={index}
@@ -101,5 +103,6 @@ export default function WhatWeDeliver() {
   ))}
 </div>
     </section>
+    </>
   );
 }

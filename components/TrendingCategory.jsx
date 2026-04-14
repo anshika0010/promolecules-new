@@ -43,14 +43,15 @@ export default function TrendingCategory() {
     <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 lg:gap-10">
   
   {/* Left — Heading */}
-  <div className="flex-shrink-0">
-    <h2 className="creepster-regular heading leading-none text-start">
-      TRENDING <br />
-      <span className="creepster-regular heading leading-none ml-0 sm:ml-4 md:ml-[100px]">
-        CATEGORY
-      </span>
-    </h2>
-  </div>
+<div className="flex-shrink-0">
+  <h2 className="creepster-regular heading leading-none text-start">
+    TRENDING 
+    <br className="hidden sm:block" />
+    <span className="creepster-regular heading leading-none ml-4 sm:ml-4 md:ml-[100px]  p-2">
+      CATEGORY
+    </span>
+  </h2>
+</div>
 
   {/* Right — Para */}
   <div className="hidden md:flex justify-end max-w-[40%]">
@@ -60,7 +61,7 @@ export default function TrendingCategory() {
       ingredient purity, use under-dosed blends, or source unverified raw
       materials that deliver no real results.
     </p>
-  </div>
+  </div> 
 
 </div>
 

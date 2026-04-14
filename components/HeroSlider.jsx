@@ -11,7 +11,7 @@ const slides = [
     id: 1,
     productImage: "/thermo.webp",
     title: "Thermo-nuke-xt",
-    backgroundImage: "/thermoo nuke xt new banner .webp",
+    backgroundImage: "/thermoo nuke xt new banner .jpg",
     mobileBackgroundImage: "/thermo mobile.webp",
     link: "/product/thermo-nuke-xt/",
     description:
@@ -21,7 +21,7 @@ const slides = [
     id: 2,
     productImage: "/hydra.webp",
     title: "Hydrapump+",
-    backgroundImage: "/bannnerrr.webp",
+    backgroundImage: "/bannnerrr.jpg",
     mobileBackgroundImage: "/hydra-mobile.webp",
     link: "/product/hydrapump/",
     description:
