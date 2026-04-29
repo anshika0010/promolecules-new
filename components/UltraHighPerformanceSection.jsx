@@ -11,7 +11,7 @@ const UltraHighPerformanceSection = () => {
       title: " FOCUS",
       description:
         "Enhances clarity, reaction speed, and deep workout focus, designed to activate within 15 minutes.Stay locked in",
-      image: "/focus.webp",
+      image: "/focus.jpg",
       alt: "Razor Focus Skeleton",
     },
     {
@@ -19,7 +19,7 @@ const UltraHighPerformanceSection = () => {
       title: " ENERGY",
       description:
         "Multi-phase stimulation for fast activation and smooth, sustained energy without sudden drop-offs.Power every set",
-      image: "/energy.webp",
+      image: "/energy.jpg",
       alt: "Extreme Energy Skeleton",
     },
     {
@@ -27,7 +27,7 @@ const UltraHighPerformanceSection = () => {
       title: "StRENGTH ",
       description:
         "Supports explosive power, endurance, and stronger lifts while driving full-body activation that naturally pushes muscle output higher..",
-      image: "/strength.webp",
+      image: "/strength.jpg",
       alt: "Strength and Stamina Anatomy",
     },
   ];
@@ -61,30 +61,30 @@ const UltraHighPerformanceSection = () => {
             <div key={feature.id} className="group relative">
               <div className="space-y-6 text-center">
                 {/* ✅ Image FIRST */}
-                <motion.div
-                  initial={{ y: 80, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true, amount: 0.3 }}
-                  transition={{
-                    duration: 0.8,
-                    ease: [0.22, 1, 0.36, 1],
-                  }}
-                  className="relative mx-auto max-w-xs sm:max-w-sm md:max-w-md"
-                >
-                  <div className="relative px-6 sm:px-10 lg:px-16 rounded-lg">
-                    <div className="relative bg-black p-1 rounded-lg">
-                      <div className="relative aspect-[3/4] rounded-lg overflow-hidden">
-                        <Image
-                          src={feature.image}
-                          alt={feature.alt}
-                          fill
-                          className="object-contain transition-all duration-500 group-hover:scale-95"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
-                      </div>
-                    </div>
-                  </div>
-                </motion.div>
+             <motion.div
+  initial={{ y: 80, opacity: 0 }}
+  whileInView={{ y: 0, opacity: 1 }}
+  viewport={{ once: true, amount: 0.3 }}
+  transition={{
+    duration: 0.8,
+    ease: [0.22, 1, 0.36, 1],
+  }}
+  className="relative mx-auto w-full max-w-2xl"
+>
+  <div className="relative rounded-lg">
+    <div className="relative bg-black p-2 rounded-lg">
+      <div className="relative aspect-[9/16] rounded-lg overflow-hidden">
+        <Image
+          src={feature.image}
+          alt={feature.alt}
+          fill
+          className="object-contain transition-all duration-500 group-hover:scale-95"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
+      </div>
+    </div>
+  </div>
+</motion.div>
 
                 {/* ✅ Title */}
                 <h3

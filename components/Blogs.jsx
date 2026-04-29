@@ -6,8 +6,9 @@ import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay,  } from "swiper/modules";
+import { Autoplay } from "swiper/modules";
 import "swiper/css";
+
 import Image from "next/image";
 
 const Blogs = () => {
@@ -78,7 +79,7 @@ useEffect(() => {
         {/* Swiper */}
         {!loading && blogs.length > 0 && (
           <Swiper
-            modules={[Autoplay, ]}
+            modules={[Autoplay]}
             autoplay={{
               delay: 2000,
               disableOnInteraction: false,
