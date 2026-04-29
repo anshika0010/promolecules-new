@@ -6,9 +6,8 @@ import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
+import { Autoplay,  } from "swiper/modules";
 import "swiper/css";
-import "swiper/css/pagination";
 import Image from "next/image";
 
 const Blogs = () => {
@@ -33,7 +32,7 @@ useEffect(() => {
 }, []);
 
   return (
-    <section className="relative bg-black py-4 sm:py-6 md:py-4 max-w-7xl mx-auto overflow-hidden">
+    <section className="relative bg-black py-4 sm:py-6 md:py-4 max-w-[1600px] mx-auto overflow-hidden">
       <style>{`
         .blogs-swiper .swiper-pagination { bottom: 0px; }
         .blogs-swiper .swiper-pagination-bullet {
@@ -79,13 +78,13 @@ useEffect(() => {
         {/* Swiper */}
         {!loading && blogs.length > 0 && (
           <Swiper
-            modules={[Autoplay, Pagination]}
+            modules={[Autoplay, ]}
             autoplay={{
               delay: 2000,
               disableOnInteraction: false,
               pauseOnMouseEnter: true,
             }}
-            pagination={{ clickable: true }}
+         
             loop={true}
             spaceBetween={16}
             slidesPerView={1.15}
@@ -101,15 +100,15 @@ useEffect(() => {
           >
             {blogs.map((blog) => (
               <SwiperSlide key={blog.id}>
-                <Link href={`/blog/${blog.slug}`} className="cursor-pointer block">
+                <Link href={`/blog/${blog.slug}`} className="cursor-pointer block ">
                   {/* Card Image */}
-                  <div className="relative h-[220px] sm:h-[260px] md:h-[290px] lg:h-[300px] rounded-2xl overflow-hidden mb-3 sm:mb-4">
+                  <div className="relative h-[220px] sm:h-[260px] md:h-[290px] lg:h-[300px] rounded-xl rounded-2xl overflow-hidden mb-3 sm:mb-4">
                     <Image
                       src={blog.featured_image || "/dummyimage.webp"} 
                       alt={blog.name}
                       width={400}
                       height={400}
-                      className="absolute inset-0 w-full h-full object-contain opacity-70 hover:scale-110 transition-all duration-500"
+                      className="absolute inset-0 w-full h-full object-contain rounded-xl opacity-70 hover:scale-110 transition-all duration-500"
                     />
                     {/* Overlay */}
                     {/* <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent" /> */}

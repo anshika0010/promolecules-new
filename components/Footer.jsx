@@ -72,12 +72,11 @@ suggested dosage.
               CATEGORIES
             </h3>
             <nav className="flex flex-col gap-1 sm:gap-2 global-text-style">
-              <FooterLink href="/shop" label="ESSENTIAL" />
+             
               <FooterLink href="/product/" label="PREWORKOUT" />
               <FooterLink href="/shop" label="FAT BURNER" />
-              <FooterLink href="/shop" label="PROTEIN" />
-              <FooterLink href="/shop" label="GAINER" />
-              <FooterLink href="/shop" label="TEST BOOSTER" />
+       
+             
               <FooterLink href="/merch" label="MERCHANDISE" />
             </nav>
           </div>
