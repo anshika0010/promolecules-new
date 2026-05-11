@@ -38,7 +38,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {/* ❌ No manual <head> tag here */}
-      <body className={`${geistSans.variable} ${geistMono.variable} ${gloomyFont.variable} antialiased`}>
+      <body   suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} ${gloomyFont.variable} antialiased`}>
 
         {/* ── Google Tag Manager Script ── */}
         <Script
