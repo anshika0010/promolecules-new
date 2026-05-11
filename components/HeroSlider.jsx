@@ -48,7 +48,7 @@ const HeroSlider = () => {
       href={slide.link}
       className={`group flex items-center gap-2 bg-black border-2 border-white/30 hover:border-white/60 text-white px-6 py-2 rounded-full transition-all duration-300 hover:bg-white/5 ${className}`}
     >
-      <span className="font-bold text-sm tracking-wider">BUY NOW</span>
+      {/* <span className="font-bold text-sm tracking-wider">BUY NOW</span> */}
       <div className="bg-white/20 group-hover:bg-white/30 p-2 rounded-full transition-colors">
         <ChevronRight size={14} />
       </div>

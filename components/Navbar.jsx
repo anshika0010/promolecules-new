@@ -127,13 +127,13 @@ const Navbar = () => {
             </button>
 
             {/* Cart — visible md+ */}
-            <button
+            {/* <button
               onClick={() => setCartOpen(true)}
               className={`${iconBtn} hidden md:flex p-3 sm:p-3.5`}
               aria-label="View shopping cart"
             >
               <ShoppingCart size={18} className="text-white sm:w-5 sm:h-5" />
-            </button>
+            </button> */}
 
             {/* Hamburger — visible below lg (but on mobile only; tablet shows links above) */}
             <button
@@ -182,14 +182,14 @@ const Navbar = () => {
                 <Search size={18} className="text-white" />
                 <span className="text-white text-xs font-semibold tracking-widest">SEARCH</span>
               </button>
-              <button
+              {/* <button
                 onClick={() => { setCartOpen(true); setIsOpen(false); }}
                 className={`${iconBtn} flex-1 gap-2 py-3`}
                 aria-label="View shopping cart"
               >
                 <ShoppingCart size={18} className="text-white" />
                 <span className="text-white text-xs font-semibold tracking-widest">CART</span>
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
@@ -223,21 +223,21 @@ const Navbar = () => {
               Your Cart
             </span>
           </div>
-          <button
+          {/* <button
             onClick={() => setCartOpen(false)}
             className="text-white/50 hover:text-white transition-colors bg-white/5 hover:bg-white/10 p-2 rounded-full"
             aria-label="Close cart"
           >
             <X size={16} />
-          </button>
+          </button> */}
         </div>
 
         {/* Body */}
         <div className="flex-1 flex flex-col items-center justify-center px-6 sm:px-8 text-center gap-5 sm:gap-6">
           <div className="relative">
-            <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-red-600/10 border border-red-500/20 flex items-center justify-center">
+            {/* <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-full bg-red-600/10 border border-red-500/20 flex items-center justify-center">
               <ShoppingCart size={28} className="text-red-500 sm:w-8 sm:h-8" />
-            </div>
+            </div> */}
             <span className="absolute inset-0 rounded-full border border-red-500/30 animate-ping" />
           </div>
 
