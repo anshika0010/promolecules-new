@@ -18,7 +18,7 @@ const posts = [
   {
     id: 1,
     title: "DON’T GET SOFT",
-   image: "/blog1.webp",
+    image: "/blog1.webp",
     desc: "An effective pre workout formula to help you increase muscle mass.",
   },
   {
@@ -36,19 +36,19 @@ const posts = [
   {
     id: 4,
     title: "PUMP-AFTER",
-   image: "/blog3.webp",
+    image: "/blog3.webp",
     desc: "Unlock insane muscle pumps with this advanced stack.",
   },
   {
     id: 5,
     title: "THE BEST CHEST WORKOUT FOR MASS",
-   image: "/blog2.webp",
+    image: "/blog2.webp",
     desc: "Advanced chest routines to build strength and volume.",
   },
   {
     id: 6,
     title: "THE BEST CHEST WORKOUT FOR MASS",
-   image: "/blog1.webp",
+    image: "/blog1.webp",
     desc: "Boost endurance and muscle density with smart training.",
   },
 ];
@@ -56,90 +56,82 @@ const posts = [
 export default function BlogGrid() {
   return (
     <section className="max-w-7xl mx-auto bg-black text-white py-2 px-6">
-    
-        
- {/* CATEGORY FILTERS */}
-<div className="w-full overflow-x-auto mb-16">
-  <div className="flex flex-nowrap justify-start md:justify-center gap-4 min-w-max px-2">
-    {categories.map((cat, index) => (
-      <button
-        key={index}
-        className={`px-6 py-2 rounded-full text-xs uppercase tracking-wider whitespace-nowrap transition ${
-          index === 0
-            ? "bg-red-600 text-white"
-            : "border border-white/20 text-white/70 hover:border-red-600 hover:text-white"
-        }`}
-      >
-        {cat}
-      </button>
-    ))}
-  </div>
-</div>
-
-        {/* BLOG GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {posts.map((post) => (
-            <div
-              key={post.id}
-              className="group relative overflow-hidden bg-black rounded-lg"
+      {/* CATEGORY FILTERS */}
+      <div className="w-full overflow-x-auto mb-16">
+        <div className="flex flex-nowrap justify-start md:justify-center gap-4 min-w-max px-2">
+          {categories.map((cat, index) => (
+            <button
+              key={index}
+              className={`px-6 py-2 rounded-full text-xs uppercase tracking-wider whitespace-nowrap transition ${
+                index === 0
+                  ? "bg-red-600 text-white"
+                  : "border border-white/20 text-white/70 hover:border-red-600 hover:text-white"
+              }`}
             >
-              {/* Image */}
-              <div className="relative h-60 w-full overflow-hidden">
-                <Image
-                  src={post.image || "/blogdummy.webp"} 
-                  alt={post.title}
-                  fill
-                  className="object-cover transition-transform duration-500 group-hover:scale-110"
-                />
+              {cat}
+            </button>
+          ))}
+        </div>
+      </div>
 
-                {/* Red Overlay */}
-                <div className="absolute inset-0 bg-red-600/60 mix-blend-multiply group-hover:bg-red-600/40 transition" />
-              </div>
+      {/* BLOG GRID */}
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {posts.map((post) => (
+          <div
+            key={post.id}
+            className="group relative overflow-hidden bg-black rounded-lg"
+          >
+            {/* Image */}
+            <div className="relative h-60 w-full overflow-hidden">
+              <Image
+                src={post.image || "/blogdummy.webp"}
+                alt={post.title}
+                fill
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
 
-              {/* Content */}
-              <div className="absolute bottom-0 p-6 w-full">
-                <h3 className="text-xs font-bold uppercase mb-2">
-                  {post.title}
-                </h3>
-                <p className="text-xs text-white/80 mb-4">
-                  {post.desc}
-                </p>
-<Link href={"/blogs"}>                <button className="flex items-center gap-2 bg-red-600 text-xs px-4 py-1 rounded-full uppercase tracking-wide hover:bg-red-700 transition">
+              {/* Red Overlay */}
+              <div className="absolute inset-0 bg-red-600/60 mix-blend-multiply group-hover:bg-red-600/40 transition" />
+            </div>
+
+            {/* Content */}
+            <div className="absolute bottom-0 p-6 w-full">
+              <h3 className="text-xs font-bold uppercase mb-2">{post.title}</h3>
+              <p className="text-xs text-white/80 mb-4">{post.desc}</p>
+              <Link href={"/blogs"}>
+                {" "}
+                <button className="flex items-center gap-2 bg-red-600 text-xs px-4 py-1 rounded-full uppercase tracking-wide hover:bg-red-700 transition">
                   Learn More
                   <ChevronRight size={14} />
                 </button>
-                </Link>
-
-                
-
-              </div>
+              </Link>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
+      </div>
 
-        {/* PAGINATION */}
-        <div className="flex justify-center items-center gap-4 mt-16 text-sm">
-          <button className="text-white/50 hover:text-white">&lt;</button>
+      {/* PAGINATION */}
+      <div className="flex justify-center items-center gap-4 mt-16 text-sm">
+        <button className="text-white/50 hover:text-white">&lt;</button>
 
-          {[1, 2, 3, 4].map((num) => (
-            <button
-              key={num}
-              className={`w-8 h-8 flex items-center justify-center rounded-full transition ${
-                num === 1
-                  ? "bg-red-600 text-white"
-                  : "text-white/70 hover:text-white"
-              }`}
-            >
-              {num}
-            </button>
-          ))}
+        {[1, 2, 3, 4].map((num) => (
+          <button
+            key={num}
+            className={`w-8 h-8 flex items-center justify-center rounded-full transition ${
+              num === 1
+                ? "bg-red-600 text-white"
+                : "text-white/70 hover:text-white"
+            }`}
+          >
+            {num}
+          </button>
+        ))}
 
-          <span className="text-white/50">...</span>
-          <button className="text-white/70 hover:text-white">29</button>
+        <span className="text-white/50">...</span>
+        <button className="text-white/70 hover:text-white">29</button>
 
-          <button className="text-white/50 hover:text-white">&gt;</button>
-        </div>
-     
+        <button className="text-white/50 hover:text-white">&gt;</button>
+      </div>
     </section>
   );
 }
