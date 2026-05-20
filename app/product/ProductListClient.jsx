@@ -53,11 +53,11 @@ function ProductCard({ product }) {
             <span className="text-white font-black text-sm sm:text-2xl">
               ${product.servings?.[0]?.price}
             </span>
-            {/* <Link href={`/product/${product.slug}`}>
+            <Link href={`/product/${product.slug}`}>
               <button className="bg-red-600 hover:bg-red-500 text-white text-[10px] sm:text-xs font-black tracking-widest px-3 sm:px-4 py-2 rounded-xl transition-all active:scale-95 whitespace-nowrap">
                 BUY NOW
               </button>
-            </Link> */}
+            </Link>
           </div>
         </div>
 

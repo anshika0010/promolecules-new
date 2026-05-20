@@ -428,18 +428,18 @@ export default function ProductDetail({ product }) {
 
               {/* CTA Buttons */}
               <div className="flex flex-row gap-3 pt-1">
-                {/* <button
+                <button
                   onClick={handleAddToCart}
                   className="flex-1 border-2 border-white py-3 font-bold tracking-[2px] sm:tracking-[3px] rounded-xl uppercase hover:bg-white hover:text-black transition text-sm sm:text-base"
                 >
                   Add To Cart
-                </button> */}
-                {/* <button
+                </button> 
+                 <button
                   onClick={handleBuyNow}
                   className="flex-1 bg-red-600 border-2 border-red-600 py-3 font-bold tracking-[2px] sm:tracking-[3px] rounded-xl uppercase hover:bg-red-700 transition text-sm sm:text-base"
                 >
                   Buy Now
-                </button> */}
+                </button>
               </div>
 
               {/* Supplement Facts */}

@@ -171,13 +171,13 @@ export default function ProductDetail() {
 
             {/* Buttons */}
             <div className="flex flex-col gap-4">
-              {/* <button className="w-full py-4 bg-black border border-gray-700 rounded-lg font-bold hover:bg-gray-900 transition">
+              <button className="w-full py-4 bg-black border border-gray-700 rounded-lg font-bold hover:bg-gray-900 transition">
                 ADD TO CART
-              </button> */}
+              </button>
 
-              {/* <button className="w-full py-4 bg-red-600 rounded-lg font-bold hover:bg-red-700 transition">
+              <button className="w-full py-4 bg-red-600 rounded-lg font-bold hover:bg-red-700 transition">
                 BUY NOW
-              </button> */}
+              </button>
             </div>
           </div>
         </div>

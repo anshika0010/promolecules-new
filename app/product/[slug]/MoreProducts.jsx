@@ -53,11 +53,11 @@ export default function MoreProducts() {
                 </div>
 
                 {/* Button */}
-                {/* <button
+                <button
                   className="w-full sm:w-auto border border-white px-5 py-2 text-xs tracking-wider uppercase hover:bg-white hover:text-black transition"
                 >
                   Add To Cart
-                </button> */}
+                </button>
 
               </div>
             </Link>

@@ -66,9 +66,9 @@ export default function WarflexHero() {
             Category: Preworkout
           </div>
 
-          {/* <button className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md font-semibold transition duration-300 shadow-lg">
+          <button className="bg-blue-600 hover:bg-blue-700 px-6 py-3 rounded-md font-semibold transition duration-300 shadow-lg">
             BUY NOW
-          </button> */}
+          </button>
 
           {/* FLAVOURS */}
           <div className="mt-8">
