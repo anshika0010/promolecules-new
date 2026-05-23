@@ -3,6 +3,7 @@ import HeroSlider from "@/components/HeroSlider";
 import Testimonials from "@/components/TestimonialsSection";
 import TrendingCategory from "@/components/TrendingCategory";
 import UltraHighPerformanceSection from "@/components/UltraHighPerformanceSection";
+import VideoHeroSection from "@/components/VideoHeroSection";
 import WarningTape from "@/components/WarningTape";
 import WhoWeAreSection from "@/components/WhoWeAreSection";
 import { getSEOMetadata, getJSONLD } from "@/lib/seo";
@@ -25,6 +26,7 @@ export default function Home() {
 
       <HeroSlider />
       <WhoWeAreSection />
+      <VideoHeroSection/>
       <UltraHighPerformanceSection />
       <WarningTape />
       <TrendingCategory />

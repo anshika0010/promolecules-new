@@ -488,7 +488,7 @@ export default function ProductDetail({ product }) {
       {/* ── Accordion Section ── */}
       <section className="max-w-7xl mx-auto bg-black text-white py-10 sm:py-16 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-10 items-start">
-          {/* Product image */}
+          {/* Product image */}  
           <div className="flex justify-center">
             <Image
               src={product.images[2] || product.images[0]}
