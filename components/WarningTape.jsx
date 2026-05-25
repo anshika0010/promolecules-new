@@ -110,13 +110,13 @@ function TapeText() {
     <div className="flex creepster-regular text-base sm:text-lg lg:text-2xl font-bold gap-8 sm:gap-12 lg:gap-16 px-6 sm:px-8 lg:px-10">
       <span>Father of Insane</span>
       <span>Warning</span>
-      <span>Thermo Nuker XT</span>
-      <span>Intimidator</span>
+      <span>Thermo Nuke XT</span>
+      <span>Warflex</span>
       <span>Hydra Pump</span>
           <span>Father of Insane</span>
       <span>Warning</span>
-      <span>Thermo Nuker XT</span>
-      <span>Intimidator</span>
+      <span>Thermo Nuke XT</span>
+      <span>Warflex</span>
       <span>Hydra Pump</span>
     </div>
   );
