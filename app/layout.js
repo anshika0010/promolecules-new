@@ -6,6 +6,7 @@ import WhatsAppButton from "@/components/WhatsAppButton";
 import Script from "next/script";
 import PreloaderWrapper from "@/components/PreloaderWrapper";
 import localFont from "next/font/local";
+import CountryPopup from "@/components/CountryPopup";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -62,7 +63,7 @@ export default function RootLayout({ children }) {
             style={{ display: "none", visibility: "hidden" }}
           />
         </noscript>
-
+<CountryPopup/>
         <PreloaderWrapper>
           <div className="pt-[50px] bg-black">
             <Navbar />

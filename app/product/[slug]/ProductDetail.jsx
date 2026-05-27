@@ -147,50 +147,103 @@ function CartPopup({ isOpen, onClose, product, flavour, quantity, mode }) {
           </div>
         </div>
 
-        {/* Flipkart / Coming Soon */}
-        <div className="px-4 sm:px-6 py-4">
-          {product?.flipkartLink ? (
-            <div className="bg-[#111] border border-neutral-800 rounded-xl px-4 py-3 flex items-center justify-between hover:border-red-600 transition">
-              <div>
-                <h3 className="text-sm font-semibold text-white">
-                  Buy on Flipkart
-                </h3>
-                <p className="text-xs text-gray-400 mt-0.5">
-                  Purchase securely from Flipkart.
-                </p>
-              </div>
+    {/* Store Links Section */}
+<div className="px-4 sm:px-6 py-4 space-y-4">
 
-              {/* ✅ FIXED */}
-              <a
-                href={product.flipkartLink}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="bg-yellow-400 text-black px-3 py-2 rounded-lg text-sm font-semibold hover:bg-yellow-300 transition shrink-0 ml-3"
-              >
-                Buy Now
-              </a>
-            </div>
-          ) : (
-            <div className="bg-[#111] border border-neutral-800 rounded-xl p-4 sm:p-6">
-              <h3 className="text-base sm:text-lg font-semibold text-white">
-                Launching Soon...
-              </h3>
-              <p className="text-xs sm:text-sm text-gray-400 mt-1">
-                This product will be available on Flipkart soon.
-              </p>
+  {/* Flipkart */}
+  {product?.flipkartLink && (
+    <div className="bg-[#111] border border-neutral-800 rounded-xl px-4 py-3 flex items-center justify-between hover:border-blue-500 transition">
+      <div>
+        <h3 className="text-sm font-semibold text-white">
+          Buy on Flipkart
+        </h3>
+        <p className="text-xs text-gray-400 mt-0.5">
+          Purchase securely from Flipkart.
+        </p>
+      </div>
 
-              {/* ✅ FIXED */}
-              <a
-                href="https://wa.me/17867892121"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-green-400 hover:text-green-300 transition"
-              >
-                <FaWhatsapp size={15} /> WhatsApp us for early access
-              </a>
-            </div>
-          )}
-        </div>
+      <a
+        href={product.flipkartLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-yellow-400 text-black px-3 py-2 rounded-lg text-sm font-semibold hover:bg-yellow-300 transition shrink-0 ml-3"
+      >
+        Buy Now
+      </a>
+    </div>
+  )}
+
+  {/* Amazon */}
+  {product?.amazonLink && (
+    <div className="bg-[#111] border border-neutral-800 rounded-xl px-4 py-3 flex items-center justify-between hover:border-orange-500 transition">
+      <div>
+        <h3 className="text-sm font-semibold text-white">
+          Buy on Amazon
+        </h3>
+        <p className="text-xs text-gray-400 mt-0.5">
+          Fast & secure purchase from Amazon.
+        </p>
+      </div>
+
+      <a
+        href={product.amazonLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-orange-400 text-black px-3 py-2 rounded-lg text-sm font-semibold hover:bg-orange-300 transition shrink-0 ml-3"
+      >
+        Buy Now
+      </a>
+    </div>
+  )}
+
+  {/* Cost2Cost */}
+  {product?.cost2cost && (
+    <div className="bg-[#111] border border-neutral-800 rounded-xl px-4 py-3 flex items-center justify-between hover:border-green-500 transition">
+      <div>
+        <h3 className="text-sm font-semibold text-white">
+          Buy on Cost2Cost
+        </h3>
+        <p className="text-xs text-gray-400 mt-0.5">
+          Available on Cost2Cost Supplements.
+        </p>
+      </div>
+
+      <a
+        href={product.cost2cost}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-green-400 text-black px-3 py-2 rounded-lg text-sm font-semibold hover:bg-green-300 transition shrink-0 ml-3"
+      >
+        Buy Now
+      </a>
+    </div>
+  )}
+
+  {/* If no links available */}
+  {!product?.flipkartLink &&
+    !product?.amazonLink &&
+    !product?.cost2cost && (
+      <div className="bg-[#111] border border-neutral-800 rounded-xl p-4 sm:p-6">
+        <h3 className="text-base sm:text-lg font-semibold text-white">
+          Launching Soon...
+        </h3>
+
+        <p className="text-xs sm:text-sm text-gray-400 mt-1">
+          This product will be available soon.
+        </p>
+
+        <a
+          href="https://wa.me/17867892121"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-2 mt-4 text-sm font-semibold text-green-400 hover:text-green-300 transition"
+        >
+          <FaWhatsapp size={15} />
+          WhatsApp us for early access
+        </a>
+      </div>
+    )}
+</div>
       </div>
     </>
   );
@@ -327,9 +380,9 @@ export default function ProductDetail({ product }) {
                 {product.title}
               </p>
               {/* Price */}
-              <div className="text-xl sm:text-4xl font-black leading-none text-white">
+              {/* <div className="text-xl sm:text-4xl font-black leading-none text-white">
                 ${selectedServing?.price}
-              </div>
+              </div> */}
 
               {/* Flavours */}
               <div>
@@ -428,12 +481,12 @@ export default function ProductDetail({ product }) {
 
               {/* CTA Buttons */}
               <div className="flex flex-row gap-3 pt-1">
-                <button
+                {/* <button
                   onClick={handleAddToCart}
                   className="flex-1 border-2 border-white py-3 font-bold tracking-[2px] sm:tracking-[3px] rounded-xl uppercase hover:bg-white hover:text-black transition text-sm sm:text-base"
                 >
                   Add To Cart
-                </button> 
+                </button>  */}
                  <button
                   onClick={handleBuyNow}
                   className="flex-1 bg-red-600 border-2 border-red-600 py-3 font-bold tracking-[2px] sm:tracking-[3px] rounded-xl uppercase hover:bg-red-700 transition text-sm sm:text-base"

@@ -124,9 +124,9 @@ export default function ProductDetail() {
             {/* Price */}
             <div className="flex items-center gap-4 mb-6">
               <span className="text-3xl font-bold"> $49.00</span>
-              <span className="line-through text-gray-400 text-xl">
+              {/* <span className="line-through text-gray-400 text-xl">
                 $50.00
-              </span>
+              </span> */}
             </div>
 
             {/* Description */}
@@ -171,9 +171,9 @@ export default function ProductDetail() {
 
             {/* Buttons */}
             <div className="flex flex-col gap-4">
-              <button className="w-full py-4 bg-black border border-gray-700 rounded-lg font-bold hover:bg-gray-900 transition">
+              {/* <button className="w-full py-4 bg-black border border-gray-700 rounded-lg font-bold hover:bg-gray-900 transition">
                 ADD TO CART
-              </button>
+              </button> */}
 
               <button className="w-full py-4 bg-red-600 rounded-lg font-bold hover:bg-red-700 transition">
                 BUY NOW

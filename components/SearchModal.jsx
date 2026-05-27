@@ -149,9 +149,9 @@ export default function SearchModal({ isOpen, onClose }) {
 
                     {/* Price + Arrow */}
                     <div className="flex items-center gap-3 shrink-0">
-                      <span className="text-white font-black text-sm sm:text-base">
+                      {/* <span className="text-white font-black text-sm sm:text-base">
                         ${product.price}
-                      </span>
+                      </span> */}
                       <ArrowRight
                         size={16}
                         className="text-white/20 group-hover:text-red-500 group-hover:translate-x-1 transition-all duration-200"
