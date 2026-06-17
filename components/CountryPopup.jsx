@@ -40,7 +40,7 @@ export default function CountryPopup() {
           {/* INDIA */}
           <button
             onClick={() =>
-              handleSelect("india", "https://promolecules.com")
+              handleSelect("india", "https://promolecules.co.in")
             }
             className="bg-orange-500 hover:bg-orange-400 text-white font-semibold py-3 rounded-xl transition"
           >
@@ -50,7 +50,7 @@ export default function CountryPopup() {
           {/* US */}
           <button
             onClick={() =>
-              handleSelect("us", "https://promolecules.co.in")
+              handleSelect("us", "https://promolecules.com")
             }
             className="bg-blue-500 hover:bg-blue-400 text-white font-semibold py-3 rounded-xl transition"
           >

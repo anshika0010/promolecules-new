@@ -72,15 +72,15 @@ const UltraHighPerformanceSection = () => {
   className="relative mx-auto w-full max-w-2xl"
 >
   <div className="relative rounded-lg">
-    <div className="relative bg-black p-2 rounded-lg">
-      <div className="relative aspect-[9/16] rounded-lg overflow-hidden">
+    <div className="relative bg-black  rounded-lg">
+      <div className="relative aspect-[9/12] rounded-lg overflow-hidden">
         <Image
           src={feature.image}
           alt={feature.alt}
           fill
           className="object-contain transition-all duration-500 group-hover:scale-95"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent mix-blend-multiply" />
+        <div className="absolute inset-0 bg-gradient-to-t from-red-950/60 via-red-900/20 to-transparent " />
       </div>
     </div>
   </div>

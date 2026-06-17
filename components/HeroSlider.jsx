@@ -27,6 +27,16 @@ const slides = [
     description:
       "Experience liquid glycerol pump, extreme muscle fullness, rapid hydration, enhanced vascularity, and endurance without caffeine for peak performance every workout",
   },
+    {
+    id: 3,
+    productImage: "/father-of-insane-pre-workout-65-Servings.webp",
+    title: "Father of Insane",
+    backgroundImage: "/Father-of-insane.webp",
+    mobileBackgroundImage: "/father-of-insane-mob.webp",
+    link: "/product/father-of-insane/",
+    description:
+      "Father of Insane™ is built for athletes who need more than just energy. It activates your central nervous system, sharpens focus into tunnel vision, and drives explosive strength output from your very first set.",
+  },  
 ];
 
 const HeroSlider = () => {

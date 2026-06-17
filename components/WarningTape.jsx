@@ -35,7 +35,7 @@ export default function WarningTape() {
   <div className="hidden md:block">
 
     {/* Top Right Text */}
-    <div className="absolute top-40 right-8 lg:top-50 lg:right-12 max-w-md text-right z-20">
+    <div className="absolute top-40 right-8 lg:top-50 lg:right-30 max-w-md text-right z-20">
       <h4 className="text-red-600 font-bold text-xl text-base  ">
         The Hidden Supplement Crisis
       </h4>
@@ -46,7 +46,7 @@ export default function WarningTape() {
     </div>
 
     {/* Bottom Left Text */}
-    <div className="absolute bottom-10 left-10 max-w-md z-20">
+    <div className="absolute bottom-30 left-40 max-w-md z-20">
       <p className="text-red-600 font-bold text-xl text-base mb-1 ">
         Important Safety Information
       </p>

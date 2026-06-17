@@ -39,17 +39,16 @@ export default function BlogDetailClient({ blog }) {
       <Navbar />
 
       {/* HERO */}
-      <section className=" w-full h-[60vh]  overflow-hidden">
-        <Image
-          src={blog.featured_image ?? "/blogdummy.webp"}
-          alt={blog.name}
-          fill
-          priority
-          className="object-contain brightness-40 "
-        />
+      <section className="relative w-full h-[60vh]  overflow-hidden">
+    <Image
+  src={blog.featured_image ?? "/blogdummy.webp"}
+  alt={blog.name}
+  fill
+  priority
+  className="object-contain brightness-40 z-0"
+/>
 
-        <div className="absolute inset-0 z-20 flex flex-col justify-end pb-12 px-6 max-w-4xl mx-auto left-0 right-0 w-full">
-          <div className="flex items-center gap-3 mb-5 text-xs uppercase tracking-widest">
+<div className="absolute inset-0 z-20 flex flex-col justify-end pb-12 px-6 max-w-4xl mx-auto left-0 right-0 w-full">          <div className="flex items-center gap-3 mb-5 text-xs uppercase tracking-widest">
             <span className="bg-red-600 text-white px-3 py-1 font-bold">
               {blog.category?.name ?? "Blog"}
             </span>
@@ -80,7 +79,7 @@ export default function BlogDetailClient({ blog }) {
       </section>
 
       {/* CONTENT */}
-      <div className="max-w-6xl mx-auto px-6 py-14">
+      <div className=" relative max-w-7xl mx-auto px-6 py-14">
         
 
         <div className="w-full h-[2px] bg-gradient-to-r from-red-600 via-red-600/40 to-transparent mb-12" />
