@@ -50,6 +50,11 @@ export default async function sitemap() {
       priority: 0.9,
       changeFrequency: "daily",
     },
+    {
+      path: "/high-stim-pre-workout/",
+      priority: 0.9,
+      changeFrequency: "daily",
+    },
 
     {
       path: "/contact-us/",

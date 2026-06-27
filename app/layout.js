@@ -7,6 +7,8 @@ import Script from "next/script";
 import PreloaderWrapper from "@/components/PreloaderWrapper";
 import localFont from "next/font/local";
 import CountryPopup from "@/components/CountryPopup";
+
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],

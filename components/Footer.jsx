@@ -73,7 +73,7 @@ suggested dosage.
             </h3>
             <nav className="flex flex-col gap-1 sm:gap-2 global-text-style">
              
-              <FooterLink href="/product/" label="PREWORKOUT" />
+              <FooterLink href="/high-stim-pre-workout/" label="PREWORKOUT" />
               <FooterLink href="/shop" label="FAT BURNER" />
        
              
