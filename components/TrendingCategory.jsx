@@ -12,7 +12,7 @@ export default function TrendingCategory() {
       link: "/product/",
     },
     {
-      title: "FAT BURNER",
+      title: "FAT BURNER , ATP BOOSTER",
       desc: "Caffeine stack + yohimbine + thermogenics to drive metabolism, fat burn, and energy output.",
       image: "/product2.webp",
       hoverImage: "/hoverproduct.webp",

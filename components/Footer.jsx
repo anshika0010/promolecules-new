@@ -75,6 +75,7 @@ suggested dosage.
              
               <FooterLink href="/high-stim-pre-workout/" label="PREWORKOUT" />
               <FooterLink href="/shop" label="FAT BURNER" />
+              <FooterLink href="/shop" label="ATP BOOSTER" />
        
              
               <FooterLink href="/merch" label="MERCHANDISE" />
