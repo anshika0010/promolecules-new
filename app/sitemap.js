@@ -55,6 +55,11 @@ export default async function sitemap() {
       priority: 0.9,
       changeFrequency: "daily",
     },
+     {
+      path: "/hydrapump-liquid-glycerol-pre-workout-supplement/",
+      priority: 0.9,
+      changeFrequency: "daily",
+    },
 
     {
       path: "/contact-us/",
