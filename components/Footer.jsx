@@ -74,8 +74,10 @@ suggested dosage.
             <nav className="flex flex-col gap-1 sm:gap-2 global-text-style">
              
               <FooterLink href="/high-stim-pre-workout/" label="PREWORKOUT" />
+              <FooterLink href="/hydrapump-liquid-glycerol-pre-workout-supplement/" label="HYDRAPUMP" />
               <FooterLink href="/shop" label="FAT BURNER" />
               <FooterLink href="/shop" label="ATP BOOSTER" />
+              
        
              
               <FooterLink href="/merch" label="MERCHANDISE" />
