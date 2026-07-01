@@ -1,194 +1,214 @@
-import Image from "next/image";
+
+
+
 import React from "react";
-import { getSEOMetadata, getJSONLD } from "@/lib/seo";
+import {
+  Cookie,
+  ShieldCheck,
+  BarChart3,
+  Globe,
+  BadgePercent,
+  Building2,
+  Settings,
+  Database,
+  RefreshCw,
+  Mail,
+} from "lucide-react";
+ import { getSEOMetadata, getJSONLD } from "@/lib/seo";
 
 export const metadata = getSEOMetadata("cookiesPolicy");
 
-
 const CookiesPolicy = () => {
-
-    const jsonld = getJSONLD("cookiesPolicy");
-
-  return (
-    <>
-       {jsonld && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: jsonld }}
-        />
-      )}
-  <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-center px-4 sm:px-6">
-        {/* Background */}
-        <Image
-          src="/promolecules-about-banner.webp"
-          alt="Background"
-          fill
-        
-          className="object-cover"
-        />
-      <div className="max-w-4xl bg-black mx-auto  relative z-10 shadow-2xl rounded-2xl p-6 sm:p-10">
-
-        {/* Header */}
-        <div className="text-center mb-10">
-          <h1 className="text-3xl sm:text-4xl text-red-700 font-bold ">
-             COOKIES POLICY PROMOLECULES™
-          </h1>
-          <p className="mt-2 text-sm text-gray-500">
-            Last Updated: 10-02-2026
-          </p>
-        </div>
-
-        {/* Intro */}
-        <p className="text-gray-300 leading-relaxed mb-6">
-          This Cookies Policy explains how PROMOLECULES (“we”, “our”, “us”) 
-          uses cookies and similar tracking technologies on our website.
+  const jsonld = getJSONLD("cookiesPolicy");
+  const sections = [
+    {
+      icon: <Cookie size={28} />,
+      title: "1. What Are Cookies?",
+      content: (
+        <p>
+          Cookies are small text files stored on your device (computer, mobile,
+          tablet) when you visit a website. They help improve user experience
+          and allow websites to remember your actions or preferences over time.
         </p>
+      ),
+    },
+    {
+      icon: <ShieldCheck size={28} />,
+      title: "2. Types of Cookies We Use",
+      content: (
+        <>
+          <div className="space-y-6">
+            <div>
+              <h4 className="font-bold text-gray-900 mb-3">
+                2.1 Essential / Strictly Necessary Cookies
+              </h4>
 
-        <p className="text-gray-300 mb-8">
-          By using our website, you consent to the use of cookies as described 
-          in this policy.
-        </p>
+              <ul className="list-disc ml-6 space-y-2">
+                <li>Secure checkout</li>
+                <li>Site navigation</li>
+                <li>User login</li>
+                <li>Shopping cart functionality</li>
+              </ul>
 
-        <p className="text-gray-300 mb-8">
-          If you have any questions, you may contact us at:{" "}
-          <a
-            href="mailto:privacy@promolecules.com"
-            className="text-blue-400 underline hover:text-blue-300"
-          >
-            privacy@promolecules.com
-          </a>
-        </p>
+              <p className="mt-4 font-medium text-red-700">
+                Without these cookies, some features may not work properly.
+              </p>
+            </div>
 
-        {/* Section 1 */}
-        <Section title="1. What Are Cookies?">
-          <p>
-            Cookies are small text files stored on your device (computer, mobile, 
-            tablet) when you visit a website. They help improve user experience 
-            and allow websites to remember your actions or preferences over time.
-          </p>
-        </Section>
+            <div>
+              <h4 className="font-bold text-gray-900 mb-3">
+                2.2 Performance & Analytics Cookies
+              </h4>
 
-        {/* Section 2 */}
-        <Section title="2. Types of Cookies We Use">
+              <p className="mb-3">We use:</p>
 
-          <SubSection title="2.1 Essential / Strictly Necessary Cookies">
-            <ul className="list-disc list-inside space-y-2">
-              <li>Secure checkout</li>
-              <li>Site navigation</li>
-              <li>User login</li>
-              <li>Shopping cart functionality</li>
-            </ul>
-            <p className="mt-3">
-              Without these cookies, some features may not work properly.
-            </p>
-          </SubSection>
+              <ul className="list-disc ml-6 space-y-2">
+                <li>Google Analytics</li>
+                <li>Meta (Facebook) Pixel</li>
+              </ul>
 
-          <SubSection title="2.2 Performance & Analytics Cookies">
-            <p className="mb-3">We use:</p>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Google Analytics</li>
-              <li>Meta (Facebook) Pixel</li>
-            </ul>
+              <p className="mt-5 mb-3">
+                They collect information such as:
+              </p>
 
-            <p className="mt-4 mb-2">They collect information such as:</p>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Pages visited</li>
-              <li>Time spent on site</li>
-              <li>Click behavior</li>
-              <li>Device/browser information</li>
-            </ul>
-          </SubSection>
+              <ul className="list-disc ml-6 space-y-2">
+                <li>Pages visited</li>
+                <li>Time spent on site</li>
+                <li>Click behavior</li>
+                <li>Device/browser information</li>
+              </ul>
+            </div>
 
-          <SubSection title="2.3 Preference Cookies">
-            <ul className="list-disc list-inside space-y-2">
-              <li>Language preferences</li>
-              <li>Region</li>
-              <li>Login preferences</li>
-              <li>Previously viewed products</li>
-            </ul>
-          </SubSection>
+            <div>
+              <h4 className="font-bold text-gray-900 mb-3">
+                2.3 Preference Cookies
+              </h4>
 
-          <SubSection title="2.4 Advertising & Retargeting Cookies">
-            <p className="mb-3">Our advertising partners may include:</p>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Google Ads</li>
-              <li>Meta (Facebook & Instagram)</li>
-              <li>Other remarketing platforms</li>
-            </ul>
+              <ul className="list-disc ml-6 space-y-2">
+                <li>Language preferences</li>
+                <li>Region</li>
+                <li>Login preferences</li>
+                <li>Previously viewed products</li>
+              </ul>
+            </div>
 
-            <p className="mt-4 mb-2">These cookies:</p>
-            <ul className="list-disc list-inside space-y-2">
-              <li>Track browsing activity</li>
-              <li>Show personalized ads</li>
-              <li>Retarget you with items you viewed</li>
-            </ul>
-          </SubSection>
+            <div>
+              <h4 className="font-bold text-gray-900 mb-3">
+                2.4 Advertising & Retargeting Cookies
+              </h4>
 
-        </Section>
+              <p className="mb-3">
+                Our advertising partners may include:
+              </p>
 
-        {/* Section 3 */}
-        <Section title="3. Third-Party Cookies">
+              <ul className="list-disc ml-6 space-y-2">
+                <li>Google Ads</li>
+                <li>Meta (Facebook & Instagram)</li>
+                <li>Other remarketing platforms</li>
+              </ul>
+
+              <p className="mt-5 mb-3">These cookies:</p>
+
+              <ul className="list-disc ml-6 space-y-2">
+                <li>Track browsing activity</li>
+                <li>Show personalized ads</li>
+                <li>Retarget you with items you viewed</li>
+              </ul>
+            </div>
+          </div>
+        </>
+      ),
+    },
+    {
+      icon: <Building2 size={28} />,
+      title: "3. Third-Party Cookies",
+      content: (
+        <>
           <p className="mb-4">
-            Some cookies may be placed by third parties on our website, such as:
+            Some cookies may be placed by third parties on our website, such
+            as:
           </p>
-          <ul className="list-disc list-inside space-y-2">
+
+          <ul className="list-disc ml-6 space-y-2">
             <li>Payment gateways (Razorpay, PayPal)</li>
             <li>Analytics services</li>
             <li>Social media embeds</li>
             <li>Advertising platforms</li>
           </ul>
-          <p className="mt-4">
-            These partners have their own privacy and cookie policies. 
-            We do not control third-party cookies.
+
+          <p className="mt-5">
+            These partners have their own privacy and cookie policies. We do
+            not control third-party cookies.
           </p>
-        </Section>
-
-        {/* Section 4 */}
-        <Section title="4. Why We Use Cookies">
-          <ul className="list-disc list-inside space-y-2">
-            <li>Improve website functionality</li>
-            <li>Enhance shopping experience</li>
-            <li>Analyze site performance</li>
-            <li>Personalize product recommendations</li>
-            <li>Provide secure payments</li>
-            <li>Run marketing and retargeting campaigns</li>
-            <li>Track conversions and website traffic</li>
-          </ul>
-        </Section>
-
-        {/* Section 5 */}
-        <Section title="5. How to Control Cookies">
+        </>
+      ),
+    },
+    {
+      icon: <BarChart3 size={28} />,
+      title: "4. Why We Use Cookies",
+      content: (
+        <ul className="list-disc ml-6 space-y-2">
+          <li>Improve website functionality</li>
+          <li>Enhance shopping experience</li>
+          <li>Analyze site performance</li>
+          <li>Personalize product recommendations</li>
+          <li>Provide secure payments</li>
+          <li>Run marketing and retargeting campaigns</li>
+          <li>Track conversions and website traffic</li>
+        </ul>
+      ),
+    },
+    {
+      icon: <Settings size={28} />,
+      title: "5. How to Control Cookies",
+      content: (
+        <>
           <p className="mb-4">
             You can manage or disable cookies through your browser settings:
           </p>
-          <ul className="list-disc list-inside space-y-2">
+
+          <ul className="list-disc ml-6 space-y-2">
             <li>Chrome: Settings → Privacy → Cookies</li>
             <li>Safari: Preferences → Privacy</li>
             <li>Firefox: Settings → Privacy & Security</li>
             <li>Edge: Settings → Cookies & Site Permissions</li>
           </ul>
 
-          <p className="mt-4 mb-2">If you disable cookies:</p>
-          <ul className="list-disc list-inside space-y-2">
+          <p className="mt-5 mb-3">
+            If you disable cookies:
+          </p>
+
+          <ul className="list-disc ml-6 space-y-2">
             <li>Some parts of the website may not function properly</li>
             <li>You may not be able to complete purchases</li>
             <li>You may see less relevant product recommendations</li>
           </ul>
-        </Section>
+        </>
+      ),
+    },
+    {
+      icon: <Globe size={28} />,
+      title: "6. Cookie Consent (GDPR Compliance)",
+      content: (
+        <ul className="list-disc ml-6 space-y-2">
+          <li>You will see a cookie consent banner</li>
+          <li>
+            You may choose to Accept, Reject, or Customize cookie usage
+          </li>
+          <li>
+            We store your cookie preferences as required under GDPR
+          </li>
+        </ul>
+      ),
+    },
+    {
+      icon: <Database size={28} />,
+      title: "7. Data Collected Through Cookies",
+      content: (
+        <>
+          <p className="mb-4">Cookies may collect:</p>
 
-        {/* Section 6 */}
-        <Section title="6. Cookie Consent (GDPR Compliance)">
-          <ul className="list-disc list-inside space-y-2">
-            <li>You will see a cookie consent banner</li>
-            <li>You may choose to Accept, Reject, or Customize cookie usage</li>
-            <li>We store your cookie preferences as required under GDPR</li>
-          </ul>
-        </Section>
-
-        {/* Section 7 */}
-        <Section title="7. Data Collected Through Cookies">
-          <p className="mb-3">Cookies may collect:</p>
-          <ul className="list-disc list-inside space-y-2">
+          <ul className="list-disc ml-6 space-y-2">
             <li>Device information</li>
             <li>Browser type</li>
             <li>Country/city</li>
@@ -198,61 +218,133 @@ const CookiesPolicy = () => {
             <li>IP address (anonymized where required by law)</li>
           </ul>
 
-          <p className="mt-4 mb-2">We never collect:</p>
-          <ul className="list-disc list-inside space-y-2">
+          <p className="font-semibold text-red-600 mt-6 mb-3">
+            We never collect:
+          </p>
+
+          <ul className="list-disc ml-6 space-y-2">
             <li>Payment card details</li>
             <li>Sensitive personal information</li>
           </ul>
-        </Section>
-
-        {/* Section 8 */}
-        <Section title="8. Updates to This Policy">
+        </>
+      ),
+    },
+    {
+      icon: <RefreshCw size={28} />,
+      title: "8. Updates to This Policy",
+      content: (
+        <p>
+          We may update this Cookies Policy occasionally. Changes will be
+          reflected with a new "Last Updated" date. Continued use of our
+          website means you accept these changes.
+        </p>
+      ),
+    },
+    {
+      icon: <Mail size={28} />,
+      title: "9. Contact Us",
+      content: (
+        <>
           <p>
-            We may update this Cookies Policy occasionally. Changes will be 
-            reflected with a new “Last Updated” date. Continued use of our 
-            website means you accept these changes.
+            For questions about our cookie practices, reach us at:
           </p>
-        </Section>
 
-        {/* Section 9 */}
-        <Section title="9. Contact Us">
-          <p>
-            For questions about our cookie practices, reach us at:{" "}
-            <a
-              href="mailto:privacy@promolecules.com"
-              className="text-blue-400 underline hover:text-blue-300"
+          <div className="mt-5 bg-red-600 text-white rounded-xl p-5">
+            <p className="font-semibold">
+              info@promolecules.com
+            </p>
+          </div>
+        </>
+      ),
+    },
+  ];
+
+  return (
+    <>
+
+      {jsonld && (
+         <script
+           type="application/ld+json"
+           dangerouslySetInnerHTML={{ __html: jsonld }}
+         />
+      )}
+    <section className="bg-black py-20">
+      <div className="max-w-7xl mx-auto px-5">
+
+        {/* Header */}
+        <div className="text-center mb-16">
+          <div className="w-24 h-24 rounded-full bg-red-100 flex items-center justify-center mx-auto mb-6">
+            <Cookie className="w-12 h-12 text-red-600" />
+          </div>
+
+          <h1 className="text-5xl font-bold text-gray-100">
+            Cookies Policy
+          </h1>
+
+          <p className="text-2xl font-semibold text-red-600 mt-2">
+            Promolecules™
+          </p>
+
+          <div className="inline-block mt-6 px-6 py-3 bg-white rounded-full shadow-md border">
+            <span className="font-semibold">
+              Last Updated:
+            </span>{" "}
+            <span className="text-red-600 font-bold">
+              10-02-2026
+            </span>
+          </div>
+        </div>
+
+        {/* Intro */}
+        <div className="bg-white rounded-3xl shadow-lg p-8 border mb-10">
+          <p className="text-lg leading-8 text-gray-700">
+            This Cookies Policy explains how Promolecules™ ("we", "our", "us")
+            uses cookies and similar tracking technologies on our website.
+          </p>
+
+          <p className="mt-5 text-lg text-gray-700">
+            By using our website, you consent to the use of cookies as
+            described in this policy.
+          </p>
+
+          <div className="mt-6 bg-red-100 rounded-xl border border-red-200 p-5">
+            <p className="font-semibold">
+              If you have any questions, you may contact us at:
+            </p>
+
+            <p className="text-red-600 font-bold text-lg mt-2">
+              info@promolecules.com
+            </p>
+          </div>
+        </div>
+
+        {/* Sections */}
+        <div className="space-y-8">
+          {sections.map((section, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-3xl shadow-lg border overflow-hidden hover:shadow-xl transition"
             >
-              privacy@promolecules.com
-            </a>
-          </p>
-        </Section>
+              <div className="bg-gradient-to-r from-red-600 to-red-600 text-white px-8 py-5 flex items-center gap-4">
+                <div className="bg-white/20 p-3 rounded-xl">
+                  {section.icon}
+                </div>
 
+                <h2 className="text-2xl font-bold">
+                  {section.title}
+                </h2>
+              </div>
+
+              <div className="p-8 text-gray-700 leading-8 text-lg">
+                {section.content}
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
     </section>
     </>
   );
 };
-
-const Section = ({ title, children }) => (
-  <div className="mb-8 bg-black">
-    <h2 className="text-xl sm:text-2xl font-semibold text-white mb-3">
-      {title}
-    </h2>
-    <div className="text-gray-300 leading-relaxed space-y-3">
-      {children}
-    </div>
-  </div>
-);
-
-const SubSection = ({ title, children }) => (
-  <div className="mb-6 bg-black">
-    <h3 className="text-lg font-semibold text-white mb-3">
-      {title}
-    </h3>
-    <div className="text-gray-300 space-y-3 leading-relaxed">
-      {children}
-    </div>
-  </div>
-);
 
 export default CookiesPolicy;

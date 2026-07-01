@@ -140,6 +140,8 @@ suggested dosage.
                 label="TERMS OF SERVICE"
               />
               <FooterSmallLink href="/cookies-policy" label="COOKIE POLICY" />
+                    <FooterSmallLink href="/shipping-policy" label="SHIPPING POLICY" />
+                       <FooterSmallLink href="/returnexchange-policy" label="RETURN & EXCHANGE POLICY" />
             </div>
           </div>
         </div>
