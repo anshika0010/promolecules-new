@@ -1,28 +1,57 @@
 
 
-
 import React from "react";
 import {
   Cookie,
   ShieldCheck,
   BarChart3,
   Globe,
-  BadgePercent,
   Building2,
   Settings,
   Database,
   RefreshCw,
   Mail,
 } from "lucide-react";
- import { getSEOMetadata, getJSONLD } from "@/lib/seo";
+import { getSEOMetadata, getJSONLD } from "@/lib/seo";
 
 export const metadata = getSEOMetadata("cookiesPolicy");
 
+function SectionCard({ id, icon: Icon, eyebrow, title, children }) {
+  return (
+    <section
+      id={id}
+      className="scroll-mt-28 border-b border-stone-200 py-10 first:pt-0 last:border-b-0"
+    >
+      <div className="flex items-start gap-4">
+        <div className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-red-900/5 text-red-800 ring-1 ring-red-900/10">
+          <Icon size={18} strokeWidth={1.75} />
+        </div>
+        <div className="min-w-0 flex-1">
+          {eyebrow && (
+            <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-red-700">
+              {eyebrow}
+            </p>
+          )}
+          <h2 className="font-serif text-2xl text-stone-900 sm:text-[1.65rem]">
+            {title}
+          </h2>
+          <div className="prose-policy mt-4 max-w-none text-[15px] leading-relaxed text-stone-600">
+            {children}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
+
 const CookiesPolicy = () => {
   const jsonld = getJSONLD("cookiesPolicy");
+
   const sections = [
     {
-      icon: <Cookie size={28} />,
+      id: "what-are-cookies",
+      icon: Cookie,
+      eyebrow: "The basics",
       title: "1. What Are Cookies?",
       content: (
         <p>
@@ -33,110 +62,95 @@ const CookiesPolicy = () => {
       ),
     },
     {
-      icon: <ShieldCheck size={28} />,
+      id: "types-of-cookies",
+      icon: ShieldCheck,
+      eyebrow: "Not all cookies are the same",
       title: "2. Types of Cookies We Use",
       content: (
-        <>
-          <div className="space-y-6">
-            <div>
-              <h4 className="font-bold text-gray-900 mb-3">
-                2.1 Essential / Strictly Necessary Cookies
-              </h4>
-
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Secure checkout</li>
-                <li>Site navigation</li>
-                <li>User login</li>
-                <li>Shopping cart functionality</li>
-              </ul>
-
-              <p className="mt-4 font-medium text-red-700">
-                Without these cookies, some features may not work properly.
-              </p>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-gray-900 mb-3">
-                2.2 Performance & Analytics Cookies
-              </h4>
-
-              <p className="mb-3">We use:</p>
-
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Google Analytics</li>
-                <li>Meta (Facebook) Pixel</li>
-              </ul>
-
-              <p className="mt-5 mb-3">
-                They collect information such as:
-              </p>
-
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Pages visited</li>
-                <li>Time spent on site</li>
-                <li>Click behavior</li>
-                <li>Device/browser information</li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-gray-900 mb-3">
-                2.3 Preference Cookies
-              </h4>
-
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Language preferences</li>
-                <li>Region</li>
-                <li>Login preferences</li>
-                <li>Previously viewed products</li>
-              </ul>
-            </div>
-
-            <div>
-              <h4 className="font-bold text-gray-900 mb-3">
-                2.4 Advertising & Retargeting Cookies
-              </h4>
-
-              <p className="mb-3">
-                Our advertising partners may include:
-              </p>
-
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Google Ads</li>
-                <li>Meta (Facebook & Instagram)</li>
-                <li>Other remarketing platforms</li>
-              </ul>
-
-              <p className="mt-5 mb-3">These cookies:</p>
-
-              <ul className="list-disc ml-6 space-y-2">
-                <li>Track browsing activity</li>
-                <li>Show personalized ads</li>
-                <li>Retarget you with items you viewed</li>
-              </ul>
-            </div>
+        <div className="space-y-6">
+          <div>
+            <p className="font-semibold text-stone-900">
+              2.1 Essential / Strictly Necessary Cookies
+            </p>
+            <ul>
+              <li>Secure checkout</li>
+              <li>Site navigation</li>
+              <li>User login</li>
+              <li>Shopping cart functionality</li>
+            </ul>
+            <p className="font-medium text-red-700">
+              Without these cookies, some features may not work properly.
+            </p>
           </div>
-        </>
+
+          <div>
+            <p className="font-semibold text-stone-900">
+              2.2 Performance & Analytics Cookies
+            </p>
+            <p>We use:</p>
+            <ul>
+              <li>Google Analytics</li>
+              <li>Meta (Facebook) Pixel</li>
+            </ul>
+            <p>They collect information such as:</p>
+            <ul>
+              <li>Pages visited</li>
+              <li>Time spent on site</li>
+              <li>Click behavior</li>
+              <li>Device/browser information</li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="font-semibold text-stone-900">
+              2.3 Preference Cookies
+            </p>
+            <ul>
+              <li>Language preferences</li>
+              <li>Region</li>
+              <li>Login preferences</li>
+              <li>Previously viewed products</li>
+            </ul>
+          </div>
+
+          <div>
+            <p className="font-semibold text-stone-900">
+              2.4 Advertising & Retargeting Cookies
+            </p>
+            <p>Our advertising partners may include:</p>
+            <ul>
+              <li>Google Ads</li>
+              <li>Meta (Facebook & Instagram)</li>
+              <li>Other remarketing platforms</li>
+            </ul>
+            <p>These cookies:</p>
+            <ul>
+              <li>Track browsing activity</li>
+              <li>Show personalized ads</li>
+              <li>Retarget you with items you viewed</li>
+            </ul>
+          </div>
+        </div>
       ),
     },
     {
-      icon: <Building2 size={28} />,
+      id: "third-party-cookies",
+      icon: Building2,
+      eyebrow: "Beyond our control",
       title: "3. Third-Party Cookies",
       content: (
         <>
-          <p className="mb-4">
+          <p>
             Some cookies may be placed by third parties on our website, such
             as:
           </p>
-
-          <ul className="list-disc ml-6 space-y-2">
+          <ul>
             <li>Payment gateways (Razorpay, PayPal)</li>
             <li>Analytics services</li>
             <li>Social media embeds</li>
             <li>Advertising platforms</li>
           </ul>
-
-          <p className="mt-5">
+          <p>
             These partners have their own privacy and cookie policies. We do
             not control third-party cookies.
           </p>
@@ -144,10 +158,12 @@ const CookiesPolicy = () => {
       ),
     },
     {
-      icon: <BarChart3 size={28} />,
+      id: "why-we-use-cookies",
+      icon: BarChart3,
+      eyebrow: "Purpose",
       title: "4. Why We Use Cookies",
       content: (
-        <ul className="list-disc ml-6 space-y-2">
+        <ul>
           <li>Improve website functionality</li>
           <li>Enhance shopping experience</li>
           <li>Analyze site performance</li>
@@ -159,26 +175,21 @@ const CookiesPolicy = () => {
       ),
     },
     {
-      icon: <Settings size={28} />,
+      id: "how-to-control-cookies",
+      icon: Settings,
+      eyebrow: "Your choice",
       title: "5. How to Control Cookies",
       content: (
         <>
-          <p className="mb-4">
-            You can manage or disable cookies through your browser settings:
-          </p>
-
-          <ul className="list-disc ml-6 space-y-2">
+          <p>You can manage or disable cookies through your browser settings:</p>
+          <ul>
             <li>Chrome: Settings → Privacy → Cookies</li>
             <li>Safari: Preferences → Privacy</li>
             <li>Firefox: Settings → Privacy & Security</li>
             <li>Edge: Settings → Cookies & Site Permissions</li>
           </ul>
-
-          <p className="mt-5 mb-3">
-            If you disable cookies:
-          </p>
-
-          <ul className="list-disc ml-6 space-y-2">
+          <p>If you disable cookies:</p>
+          <ul>
             <li>Some parts of the website may not function properly</li>
             <li>You may not be able to complete purchases</li>
             <li>You may see less relevant product recommendations</li>
@@ -187,28 +198,27 @@ const CookiesPolicy = () => {
       ),
     },
     {
-      icon: <Globe size={28} />,
+      id: "cookie-consent",
+      icon: Globe,
+      eyebrow: "GDPR compliance",
       title: "6. Cookie Consent (GDPR Compliance)",
       content: (
-        <ul className="list-disc ml-6 space-y-2">
+        <ul>
           <li>You will see a cookie consent banner</li>
-          <li>
-            You may choose to Accept, Reject, or Customize cookie usage
-          </li>
-          <li>
-            We store your cookie preferences as required under GDPR
-          </li>
+          <li>You may choose to Accept, Reject, or Customize cookie usage</li>
+          <li>We store your cookie preferences as required under GDPR</li>
         </ul>
       ),
     },
     {
-      icon: <Database size={28} />,
+      id: "data-collected",
+      icon: Database,
+      eyebrow: "What gets tracked",
       title: "7. Data Collected Through Cookies",
       content: (
         <>
-          <p className="mb-4">Cookies may collect:</p>
-
-          <ul className="list-disc ml-6 space-y-2">
+          <p>Cookies may collect:</p>
+          <ul>
             <li>Device information</li>
             <li>Browser type</li>
             <li>Country/city</li>
@@ -217,12 +227,8 @@ const CookiesPolicy = () => {
             <li>Referring URLs</li>
             <li>IP address (anonymized where required by law)</li>
           </ul>
-
-          <p className="font-semibold text-red-600 mt-6 mb-3">
-            We never collect:
-          </p>
-
-          <ul className="list-disc ml-6 space-y-2">
+          <p className="font-semibold text-red-600">We never collect:</p>
+          <ul>
             <li>Payment card details</li>
             <li>Sensitive personal information</li>
           </ul>
@@ -230,7 +236,9 @@ const CookiesPolicy = () => {
       ),
     },
     {
-      icon: <RefreshCw size={28} />,
+      id: "updates-to-policy",
+      icon: RefreshCw,
+      eyebrow: "Staying current",
       title: "8. Updates to This Policy",
       content: (
         <p>
@@ -241,19 +249,19 @@ const CookiesPolicy = () => {
       ),
     },
     {
-      icon: <Mail size={28} />,
+      id: "contact-us",
+      icon: Mail,
+      eyebrow: "We're here to help",
       title: "9. Contact Us",
       content: (
         <>
-          <p>
-            For questions about our cookie practices, reach us at:
-          </p>
-
-          <div className="mt-5 bg-red-600 text-white rounded-xl p-5">
-            <p className="font-semibold">
-              info@promolecules.com
-            </p>
-          </div>
+          <p>For questions about our cookie practices, reach us at:</p>
+          <a
+            href="mailto:info@promolecules.com"
+            className="mt-2 inline-flex items-center gap-2 rounded-full bg-red-950 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-red-900"
+          >
+            <Mail size={15} /> info@promolecules.com
+          </a>
         </>
       ),
     },
@@ -261,88 +269,73 @@ const CookiesPolicy = () => {
 
   return (
     <>
-
       {jsonld && (
-         <script
-           type="application/ld+json"
-           dangerouslySetInnerHTML={{ __html: jsonld }}
-         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonld }}
+        />
       )}
-    <section className="bg-black py-20">
-      <div className="max-w-7xl mx-auto px-5">
 
-        {/* Header */}
-        <div className="text-center mb-16">
-          <div className="w-24 h-24 rounded-full bg-red-100 flex items-center justify-center mx-auto mb-6">
-            <Cookie className="w-12 h-12 text-red-600" />
-          </div>
+      <div className="min-h-screen bg-black font-sans text-stone-800">
+        <style>{`
+          @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap');
+          .font-serif { font-family: 'Fraunces', serif; }
+          .font-sans { font-family: 'Inter', sans-serif; }
+          .prose-policy p { margin: 0 0 0.85em 0; }
+          .prose-policy p:last-child { margin-bottom: 0; }
+          .prose-policy ul { margin: 0.5em 0; padding-left: 1.15em; list-style: disc; }
+          .prose-policy li { margin-bottom: 0.5em; }
+          .prose-policy li::marker { color: #f81d1d; }
+          .prose-policy a { color: #ee0909; text-decoration: underline; text-underline-offset: 2px; }
+        `}</style>
 
-          <h1 className="text-5xl font-bold text-gray-100">
-            Cookies Policy
-          </h1>
+        {/* Body */}
+        <div className="mx-auto max-w-6xl px-6 py-12 sm:px-10 sm:py-16">
+          <div>
+            {/* Content */}
+            <main className="rounded-2xl border border-stone-200 bg-white px-6 shadow-[0_1px_2px_rgba(0,0,0,0.03)] sm:px-10">
+              <span className="mt-8 inline-block rounded-full bg-red-500 px-5 py-2 font-semibold text-black">
+                Last Updated: 10-02-2026
+              </span>
 
-          <p className="text-2xl font-semibold text-red-600 mt-2">
-            Promolecules™
-          </p>
+              <h1 className="mt-4 max-w-2xl font-serif text-4xl leading-[1.08] text-black sm:text-5xl">
+                Cookies Policy
+              </h1>
+              <h2 className="mt-1 font-serif text-2xl text-red-700 sm:text-3xl">
+                Promolecules™
+              </h2>
 
-          <div className="inline-block mt-6 px-6 py-3 bg-white rounded-full shadow-md border">
-            <span className="font-semibold">
-              Last Updated:
-            </span>{" "}
-            <span className="text-red-600 font-bold">
-              10-02-2026
-            </span>
-          </div>
-        </div>
+              <p className="mt-5 max-w-xl p-4 text-[15px] leading-relaxed text-black">
+                This Cookies Policy explains how Promolecules™ ("we", "our",
+                "us") uses cookies and similar tracking technologies on our
+                website. By using our website, you consent to the use of
+                cookies as described in this policy.
+              </p>
 
-        {/* Intro */}
-        <div className="bg-white rounded-3xl shadow-lg p-8 border mb-10">
-          <p className="text-lg leading-8 text-gray-700">
-            This Cookies Policy explains how Promolecules™ ("we", "our", "us")
-            uses cookies and similar tracking technologies on our website.
-          </p>
-
-          <p className="mt-5 text-lg text-gray-700">
-            By using our website, you consent to the use of cookies as
-            described in this policy.
-          </p>
-
-          <div className="mt-6 bg-red-100 rounded-xl border border-red-200 p-5">
-            <p className="font-semibold">
-              If you have any questions, you may contact us at:
-            </p>
-
-            <p className="text-red-600 font-bold text-lg mt-2">
-              info@promolecules.com
-            </p>
-          </div>
-        </div>
-
-        {/* Sections */}
-        <div className="space-y-8">
-          {sections.map((section, index) => (
-            <div
-              key={index}
-              className="bg-white rounded-3xl shadow-lg border overflow-hidden hover:shadow-xl transition"
-            >
-              <div className="bg-gradient-to-r from-red-600 to-red-600 text-white px-8 py-5 flex items-center gap-4">
-                <div className="bg-white/20 p-3 rounded-xl">
-                  {section.icon}
-                </div>
-
-                <h2 className="text-2xl font-bold">
-                  {section.title}
-                </h2>
+              <div className="mb-2 rounded-xl border border-red-200 bg-red-50 px-4 py-3.5 text-[14px] text-red-900">
+                <strong>If you have any questions,</strong> you may contact us
+                at{" "}
+                <a href="mailto:info@promolecules.com" className="underline">
+                  info@promolecules.com
+                </a>
+                .
               </div>
 
-              <div className="p-8 text-gray-700 leading-8 text-lg">
-                {section.content}
-              </div>
-            </div>
-          ))}
+              {sections.map((item) => (
+                <SectionCard
+                  key={item.id}
+                  id={item.id}
+                  icon={item.icon}
+                  eyebrow={item.eyebrow}
+                  title={item.title}
+                >
+                  {item.content}
+                </SectionCard>
+              ))}
+            </main>
+          </div>
         </div>
       </div>
-    </section>
     </>
   );
 };

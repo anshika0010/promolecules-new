@@ -1,49 +1,81 @@
 
-
 import React from "react";
-import { ShieldCheck, Lock, Cookie, CreditCard, Database, Mail, Users, RefreshCw, FileText } from "lucide-react";
-import Image from "next/image";
- import { getSEOMetadata, getJSONLD } from "@/lib/seo";
+import {
+  ShieldCheck,
+  Lock,
+  Cookie,
+  CreditCard,
+  Database,
+  Mail,
+  Users,
+  RefreshCw,
+  FileText,
+} from "lucide-react";
+import { getSEOMetadata, getJSONLD } from "@/lib/seo";
 
- export const metadata = getSEOMetadata("privacyPolicy");
+export const metadata = getSEOMetadata("privacyPolicy");
 
-
+function SectionCard({ id, icon: Icon, eyebrow, title, children }) {
+  return (
+    <section
+      id={id}
+      className="scroll-mt-28 border-b border-stone-200 py-10 first:pt-0 last:border-b-0"
+    >
+      <div className="flex items-start gap-4">
+        <div className="mt-1 flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-red-900/5 text-red-800 ring-1 ring-red-900/10">
+          <Icon size={18} strokeWidth={1.75} />
+        </div>
+        <div className="min-w-0 flex-1">
+          {eyebrow && (
+            <p className="mb-1 text-[11px] font-semibold uppercase tracking-[0.16em] text-red-700">
+              {eyebrow}
+            </p>
+          )}
+          <h2 className="font-serif text-2xl text-stone-900 sm:text-[1.65rem]">
+            {title}
+          </h2>
+          <div className="prose-policy mt-4 max-w-none text-[15px] leading-relaxed text-stone-600">
+            {children}
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+}
 
 const PrivacyPolicy = () => {
   const jsonld = getJSONLD("privacyPolicy");
-      
+
   const sections = [
     {
-      icon: <Users className="w-6 h-6 text-blue-600" />,
+      id: "who-we-are",
+      icon: Users,
+      eyebrow: "About us",
       title: "1. Who We Are",
       content: (
-        <>
-          <p>
-            <strong>Registered Name:</strong> Promolecules™. We ship
-            internationally. This policy applies to all website users and
-            customers.
-          </p>
-        </>
+        <p>
+          <strong>Registered Name:</strong> Promolecules™. We ship
+          internationally. This policy applies to all website users and
+          customers.
+        </p>
       ),
     },
     {
-      icon: <Database className="w-6 h-6 text-green-600" />,
+      id: "information-we-collect",
+      icon: Database,
+      eyebrow: "What we gather",
       title: "2. Information We Collect",
       content: (
         <>
-          <h4 className="font-semibold text-gray-900 mb-2">
-            Personal Information:
-          </h4>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <p className="font-semibold text-stone-900">Personal Information:</p>
+          <ul>
             <li>Name, email, phone number</li>
             <li>Billing/shipping address</li>
             <li>Order details & inquiries</li>
           </ul>
 
-          <h4 className="font-semibold text-gray-900 mt-5 mb-2">
-            Automatically Collected:
-          </h4>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <p className="font-semibold text-stone-900">Automatically Collected:</p>
+          <ul>
             <li>IP address, browser, device info</li>
             <li>Pages visited, time spent</li>
             <li>Cookies & tracking data</li>
@@ -52,11 +84,13 @@ const PrivacyPolicy = () => {
       ),
     },
     {
-      icon: <FileText className="w-6 h-6 text-purple-600" />,
+      id: "how-we-use-your-data",
+      icon: FileText,
+      eyebrow: "Purpose",
       title: "3. How We Use Your Data",
       content: (
         <>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <ul>
             <li>Process and deliver orders</li>
             <li>Verify payments (Razorpay, PayPal, COD)</li>
             <li>Provide customer support</li>
@@ -64,17 +98,16 @@ const PrivacyPolicy = () => {
             <li>Send updates & promotions</li>
             <li>Prevent fraud and comply with law</li>
           </ul>
-
-          <div className="mt-5 bg-green-50 border-l-4 border-green-500 p-4 rounded-lg">
-            <p className="text-green-800 font-medium">
-              Note: We never sell your personal data.
-            </p>
+          <div className="mt-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3.5 text-[14px] text-red-900">
+            <strong>Note:</strong> We never sell your personal data.
           </div>
         </>
       ),
     },
     {
-      icon: <Cookie className="w-6 h-6 text-orange-500" />,
+      id: "cookies-tracking",
+      icon: Cookie,
+      eyebrow: "Tracking technology",
       title: "4. Cookies & Tracking",
       content: (
         <p>
@@ -85,70 +118,67 @@ const PrivacyPolicy = () => {
       ),
     },
     {
-      icon: <CreditCard className="w-6 h-6 text-red-500" />,
+      id: "payments-sharing",
+      icon: CreditCard,
+      eyebrow: "Third parties",
       title: "5. Payments & Sharing",
       content: (
         <>
-          <p className="mb-4">
+          <p>
             Payments are securely processed by Razorpay, PayPal, or COD. We may
             share limited information with:
           </p>
-
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
+          <ul>
             <li>Shipping partner (DTDC)</li>
             <li>Payment gateways</li>
             <li>Analytics tools (Google, Meta)</li>
           </ul>
-
-          <div className="mt-5 bg-blue-50 border border-blue-200 rounded-xl p-4">
-            <p className="text-blue-700 font-medium">
-              All partners follow strict confidentiality and data protection
-              rules.
-            </p>
+          <div className="mt-5 rounded-xl border border-red-200 bg-red-50 px-4 py-3.5 text-[14px] text-red-900">
+            All partners follow strict confidentiality and data protection
+            rules.
           </div>
         </>
       ),
     },
     {
-      icon: <Lock className="w-6 h-6 text-indigo-600" />,
+      id: "data-security",
+      icon: Lock,
+      eyebrow: "Keeping it safe",
       title: "6. Data Security",
       content: (
-        <>
-          <ul className="list-disc pl-6 space-y-2 text-gray-700">
-            <li>SSL encryption & firewall protection</li>
-            <li>Limited access and secure servers</li>
-            <li>Regular system monitoring</li>
-            <li>
-              While we take strong precautions, no online system is 100% secure.
-            </li>
-          </ul>
-        </>
+        <ul>
+          <li>SSL encryption & firewall protection</li>
+          <li>Limited access and secure servers</li>
+          <li>Regular system monitoring</li>
+          <li>
+            While we take strong precautions, no online system is 100% secure.
+          </li>
+        </ul>
       ),
     },
     {
-      icon: <ShieldCheck className="w-6 h-6 text-emerald-600" />,
+      id: "your-rights",
+      icon: ShieldCheck,
+      eyebrow: "GDPR & CCPA",
       title: "7. Your Rights",
       content: (
         <>
           <p>
             Under GDPR & CCPA, you can request to access, correct, delete, or
-            restrict your data. You may also withdraw consent or opt out of data
-            sharing.
+            restrict your data. You may also withdraw consent or opt out of
+            data sharing.
           </p>
-
-          <div className="mt-5 bg-gray-100 rounded-xl p-4">
-            <p>
-              <strong>To exercise your rights, contact:</strong>{" "}
-              <span className="text-blue-600 font-semibold">
-                info@promolecules.com
-              </span>
-            </p>
-          </div>
+          <p>
+            <strong>To exercise your rights, contact:</strong>{" "}
+            <a href="mailto:info@promolecules.com">info@promolecules.com</a>
+          </p>
         </>
       ),
     },
     {
-      icon: <Mail className="w-6 h-6 text-pink-600" />,
+      id: "marketing-communications",
+      icon: Mail,
+      eyebrow: "Staying in touch",
       title: "8. Marketing & Communications",
       content: (
         <p>
@@ -159,7 +189,9 @@ const PrivacyPolicy = () => {
       ),
     },
     {
-      icon: <Users className="w-6 h-6 text-yellow-600" />,
+      id: "childrens-privacy",
+      icon: Users,
+      eyebrow: "Age requirement",
       title: "9. Children's Privacy",
       content: (
         <p>
@@ -169,19 +201,22 @@ const PrivacyPolicy = () => {
       ),
     },
     {
-      icon: <RefreshCw className="w-6 h-6 text-cyan-600" />,
+      id: "updates-contact",
+      icon: RefreshCw,
+      eyebrow: "We're here to help",
       title: "10. Updates & Contact",
       content: (
         <>
           <p>
-            We may update this Privacy Policy occasionally. Continued use of our
-            site means you accept these updates.
+            We may update this Privacy Policy occasionally. Continued use of
+            our site means you accept these updates.
           </p>
-
-          <div className="mt-5 bg-blue-600 text-white rounded-xl p-5">
-            <p className="font-semibold">Contact us at:</p>
-            <p className="text-lg font-bold">info@promolecules.com</p>
-          </div>
+          <a
+            href="mailto:info@promolecules.com"
+            className="mt-2 inline-flex items-center gap-2 rounded-full bg-red-950 px-5 py-2.5 text-sm font-medium text-white transition-colors hover:bg-red-900"
+          >
+            <Mail size={15} /> info@promolecules.com
+          </a>
         </>
       ),
     },
@@ -189,90 +224,74 @@ const PrivacyPolicy = () => {
 
   return (
     <>
-     {jsonld && (
-         <script
-           type="application/ld+json"
-           dangerouslySetInnerHTML={{ __html: jsonld }}
-         />
-    )}
-      <section className="relative min-h-screen w-full overflow-hidden flex items-center justify-center px-4 sm:px-6">
-       {/* Background */}
-        <Image
-           src="/promolecules-about-banner.webp"
-         alt="Background"
-          fill
-         className="object-contain"
+      {jsonld && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: jsonld }}
         />
-       <div className="max-w-7xl bg-black mx-auto relative z-10 shadow-2xl rounded-2xl p-6 sm:p-10">
-      
-        {/* Header */}
-        <div className="text-center mb-14">
-          <div className="inline-flex items-center justify-center w-20 h-20 rounded-full bg-blue-100 mb-6">
-            <ShieldCheck className="w-10 h-10 text-blue-700" />
-          </div>
+      )}
 
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-100">
-            Privacy Policy
-          </h1>
+      <div className="min-h-screen bg-black font-sans text-stone-800">
+        <style>{`
+          @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap');
+          .font-serif { font-family: 'Fraunces', serif; }
+          .font-sans { font-family: 'Inter', sans-serif; }
+          .prose-policy p { margin: 0 0 0.85em 0; }
+          .prose-policy p:last-child { margin-bottom: 0; }
+          .prose-policy ul { margin: 0.5em 0; padding-left: 1.15em; list-style: disc; }
+          .prose-policy li { margin-bottom: 0.5em; }
+          .prose-policy li::marker { color: #f81d1d; }
+          .prose-policy a { color: #ee0909; text-decoration: underline; text-underline-offset: 2px; }
+        `}</style>
 
-          <p className="mt-3 text-red-600 text-lg">
-            PROMOLECULES™
-          </p>
+        {/* Body */}
+        <div className="mx-auto max-w-6xl px-6 py-12 sm:px-10 sm:py-16">
+          <div>
+            {/* Content */}
+            <main className="rounded-2xl border border-stone-200 bg-white px-6 shadow-[0_1px_2px_rgba(0,0,0,0.03)] sm:px-10">
+              <span className="mt-8 inline-block rounded-full bg-red-500 px-5 py-2 font-semibold text-black">
+                Last Updated: 10-11-2025
+              </span>
 
-          <div className="mt-5 inline-flex items-center bg-white shadow-md rounded-full px-6 py-3 border">
-            <span className="font-semibold text-gray-700">
-              Last Updated:
-            </span>
-            <span className="ml-2 text-blue-600 font-bold">
-              10-11-2025
-            </span>
-          </div>
-        </div>
+              <h1 className="mt-4 max-w-2xl font-serif text-4xl leading-[1.08] text-black sm:text-5xl">
+                Privacy Policy
+              </h1>
+              <h2 className="mt-1 font-serif text-2xl text-red-700 sm:text-3xl">
+                Promolecules™
+              </h2>
 
-        {/* Intro */}
-        <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-8 mb-10">
-          <p className="text-gray-700 leading-8 text-lg">
-            This Privacy Policy explains how <strong>Promolecules™</strong>{" "}
-            ("Company", "we", "our", "us") collects, uses, and protects your
-            personal data when you visit or make a purchase from our website. We
-            comply with GDPR and CCPA standards to keep your information safe.
-          </p>
+              <p className="mt-5 max-w-xl p-4 text-[15px] leading-relaxed text-black">
+                This Privacy Policy explains how Promolecules™ ("Company",
+                "we", "our", "us") collects, uses, and protects your personal
+                data when you visit or make a purchase from our website. We
+                comply with GDPR and CCPA standards to keep your information
+                safe.
+              </p>
 
-          <div className="mt-6 bg-blue-50 border border-blue-200 rounded-xl p-5">
-            <p className="font-semibold text-gray-800">
-              For any privacy-related questions, reach us at:
-            </p>
-            <p className="text-blue-600 font-bold text-lg mt-1">
-              info@promolecules.com
-            </p>
-          </div>
-        </div>
-
-        {/* Sections */}
-        <div className="space-y-8">
-          {sections.map((item, index) => (
-            <div
-              key={index}
-              className="bg-white border border-gray-100 rounded-3xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden"
-            >
-              <div className="flex items-center gap-4 bg-gradient-to-r from-blue-50 to-white px-8 py-6 border-b">
-                <div className="w-14 h-14 rounded-2xl bg-white shadow flex items-center justify-center">
-                  {item.icon}
-                </div>
-
-                <h2 className="text-2xl font-bold text-gray-900">
-                  {item.title}
-                </h2>
+              <div className="mb-2 rounded-xl border border-red-200 bg-red-50 px-4 py-3.5 text-[14px] text-red-900">
+                <strong>For any privacy-related questions,</strong> reach us
+                at{" "}
+                <a href="mailto:info@promolecules.com" className="underline">
+                  info@promolecules.com
+                </a>
+                .
               </div>
 
-              <div className="p-8 text-gray-700 leading-8 text-lg">
-                {item.content}
-              </div>
-            </div>
-          ))}
+              {sections.map((item) => (
+                <SectionCard
+                  key={item.id}
+                  id={item.id}
+                  icon={item.icon}
+                  eyebrow={item.eyebrow}
+                  title={item.title}
+                >
+                  {item.content}
+                </SectionCard>
+              ))}
+            </main>
+          </div>
         </div>
       </div>
-    </section>
     </>
   );
 };
