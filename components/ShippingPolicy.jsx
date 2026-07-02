@@ -91,41 +91,7 @@ export default function ShippingPolicy() {
         .prose-policy a { color: #115e59; text-decoration: underline; text-underline-offset: 2px; }
       `}</style>
 
-      {/* Header */}
-      <header className="relative overflow-hidden border-b border-red-200 bg-red-700">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.07]"
-          style={{
-            backgroundImage:
-              "radial-gradient(circle at 1px 1px, #fff 1px, transparent 0)",
-            backgroundSize: "22px 22px",
-          }}
-        />
-        <div className="relative mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-red-400">
-            Promolecules™ · Customer Policies
-          </p>
-          <h1 className="mt-4 max-w-2xl font-serif text-4xl leading-[1.08] text-white sm:text-5xl">
-            Shipping &amp; Returns
-          </h1>
-          <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-teal-100/80">
-            Premium, authentic supplements delivered securely to your door.
-            Everything you need to know about processing times, tracking,
-            international delivery, and how to return an order.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-teal-50 ring-1 ring-white/15">
-              <Clock size={14} /> 1–3 day processing
-            </div>
-            <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-teal-50 ring-1 ring-white/15">
-              <Truck size={14} /> 2–5 day domestic delivery
-            </div>
-            <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-teal-50 ring-1 ring-white/15">
-              <Globe2 size={14} /> Ships worldwide
-            </div>
-          </div>
-        </div>
-      </header>
+     
 
       {/* Body */}
       <div className="mx-auto max-w-6xl px-6 py-12 bg-black sm:px-10 sm:py-16">
@@ -137,6 +103,14 @@ export default function ShippingPolicy() {
             ref={contentRef}
             className="rounded-2xl border border-stone-200 bg-white px-6 shadow-[0_1px_2px_rgba(0,0,0,0.03)] sm:px-10"
           >
+            <h1 className="mt-4 max-w-2xl font-serif text-4xl leading-[1.08] text-black sm:text-5xl">
+            Shipping &amp; Returns
+          </h1>
+          <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-black p-2 ">
+            Premium, authentic supplements delivered securely to your door.
+            Everything you need to know about processing times, tracking,
+            international delivery, and how to return an order.
+          </p>
             <SectionCard
               id="processing"
               icon={Clock}

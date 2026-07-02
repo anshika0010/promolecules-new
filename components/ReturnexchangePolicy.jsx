@@ -95,54 +95,30 @@ export default function ReturnExchangePolicy() {
         .prose-policy a { color: #ee0909; text-decoration: underline; text-underline-offset: 2px; }
       `}</style>
 
-      {/* Header */}
-      <header className="relative overflow-hidden border-b border-stone-200 bg-red-950">
-        <div
-          className="pointer-events-none absolute inset-0 opacity-[0.07]"
-          style={{
-            backgroundImage:
-              "radial-gradient(circle at 1px 1px, #fff 1px, transparent 0)",
-            backgroundSize: "22px 22px",
-          }}
-        />
-        <div className="relative mx-auto max-w-6xl px-6 py-16 sm:px-10 sm:py-20">
-          <p className="text-[11px] font-semibold uppercase tracking-[0.22em] text-red-300">
-            Promolecules™ · Customer Policies
-          </p>
-          <h1 className="mt-4 max-w-2xl font-serif text-4xl leading-[1.08] text-white sm:text-5xl">
-            Return &amp; Exchange Policy
-          </h1>
-          <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-red-100/80">
-            At Promolecules™, we are committed to providing you with
-            premium, UAE-based supplements. If you are not entirely
-            satisfied with your purchase, we're here to help. Please read
-            our policy carefully to understand your options for returns,
-            exchanges, and refunds.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-red-50 ring-1 ring-white/15">
-              <CalendarClock size={14} /> 7-day return window
-            </div>
-            <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-red-50 ring-1 ring-white/15">
-              <PackageCheck size={14} /> Unopened & sealed only
-            </div>
-            <div className="flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-xs font-medium text-red-50 ring-1 ring-white/15">
-              <Wallet size={14} /> Refunds in 5–10 business days
-            </div>
-          </div>
-        </div>
-      </header>
+  
 
       {/* Body */}
       <div className="mx-auto max-w-6xl px-6 py-12 sm:px-10 sm:py-16">
         <div>
-        
+         
 
           {/* Content */}
           <main
             ref={contentRef}
             className="rounded-2xl border border-stone-200 bg-white px-6 shadow-[0_1px_2px_rgba(0,0,0,0.03)] sm:px-10"
           >
+
+                 <h1 className="mt-4 max-w-2xl font-serif text-4xl leading-[1.08] text-black sm:text-5xl">
+            Return &amp; Exchange Policy
+          </h1>
+          <p className="mt-5 max-w-xl text-[15px] leading-relaxed text-black p-4">
+            At Promolecules™, we are committed to providing you with
+            premium, UAE-based supplements. If you are not entirely
+            satisfied with your purchase, we're here to help. Please read
+            our policy carefully to understand your options for returns,
+            exchanges, and refunds.
+          </p>
+        
             <SectionCard
               id="window"
               icon={CalendarClock}
