@@ -9,7 +9,7 @@
       "cost2cost":"https://www.cost2costsupplement.com/products/father-of-insane-high-stim-pre-workout",
 
       "category": "PRE-WORKOUT",
-            "title": "High-stim pre-workout built for serious athletes. Delivers fast activation, tunnel focus, and sustained energy without crash.Flip the switch. Train like you mean it.",
+            "title": "Ultra High-stim pre-workout built for serious athletes. Delivers fast activation, tunnel focus, and sustained energy without crash.Flip the switch. Train like you mean it.",
             "description": "Unleash Elite Energy, Laser Focus, & Supports workout performance.If you’re an experienced athlete looking for an ultra-high-stim pre-workout, Father of Insane™ by Promolecules™ is formulated to support intense training sessions. This pre-workout is designed for the advanced user with performance-focused ingredients such as Beta-Alanine, Creatine Monohydrate, Creatine HCl, L-Citrulline, Betaine Anhydrous, several sources of caffeine, in a concentrated proprietary blend.Whether it’s body-building, strength, power-lifting, gym workouts of a CrossFit style or high-intensity nature, Father of Insane is designed to mentally and physically prepare you before your workout.",
   "seo": {
   "title": "Father of Insane Ultra High Stim Pre Workout | Promolecules",
@@ -2057,6 +2057,386 @@
       ]
 
     
+    }
+
+    ,{
+      "id": 6,
+      "slug": "father-of-insane-v2",
+      "name": "FATHER OF INSANE V2",
+      "flipkartLink": "",
+      "amazonLink":"",
+      "cost2cost":"https://www.cost2costsupplement.com/products/father-of-insane-v2",
+
+      "category": "PRE-WORKOUT",
+            "title": "Father of Insane™ V.2 High Stim Pre-Workout - 30 Servings + 5 Extra Servings, Extreme Energy, Laser Focus and Serious Performance",
+            "description": "Most high-stimulant pre-workouts are built for advanced bodybuilders, leaving beginners dealing with painful skin itching, heavy jitters, and a massive energy crash if you want the motivation of a high-stimulant formula but need it to be smooth and comfortable.Father of Insane V2 is exactly what you are searching for.Engineered for beginners and intermediate lifters, V2 delivers fast-hitting energy to clear brain fog and get you into the gym within 15 minutes. We completely removed the cheap ingredients that cause skin tingling and redness. Instead, you get a clean, focused energy boost paired with raw muscle-building ingredients.Whether you are stepping into the gym for the first month or transitioning from basic caffeine powders, V2 provides a perfectly balanced energy scale. It takes 3 scoops of this smooth V2 formula to match the extreme intensity of 1 scoop of our V1 tub, giving you full control over your energy levels.Each pouch provides 35 total servings (30 + 5 Extra Servings) and offers great value at a great price.",
+  "seo": {
+  "title": "Father of Insane v2 Pre Workout | Promolecules",
+  "description": "Buy Father of Insane™ v2 Pre Workout online. Experience explosive Pre Workout for Energy, Pre Workout for Focus, insane muscle pumps, endurance and Gym Performance Supplement.",
+  "keywords": "Pre Workout, Father of Insane, Father of Insane Pre Workout, Buy Ultra High Stim Pre Workout, Best Ultra High Stim Pre Workout India, High Stim Pre Workout, Pre Workout Supplement, Pre Workout Powder, Gym Supplement, Sports Nutrition India, Workout Energy Supplement, High Caffeine Pre Workout, Muscle Pump Supplement, Endurance Supplement, Focus Supplement, Best Pre Workout India",
+  "canonical": "https://www.promolecules.com/product/father-of-insane/",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
+  "googlebot": "index, follow",
+  "bingbot": "index, follow",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "geo": {
+    "region": "AE-DU",
+    "placename": "Dubai"
+  },
+  "og": {
+    "title": "Father of Insane Pre Workout | High Stim Formula",
+    "type": "website",
+    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image_alt": "Father of Insane Ultra High Stim Pre Workout",
+    "locale": "AE-DU",
+    "site_name": "Promolecules™",
+    "description": "Experience explosive energy, intense focus, muscle pumps and endurance with Father of Insane high stim pre workout. Built for serious athletes and gym performance.",
+    "url": "https://www.promolecules.com/product/father-of-insane/"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "Promolecules™",
+    "title": "Father of Insane™ v2 Pre Workout",
+    "description": "Extreme energy, laser focus, powerful muscle pumps and endurance. Buy Father of Insane™ v2 Pre Workout online in India.",
+    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image_alt": "Father of Insane v2 Pre Workout"
+  },
+  "ldjson": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Promolecules",
+      "alternateName": "Promolecules",
+      "url": "https://www.promolecules.com/",
+      "logo": "https://www.promolecules.com/promolecules-logo.webp",
+      "sameAs": [
+        "https://www.facebook.com/promolecules.official",
+        "https://x.com/promolecules",
+        "https://www.instagram.com/promolecules/",
+        "https://www.youtube.com/@Promolecules",
+        "https://www.pinterest.com/promolecules/"
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Product",
+      "name": "Father of Insane™ v2 Pre Workout",
+      "image": "https://promolecules.com/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-35-Servings.webp",
+      "description": "Buy Father of Insane™ v2 Pre Workout online. Experience explosive Pre Workout for Energy, Pre Workout for Focus, insane muscle pumps, endurance and Gym Performance Supplement.",
+      "brand": {
+        "@type": "Brand",
+        "name": "Promolecules™"
+      },
+      "sku": "father-of-insane-35",
+      "offers": {
+        "@type": "Offer",
+        "url": "https://www.promolecules.com/product/father-of-insane/",
+        "priceCurrency": "USD",
+        "price": "41.99",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "reviewCount": "247"
+      }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": []
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "promolecules",
+          "item": "https://www.promolecules.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "product",
+          "item": "https://www.promolecules.com/product/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Pre Workout",
+          "item": "https://www.promolecules.com/product-category/pre-workout/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Father of Insane",
+          "item": "https://www.promolecules.com/product/father-of-insane/"
+        }
+      ]
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "@id": "https://www.promolecules.com/product/father-of-insane/#review",
+      "itemReviewed": {
+        "@type": "Product",
+        "name": "Father of Insane™ v2 Pre Workout",
+        "url": "https://www.promolecules.com/product/father-of-insane/"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Verified Customer"
+      },
+      "datePublished": "2026-07-03",
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5",
+        "worstRating": "1"
+      },
+      "name": "Excellent High-Stim Pre Workout",
+      "reviewBody": "Father of Insane™ mixes well and provides excellent workout energy, focus, and training intensity. I appreciated the clear usage instructions and high-stim formula."
+    }
+  ]
+},
+      "images": [
+        "/Promolecules/father-of-insane-v2/watermelon.webp",
+        "/Promolecules/father-of-insane-v2/foi-back.webp",
+        "/Promolecules/father-of-insane-v2/foi-image1.webp",
+        "/Promolecules/father-of-insane-v2/foi-image2.webp",
+        "/Promolecules/father-of-insane-v2/foi-image3.webp"
+      ],
+      "featuredimg": "/Promolecules/father-of-insane-v2/watermelon.webp",
+      "variants": [
+        {
+          "flavour": "Fruit-Punch",
+          "size": "30",
+          "price": 41.99,
+          "image": "/Promolecules/father-of-insane-v2/fruit-punch.webp"
+        },
+      
+        {
+          "flavour": "Gummy-Candy",
+          "size": "30",
+          "price": 41.99,
+          "image": "/Promolecules/father-of-insane-v2/gummy-candy.webp"
+        },
+       
+        {
+          "flavour": "Blue-Rasberry",
+          "size": "30",
+          "price": 41.99,
+          "image": "/Promolecules/father-of-insane-v2/blue-ruspberry.webp"
+        },
+       
+        {
+          "flavour": "Purple-Pulse",
+          "size": "30",
+          "price": 41.99,
+          "image": "/Promolecules/father-of-insane-v2/purple-pulse.webp"
+        },
+          {
+          "flavour": "Blue-Rasberry",
+          "size": "30",
+          "price": 41.99,
+          "image":"/Promolecules/father-of-insane-v2/blue-rasberry.webp"
+
+        },
+          {
+          "flavour": "Mango-Pineapple",
+          "size": "30",
+          "price": 41.99,
+          "image":"/Promolecules/father-of-insane-v2/mango-pineapple.webp"
+
+        },
+          {
+          "flavour": "Pineapple",
+          "size": "30",
+          "price": 41.99,
+          "image":"/Promolecules/father-of-insane-v2/pineapple.webp"
+
+        },
+          {
+          "flavour": "Strwaberry-Pineapple",
+          "size": "30",
+          "price": 41.99,
+          "image":"/Promolecules/father-of-insane-v2/strawberry-pineapple.webp"
+
+        },
+          {
+          "flavour": "Strawberry-Leamonade",
+          "size": "30",
+          "price": 41.99,
+          "image":"/Promolecules/father-of-insane-v2/strawberry-lemonade.webp"
+
+        }    ,
+          {
+          "flavour": "Watermelon",
+          "size": "30",
+          "price": 41.99,
+          "image":"/Promolecules/father-of-insane-v2/watermelon.webp"
+
+        }    ,
+          {
+          "flavour": "Blue-Lemonade",
+          "size": "30",
+          "price": 41.99,
+          "image":"/Promolecules/father-of-insane-v2/blue-lemonade.webp"
+
+        }    
+
+       
+      ],
+
+      "price": "43",
+      "discounted": "41.2",
+      "servings": [
+        {
+          "size": "35",
+          "price": 41.99
+        },
+        {
+          "size": "65",
+          "price": 59.99
+        }
+      ],
+      "flavours": [
+        {
+          "name": "Fruit Punch",
+          "images": [
+            "/Promolecules/father-of-insane-v2/fruit-punch.webp"
+          ]
+        },
+        {
+          "name": "Gummy Bliss",
+          "images": [
+            "/Promolecules/father-of-insane-v2/gummy-candy.webp"
+          ]
+        },
+        {
+          "name": "Purple Pulse Gummies",
+          "images": [
+            "/Promolecules/father-of-insane-v2/purple-gummies.webp"
+          ]
+        },
+        {
+          "name": "Blue Raspberry",
+          "images": [
+            "/Promolecules/father-of-insane-v2/blue-rasberry.webp"
+          ]
+        },
+        {
+          "name": "Mango-pineapple",
+          "images": [
+            "/Promolecules/father-of-insane-v2/mango-pineapple.webp"
+          ]
+        },
+        {
+          "name": "Pineapple",
+          "images": [
+            "/Promolecules/father-of-insane-v2/pineapple.webp"
+          ]
+        },
+          {
+          "name": "Strawberry-pineapple",
+          "images": [
+            "/Promolecules/father-of-insane-v2/strawberry-pineapple.webp"
+          ]
+        },
+        {
+          "name": "Strawberry-lemonade",
+          "images": [
+            "/Promolecules/father-of-insane-v2/strawberry-lemonade.webp"
+          ]
+        }
+      ],
+   "keyBenefits": [
+  "Helps support workout energy - The formula includes a fair number of caffeine sources including Caffeine Anhydrous, Dicaffeine Malate (2XCAFF®), and Caffeine Citrate (Citra Caff®). These ingredients are common in sports nutrition to help you stay alert and ready for exercise.",
+  "Supports mental focus during exercise - The quality of your workout depends on staying focused during tough workouts. Caffeine and other performance ingredients are included to help support concentration and mental alertness.",
+  "Muscle Pump Booster - L-Citrulline is one of the most popular ingredients in pre-workout supplements because of its involvement in nitric oxide production and improving blood flow, contributing to a great muscle pump.",
+  "Strength and Power Booster - The formula contains Creatine Monohydrate and Creatine HCl, ingredients that have extensive research supporting performance improvement during repeated high-intensity exercise.",
+  "Muscular Endurance - Beta-Alanine helps increase muscle carnosine levels, providing acid buffering capacity and helping support performance during intense exercise.",
+  "Performance-Oriented Formula - Father of Insane combines amino acids, multiple sources of creatine, nitric oxide boosters, stimulants, and nootropics to support serious training programs.",
+  "Performance Amino Acids - Helps prepare your body for physical activity and supports muscle performance.",
+  "Creatine Matrix - Supports high-intensity exercise performance.",
+  "Nitric Oxide - L-Citrulline helps produce nitric oxide, supporting healthy blood circulation during exercise.",
+  "Stimulant Complex - Several caffeine-containing ingredients are included to help you stay alert before training.",
+  "Beta-Alanine - Athletes use Beta-Alanine because it helps increase muscle carnosine levels. Higher carnosine levels help buffer acid build-up during intense training, allowing you to perform longer.",
+  "Creatine Monohydrate - One of the most researched ingredients in sports nutrition. When combined with resistance exercise, regular supplementation supports strength, power output, and repeated high-intensity performance.",
+  "Creatine HCl (CreaCCL®) - Creatine Hydrochloride is a highly soluble form of creatine that complements the creatine matrix in the formula.",
+  "L-Citrulline - L-Citrulline is converted into arginine in the body, which supports nitric oxide production. This process may help improve blood flow during exercise and enhance muscle pumps.",
+  "Betaine Anhydrous - Betaine is commonly included in performance formulas to support strength, power, and overall exercise performance.",
+  "Caffeine Anhydrous - A rapidly absorbed caffeine source that supports alertness, reaction time, and workout readiness.",
+  "Dicaffeine Malate (2XCAFF®) - A combination of caffeine and malic acid that provides a slower, steadier release of energy.",
+  "Caffeine Citrate (Citra Caff®) - An additional caffeine source included to create a well-balanced energy blend.",
+  "Citrus Aurantium Extract (Citrusyn® 30) - A botanical extract commonly included in thermogenic and stimulant-based sports nutrition products."
+],
+      "whychooseus": [
+        "No underdosed formulas. No hidden blends.",
+        "Multi-layer stimulant architecture—not just caffeine overload",
+        "Built for advanced athletes, not casual users",
+        "Engineered for performance, not hype",
+        "Designed to activate CNS + muscular output together"
+      ],
+      "whoShouldUse": [
+  "Advanced gym-goers",
+  "Bodybuilders",
+  "Strength athletes",
+  "Powerlifters",
+  "Cross-training enthusiasts",
+  "Experienced users of stimulant-containing pre-workouts",
+  "Not recommended for beginners or individuals who are sensitive to stimulants."
+],
+"howToUse": [
+  "Mix ½ scoop with 4–6 oz (120–180 ml) of water approximately 30 minutes before training to assess tolerance.",
+  "If well tolerated, mix 1 full scoop with 8–10 oz (240–300 ml) of water approximately 30 minutes before your workout.",
+  "Do not exceed one scoop per day."
+],
+      "whatToAvoid": [
+        "Do not use if you are a beginner",
+        "Avoid combining with other high-stimulant products",
+        "Do not consume close to sleep time",
+        "Do not exceed recommended dosage",
+        "Not suitable for individuals sensitive to stimulants"
+      ],
+      "safetyInformation": [
+  "Intended for healthy adults only.",
+  "Not for beginners.",
+  "Do not exceed the recommended serving.",
+  "Avoid combining with other caffeine-containing products.",
+  "Consult a healthcare professional before use if you have a medical condition or are taking medication.",
+  "Not intended for use during pregnancy or breastfeeding.",
+  "Keep out of reach of children.",
+  "Store in a cool, dry place."
+],
+      "faqs": [
+  {
+    "question": "What is Father of Insane™ V.2?",
+    "answer": "Father of Insane™ V.2 is a high-stimulant pre-workout supplement from Promolecules™ designed to support energy, focus, endurance, and workout performance. It is formulated for experienced gym-goers, bodybuilders, powerlifters, and athletes."
+  },
+  {
+    "question": "Who should use Father of Insane™ V.2?",
+    "answer": "This pre-workout is suitable for healthy adults who regularly participate in strength training, bodybuilding, CrossFit, functional fitness, or high-intensity workouts. It is recommended for experienced users due to its high stimulant content."
+  },
+  {
+    "question": "What are the key benefits of Father of Insane™ V.2?",
+    "answer": "Father of Insane™ V.2 helps support: Extreme workout energy,Laser-sharp focus , Improved endurance , Enhanced strength performance, Better training intensity , No itching or redness formula"
+  },
+  {
+    "question": "Can beginners use Father of Insane™ V.2?",
+    "answer": "Because it is a high-stimulant pre-workout, beginners should start with half a serving to evaluate their tolerance. Individuals sensitive to caffeine should consult a healthcare professional before use."
+  }
+]
+
+
     }
   ]
 }

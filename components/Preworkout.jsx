@@ -358,61 +358,8 @@ export default function Preworkout() {
                   </span>
                 </h1>
 
-                <p className="text-gray-300 text-base md:text-lg leading-relaxed mb-8">
-                  Designed for the serious athlete, bodybuilder and high
-                  performance training. Promolecules give you explosive energy,
-                  laser focus, massive pumps and unparalleled endurance.
-                  <span className="text-red-400 font-bold">
-                    {" "}
-                    Promolecules is for people who want more out of every
-                    workout. Our science-backed formulas are engineered to help
-                    you train harder, recover stronger, and maximize performance
-                    without compromise.
-                  </span>
-                </p>
-
-                <div className="flex flex-wrap gap-4">
-                  <a
-                    href="#products"
-                    className="bg-red-600 hover:bg-red-500 text-white font-black text-xs px-8 py-4 tracking-[0.2em] uppercase transition-all hover:scale-105"
-                  >
-                    Shop Products →
-                  </a>
-
-                  <a
-                    href="#how-it-works"
-                    className="border border-zinc-700 hover:border-white text-zinc-300 hover:text-white font-bold text-xs px-8 py-4 tracking-widest uppercase"
-                  >
-                    How It Works
-                  </a>
-                </div>
-
-                <div className="flex items-center gap-5 mt-10 pt-8 border-t border-zinc-700">
-                  <div className="flex -space-x-2">
-                    {["A", "R", "V", "K", "P"].map((l, i) => (
-                      <div
-                        key={i}
-                        className="w-8 h-8 rounded-full bg-red-900/70 border-2 border-black flex items-center justify-center text-[10px] font-black text-red-300"
-                      >
-                        {l}
-                      </div>
-                    ))}
-                  </div>
-
-                  <div>
-                    <div className="flex gap-0.5">
-                      {Array.from({ length: 5 }).map((_, i) => (
-                        <span key={i} className="text-red-500 text-xs">
-                          ★
-                        </span>
-                      ))}
-                    </div>
-
-                    <p className="text-xs text-zinc-300 mt-0.5">
-                      Trusted by 10,000+ athletes across India
-                    </p>
-                  </div>
-                </div>
+              
+                  
               </div>
             </div>
           </div>

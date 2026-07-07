@@ -54,8 +54,8 @@
         }
       ]
     }
-  }
-,
+  },
+
 
  "about": {
   "title": "About Promolecules | High Stim Pre Workout & Performance Supplements",
@@ -607,153 +607,56 @@
     ]
   }
 },
-
-  "faq": {
-    "title": "Promolecules™ FAQ | Pre Workout, Supplements, Shipping & Usage Guide",
-    "description": "Got questions about Promolecules high-performance supplements? Learn about pre-workout usage, dosage, shipping, returns & advanced formulas designed for serious athletes.",
-    "canonical": "https://www.promolecules.com/about/faq/",
-    "keywords": "Promolecules FAQ, pre workout FAQ, sports nutrition FAQ, supplement guide, workout supplements, Promolecules shipping, supplement usage, hydration supplements, ATP support, THERMO NUKE XT",
-    "author": "Promolecules™",
-    "publisher": "Promolecules™",
-    "language": "English",
-    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-    "googlebot": "index, follow",
-    "bingbot": "index, follow",
-    "revisit_after": "7 days",
-    "distribution": "global",
-    "rating": "general",
-    "geo": {
-      "region": "AE-DU",
-      "placename": "Dubai"
-    },
-    "og": {
-      "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
-      "type": "website",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
-      "locale": "AE-DU",
-      "site_name": "Promolecules™",
-      "description": "Find answers about Promolecules pre-workout, supplement usage, shipping & returns. Built for high performance and serious results.",
-      "url": "https://www.promolecules.com/about/faq/"
-    },
-    "twitter": {
-      "card": "summary_large_image",
-      "site": "Promolecules",
-      "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
-      "description": "Everything you need to know about Promolecules supplements, pre-workout usage, shipping & returns.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp"
-    },
-    "ldjson": [
+"faq": {
+  "title": "Promolecules™ FAQ | Pre Workout, Supplements, Shipping & Usage Guide",
+  "description": "Got questions about Promolecules high-performance supplements? Learn about pre-workout usage, dosage, shipping, returns & advanced formulas designed for serious athletes.",
+  "canonical": "https://www.promolecules.com/about/faq/",
+  "og": {
+    "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
+    "type": "website",
+    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "locale": "AE-DU",
+    "site_name": "Promolecules",
+    "description": "Find answers about Promolecules pre-workout, supplement usage, shipping & returns. Built for high performance and serious results.",
+    "url": "https://www.promolecules.com/about/faq/"
+  },
+  "author": "Promolecules",
+  "geo": {
+    "region": "AE-DU",
+    "placename": "Dubai"
+  },
+  "language": "en",
+  "robots": "index,follow",
+  "twitter": {
+    "card": "summary_large_image",
+    "site": "Promolecules",
+    "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
+    "description": "Everything you need to know about Promolecules supplements, pre-workout usage, shipping & returns.",
+    "image": "https://www.promolecules.com/promolecules-logo.webp"
+  },
+  "ldjson": {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Promolecules",
+    "url": "https://www.promolecules.com/about/faq/",
+    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "sameAs": [
+      "https://www.instagram.com/promolecules/",
+      "https://www.threads.com/@promolecules",
+      "https://x.com/promolecules",
+      "https://in.pinterest.com/promolecules/",
+      "https://www.youtube.com/@Promolecules",
+      "https://www.facebook.com/promolecules.official"
+    ],
+    "contactPoint": [
       {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Promolecules",
-        "url": "https://www.promolecules.com/",
-        "logo": "https://www.promolecules.com/promolecules-logo.webp",
-        "sameAs": [
-          "https://www.instagram.com/promolecules/",
-          "https://www.threads.com/@promolecules",
-          "https://x.com/promolecules",
-          "https://in.pinterest.com/promolecules/",
-          "https://www.youtube.com/@Promolecules",
-          "https://www.facebook.com/promolecules.official"
-        ],
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "email": "contact@promolecules.com"
-          }
-        ]
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "What is Promolecules™?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ makes sports nutrition supplements including pre-workouts, hydration mixes, ATP support and THERMO NUKE XT products for athletes and fitness enthusiasts."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Where are Promolecules™ supplements manufactured?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "All Promolecules™ supplements are manufactured in USA GMP-certified facilities."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why should I choose Promolecules™ supplements?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ offers premium ingredients, transparent labels and scientifically designed sports nutrition formulas for serious athletes."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Who are these supplements for?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ products are intended for adults who are serious about strength training, endurance, fitness and athletic performance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "What makes Promolecules™ different?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ focuses on premium ingredients, transparent labeling, USA GMP-certified manufacturing and performance-driven formulations."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are Promolecules™ products tested?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Yes. Products are manufactured under GMP guidelines and undergo ingredient quality and heavy metal testing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Which Promolecules™ products should I use before a workout?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Father of Insane™ and Warflex™ are designed for pre-workout use. Choose according to your goals and stimulant tolerance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Are Promolecules™ products suitable for beginners?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Some products contain high stimulant levels and may not be suitable for beginners. Always read the label before use."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Where can I buy genuine Promolecules™ products?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Purchase from the official Promolecules™ website and authorized retailers including Amazon, Flipkart and Cost2Cost Supplement."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "Why is Promolecules™ a trusted sports nutrition brand?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ combines premium ingredients, transparent labeling and USA GMP-certified manufacturing to support athletic performance."
-            }
-          }
-        ]
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "contact@promolecules.com"
       }
     ]
   }
-,
+},
 "merndetailpage": {
   "title": "Insane Skull Gym T-Shirt for Men | Premium Workout Wear | Promolecules",
   "description": "Buy Insane Skull Gym T-Shirt for men by Promolecules. Premium cotton, bold bodybuilding design, perfect for workouts & streetwear. Limited stock – shop now.",
