@@ -1,17 +1,9 @@
 {
+ 
   "home": {
     "title": "Promolecules | Premium Sports Nutrition & Performance Supplements",
     "description": "Shop premium sports nutrition supplements from Promolecules™. Explore pre-workout, hydration, ATP support and performance formulas made with premium ingredients, transparent labels and USA GMP certified manufacturing for athletes and fitness enthusiasts.",
     "canonical": "https://www.promolecules.com/",
-    "og": {
-      "title": "Promolecules™ | Premium Sports Nutrition & Performance Supplements",
-      "type": "website",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
-      "locale": "AE-DU",
-      "site_name": "Promolecules™",
-      "description": "Discover premium sports nutrition supplements designed for athletes, bodybuilders and fitness enthusiasts. Shop pre-workout, hydration, endurance and performance formulas from Promolecules™.",
-      "url": "https://www.promolecules.com/"
-    },
     "author": "Promolecules™",
     "publisher": "Promolecules™",
     "language": "English",
@@ -26,35 +18,134 @@
       "region": "AE-DU",
       "placename": "Dubai"
     },
+    "og": {
+      "title": "Promolecules™ | Premium Sports Nutrition & Performance Supplements",
+      "type": "website",
+      "url": "https://www.promolecules.com/",
+      "site_name": "Promolecules™",
+      "description": "Discover premium sports nutrition supplements designed for athletes, bodybuilders and fitness enthusiasts. Shop pre-workout, hydration, endurance and performance formulas from Promolecules™.",
+      "image": "https://www.promolecules.com/promolecules-logo.webp",
+      "image_alt": "Promolecules Premium Sports Nutrition Supplements",
+      "locale": "AE-DU"
+    },
     "twitter": {
       "card": "summary_large_image",
       "title": "Promolecules™ | Premium Sports Nutrition & Performance Supplements",
       "description": "Premium sports nutrition supplements for athletes. Shop pre-workout, hydration, endurance and performance formulas from Promolecules™.",
       "image": "https://www.promolecules.com/promolecules-logo.webp"
     },
-    "ldjson": {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Promolecules",
-      "url": "https://www.promolecules.com/",
-      "logo": "https://www.promolecules.com/promolecules-logo.webp",
-      "sameAs": [
-        "https://www.instagram.com/promolecules/",
-        "https://www.threads.com/@promolecules",
-        "https://x.com/promolecules",
-        "https://in.pinterest.com/promolecules/",
-        "https://www.youtube.com/@Promolecules",
-        "https://www.facebook.com/promolecules.official"
-      ],
-      "contactPoint": [
-        {
-          "@type": "ContactPoint",
-          "contactType": "customer service",
-          "email": "contact@promolecules.com"
-        }
-      ]
-    }
-  },
+    "ldjson": [
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Promolecules",
+        "alternateName": "Promolecules",
+        "url": "https://www.promolecules.com/",
+        "logo": "https://www.promolecules.com/promolecules-logo.webp",
+        "sameAs": [
+          "https://www.facebook.com/promolecules.official",
+          "https://x.com/promolecules",
+          "https://www.instagram.com/promolecules/",
+          "https://www.youtube.com/@Promolecules",
+          "https://www.pinterest.com/promolecules/"
+        ],
+        "contactPoint": [
+          {
+            "@type": "ContactPoint",
+            "contactType": "customer service",
+            "email": "contact@promolecules.com"
+          }
+        ]
+      },
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "1. What is Promolecules™?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Promolecules™ makes sports nutrition supplements: pre-workouts, hydration mixes, ATP support, and THERMO NUKE XT products. Designed for athletes and fitness lovers who want reliable performance."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "2. Where are Promolecules™ supplements manufactured?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "All Promolecules™ supplements are manufactured in USA GMP-certified facilities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "3. Why should I choose Promolecules™ supplements?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Are you looking for something that can help improve your training efficiency, increase workout intensity or endurance, or improve your focus? If yes, then Promolecules™ has something for you."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "4. Who are these supplements for?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Promolecules™ is for adults who’re serious about their training—whether that’s lifting, running, endurance events, or structured workouts. Always follow the label and talk to your doctor if you have health concerns."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "5. What makes Promolecules™ different from other supplement brands?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Promolecules™ concentrates on the quality of ingredients used in its formulations, transparency of product formulations, manufacture standards, and sports nutrition-based products."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "6. Does Promolecules™ evaluate its products?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Certainly, the products of Promolecules™ are manufactured as per GMP guidelines, and quality assessment of ingredients includes quality analysis and heavy metals testing."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "7. What products should I use from Promolecules™ for a workout?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Father of Insane™ and Warflex™ are two products that are formulated to be consumed pre-workout. Pick which product aligns with your goals for that training session and your personal stimulant tolerance, and adhere to the instructions on the product label."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "8. Are Promolecules™ products suitable for a beginner?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Some Promolecules™ products have a high stimulant content and may, in fact, be inappropriate for a beginner. Read the product label and start the product regimen only if you have sufficient tolerance and experience."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "9. Where can defined Promolecules™ products be purchased from?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "The official Promolecules™ website and authorized sellers such as Cost2Cost Supplement, Flipkart, and Amazon are the safest places to purchase genuine Promolecules™ products."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "10. Why is Promolecules™ the best option for sports nutrition?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Promolecules™ uses the best quality ingredients and the best manufacturing processes, along with labeling you can trust, all with consideration of the formulations and end use of the product to aid athletes and those with training and fitness-based goals."
+            }
+          }
+        ]
+      }
+    ]
+  }
+,
 
 
  "about": {
