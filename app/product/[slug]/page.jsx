@@ -41,7 +41,10 @@ export async function generateMetadata({ params }) {
       siteName: seo.og?.site_name,
       images: seo.og?.image ? [{ url: seo.og.image }] : [],
       locale: seo.og?.locale,
-      type: seo.og?.type || "website",
+    type:
+  seo.og?.type === "product"
+    ? "website"
+    : seo.og?.type || "website",
     },
     twitter: {
       card: seo.twitter?.card || "summary_large_image",

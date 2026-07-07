@@ -7,6 +7,6 @@ export default function robots() {
       },
     ],
 
-    sitemap: "https://www.promolecules.com//sitemap.xml",
+    sitemap: "https://www.promolecules.com/sitemap.xml",
   };
 }

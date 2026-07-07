@@ -1,5 +1,6 @@
 import Blogs from "@/components/Blogs";
 import HeroSlider from "@/components/HeroSlider";
+import PromoleculesSection from "@/components/PromoleculesSection";
 import Testimonials from "@/components/TestimonialsSection";
 import TrendingCategory from "@/components/TrendingCategory";
 import UltraHighPerformanceSection from "@/components/UltraHighPerformanceSection";
@@ -32,6 +33,7 @@ export default function Home() {
       <TrendingCategory />
       <Blogs/>
       <Testimonials />
+      <PromoleculesSection/>
     </>
   );
 }

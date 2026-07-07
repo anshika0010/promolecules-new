@@ -4,13 +4,19 @@ import { useState } from "react";
 import ReviewModal from "./ReviewModal";
 import CustomerReviews from "./CustomerReviews";
 import ProductDetail from "./ProductDetail";
+import FAQSection from "./FAQSection"; // 👈 Import FAQ component
 
 export default function ProductPageClient({ product }) {
   const [openReview, setOpenReview] = useState(false);
 
   return (
-    <div className="">
+    <div>
       <ProductDetail product={product} />
+
+      {/* FAQ Section */}
+      {product?.faqs?.length > 0 && (
+        <FAQSection faqs={product.faqs} />
+      )}
 
       <CustomerReviews
         reviews={product.reviews}

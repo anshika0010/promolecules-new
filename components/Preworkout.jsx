@@ -318,7 +318,7 @@ export default function Preworkout() {
           {/* Background Image */}
           <div className="absolute inset-0 hidden lg:block">
             <img
-              src="/Father-of-insane.webp"
+              src="/high-stim-image.jpeg"
               alt="Athlete training"
               className="w-full h-full object-cover object-center"
             />
