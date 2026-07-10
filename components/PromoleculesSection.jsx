@@ -122,7 +122,7 @@ const agenda = [
   "Stimulant-Intelligent Formulas",
   "Strength-Progressive Engineering",
   "USA GMP Certified",
-  "Heavy-Metal Cleared",
+  "Heavy-Metals Cleared",
   "Built for Progression",
 ];
 
@@ -144,7 +144,7 @@ const faqs = [
     a: "Promolecules™ emphasizes balance in its products rather than simply enhancing the amount of stimulants. All of their products are produced to meet your training requirements, like energy, endurance, hydration, muscle pumps, and workout performance, through proper ingredients without fillers or unnecessary stimulants added.",
   },
   {
-    q: "Which of the Promolecules™ products is best suited for muscle pumps and hydration?",
+    q: "Which of the Promolecules™ products are best suited for muscle pumps and hydration?",
     a: "HydraPump+™ is made for those who require better muscle pumps, hydration, and endurance for the sake of training. It contains Liquid Glycerol, Citrulline Malate, electrolytes, potassium, magnesium, and Himalayan Salt to improve your hydration and performance while doing exercises.",
   },
 ];
