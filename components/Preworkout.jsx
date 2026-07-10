@@ -14,12 +14,12 @@ const PRODUCTS = [
     sub: "FATHER OF INSANE ",
     price: "₹2,499",
     originalPrice: "₹3,199",
-    desc: "Our flagship formula engineered for experienced athletes who demand explosive energy, razor-sharp focus, and skin-splitting pumps. Half a scoop outperforms two scoops of the competition.",
+    desc: "Our top-most formula is developed for experienced athletes and fitness enthusiasts who demand intense energy, laser focus, and maximum pumps. Its half scoop delivers a better result than two scoops of the competition.",
     highlights: [
       "High-dose stimulant complex",
-      "Laser focus & mental clarity",
+      "Razor-sharp focus & mental sharpness",
+      "No crash, no itch, no fillers ",
       "Extreme muscle pumps",
-      "No crash, no itch, no fillers",
     ],
     accent: "red",
     img: "/Promolecules/fatherofinsane/father-of-insane-pre-workout.webp",
@@ -32,12 +32,12 @@ const PRODUCTS = [
     sub: "WARFLEX",
     price: "₹2,199",
     originalPrice: "₹2,899",
-    desc: "Stimulant-free powerhouse designed for evening training, double-dosing athletes, and anyone who wants massive muscle fullness and improved blood flow without caffeine or stimulants.",
+    desc: "Warflex is engineered as a stimulant-free powerhouse for late-night training sessions, double-dosing athletes, and anyone who wants immense muscle fullness and enhanced blood circulation without caffeine or stimulants.",
     highlights: [
-      "Stim-free — train any time",
-      "Massive vascularity & fullness",
-      "Stack with High Stim formula",
-      "Clinically dosed nitric oxide",
+      "Stimulant-free dose for anytime training",
+      "Highest vascularity & fullness",
+      "Combine with high stim formula",
+      "Scientifically dosed nitric oxide",
     ],
     accent: "white",
     img: "/Promolecules/warflex/warflex.webp",
@@ -49,48 +49,27 @@ const STEPS = [
   {
     num: "01",
     title: "Instant Energy & Mental Focus",
-    body: "Experience a rapid increase in workout energy and mental clarity within minutes. Our advanced formula helps you stay focused, motivated, and ready to perform without unnecessary distractions.",
+    body: "Experience a rapid increase in workout energy and mental clarity in a matter of minutes. Our advanced formula helps you to stay focused, motivated, disciplined, and ready to perform without unnecessary distractions.",
     icon: "⚡",
     label: "0–20 min",
   },
   {
     num: "02",
     title: "Highest Strength & Workout Intensity",
-    body: "Build Strength, Endurance and Training Intensity. Survive heavy lifts, high volume workouts and demanding sessions without losing your performance.",
+    body: "Unfold higher strength, endurance, and training intensity. Survive heavy weight lifts, high-intensity workouts, and demanding sessions with booster energy and performance.",
     icon: "💪",
     label: "20–60 min",
   },
   {
     num: "03",
     title: "Long-Lasting Performance",
-    body: "Long lasting energy and intense muscle pumps and improved concentration during your workout. This formula is designed to keep you going longer during your training without the crash of typical pre-workouts.",
+    body: "Master long-lasting energy, intense muscle pumps, and improved concentration during your workout. This formula is engineered to keep you going longer during your training session without the crash of typical pre-workouts.",
     icon: "🔥",
     label: "60–90 min",
   },
 ];
 
-const FEATURES = [
-  {
-    icon: "🎯",
-    title: "Precision Dosing",
-    body: "Every ingredient is dosed at clinically effective levels. No proprietary blends hiding underdosed actives behind a label.",
-  },
-  {
-    icon: "🔬",
-    title: "Science-Backed Formula",
-    body: "Premium ingredients selected through peer-reviewed research to support energy, endurance, focus, strength, and recovery.",
-  },
-  {
-    icon: "🏆",
-    title: "High Performance Design",
-    body: "Formulated specifically for serious athletes, strength trainers, and bodybuilders seeking maximum, measurable results.",
-  },
-  {
-    icon: "🛡️",
-    title: "Strict Quality Standards",
-    body: "Manufactured with rigorous quality control using carefully sourced, trusted ingredients — batch tested, every time.",
-  },
-];
+
 
 const REVIEWS = [
   {
@@ -342,19 +321,19 @@ export default function Preworkout() {
                 <div className="flex items-center gap-3 mb-7">
                   <div className="h-px w-10 bg-red-500" />
                   <span className="text-red-400 text-[10px] font-black tracking-[0.35em] uppercase">
-                    Most Advanced High Stim Pre Workout Supplement
+                 Most premium high-stim pre-workout supplement 
                   </span>
                 </div>
 
                 <h1 className="font-black leading-none tracking-tight mb-3">
                   <span className="block text-5xl uppercase  text-white">
-                    Trusted High-Performance
+                  Unbelievable high performance 
                   </span>
                   <span className="block text-5xl uppercase text-red-500">
-                    Sports Nutrition Brand
+                   Sports nutrition brand
                   </span>
                   <span className="block text-3xl  text-zinc-200">
-                    AVAILABLE NOW
+                  Now available in India
                   </span>
                 </h1>
 
@@ -411,18 +390,15 @@ export default function Preworkout() {
                     <span className="text-red-500">One Standard.</span>
                   </h2>
                   <p className="text-zinc-400 text-sm leading-relaxed mt-4 max-w-xl">
-                    Whether you train on stimulants or stim-free, Promolecules
-                    has a precision formula engineered for your training style.
-                    Both deliver clinically dosed ingredients, zero fillers, and
-                    uncompromising performance.
+                   Whether you do training with stimulants or without them, Promolecules has a precise formula designed for your training style. Both options provide clinically dosed ingredients, no fillers, and strong performance.
                   </p>
                 </div>
                 <div className="flex-shrink-0">
                   <p className="text-zinc-600 text-xs uppercase tracking-wider font-bold mb-1">
-                    Compatible Stack
+                   COMPATIBLE STACK
                   </p>
                   <p className="text-zinc-400 text-sm">
-                    Combine both for maximum energy + maximum pumps
+                   Combine both for maximum energy + maximum pumps.
                   </p>
                 </div>
               </div>
@@ -481,9 +457,7 @@ export default function Preworkout() {
                 The Biological Shift
               </h2>
               <p className="text-zinc-500 text-sm mt-4 max-w-xl mx-auto leading-relaxed">
-                Three precision phases engineered to take you from warm-up to
-                peak performance — and keep you locked there until the session
-                is done.
+               Three precise levels intended to take you from warm-up to peak performance and keep you working harder until the end of the session.
               </p>
             </div>
 
@@ -643,8 +617,7 @@ export default function Preworkout() {
               </h2>
 
               <p className="text-zinc-400 mt-4 leading-7 sm:leading-8 text-sm sm:text-base">
-                Whether you're a gym owner, supplement retailer, or fitness
-                influencer, we have a structure built for your growth.
+               Whether you're a gym owner, supplement retailer, or fitness influencer, we have a structure built for your growth.
               </p>
 
               <button className="mt-8 w-full sm:w-auto bg-red-600 hover:bg-red-500 active:scale-95 transition-all px-8 py-4 text-sm font-bold uppercase tracking-wider text-white">
@@ -666,11 +639,7 @@ export default function Preworkout() {
               </h2>
 
               <p className="text-zinc-400 mt-4 leading-7 sm:leading-8 text-sm sm:text-base">
-                We don't care about your followers, we care about your Training
-                Intensity. At Promolecules™ we don't do free products or advance
-                payments, because our formulations are premium-grade performance
-                tools. We want partners who believe in the Strength Culture
-                enough to invest in it themselves.
+               We don't care about your followers; we care about your Training Intensity. At Promolecules, we don't accept free products or advance payments because our formulations are premium-graded performance tools. We are looking for partners who are committed to the strength culture and make a personal investment in it.   
               </p>
 
               <Link href="/contact-us">

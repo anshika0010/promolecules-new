@@ -31,7 +31,7 @@ export default function HydraPumpHero() {
             {/* Tags */}
             <div className="flex flex-wrap gap-x-6 gap-y-2 mb-8">
               {[
-                "Quick Hydration",
+                " Fast Hydration",
                 "Extreme Muscle Pumps",
                 "Endurance Performance",
               ].map((tag, i) => (
@@ -47,7 +47,7 @@ export default function HydraPumpHero() {
 
             {/* Description */}
             <p className="text-lg sm:text-xl text-white font-semibold mb-4">
-              Train harder, recover faster & get skin-splitting muscle pumps.
+             Train harder, recover faster & get intense muscle pumps.
             </p>
 
             <p className="text-white/80 leading-relaxed mb-6">
@@ -58,10 +58,8 @@ export default function HydraPumpHero() {
             </p>
 
             <p className="text-white/80 leading-relaxed mb-10">
-              Unlike regular hydration products, HydraPump+™ contains 10g
-              Liquid Glycerol, 3g Citrulline Malate and quality electrolytes
-              that help muscles retain water, increase blood flow, prevent
-              dehydration and optimise workout performance.
+              This revolutionary Liquid Glycerol with Citrulline Malate combination is built for athletes, bodybuilders, heavyweight lifters, runners, and fitness enthusiasts. It provides you faster hydration, higher nitric oxide production, improved endurance, and Long-lasting muscle fullness.
+In comparison with regular hydration products, Hydrapump+ contains 10g Liquid Glycerol, 3g Citrulline Malate, and quality electrolytes that help muscles to retain water longer, increase blood circulation, prevent dehydration, and achieve optimal workout performance.
             </p>
 
             {/* Stats */}

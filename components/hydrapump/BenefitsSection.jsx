@@ -16,7 +16,7 @@ const BenefitsSection = () => {
           </h2>
 
           <p className="mt-4 text-gray-600 max-w-3xl mx-auto">
-           HydraPump+™ is a scientifically formulated blend of ingredients that work synergistically to optimise hydration, endurance, blood flow and muscle pumps.
+            HydraPump+ is a scientifically formulated blend of ingredients that work synergistically to optimise hydration, endurance, blood flow and muscle pumps.
           </p>
         </div>
 
@@ -41,7 +41,7 @@ const BenefitsSection = () => {
             <div className="flex items-center justify-end gap-5">
               <div className="text-right">
                 <h4 className="font-semibold text-gray-800">
-                  Prevents Muscle Cramps
+                  Avoid Muscle Cramps
                 </h4>
               </div>
 
@@ -105,7 +105,7 @@ const BenefitsSection = () => {
 
               <div>
                 <h4 className="font-semibold text-gray-800">
-                Massive Muscle Pumps
+              Bulkier Muscle Pumps
                 </h4>
 
               </div>
@@ -120,7 +120,7 @@ const BenefitsSection = () => {
 
               <div>
                 <h4 className="font-semibold text-gray-800">
-                 Increased Endurance
+                Improved Endurance
                 </h4>
 
                 

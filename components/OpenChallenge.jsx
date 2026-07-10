@@ -9,12 +9,12 @@ import {
 const features = [
   {
     icon: <Gauge className="w-6 h-6 sm:w-8 sm:h-8 text-white" />,
-    title: "Precision Dosing",
-    desc: "All ingredients are dosed at effective levels for maximum workout performance and consistency",
+    title: "Careful Dosing ",
+    desc: "All ingredients are precisely dosed at effective levels for maximum workout performance and consistency.",
   },
   {
     icon: <ShieldCheck className="w-6 h-6 sm:w-8 sm:h-8 text-white" />,
-    title: "Science-Backed Ingredients",
+    title: "Scientific Ingredients ",
     desc: "Premium ingredients selected through research to support energy, endurance, focus, strength, and recovery.",
   },
   {
@@ -25,7 +25,7 @@ const features = [
   {
     icon: <FileText className="w-6 h-6 sm:w-8 sm:h-8 text-white" />,
     title: "Premium Quality",
-    desc: "Manufactured with strict quality standards using carefully sourced ingredients you can trust.",
+    desc: "Manufactured with strict quality standards using carefully sourced ingredients, you can trust it.",
   },
 ];
 
@@ -56,36 +56,33 @@ export default function OpenChallenge() {
                 Our
               </span>
               <span className="text-[10px] sm:text-xs tracking-wider uppercase text-white font-semibold leading-tight">
-                half scoop outperforms other brands' 2 scoops
+                 half scoop outperforms other brands' 2 scoops.
               </span>
             </div>
 
             {/* Heading */}
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white leading-tight mb-5 sm:mb-8">
-              More Performance in Every Scoop
+              Peak Performance in Every Scoop
             </h2>
 
             {/* Body */}
             <p className="text-sm sm:text-base text-zinc-300 leading-7 sm:leading-8">
-              Way too many pre-workouts have way too much product per serving with
-              inconsistent results. Promolecules uses concentrated, clinically dosed
-              ingredients to maximize performance and minimize unnecessary fillers.
+              There are too many pre-workout brands or products that give inconsistent results and use too much stuff in each serving. Promolecules eliminates unnecessary fillers and improves productivity by using clinically dosed ingredients and effective formulas that maximise performance without unwanted fillers.
+
               <br className="hidden sm:block" />
               <span className="block mt-3 sm:mt-0">
-                Our formulas are precision engineered to deliver explosive energy, greater
-                focus, increased endurance and long-lasting muscle pumps — so you can
-                perform at your peak from the first set to the last.
+                Our formula is engineered precisely to deliver explosive results, better performance, stunned focus and energy, improved endurance, and long-lasting muscle pumps, so that you can perform better from the first set to the last.
               </span>
             </p>
 
             {/* Checklist */}
             <div className="mt-8 sm:mt-10 space-y-3 sm:space-y-5">
               {[
-                "Clinically Dosed Ingredients",
-                "Advanced Performance Formula",
-                "Powerful Energy & Focus",
-                "Long-Lasting Pumps",
-                "No Proprietary Blends",
+                "Science-backed ingredients ",
+                "Cutting-edge performance formula",
+                "Extreme energy & focus",
+                "Long-lasting muscle pumps"
+                
               ].map((item) => (
                 <div
                   key={item}

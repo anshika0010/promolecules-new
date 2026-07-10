@@ -6,18 +6,18 @@ import Link from "next/link";
 const points = [
   {
     icon: Leaf,
-    title: "10g Liquid Glycerol",
-    text: "Liquid Glycerol increases total body water and helps with hyperhydration by pulling water into muscle cells. More water means longer workouts, better endurance, and fuller-looking muscles.",
+    title: "1Why HydraPump+™ Works",
+    text: "HydraPump+™ is a scientifically formulated blend of ingredients that work collaboratively to ensure optimal hydration, endurance, blood flow, and muscle pumps.",
   },
   {
     icon: ShieldCheck,
-    title: "Citrulline Malate 3000mg",
-    text: "Citrulline Malate boosts nitric oxide production, which helps to improve blood circulation, oxygen delivery, vascularity, and explosive muscle pumps during training.",
+    title: "10g Liquid Glycerol",
+    text: "Liquid Glycerol increases overall body water and helps with superhydration by pulling water into muscle cells. More water means longer workouts, better endurance, and fuller muscles.",
   },
   {
     icon: Sparkles,
-    title: "Advanced Electrolyte Blend",
-    text: "Contains Sodium, Potassium, Magnesium Glycinate and Pink Himalayan Salt to support fluid balance, reduce muscle cramps and support muscle contractions.",
+    title: "Citrulline Malate 3000mg",
+    text: "Citrulline Malate boosts nitric oxide production, which helps to improve blood circulation, oxygen delivery, vascularity, and explosive muscle pumps during training.",
   },
 ];
 
