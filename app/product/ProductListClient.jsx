@@ -8,7 +8,7 @@ import { Search, SlidersHorizontal } from "lucide-react";
 import productsData from "@/data/productsdetail.json";
 
 const products = productsData.products;
-const categories = ["ALL", "PRE-WORKOUT", "FAT BURNER"];
+const categories = ["ALL", "PRE-WORKOUT", "FAT BURNER", "ATP BOOSTER"];
 
 function ProductCard({ product }) {
   return (

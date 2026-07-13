@@ -44,28 +44,40 @@ export default function RootLayout({ children }) {
       {/* ❌ No manual <head> tag here */}
       <body   suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} ${gloomyFont.variable} antialiased`}>
 
-        {/* ── Google Tag Manager Script ── */}
-        <Script
-          id="gtm-script"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-            })(window,document,'script','dataLayer','GTM-5LJDV8SJ');`,
-          }}
-        />
+     {/* ── Google Tag Manager Script ── */}
+<Script
+  id="gtm-script"
+  strategy="afterInteractive"
+  dangerouslySetInnerHTML={{
+    __html: `(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WRDPQTZ6');`,
+  }}
+/>
 
-        {/* ── Google Tag Manager (noscript fallback) ── */}
-        <noscript>
-          <iframe
-            src="https://www.googletagmanager.com/ns.html?id=GTM-5LJDV8SJ"
-            height="0"
-            width="0"
-            style={{ display: "none", visibility: "hidden" }}
-          />
-        </noscript>
+{/* Google Site Verification */}
+<meta
+  name="google-site-verification"
+  content="7voKkxZhx84IqY2j_cwDoqv-RCRliZNKvudnCj88FHc"
+/>
+
+{/* Bing Webmaster Verification */}
+<meta
+  name="msvalidate.01"
+  content="3B0EB186B32E60C7DA87A3DC2A092063"
+/>
+
+{/* ── Google Tag Manager (noscript fallback) ── */}
+<noscript>
+  <iframe
+    src="https://www.googletagmanager.com/ns.html?id=GTM-WRDPQTZ6"
+    height="0"
+    width="0"
+    style={{ display: "none", visibility: "hidden" }}
+  />
+</noscript>
 <CountryPopup/>
         <PreloaderWrapper>
           <div className="pt-[50px] bg-black">

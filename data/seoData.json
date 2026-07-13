@@ -3,7 +3,7 @@
   "home": {
     "title": "Promolecules | Premium Sports Nutrition & Performance Supplements",
     "description": "Shop premium sports nutrition supplements from Promolecules™. Explore pre-workout, hydration, ATP support and performance formulas made with premium ingredients, transparent labels and USA GMP certified manufacturing for athletes and fitness enthusiasts.",
-    "canonical": "https://www.promolecules.com/",
+    "canonical": "https://www.promolecules.co.in/",
     "author": "Promolecules™",
     "publisher": "Promolecules™",
     "language": "English",
@@ -21,10 +21,10 @@
     "og": {
       "title": "Promolecules™ | Premium Sports Nutrition & Performance Supplements",
       "type": "website",
-      "url": "https://www.promolecules.com/",
+      "url": "https://www.promolecules.co.in/",
       "site_name": "Promolecules™",
       "description": "Discover premium sports nutrition supplements designed for athletes, bodybuilders and fitness enthusiasts. Shop pre-workout, hydration, endurance and performance formulas from Promolecules™.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp",
       "image_alt": "Promolecules Premium Sports Nutrition Supplements",
       "locale": "AE-DU"
     },
@@ -32,7 +32,7 @@
       "card": "summary_large_image",
       "title": "Promolecules™ | Premium Sports Nutrition & Performance Supplements",
       "description": "Premium sports nutrition supplements for athletes. Shop pre-workout, hydration, endurance and performance formulas from Promolecules™.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp"
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp"
     },
     "ldjson": [
       {
@@ -40,8 +40,8 @@
         "@type": "Organization",
         "name": "Promolecules",
         "alternateName": "Promolecules",
-        "url": "https://www.promolecules.com/",
-        "logo": "https://www.promolecules.com/promolecules-logo.webp",
+        "url": "https://www.promolecules.co.in/",
+        "logo": "https://www.promolecules.co,in/promolecules-logo.webp",
         "sameAs": [
           "https://www.facebook.com/promolecules.official",
           "https://x.com/promolecules",
@@ -151,15 +151,15 @@
  "about": {
   "title": "About Promolecules | High Stim Pre Workout & Performance Supplements",
   "description": "Learn about Promolecules, creators of high stim pre workout like Warflex, Father of Insane. Science-backed supplements designed for energy, strength, and performance. Trusted in UAE, India, Saudi Arabia & Russia.",
-  "canonical": "https://www.promolecules.com/about/",
+  "canonical": "https://www.promolecules.co.in/about/",
   "og": {
     "title": "About Promolecules | High Stim Pre Workout & Supplements Brand",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webpp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webpp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Explore Promolecules, known for powerful pre workouts like Warflex, Father of Insane. Built for serious performance, energy, and strength.",
-    "url": "https://www.promolecules.com/about/"
+    "url": "https://www.promolecules.co.in/about/"
   },
   "author": "Promolecules",
   "geo": {
@@ -173,14 +173,14 @@
     "site": "Promolecules",
     "title": "Promolecules | High Stim Pre Workout & Performance Supplements",
     "description": "Science-backed high stim pre workout & supplements designed for energy, strength, and peak performance.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/about/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/about/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -199,17 +199,17 @@
 "contact": {
   "title": "Contact Promolecules | Buy Pre-Workout, Distributors & Support",
   "description": "Get in touch with Promolecules for orders, distributor inquiries, wholesale deals, and customer support. Premium pre-workout supplements trusted by athletes worldwide..",
-  "canonical": "https://www.promolecules.com/contact-us/",
+  "canonical": "https://www.promolecules.co.in/contact-us/",
   "og": {
     "title": "Contact Promolecules | Pre-Workout Orders & Distributor Support",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Contact Promolecules for supplement orders, distributor partnerships, and support. Premium pre-workout trusted by athletes globally.",
-    "url": "https://www.promolecules.com/contact-us/"
+    "url": "https://www.promolecules.co.in/contact-us/"
   },
-  "author": "www.promolecules.com",
+  "author": "www.promolecules.co.in",
   "geo": {
     "region": "AE-DU",
     "placename": "Dubai"
@@ -221,14 +221,14 @@
     "site": "Promolecules",
     "title": "Contact Promolecules | Pre-Workout Orders & Support",
     "description": "Reach out to Promolecules for orders, wholesale, and distributor inquiries. High-performance pre-workout supplements worldwide.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/contact-us/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/contact-us/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -249,15 +249,15 @@
 "domestic": {
   "title": "Promolecules Distributor Login | Wholesale Supplements Portal",
   "description": "Login to Promolecules distributor portal for wholesale supplement pricing, bulk orders, and fast logistics support. Partner with a premium performance nutrition brand.",
-  "canonical": "https://www.promolecules.com/domestic/",
+  "canonical": "https://www.promolecules.co.in/domestic/",
   "og": {
     "title": "Promolecules Distributor Login | Wholesale Portal",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Access the Promolecules distributor portal. Get bulk pricing, reliable supply, and premium supplement products for your business.",
-    "url": "https://www.promolecules.com/domestic/"
+    "url": "https://www.promolecules.co.in/domestic/"
   },
   "author": "Promolecules",
   "geo": {
@@ -271,14 +271,14 @@
     "site": "Promolecules",
     "title": "Promolecules Distributor Login | Wholesale Supplements Portal",
     "description": "Login to access wholesale pricing, bulk orders, and premium supplement supply with Promolecules.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/domestic/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/domestic/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -300,15 +300,15 @@
 "international": {
   "title": "Buy Premium Supplements Internationally | Promolecules Global Shipping",
   "description": "Shop high-quality pre-workout & fat burners & more at Promolecules International. Fast, reliable shipping to Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India & beyond.",
-  "canonical": "https://www.promolecules.com/international/",
+  "canonical": "https://www.promolecules.co.in/international/",
   "og": {
     "title": "Buy Premium Supplements Internationally | Promolecules",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Shop premium pre-workout, fat burners & supplements with fast global delivery. Available in UAE, Saudi Arabia, Qatar, India & more.",
-    "url": "https://www.promolecules.com/international/"
+    "url": "https://www.promolecules.co.in/international/"
   },
   "author": "Promolecules",
   "geo": {
@@ -322,14 +322,14 @@
     "site": "Promolecules",
     "title": "Buy Premium Supplements Internationally | Promolecules",
     "description": "Premium pre-workout & fat burners with fast global shipping. Shop Promolecules today.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/international/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/international/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -351,17 +351,17 @@
 "product": {
   "title": "Best Pre Workout, Fat Burner & Muscle Builder | Promolecules",
   "description": "Buy high-stim pre workouts, fat burners & muscle building supplements from Promolecules. Premium formulas designed for strength, energy & performance. Shop now.",
-  "canonical": "https://www.promolecules.com/product/",
+  "canonical": "https://www.promolecules.co.in/product/",
   "og": {
     "title": "High-Stim Pre Workout, Fat Burner & More | Promolecules",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Explore premium pre workouts, fat burners & muscle builders by Promolecules. Built for serious performance & results.",
-    "url": "https://www.promolecules.com/product/"
+    "url": "https://www.promolecules.co.in/product/"
   },
-  "author": "www.promolecules.com",
+  "author": "www.promolecules.co.in",
   "geo": {
     "region": "AE-DU",
     "placename": "Dubai"
@@ -373,14 +373,14 @@
     "site": "Promolecules",
     "title": "Best Pre Workout & Fat Burner | Promolecules",
     "description": "High-stim pre workouts, fat burners & muscle builders for real performance. Shop Promolecules now.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/product/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/product/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -401,15 +401,15 @@
 "blog": {
   "title": "Promolecules Blog | Fitness Tips, Pre-Workout & Supplement Guides",
   "description": "Discover expert fitness tips, pre-workout guides, fat loss strategies, and supplement insights on the Promolecules blog to boost energy, performance, and results.",
-  "canonical": "https://www.promolecules.com/blog/",
+  "canonical": "https://www.promolecules.co.in/blog/",
   "og": {
     "title": "Promolecules Blog | Fitness Tips & Supplement Guides",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Explore fitness tips, pre-workout guides, fat loss strategies, and supplement insights to boost performance and energy.",
-    "url": "https://www.promolecules.com/blog/"
+    "url": "https://www.promolecules.co.in/blog/"
   },
   "author": "Promolecules",
   "geo": {
@@ -423,14 +423,14 @@
     "site": "Promolecules",
     "title": "Promolecules Blog | Fitness Tips & Supplement Guides",
     "description": "Expert fitness tips, fat loss strategies, and supplement insights to enhance your performance and results.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/blog/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/blog/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -451,15 +451,15 @@
 "merch": {
   "title": "Buy Gym Wear & Accessories Online | Promolecules Merch",
   "description": "Shop Promolecules premium gym wear & fitness accessories. High-performance merch designed for athletes. Upgrade your workout style today.",
-  "canonical": "https://www.promolecules.com/merch/",
+  "canonical": "https://www.promolecules.co.in/merch/",
   "og": {
     "title": "Promolecules Merch | Premium Gym Wear & Accessories",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Explore Promolecules premium gym wear & accessories. Built for performance, designed for athletes.",
-    "url": "https://www.promolecules.com/merch/"
+    "url": "https://www.promolecules.co.in/merch/"
   },
   "author": "Promolecules",
   "geo": {
@@ -473,14 +473,14 @@
     "site": "Promolecules",
     "title": "Buy Gym Wear & Accessories | Promolecules Merch",
     "description": "Premium gym wear & accessories by Promolecules. Built for performance and everyday training.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/merch/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/merch/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -501,15 +501,15 @@
 "shop": {
   "title": "High Stim Pre Workout & Fat Burner Supplements | Promolecules",
   "description": "Shop high stim pre workout, fat burners & muscle pump supplements by Promolecules. Designed for extreme energy, strength & peak gym performance. Buy now.",
-  "canonical": "https://www.promolecules.com/shop/",
+  "canonical": "https://www.promolecules.co.in/shop/",
   "og": {
     "title": "High Stim Pre Workout & Fat Burner Supplements | Promolecules",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Explore high-performance pre workout, fat burner & pump supplements. Built for serious athletes who want real results.",
-    "url": "https://www.promolecules.com/shop/"
+    "url": "https://www.promolecules.co.in/shop/"
   },
   "author": "Promolecules",
   "geo": {
@@ -523,14 +523,14 @@
     "site": "Promolecules",
     "title": "High Stim Pre Workout & Fat Burner Supplements | Promolecules",
     "description": "Shop powerful pre workout, fat burners & pump supplements for energy, strength & performance.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/shop/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/shop/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -551,15 +551,15 @@
 "whoWeAre": {
   "title": "About Promolecules™ | Premium Sports Nutrition & Performance Supplements",
   "description": "Discover Promolecules™, a premium sports nutrition brand engineered for strength, endurance, and peak performance. Designed for serious athletes who demand results.",
-  "canonical": "https://www.promolecules.com/about/who-we-are/",
+  "canonical": "https://www.promolecules.co.in/about/who-we-are/",
   "og": {
     "title": "About Promolecules™ | Premium Sports Nutrition Brand",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Explore Promolecules™, a premium supplement brand built for strength, endurance, and performance. Trusted by athletes who push limits.",
-    "url": "https://www.promolecules.com/about/who-we-are/"
+    "url": "https://www.promolecules.co.in/about/who-we-are/"
   },
   "author": "Promolecules",
   "geo": {
@@ -573,14 +573,14 @@
     "site": "Promolecules",
     "title": "About Promolecules™ | Premium Sports Nutrition Brand",
     "description": "Premium supplements designed for strength, endurance, and performance. Built for athletes who demand more.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/about/who-we-are/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/about/who-we-are/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -601,15 +601,15 @@
 "whatWeDeliver": {
   "title": "What We Deliver | Promolecules Performance Supplements",
   "description": "Explore performance nutrition by Promolecules. Supplements for muscle growth, strength, endurance & recovery. Designed for serious fitness goals.",
-  "canonical": "https://www.promolecules.com/about/what-we-deliver/",
+  "canonical": "https://www..in/about/what-we-deliver/",
   "og": {
     "title": "What We Deliver | Promolecules Performance Supplements",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Explore advanced performance supplements by Promolecules for strength, endurance, muscle growth, and recovery.",
-    "url": "https://www.promolecules.com/about/what-we-deliver/"
+    "url": "https://www.promolecules.co.in/about/what-we-deliver/"
   },
   "author": "Promolecules",
   "geo": {
@@ -623,14 +623,14 @@
     "site": "Promolecules",
     "title": "What We Deliver | Promolecules Performance Supplements",
     "description": "High-performance supplements designed for serious fitness goals. Strength, endurance, recovery — all in one place.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/about/what-we-deliver/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/about/what-we-deliver/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -651,17 +651,17 @@
 "history": {
   "title": "Promolecules History | Premium Performance Supplements Brand",
   "description": "Promolecules was created out of real gym frustration. Designed to deliver powerful, effective formulas for strength, energy, and performance.",
-  "canonical": "https://www.promolecules.com/about/history/",
+  "canonical": "https://www.promolecules.co.in/about/history/",
   "og": {
     "title": "Promolecules History | Built for Real Performance",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Learn how Promolecules was created to solve real gym problems with powerful, science-backed supplements for performance and recovery.",
-    "url": "https://www.promolecules.com/about/history/"
+    "url": "https://www.promolecules.co.in/about/history/"
   },
-  "author": "www.promolecules.com",
+  "author": "www.promolecules.co.in",
   "geo": {
     "region": "AE-DU",
     "placename": "Dubai"
@@ -673,14 +673,14 @@
     "site": "Promolecules",
     "title": "Promolecules History | Built for Real Performance",
     "description": "From real gym frustration to elite performance supplements — explore the journey of Promolecules.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/about/history/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/about/history/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -701,15 +701,15 @@
 "faq": {
   "title": "Promolecules™ FAQ | Pre Workout, Supplements, Shipping & Usage Guide",
   "description": "Got questions about Promolecules high-performance supplements? Learn about pre-workout usage, dosage, shipping, returns & advanced formulas designed for serious athletes.",
-  "canonical": "https://www.promolecules.com/about/faq/",
+  "canonical": "https://www.promolecules.co.in/about/faq/",
   "og": {
     "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Find answers about Promolecules pre-workout, supplement usage, shipping & returns. Built for high performance and serious results.",
-    "url": "https://www.promolecules.com/about/faq/"
+    "url": "https://www.promolecules.co.in/about/faq/"
   },
   "author": "Promolecules",
   "geo": {
@@ -723,14 +723,14 @@
     "site": "Promolecules",
     "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
     "description": "Everything you need to know about Promolecules supplements, pre-workout usage, shipping & returns.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/about/faq/",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/about/faq/",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -751,15 +751,15 @@
 "merndetailpage": {
   "title": "Insane Skull Gym T-Shirt for Men | Premium Workout Wear | Promolecules",
   "description": "Buy Insane Skull Gym T-Shirt for men by Promolecules. Premium cotton, bold bodybuilding design, perfect for workouts & streetwear. Limited stock – shop now.",
-  "canonical": "https://www.promolecules.com/merch/insane-skull-tshirt",
+  "canonical": "https://www.promolecules.co.in/merch/insane-skull-tshirt",
   "og": {
     "title": "Insane Skull Gym T-Shirt for Men | Premium Workout Wear",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "locale": "AE-DU",
     "site_name": "Promolecules",
     "description": "Premium gym t-shirt with bold skull design. Built for performance, comfort & style. Shop now.",
-    "url": "https://www.promolecules.com/merch/insane-skull-tshirt"
+    "url": "https://www.promolecules.co.in/merch/insane-skull-tshirt"
   },
   "author": "Promolecules",
   "geo": {
@@ -773,14 +773,14 @@
     "site": "Promolecules",
     "title": "Insane Skull Gym T-Shirt for Men | Premium Workout Wear",
     "description": "Premium gym t-shirt with bold skull design. Perfect for workouts & street style. Shop now.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp"
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   },
   "ldjson": {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Promolecules",
-    "url": "https://www.promolecules.com/merch/insane-skull-tshirt",
-    "logo": "https://www.promolecules.com/promolecules-logo.webp",
+    "url": "https://www.promolecules.co.in/merch/insane-skull-tshirt",
+    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
     "sameAs": [
       "https://www.instagram.com/promolecules/",
       "https://www.threads.com/@promolecules",
@@ -802,15 +802,15 @@
   "privacyPolicy": {
     "title": "Privacy Policy | Promolecules Data Protection & Security",
     "description": "Read the Promolecules Privacy Policy to understand how we collect, use, store, and protect your personal information, payment details, and customer data securely.",
-    "canonical": "https://www.promolecules.com/privacy-policy/",
+    "canonical": "https://www.promolecules.co.in/privacy-policy/",
     "og": {
       "title": "Privacy Policy | Promolecules Data Protection & Security",
       "type": "website",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp",
       "locale": "AE-DU",
       "site_name": "Promolecules",
       "description": "Read the Promolecules Privacy Policy to understand how we collect, use, store, and protect your personal information, payment details, and customer data securely.",
-      "url": "https://www.promolecules.com/privacy-policy/"
+      "url": "https://www.promolecules.co.in/privacy-policy/"
     },
     "author": "Promolecules",
     "geo": {
@@ -825,14 +825,14 @@
       "site": "Promolecules",
       "title": "Privacy Policy | Promolecules Data Protection & Security",
       "description": "Read the Promolecules Privacy Policy to understand how we collect, use, store, and protect your personal information, payment details, and customer data securely.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp"
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp"
     },
     "ldjson": {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Promolecules",
-      "url": "https://www.promolecules.com/privacy-policy/",
-      "logo": "https://www.promolecules.com/promolecules-logo.webp",
+      "url": "https://www.promolecules.co.in/privacy-policy/",
+      "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
       "sameAs": [
         "https://www.instagram.com/promolecules/",
         "https://www.threads.com/@promolecules",
@@ -854,17 +854,17 @@
   "termsConditions": {
     "title": "Terms & Conditions | Promolecules Official Store",
     "description": "Read the Promolecules Terms & Conditions to understand our website usage, order policies, payment terms, product information, user responsibilities, and legal guidelines before making a purchase.",
-    "canonical": "https://www.promolecules.com/terms-conditions/",
+    "canonical": "https://www.promolecules.co.in/terms-conditions/",
     "og": {
       "title": "Terms & Conditions | Promolecules Official Store",
       "type": "website",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp",
       "locale": "AE-DU",
       "site_name": "Promolecules",
       "description": "Read the Promolecules Terms & Conditions to understand our website usage, order policies, payment terms, product information, user responsibilities, and legal guidelines before making a purchase.",
-      "url": "https://www.promolecules.com/terms-conditions/"
+      "url": "https://www.promolecules.co.in/terms-conditions/"
     },
-    "author": "www.promolecules.com",
+    "author": "www.promolecules.co.in",
     "geo": {
       "region": "AE-DU",
       "placename": "Dubai"
@@ -877,22 +877,22 @@
       "site": "Promolecules",
       "title": "Terms & Conditions | Promolecules Official Store",
       "description": "Read the Promolecules Terms & Conditions to understand our website usage, order policies, payment terms, product information, user responsibilities, and legal guidelines before making a purchase.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp"
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp"
     },
     "ldjson": {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Terms & Conditions | Promolecules Official Store",
-      "url": "https://www.promolecules.com/terms-conditions/",
+      "url": "https://www.promolecules.co.in/terms-conditions/",
       "description": "Read the Promolecules Terms & Conditions to understand our website usage, order policies, payment terms, product information, user responsibilities, and legal guidelines before making a purchase.",
       "inLanguage": "en",
       "publisher": {
         "@type": "Organization",
         "name": "Promolecules",
-        "url": "https://www.promolecules.com/",
+        "url": "https://www.promolecules.co.in/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.promolecules.com/promolecules-logo.webp"
+          "url": "https://www.promolecules.co.in/promolecules-logo.webp"
         }
       },
       "about": "Terms & Conditions"
@@ -903,17 +903,17 @@
   "cookiesPolicy": {
     "title": "Cookies Policy | Promolecules Privacy & Website Cookies",
     "description": "Learn how Promolecules uses cookies to improve your browsing experience, website performance, analytics, security, and personalized content while protecting your privacy.",
-    "canonical": "https://www.promolecules.com/cookies-policy/",
+    "canonical": "https://www.promolecules.co.in/cookies-policy/",
     "og": {
       "title": "Cookies Policy | Promolecules™ Privacy & Website Cookies",
       "type": "website",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp",
       "locale": "AE-DU",
       "site_name": "Promolecules",
       "description": "Learn how Promolecules™ uses cookies to improve your browsing experience, website performance, analytics, security, and personalized content while protecting your privacy.",
-      "url": "https://www.promolecules.com/cookies-policy/"
+      "url": "https://www.promolecules.co.in/cookies-policy/"
     },
-    "author": "www.promolecules.com",
+    "author": "www.promolecules.co.in",
     "geo": {
       "region": "AE-DU",
       "placename": "Dubai"
@@ -926,19 +926,19 @@
       "site": "Promolecules",
       "title": "Cookies Policy | Promolecules™ Privacy & Website Cookies",
       "description": "Learn how Promolecules™ uses cookies to improve your browsing experience, website performance, analytics, security, and personalized content while protecting your privacy.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp"
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp"
     },
     "ldjson": {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Cookies Policy | Promolecules Privacy & Website Cookies",
-      "url": "https://www.promolecules.com/cookies-policy/",
+      "url": "https://www.promolecules.co.in/cookies-policy/",
       "publisher": {
         "@type": "Organization",
         "name": "Promolecules",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.promolecules.com/promolecules-logo.webp"
+          "url": "https://www.promolecules.co.in/promolecules-logo.webp"
         }
       },
       "inLanguage": "en",
@@ -950,17 +950,17 @@
   "returnPolicy": {
     "title": "Return Policy | Returns, Refunds & Replacements | Promolecules",
     "description": "Review the Promolecules Return Policy for eligibility, damaged products, replacement requests, refund process, and return guidelines for online supplement purchases.",
-    "canonical": "https://www.promolecules.com/return-policy/",
+    "canonical": "https://www.promolecules.co.in/return-policy/",
     "og": {
       "title": "Return Policy | Returns, Refunds & Replacements | Promolecules",
       "type": "website",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp",
       "locale": "AE-DU",
       "site_name": "Promolecules",
       "description": "Review the Promolecules Return Policy for eligibility, damaged products, replacement requests, refund process, and return guidelines for online supplement purchases.",
-      "url": "https://www.promolecules.com/return-policy/"
+      "url": "https://www.promolecules.co.in/return-policy/"
     },
-    "author": "www.promolecules.com",
+    "author": "www.promolecules.co.in",
     "geo": {
       "region": "AE-DU",
       "placename": "Dubai"
@@ -972,22 +972,22 @@
       "site": "Promolecules",
       "title": "Return Policy | Returns, Refunds & Replacements | Promolecules",
       "description": "Review the Promolecules Return Policy for eligibility, damaged products, replacement requests, refund process, and return guidelines for online supplement purchases.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp"
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp"
     },
     "ldjson": {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Return Policy | Returns, Refunds & Replacements | Promolecules",
-      "url": "https://www.promolecules.com/return-policy/",
+      "url": "https://www.promolecules.co.in/return-policy/",
       "description": "Review the Promolecules Return Policy for eligibility, damaged products, replacement requests, refund process, and return guidelines for online supplement purchases.",
       "inLanguage": "en",
       "publisher": {
         "@type": "Organization",
         "name": "Promolecules",
-        "url": "https://www.promolecules.com/",
+        "url": "https://www.promolecules.co.in/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.promolecules.com/promolecules-logo.webp"
+          "url": "https://www.promolecules.co.in/promolecules-logo.webp"
         }
       },
       "about": "Return Policy"
@@ -997,17 +997,17 @@
   "shippingPolicy": {
     "title": "Shipping Policy | Fast & Secure Delivery | Promolecules",
     "description": "View the Promolecules Shipping Policy for order processing times, delivery estimates, shipping charges, tracking information, and important shipping guidelines.",
-    "canonical": "https://www.promolecules.com/shipping-policy/",
+    "canonical": "https://www.promolecules.co.in/shipping-policy/",
     "og": {
       "title": "Shipping Policy | Fast & Secure Delivery | Promolecules™",
       "type": "website",
-      "image": "https://www.promolecules.com/promolecules-logo.webp",
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp",
       "locale": "AE-DU",
       "site_name": "Promolecules",
       "description": "View the Promolecules Shipping Policy for order processing times, delivery estimates, shipping charges, tracking information, and important shipping guidelines.",
-      "url": "https://www.promolecules.com/shipping-policy/"
+      "url": "https://www.promolecules.co.in/shipping-policy/"
     },
-    "author": "www.promolecules.com",
+    "author": "www.promolecules.co.in",
     "geo": {
       "region": "AE-DU",
       "placename": "Dubai"
@@ -1019,22 +1019,22 @@
       "site": "Promolecules",
       "title": "Shipping Policy | Fast & Secure Delivery | Promolecules",
       "description": "View the Promolecules Shipping Policy for order processing times, delivery estimates, shipping charges, tracking information, and important shipping guidelines.",
-      "image": "https://www.promolecules.com/promolecules-logo.webp"
+      "image": "https://www.promolecules.co.in/promolecules-logo.webp"
     },
     "ldjson": {
       "@context": "https://schema.org",
       "@type": "WebPage",
       "name": "Shipping Policy | Fast & Secure Delivery | Promolecules",
-      "url": "https://www.promolecules.com/shipping-policy/",
+      "url": "https://www.promolecules.co.in/shipping-policy/",
       "description": "View the Promolecules Shipping Policy for order processing times, delivery estimates, shipping charges, tracking information, and important shipping guidelines.",
       "inLanguage": "en",
       "publisher": {
         "@type": "Organization",
         "name": "Promolecules",
-        "url": "https://www.promolecules.com/",
+        "url": "https://www.promolecules.co.in/",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://www.promolecules.com/promolecules-logo.webp"
+          "url": "https://www.promolecules.co.in/promolecules-logo.webp"
         }
       },
       "about": "Shipping Policy"

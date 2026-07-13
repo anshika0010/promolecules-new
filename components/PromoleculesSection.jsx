@@ -12,6 +12,7 @@ import {
   Check,
   ArrowRight,
 } from "lucide-react";
+import Link from "next/link";
 
 /* ---------------------------------- DATA ---------------------------------- */
 
@@ -297,43 +298,7 @@ export default function PromoleculesSection() {
 
   return (
     <div className="bg-black text-white font-sans">
-      {/* NAV */}
-      <header className="sticky top-0 z-20 bg-black/90 backdrop-blur border-b border-white/10">
-        <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-4">
-          <span className="font-black tracking-tight text-lg text-white">
-            PROMOLECULES<span className="text-red-500">™</span>
-          </span>
-          <nav className="hidden sm:flex items-center gap-8 text-xs font-semibold uppercase tracking-wider text-white/60">
-            <a
-              href="#arsenal"
-              onClick={() => setExpanded(true)}
-              className="hover:text-red-500 transition-colors"
-            >
-              Arsenal
-            </a>
-            <a
-              href="#difference"
-              onClick={() => setExpanded(true)}
-              className="hover:text-red-500 transition-colors"
-            >
-              Difference
-            </a>
-            <a
-              href="#faq"
-              onClick={() => setExpanded(true)}
-              className="hover:text-red-500 transition-colors"
-            >
-              FAQ
-            </a>
-          </nav>
-          <button
-            onClick={() => setExpanded(true)}
-            className="text-xs font-bold uppercase tracking-wider bg-white text-black px-4 py-2.5 hover:bg-red-500 hover:text-white transition-colors"
-          >
-            Shop Now
-          </button>
-        </div>
-      </header>
+    
 
       {/* COLLAPSED TEASER — shown only while the page is collapsed */}
       {!expanded && (
@@ -549,7 +514,7 @@ export default function PromoleculesSection() {
 
           {/* FAQ */}
           <section id="faq" className="border-t border-white/10 bg-white/[0.02] py-16 px-6">
-            <div className="max-w-2xl mx-auto">
+            <div className="max-w-4xl mx-auto">
               <Eyebrow>FAQ</Eyebrow>
               <h2 className="mt-4 text-3xl sm:text-4xl font-black tracking-tight">
                 Frequently Asked
@@ -576,26 +541,19 @@ export default function PromoleculesSection() {
               </div>
 
               <div className="flex justify-center mt-8">
+                <Link href={"/about/faq/"}>
                 <button
-                  onClick={() => setShowMore(!showMore)}
+                
                   className="group flex items-center gap-2 border border-white bg-white px-6 py-3 text-sm font-semibold text-black transition-all duration-300 hover:bg-red-500 hover:border-red-500 hover:text-white"
                 >
-                  {showMore ? <Minus size={16} /> : <Plus size={16} />}
-                  {showMore ? "View Less" : "View More"}
+                View More
                 </button>
+                </Link>
               </div>
             </div>
           </section>
 
-          {/* FOOTER */}
-          <footer className="bg-black text-white/60 border-t border-white/10">
-            <div className="max-w-6xl mx-auto px-6 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs">
-              <span className="font-mono">
-                PROMOLECULES™ — USA GMP-CERTIFIED — HEAVY-METAL CLEARED
-              </span>
-              <span>© {new Date().getFullYear()} Promolecules™. All rights reserved.</span>
-            </div>
-          </footer>
+      
         </div>
       </div>
     </div>

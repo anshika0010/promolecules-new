@@ -1,4 +1,4 @@
-const SITE_URL = "https://www.promolecules.com";
+const SITE_URL = "https://www.promolecules.co.in";
 
 const HEADERS = {
   "x-tenant": "promolecules.com",
@@ -44,7 +44,26 @@ export default async function sitemap() {
       priority: 0.8,
       changeFrequency: "monthly",
     },
-
+     {
+      path: "/about/who-we-are/",
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
+      {
+      path: "/about/what-we-deliver/",
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
+      {
+      path: "/about/history/",
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
+{
+      path: "/about/faq/",
+      priority: 0.8,
+      changeFrequency: "monthly",
+    },
     {
       path: "/blog/",
       priority: 0.9,
@@ -57,6 +76,11 @@ export default async function sitemap() {
     },
      {
       path: "/hydrapump-liquid-glycerol-pre-workout-supplement/",
+      priority: 0.9,
+      changeFrequency: "daily",
+    },
+     {
+      path: "/product/father-of-insane-v2/",
       priority: 0.9,
       changeFrequency: "daily",
     },

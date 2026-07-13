@@ -15,7 +15,7 @@
   "title": "Father of Insane Ultra High Stim Pre Workout | Promolecules",
   "description": "Buy Father of Insane™ Ultra High Stim Pre Workout online. Experience explosive Pre Workout for Energy, Pre Workout for Focus, insane muscle pumps, endurance and Gym Performance Supplement.",
   "keywords": "Ultra High Stim Pre Workout, Father of Insane, Father of Insane Pre Workout, Buy Ultra High Stim Pre Workout, Best Ultra High Stim Pre Workout India, High Stim Pre Workout, Pre Workout Supplement, Pre Workout Powder, Gym Supplement, Sports Nutrition India, Workout Energy Supplement, High Caffeine Pre Workout, Muscle Pump Supplement, Endurance Supplement, Focus Supplement, Best Pre Workout India",
-  "canonical": "https://www.promolecules.com/product/father-of-insane/",
+  "canonical": "https://www.promolecules.co.in/product/father-of-insane/",
   "author": "Promolecules™",
   "publisher": "Promolecules™",
   "language": "English",
@@ -32,19 +32,19 @@
   "og": {
     "title": "Father of Insane Pre Workout | High Stim Formula",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Father of Insane Ultra High Stim Pre Workout",
     "locale": "AE-DU",
     "site_name": "Promolecules™",
     "description": "Experience explosive energy, intense focus, muscle pumps and endurance with Father of Insane high stim pre workout. Built for serious athletes and gym performance.",
-    "url": "https://www.promolecules.com/product/father-of-insane/"
+    "url": "https://www.promolecules.co.in/product/father-of-insane/"
   },
   "twitter": {
     "card": "summary_large_image",
     "site": "Promolecules™",
     "title": "Father of Insane™ Ultra High Stim Pre Workout",
     "description": "Extreme energy, laser focus, powerful muscle pumps and endurance. Buy Father of Insane™ Ultra High Stim Pre Workout online in India.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Father of Insane Ultra High Stim Pre Workout"
   },
   "ldjson": [
@@ -53,8 +53,8 @@
       "@type": "Organization",
       "name": "Promolecules",
       "alternateName": "Promolecules",
-      "url": "https://www.promolecules.com/",
-      "logo": "https://www.promolecules.com/promolecules-logo.webp",
+      "url": "https://www.promolecules.co.in/",
+      "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
       "sameAs": [
         "https://www.facebook.com/promolecules.official",
         "https://x.com/promolecules",
@@ -67,7 +67,7 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Father of Insane™ Ultra High Stim Pre Workout",
-      "image": "https://promolecules.com/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-35-Servings.webp",
+      "image": "https://promolecules.co.in/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-35-Servings.webp",
       "description": "Buy Father of Insane™ Ultra High Stim Pre Workout online. Experience explosive Pre Workout for Energy, Pre Workout for Focus, insane muscle pumps, endurance and Gym Performance Supplement.",
       "brand": {
         "@type": "Brand",
@@ -76,7 +76,7 @@
       "sku": "father-of-insane-35",
       "offers": {
         "@type": "Offer",
-        "url": "https://www.promolecules.com/product/father-of-insane/",
+        "url": "https://www.promolecules.co.in/product/father-of-insane/",
         "priceCurrency": "USD",
         "price": "41.99",
         "availability": "https://schema.org/InStock",
@@ -101,36 +101,36 @@
           "@type": "ListItem",
           "position": 1,
           "name": "promolecules",
-          "item": "https://www.promolecules.com/"
+          "item": "https://www.promolecules.co.in/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "product",
-          "item": "https://www.promolecules.com/product/"
+          "item": "https://www.promolecules.co.in/product/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Pre Workout",
-          "item": "https://www.promolecules.com/product-category/pre-workout/"
+          "item": "https://www.promolecules.co.in/product-category/pre-workout/"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Father of Insane",
-          "item": "https://www.promolecules.com/product/father-of-insane/"
+          "item": "https://www.promolecules.co.in/product/father-of-insane/"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "Review",
-      "@id": "https://www.promolecules.com/product/father-of-insane/#review",
+      "@id": "https://www.promolecules.co.in/product/father-of-insane/#review",
       "itemReviewed": {
         "@type": "Product",
         "name": "Father of Insane™ Ultra High Stim Pre Workout",
-        "url": "https://www.promolecules.com/product/father-of-insane/"
+        "url": "https://www.promolecules.co.in/product/father-of-insane/"
       },
       "author": {
         "@type": "Person",
@@ -287,10 +287,10 @@
       "Not for beginners.",
      "Keep out of reach of children.",
      "Do not use if pregnant or nursing.",
-    "• Consult a healthcare professional before use if you have any medical conditions.",
-    "• Do not exceed the recommended dosage.",
-    "• Discuss potential interactions with any medications you are currently taking.",
-    "• Avoid combining with other caffeine products."
+    "Consult a healthcare professional before use if you have any medical conditions.",
+    "Do not exceed the recommended dosage.",
+    "Discuss potential interactions with any medications you are currently taking.",
+    "Avoid combining with other caffeine products."
 ],
 
       "faqs": [
@@ -546,7 +546,7 @@
   "title": "Warflex High Stim Pre Workout | Buy Best Pre Workout Online on Promolecules",
   "description": "Buy Warflex High Stim Pre Workout online on Promolecules. Get explosive Energy Booster Supplement, insane muscle pumps, laser focus, strength and Endurance Supplement for serious workouts.",
   "keywords": "WARFLEX Pre Workout, Warflex High Stim Pre Workout, Best Pre Workout India, Buy Pre Workout Online, High Stim Pre Workout India, Pre Workout Supplement, Gym Pre Workout, Workout Energy Booster, Muscle Pump Supplement, Strength Supplement, Focus Supplement, Endurance Supplement, High Caffeine Pre Workout, Advanced Pre Workout, Performance Supplement, Nitric Oxide Booster",
-  "canonical": "https://www.promolecules.com/product/warflex/",
+  "canonical": "https://www.promolecules.co.in/product/warflex/",
   "author": "Promolecules™",
   "publisher": "Promolecules™",
   "language": "English",
@@ -563,18 +563,18 @@
   "og": {
     "title": "Warflex High Stim Pre Workout | Energy & Performance",
     "type": "product",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Warflex High Stim Pre Workout",
     "locale": "AE-DU",
     "site_name": "Promolecules™",
     "description": "Experience next-level gym performance with Warflex™ High Stim Pre Workout. Built for explosive energy, focus, pumps, strength and endurance. Order online today.",
-    "url": "https://www.promolecules.com/product/warflex/"
+    "url": "https://www.promolecules.co.in/product/warflex/"
   },
   "twitter": {
     "card": "summary_large_image",
     "title": "Warflex High Stim Pre Workout | Energy & Performance",
     "description": "Experience next-level gym performance with Warflex™ High Stim Pre Workout. Built for explosive energy, focus, pumps, strength and endurance. Order online today.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Warflex High Stim Pre Workout | Energy & Performance"
   },
   "ldjson": [
@@ -583,8 +583,8 @@
       "@type": "Organization",
       "name": "Promolecules",
       "alternateName": "Promolecules",
-      "url": "https://www.promolecules.com/",
-      "logo": "https://www.promolecules.com/promolecules-logo.webp",
+      "url": "https://www.promolecules.co.in/",
+      "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
       "sameAs": [
         "https://www.facebook.com/promolecules.official",
         "https://x.com/promolecules",
@@ -597,7 +597,7 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Warflex High Stim Pre Workout",
-      "image": "https://www.promolecules.com/Promolecules/warflexnew/fruit-punch-warflex-pre-workout-35-Servings.webp",
+      "image": "https://www.promolecules.co.in/Promolecules/warflexnew/fruit-punch-warflex-pre-workout-35-Servings.webp",
       "description": "Buy Warflex High Stim Pre Workout online on Promolecules. Get explosive Energy Booster Supplement, insane muscle pumps, laser focus, strength and Endurance Supplement for serious workouts.",
       "brand": {
         "@type": "Brand",
@@ -606,7 +606,7 @@
       "sku": "father-of-insane-35",
       "offers": {
         "@type": "Offer",
-        "url": "https://www.promolecules.com/product/warflex/",
+        "url": "https://www.promolecules.co.in/product/warflex/",
         "priceCurrency": "USD",
         "price": "41.99",
         "availability": "https://schema.org/InStock",
@@ -626,36 +626,36 @@
           "@type": "ListItem",
           "position": 1,
           "name": "promolecules",
-          "item": "https://www.promolecules.com/"
+          "item": "https://www.promolecules.co.in/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "product",
-          "item": "https://www.promolecules.com/product/"
+          "item": "https://www.promolecules.co.in/product/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Pre Workout",
-          "item": "https://www.promolecules.com/product-category/pre-workout/"
+          "item": "https://www.promolecules.co.in/product-category/pre-workout/"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "warflex",
-          "item": "https://www.promolecules.com/product/warflex/"
+          "item": "https://www.promolecules.co.in/product/warflex/"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "Review",
-      "@id": "https://www.promolecules.com/product/warflex/#review",
+      "@id": "https://www.promolecules.co.in/product/warflex/#review",
       "itemReviewed": {
         "@type": "Product",
         "name": "Warflex High Stim Pre Workout",
-        "url": "https://www.promolecules.com/product/warflex/"
+        "url": "https://www.promolecules.co.in/product/warflex/"
       },
       "author": {
         "@type": "Person",
@@ -1038,15 +1038,15 @@
       "seo": {
         "title": "Promolecules Inopower-R | ATP Energy & Endurance Supplement",
         "description": "Buy Inopower-R by Promolecules™. Advanced ATP formula for explosive energy, endurance & faster recovery. High-performance supplement for serious athletes. Order now.",
-        "canonical": "https://www.promolecules.com/product/inopower-r/",
+        "canonical": "https://www.promolecules.co.in/product/inopower-r/",
         "og": {
           "title": "Inopower-R | ATP Energy & Endurance | Promolecules",
           "type": "website",
-          "image": "https://www.promolecules.com/promolecules-logo.webp",
+          "image": "https://www.promolecules.co.in/promolecules-logo.webp",
           "locale": "AE-DU",
           "site_name": "Promolecules",
           "description": "Explosive energy. Maximum endurance. Faster recovery. Discover Inopower-R by Promolecules™ – built for serious performance.",
-          "url": "https://www.promolecules.com/product/inopower-r/"
+          "url": "https://www.promolecules.co.in/product/inopower-r/"
         },
         "author": "Promolecules",
         "geo": {
@@ -1060,14 +1060,14 @@
           "site": "Promolecules",
           "title": "Inopower-R | ATP Energy Boost",
           "description": "Power your workouts with Inopower-R. Advanced ATP formula for energy, endurance & recovery.",
-          "image": "https://www.promolecules.com/promolecules-logo.webp"
+          "image": "https://www.promolecules.co.in/promolecules-logo.webp"
         },
         "ldjson": {
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "Promolecules",
-          "url": "https://www.promolecules.com/product/inopower-r/",
-          "logo": "https://www.promolecules.com/promolecules-logo.webp",
+          "url": "https://www.promolecules.co.in/product/inopower-r/",
+          "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
           "sameAs": [
             "https://www.instagram.com/promolecules/",
             "https://www.threads.com/@promolecules",
@@ -1137,11 +1137,11 @@
      "safetyInformation": [
            " For healthy adults aged 18 years and above.",
     "This product is not intended to diagnose, treat, cure, or prevent any disease.",
-    "• Do not combine with other stimulant products.",
-    "• Consult a healthcare professional before use if you have any medical condition or take medication.",
-    "• Not recommended during pregnancy or breastfeeding.",
-    "• Keep out of reach of children.",
-    "• Store in a cool, dry place."
+    "Do not combine with other stimulant products.",
+    "Consult a healthcare professional before use if you have any medical condition or take medication.",
+    "Not recommended during pregnancy or breastfeeding.",
+    "Keep out of reach of children.",
+    "Store in a cool, dry place."
 
       ],
       "whoShouldUse": [
@@ -1377,15 +1377,15 @@
       "seo": {
         "title": "HydraPump+ – Maximize Pumps, Hydration & Workout Performance | Promolecules™",
         "description": "Maximize muscle pumps & hydration with HydraPump+ by Promolecules™. Advanced glycerol, citrulline & electrolytes formula for endurance, recovery & extreme performance. Shop now.",
-        "canonical": "https://www.promolecules.com/product/hydrapump/",
+        "canonical": "https://www.promolecules.co.in/product/hydrapump/",
         "og": {
           "title": "HydraPump+ | Extreme Pumps, Hydration & Performance",
           "type": "website",
-          "image": "https://www.promolecules.com/promolecules-logo.webp",
+          "image": "https://www.promolecules.co.in/promolecules-logo.webp",
           "locale": "AE-DU",
           "site_name": "Promolecules",
           "description": "Unlock insane pumps, hydration & endurance with HydraPump+. Powered by glycerol, citrulline & electrolytes for serious athletes.",
-          "url": "https://www.promolecules.com/product/hydrapump/"
+          "url": "https://www.promolecules.co.in/product/hydrapump/"
         },
         "author": "Promolecules",
         "geo": {
@@ -1399,14 +1399,14 @@
           "site": "Promolecules",
           "title": "HydraPump+ | Max Pumps & Hydration Formula",
           "description": "Train harder with better pumps, hydration & endurance. HydraPump+ is built for serious performance.",
-          "image": "https://www.promolecules.com/promolecules-logo.webp"
+          "image": "https://www.promolecules.co.in/promolecules-logo.webp"
         },
         "ldjson": {
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "Promolecules",
-          "url": "https://www.promolecules.com/product/hydrapump/",
-          "logo": "https://www.promolecules.com/promolecules-logo.webp",
+          "url": "https://www.promolecules.co.in/product/hydrapump/",
+          "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
           "sameAs": [
             "https://www.instagram.com/promolecules/",
             "https://www.threads.com/@promolecules",
@@ -1775,15 +1775,15 @@
       "seo": {
         "title": "Thermo Nuke XT by Promolecules™ | High-Stim Fat Burner for Aggressive Fat Loss",
         "description": "Buy Thermo Nuke XT by Promolecules™ – a high-stimulant fat burner designed to boost metabolism, increase energy, and support aggressive fat loss. Shop now for faster results.",
-        "canonical": "https://www.promolecules.com/product/thermo-nuke-xt/",
+        "canonical": "https://www.promolecules.co.in/product/thermo-nuke-xt/",
         "og": {
           "title": "Thermo Nuke XT by Promolecules™ | High-Stim Fat Burner",
           "type": "website",
-          "image": "https://www.promolecules.com/product-image.webp",
+          "image": "https://www.promolecules.co.in/product-image.webp",
           "locale": "AE-DU",
           "site_name": "Promolecules",
           "description": "High-stim fat burner to boost metabolism, energy & fat loss. Designed for serious results. Shop Thermo Nuke XT now.",
-          "url": "https://www.promolecules.com/product/thermo-nuke-xt/"
+          "url": "https://www.promolecules.co.in/product/thermo-nuke-xt/"
         },
         "author": "Promolecules",
         "geo": {
@@ -1797,14 +1797,14 @@
           "site": "Promolecules",
           "title": "Thermo Nuke XT | High-Stim Fat Burner by Promolecules™",
           "description": "Boost metabolism, burn fat faster & increase energy with Thermo Nuke XT. Designed for aggressive fat loss.",
-          "image": "https://www.promolecules.com/product-image.webp"
+          "image": "https://www.promolecules.co.in/product-image.webp"
         },
         "ldjson": {
           "@context": "https://schema.org",
           "@type": "Organization",
           "name": "Promolecules",
-          "url": "https://www.promolecules.com/product/thermo-nuke-xt/",
-          "logo": "https://www.promolecules.com/logo.webp",
+          "url": "https://www.promolecules.co.in/product/thermo-nuke-xt/",
+          "logo": "https://www.promolecules.co.in/logo.webp",
           "sameAs": [
             "https://www.instagram.com/promolecules/",
             "https://www.threads.com/@promolecules",
@@ -2091,13 +2091,13 @@
       "cost2cost":"https://www.cost2costsupplement.com/products/father-of-insane-v2",
 
       "category": "PRE-WORKOUT",
-            "title": "Father of Insane is next generation high stimulant pre workout formula built for advance users like athletes, bodybuilders, or advance fitness enthusiasts without massive energy crash and higher stimulant. Developed to provide smoother and controllable experience without itching and redness in the body.",
+            "title": " massive energy crash and higher stimulant. Developed to provide smoother and controllable experience without itching and redness in the body.",
             "description": "Father of Insane V.2 is highly stimulant pre workout supplements formulated for advance users or athletes and those who don’t want discomfort, itching, redness in the body during workout sessions. It delivers a balanced strength, energy, focus, endurance and muscle pumps without any discomfort or hurdle. It is 33% less aggressive with 35 total servings delivering value and consistent performance.",
   "seo": {
-  "title": "Father of Insane v2 Pre Workout | Promolecules",
-  "description": "Buy Father of Insane™ v2 Pre Workout online. Experience explosive Pre Workout for Energy, Pre Workout for Focus, insane muscle pumps, endurance and Gym Performance Supplement.",
-  "keywords": "Pre Workout, Father of Insane, Father of Insane Pre Workout, Buy Ultra High Stim Pre Workout, Best Ultra High Stim Pre Workout India, High Stim Pre Workout, Pre Workout Supplement, Pre Workout Powder, Gym Supplement, Sports Nutrition India, Workout Energy Supplement, High Caffeine Pre Workout, Muscle Pump Supplement, Endurance Supplement, Focus Supplement, Best Pre Workout India",
-  "canonical": "https://www.promolecules.com/product/father-of-insane/",
+  "title": "Father of Insane V2 | High Stim Pre Workout | No Itching Formula | Promolecules",
+  "description": "Buy Father of Insane V2 High Stim Pre Workout with 250mg caffeine, smoother energy, intense focus, no itching and no redness formula. 35 servings for serious gym performance.",
+  "keywords": "father of insane v2, father of insane v2 pre workout, best pre workout india, high stim pre workout, pre workout supplement, gym supplement, workout energy, caffeine pre workout, no beta alanine itch, muscle pump, bodybuilding supplement",
+  "canonical": "https://www.promolecules.co.in/product/father-of-insane/",
   "author": "Promolecules™",
   "publisher": "Promolecules™",
   "language": "English",
@@ -2114,19 +2114,19 @@
   "og": {
     "title": "Father of Insane Pre Workout | High Stim Formula",
     "type": "website",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Father of Insane Ultra High Stim Pre Workout",
     "locale": "AE-DU",
     "site_name": "Promolecules™",
     "description": "Experience explosive energy, intense focus, muscle pumps and endurance with Father of Insane high stim pre workout. Built for serious athletes and gym performance.",
-    "url": "https://www.promolecules.com/product/father-of-insane/"
+    "url": "https://www.promolecules.co.in/product/father-of-insane/"
   },
   "twitter": {
     "card": "summary_large_image",
     "site": "Promolecules™",
     "title": "Father of Insane™ v2 Pre Workout",
     "description": "Extreme energy, laser focus, powerful muscle pumps and endurance. Buy Father of Insane™ v2 Pre Workout online in India.",
-    "image": "https://www.promolecules.com/promolecules-logo.webp",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Father of Insane v2 Pre Workout"
   },
   "ldjson": [
@@ -2135,8 +2135,8 @@
       "@type": "Organization",
       "name": "Promolecules",
       "alternateName": "Promolecules",
-      "url": "https://www.promolecules.com/",
-      "logo": "https://www.promolecules.com/promolecules-logo.webp",
+      "url": "https://www.promolecules.co.in/",
+      "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
       "sameAs": [
         "https://www.facebook.com/promolecules.official",
         "https://x.com/promolecules",
@@ -2149,7 +2149,7 @@
       "@context": "https://schema.org",
       "@type": "Product",
       "name": "Father of Insane™ v2 Pre Workout",
-      "image": "https://promolecules.com/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-35-Servings.webp",
+      "image": "https://promolecules.co.in/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-35-Servings.webp",
       "description": "Buy Father of Insane™ v2 Pre Workout online. Experience explosive Pre Workout for Energy, Pre Workout for Focus, insane muscle pumps, endurance and Gym Performance Supplement.",
       "brand": {
         "@type": "Brand",
@@ -2158,7 +2158,7 @@
       "sku": "father-of-insane-35",
       "offers": {
         "@type": "Offer",
-        "url": "https://www.promolecules.com/product/father-of-insane/",
+        "url": "https://www.promolecules.co.in/product/father-of-insane/",
         "priceCurrency": "USD",
         "price": "41.99",
         "availability": "https://schema.org/InStock",
@@ -2183,36 +2183,36 @@
           "@type": "ListItem",
           "position": 1,
           "name": "promolecules",
-          "item": "https://www.promolecules.com/"
+          "item": "https://www.promolecules.co.in/"
         },
         {
           "@type": "ListItem",
           "position": 2,
           "name": "product",
-          "item": "https://www.promolecules.com/product/"
+          "item": "https://www.promolecules.co.in/product/"
         },
         {
           "@type": "ListItem",
           "position": 3,
           "name": "Pre Workout",
-          "item": "https://www.promolecules.com/product-category/pre-workout/"
+          "item": "https://www.promolecules.co.in/product-category/pre-workout/"
         },
         {
           "@type": "ListItem",
           "position": 4,
           "name": "Father of Insane",
-          "item": "https://www.promolecules.com/product/father-of-insane/"
+          "item": "https://www.promolecules.co.in/product/father-of-insane/"
         }
       ]
     },
     {
       "@context": "https://schema.org",
       "@type": "Review",
-      "@id": "https://www.promolecules.com/product/father-of-insane/#review",
+      "@id": "https://www.promolecules.co.in/product/father-of-insane/#review",
       "itemReviewed": {
         "@type": "Product",
         "name": "Father of Insane™ v2 Pre Workout",
-        "url": "https://www.promolecules.com/product/father-of-insane/"
+        "url": "https://www.promolecules.co.in/product/father-of-insane/"
       },
       "author": {
         "@type": "Person",
@@ -2420,12 +2420,12 @@
       ],
               "safetyInformation": [
     "Not for beginners.",
-    "• Keep out of reach of children.",
-    "• Do not use if pregnant or nursing.",
-    "• Consult a healthcare professional before use if you have any medical condition.",
-    "• Do not exceed the recommended dosage.",
-    "• Discuss potential interactions with any medications you are currently taking.",
-    "• Avoid combining with other caffeine products."
+    "Keep out of reach of children.",
+    "Do not use if pregnant or nursing.",
+    "Consult a healthcare professional before use if you have any medical condition.",
+    "Do not exceed the recommended dosage.",
+    "Discuss potential interactions with any medications you are currently taking.",
+    "Avoid combining with other caffeine products."
 
       ],
       "whoShouldUse": [
