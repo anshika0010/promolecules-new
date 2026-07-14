@@ -1,13 +1,13 @@
-// app/about/page.js
+// app/about/who-we-are/page.js
 import HeroSection from "@/components/about/HeroSection";
 import MoreInformationSection from "@/components/about/MoreInformationSection";
 import PerformanceShowcase from "@/components/about/PerformanceShowcase";
 import { getSEOMetadata, getJSONLD } from "@/lib/seo";
 
-export const metadata = getSEOMetadata("whoWeAre");
+export const metadata = getSEOMetadata("who-we-are");
 
 export default function Page() {
-  const jsonld = getJSONLD("whoWeAre");
+  const jsonld = getJSONLD("who-we-are");
 
   return (
     <>

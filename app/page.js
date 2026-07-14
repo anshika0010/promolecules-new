@@ -15,8 +15,7 @@ export const metadata = getSEOMetadata("home");
 export default function Home() {
   const jsonld = getJSONLD("home");
 
-  console.log(jsonld);
-console.log(typeof jsonld);
+
 
   return (
     <>
