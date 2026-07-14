@@ -15,15 +15,20 @@ export const metadata = getSEOMetadata("home");
 export default function Home() {
   const jsonld = getJSONLD("home");
 
+  console.log(jsonld);
+console.log(typeof jsonld);
+
   return (
     <>
       {/* ✅ JSON-LD Structured Data (Google ke liye) */}
       {jsonld && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: jsonld }}
-        />
-      )}
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonld),
+        }}
+      />
+    )}
 
       <HeroSlider />
       <WhoWeAreSection />
