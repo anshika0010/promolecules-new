@@ -1,751 +1,568 @@
 {
  
-  "home": {
-    "title": "Promolecules | Premium Sports Nutrition & Performance Supplements",
-    "description": "Shop premium sports nutrition supplements from Promolecules™. Explore pre-workout, hydration, ATP support and performance formulas made with premium ingredients, transparent labels and USA GMP certified manufacturing for athletes and fitness enthusiasts.",
-    "canonical": "https://www.promolecules.co.in/",
-    "author": "Promolecules™",
-    "publisher": "Promolecules™",
-    "language": "English",
-    "keywords": "Promolecules, sports nutrition India, performance supplements, pre workout India, premium supplements, gym supplements, workout supplements, high stim pre workout, hydration supplements, endurance supplements, ATP supplements, sports nutrition brand, bodybuilding supplements, fitness supplements India, strength supplements, muscle performance supplements, athlete supplements",
-    "robots": "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1",
-    "googlebot": "index, follow",
-    "bingbot": "index, follow",
-    "revisit_after": "7 days",
-    "distribution": "global",
-    "rating": "general",
-    "geo": {
-      "region": "AE-DU",
-      "placename": "Dubai"
-    },
-    "og": {
-      "title": "Promolecules™ | Premium Sports Nutrition & Performance Supplements",
-      "type": "website",
+ "home": {
+  "title": "Promolecules India | Premium Sports Nutrition, Pre Workout & Performance Supplements",
+  "description": "Buy premium sports nutrition supplements in India from Promolecules. Shop high stim pre workout, pump formula, hydration, performance supplements and advanced fitness nutrition for serious athletes.",
+  "canonical": "https://www.promolecules.co.in/",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "Promolecules India, sports nutrition India, pre workout India, high stim pre workout, best pre workout, gym supplements India, sports supplements, performance supplements, workout supplements, bodybuilding supplements, premium supplements, muscle performance, strength supplements, endurance supplements, fitness supplements",
+  "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Promolecules India | Premium Sports Nutrition & Performance Supplements",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/",
+    "site_name": "Promolecules™",
+    "description": "Premium performance supplements engineered for strength, endurance, focus and workout performance. Explore high stim pre workout and advanced sports nutrition.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Premium Sports Nutrition Supplements",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Promolecules India | Premium Sports Nutrition",
+    "description": "Premium sports nutrition supplements for athletes, bodybuilders and fitness enthusiasts.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
+  },
+  "ldjson": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Promolecules",
+      "alternateName": "Promolecules",
       "url": "https://www.promolecules.co.in/",
-      "site_name": "Promolecules™",
-      "description": "Discover premium sports nutrition supplements designed for athletes, bodybuilders and fitness enthusiasts. Shop pre-workout, hydration, endurance and performance formulas from Promolecules™.",
-      "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-      "image_alt": "Promolecules Premium Sports Nutrition Supplements",
-      "locale": "AE-DU"
+      "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
+      "sameAs": [
+        "https://www.facebook.com/promolecules.official",
+        "https://x.com/promolecules",
+        "https://www.instagram.com/promolecules/",
+        "https://www.youtube.com/@Promolecules",
+        "https://www.pinterest.com/promolecules/"
+      ],
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "customer service",
+          "email": "contact@promolecules.com"
+        }
+      ]
     },
-    "twitter": {
-      "card": "summary_large_image",
-      "title": "Promolecules™ | Premium Sports Nutrition & Performance Supplements",
-      "description": "Premium sports nutrition supplements for athletes. Shop pre-workout, hydration, endurance and performance formulas from Promolecules™.",
-      "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-    },
-    "ldjson": [
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Promolecules",
-        "alternateName": "Promolecules",
-        "url": "https://www.promolecules.co.in/",
-        "logo": "https://www.promolecules.co,in/promolecules-logo.webp",
-        "sameAs": [
-          "https://www.facebook.com/promolecules.official",
-          "https://x.com/promolecules",
-          "https://www.instagram.com/promolecules/",
-          "https://www.youtube.com/@Promolecules",
-          "https://www.pinterest.com/promolecules/"
-        ],
-        "contactPoint": [
-          {
-            "@type": "ContactPoint",
-            "contactType": "customer service",
-            "email": "contact@promolecules.com"
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "1. What is Promolecules™?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Promolecules™ makes sports nutrition supplements: pre-workouts, hydration mixes, ATP support, and THERMO NUKE XT products. Designed for athletes and fitness lovers who want reliable performance."
           }
-        ]
-      },
-      {
-        "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "1. What is Promolecules™?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ makes sports nutrition supplements: pre-workouts, hydration mixes, ATP support, and THERMO NUKE XT products. Designed for athletes and fitness lovers who want reliable performance."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "2. Where are Promolecules™ supplements manufactured?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "All Promolecules™ supplements are manufactured in USA GMP-certified facilities."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "3. Why should I choose Promolecules™ supplements?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Are you looking for something that can help improve your training efficiency, increase workout intensity or endurance, or improve your focus? If yes, then Promolecules™ has something for you."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "4. Who are these supplements for?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ is for adults who’re serious about their training—whether that’s lifting, running, endurance events, or structured workouts. Always follow the label and talk to your doctor if you have health concerns."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "5. What makes Promolecules™ different from other supplement brands?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ concentrates on the quality of ingredients used in its formulations, transparency of product formulations, manufacture standards, and sports nutrition-based products."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "6. Does Promolecules™ evaluate its products?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Certainly, the products of Promolecules™ are manufactured as per GMP guidelines, and quality assessment of ingredients includes quality analysis and heavy metals testing."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "7. What products should I use from Promolecules™ for a workout?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Father of Insane™ and Warflex™ are two products that are formulated to be consumed pre-workout. Pick which product aligns with your goals for that training session and your personal stimulant tolerance, and adhere to the instructions on the product label."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "8. Are Promolecules™ products suitable for a beginner?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Some Promolecules™ products have a high stimulant content and may, in fact, be inappropriate for a beginner. Read the product label and start the product regimen only if you have sufficient tolerance and experience."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "9. Where can defined Promolecules™ products be purchased from?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "The official Promolecules™ website and authorized sellers such as Cost2Cost Supplement, Flipkart, and Amazon are the safest places to purchase genuine Promolecules™ products."
-            }
-          },
-          {
-            "@type": "Question",
-            "name": "10. Why is Promolecules™ the best option for sports nutrition?",
-            "acceptedAnswer": {
-              "@type": "Answer",
-              "text": "Promolecules™ uses the best quality ingredients and the best manufacturing processes, along with labeling you can trust, all with consideration of the formulations and end use of the product to aid athletes and those with training and fitness-based goals."
-            }
+        },
+        {
+          "@type": "Question",
+          "name": "2. Where are Promolecules™ supplements manufactured?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "All Promolecules™ supplements are manufactured in USA GMP-certified facilities."
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "@type": "Question",
+          "name": "3. Why should I choose Promolecules™ supplements?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Are you looking for something that can help improve your training efficiency, increase workout intensity or endurance, or improve your focus? If yes, then Promolecules™ has something for you."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "4. Who are these supplements for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Promolecules™ is for adults who’re serious about their training—whether that’s lifting, running, endurance events, or structured workouts. Always follow the label and talk to your doctor if you have health concerns."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "5. What makes Promolecules™ different from other supplement brands?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Promolecules™ concentrates on the quality of ingredients used in its formulations, transparency of product formulations, manufacture standards, and sports nutrition-based products."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "6. Does Promolecules™ evaluate its products?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Certainly, the products of Promolecules™ are manufactured as per GMP guidelines, and quality assessment of ingredients includes quality analysis and heavy metals testing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "7. What products should I use from Promolecules™ for a workout?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Father of Insane™ and Warflex™ are two products that are formulated to be consumed pre-workout. Pick which product aligns with your goals for that training session and your personal stimulant tolerance, and adhere to the instructions on the product label."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "8. Are Promolecules™ products suitable for a beginner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Some Promolecules™ products have a high stimulant content and may, in fact, be inappropriate for a beginner. Read the product label and start the product regimen only if you have sufficient tolerance and experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "9. Where can defined Promolecules™ products be purchased from?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The official Promolecules™ website and authorized sellers such as Cost2Cost Supplement, Flipkart, and Amazon are the safest places to purchase genuine Promolecules™ products."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "10. Why is Promolecules™ the best option for sports nutrition?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Promolecules™ uses the best quality ingredients and the best manufacturing processes, along with labeling you can trust, all with consideration of the formulations and end use of the product to aid athletes and those with training and fitness-based goals."
+          }
+        }
+      ]
+    }
+  ]
+}
 ,
 
 
- "about": {
-  "title": "About Promolecules | High Stim Pre Workout & Performance Supplements",
-  "description": "Learn about Promolecules, creators of high stim pre workout like Warflex, Father of Insane. Science-backed supplements designed for energy, strength, and performance. Trusted in UAE, India, Saudi Arabia & Russia.",
+"about": {
+  "title": "About Promolecules | Premium Sports Nutrition Brand in India",
+  "description": "Learn about Promolecules, a premium sports nutrition brand dedicated to high-performance supplements developed for athletes, bodybuilders and fitness enthusiasts.",
   "canonical": "https://www.promolecules.co.in/about/",
-  "og": {
-    "title": "About Promolecules | High Stim Pre Workout & Supplements Brand",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webpp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Explore Promolecules, known for powerful pre workouts like Warflex, Father of Insane. Built for serious performance, energy, and strength.",
-    "url": "https://www.promolecules.co.in/about/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "about Promolecules, sports nutrition company India, supplement brand India, premium supplement manufacturer, performance nutrition, fitness brand India",
   "robots": "index,follow",
-  "twitter": {
-    "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Promolecules | High Stim Pre Workout & Performance Supplements",
-    "description": "Science-backed high stim pre workout & supplements designed for energy, strength, and peak performance.",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "About Promolecules | Premium Sports Nutrition Brand in India",
+    "type": "website",
     "url": "https://www.promolecules.co.in/about/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [{
-      "@type": "ContactPoint",
-      "contactType": "customer service",
-      "email": "contact@promolecules.com"
-    }]
+    "site_name": "Promolecules™",
+    "description": "Learn about Promolecules, a premium sports nutrition brand dedicated to high-performance supplements developed for athletes, bodybuilders and fitness enthusiasts.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Premium Sports Nutrition Brand",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "About Promolecules | Premium Sports Nutrition Brand in India",
+    "description": "Learn about Promolecules, a premium sports nutrition brand dedicated to high-performance supplements developed for athletes, bodybuilders and fitness enthusiasts.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   }
 },
+
+
 "contact": {
-  "title": "Contact Promolecules | Buy Pre-Workout, Distributors & Support",
-  "description": "Get in touch with Promolecules for orders, distributor inquiries, wholesale deals, and customer support. Premium pre-workout supplements trusted by athletes worldwide..",
+  "title": "Contact Promolecules | Customer Support & Business Enquiries",
+  "description": "Contact Promolecules for customer support, wholesale, retail partnerships, distributorship and product enquiries across India.",
   "canonical": "https://www.promolecules.co.in/contact-us/",
-  "og": {
-    "title": "Contact Promolecules | Pre-Workout Orders & Distributor Support",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Contact Promolecules for supplement orders, distributor partnerships, and support. Premium pre-workout trusted by athletes globally.",
-    "url": "https://www.promolecules.co.in/contact-us/"
-  },
-  "author": "www.promolecules.co.in",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "contact Promolecules, sports nutrition contact, supplement customer support, wholesale supplements India, distributor enquiry",
   "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Contact Promolecules | Customer Support & Business Enquiries",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/contact-us/",
+    "site_name": "Promolecules™",
+    "description": "Contact Promolecules for customer support, wholesale, retail partnerships, distributorship and product enquiries across India.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Contact Promolecules Customer Support",
+    "locale": "en_IN"
+  },
   "twitter": {
     "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Contact Promolecules | Pre-Workout Orders & Support",
-    "description": "Reach out to Promolecules for orders, wholesale, and distributor inquiries. High-performance pre-workout supplements worldwide.",
+    "title": "Contact Promolecules | Customer Support & Business Enquiries",
+    "description": "Contact Promolecules for customer support, wholesale, retail partnerships, distributorship and product enquiries across India.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.co.in/contact-us/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
   }
 },
+
 "domestic": {
-  "title": "Promolecules Distributor Login | Wholesale Supplements Portal",
-  "description": "Login to Promolecules distributor portal for wholesale supplement pricing, bulk orders, and fast logistics support. Partner with a premium performance nutrition brand.",
+  "title": "Domestic Distribution | Promolecules India",
+  "description": "Partner with Promolecules for domestic distribution, retail supply and wholesale sports nutrition products across India.",
   "canonical": "https://www.promolecules.co.in/domestic/",
-  "og": {
-    "title": "Promolecules Distributor Login | Wholesale Portal",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Access the Promolecules distributor portal. Get bulk pricing, reliable supply, and premium supplement products for your business.",
-    "url": "https://www.promolecules.co.in/domestic/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "sports supplement distributor India, wholesale supplements India, domestic distribution, gym supplement supplier",
   "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Domestic Distribution | Promolecules India",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/domestic/",
+    "site_name": "Promolecules™",
+    "description": "Partner with Promolecules for domestic distribution, retail supply and wholesale sports nutrition products across India.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Domestic Distribution India",
+    "locale": "en_IN"
+  },
   "twitter": {
     "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Promolecules Distributor Login | Wholesale Supplements Portal",
-    "description": "Login to access wholesale pricing, bulk orders, and premium supplement supply with Promolecules.",
+    "title": "Domestic Distribution | Promolecules India",
+    "description": "Partner with Promolecules for domestic distribution, retail supply and wholesale sports nutrition products across India.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.co.in/domestic/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
   }
 },
 
 "international": {
-  "title": "Buy Premium Supplements Internationally | Promolecules Global Shipping",
-  "description": "Shop high-quality pre-workout & fat burners & more at Promolecules International. Fast, reliable shipping to Russia, UAE, Saudi Arabia, Qatar, Oman, Kuwait, Bahrain, IRAN, IRAQ & India & beyond.",
+  "title": "International Distribution | Promolecules Global Sports Nutrition",
+  "description": "Expand your business with Promolecules international distribution of premium sports nutrition supplements for global retailers and distributors.",
   "canonical": "https://www.promolecules.co.in/international/",
-  "og": {
-    "title": "Buy Premium Supplements Internationally | Promolecules",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Shop premium pre-workout, fat burners & supplements with fast global delivery. Available in UAE, Saudi Arabia, Qatar, India & more.",
-    "url": "https://www.promolecules.co.in/international/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "international supplement distributor, global sports nutrition, wholesale supplements, export supplements, international fitness supplements",
   "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "International Distribution | Promolecules Global Sports Nutrition",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/international/",
+    "site_name": "Promolecules™",
+    "description": "Expand your business with Promolecules international distribution of premium sports nutrition supplements for global retailers and distributors.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules International Distribution",
+    "locale": "en_IN"
+  },
   "twitter": {
     "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Buy Premium Supplements Internationally | Promolecules",
-    "description": "Premium pre-workout & fat burners with fast global shipping. Shop Promolecules today.",
+    "title": "International Distribution | Promolecules Global Sports Nutrition",
+    "description": "Expand your business with Promolecules international distribution of premium sports nutrition supplements for global retailers and distributors.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.co.in/international/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
   }
 },
 
 "product": {
-  "title": "Best Pre Workout, Fat Burner & Muscle Builder | Promolecules",
-  "description": "Buy high-stim pre workouts, fat burners & muscle building supplements from Promolecules. Premium formulas designed for strength, energy & performance. Shop now.",
+  "title": "Sports Nutrition Products | Buy Premium Supplements Online India | Promolecules",
+  "description": "Shop premium sports nutrition supplements including high stim pre workout, hydration formulas, workout performance supplements and advanced fitness nutrition.",
   "canonical": "https://www.promolecules.co.in/product/",
-  "og": {
-    "title": "High-Stim Pre Workout, Fat Burner & More | Promolecules",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Explore premium pre workouts, fat burners & muscle builders by Promolecules. Built for serious performance & results.",
-    "url": "https://www.promolecules.co.in/product/"
-  },
-  "author": "www.promolecules.co.in",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
   "language": "English",
+  "keywords": "buy pre workout online India, sports supplements India, best pre workout India, gym supplements online, workout supplements, bodybuilding supplements, fitness supplements, performance supplements",
   "robots": "index,follow",
-  "twitter": {
-    "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Best Pre Workout & Fat Burner | Promolecules",
-    "description": "High-stim pre workouts, fat burners & muscle builders for real performance. Shop Promolecules now.",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Sports Nutrition Products | Buy Premium Supplements Online India | Promolecules",
+    "type": "website",
     "url": "https://www.promolecules.co.in/product/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
+    "site_name": "Promolecules™",
+    "description": "Shop premium sports nutrition supplements including high stim pre workout, hydration formulas, workout performance supplements and advanced fitness nutrition.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Premium Sports Nutrition Products",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Sports Nutrition Products | Buy Premium Supplements Online India | Promolecules",
+    "description": "Shop premium sports nutrition supplements including high stim pre workout, hydration formulas, workout performance supplements and advanced fitness nutrition.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   }
 },
+
 "blog": {
-  "title": "Promolecules Blog | Fitness Tips, Pre-Workout & Supplement Guides",
-  "description": "Discover expert fitness tips, pre-workout guides, fat loss strategies, and supplement insights on the Promolecules blog to boost energy, performance, and results.",
+  "title": "Promolecules Blog | Workout Tips, Supplement Guides & Fitness Articles",
+  "description": "Read expert blog on sports nutrition, workout supplements, pre workout guides, training tips, recovery, hydration and fitness performance.",
   "canonical": "https://www.promolecules.co.in/blog/",
-  "og": {
-    "title": "Promolecules Blog | Fitness Tips & Supplement Guides",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Explore fitness tips, pre-workout guides, fat loss strategies, and supplement insights to boost performance and energy.",
-    "url": "https://www.promolecules.co.in/blog/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "sports nutrition blog, pre workout guide, supplement guide, fitness blog India, workout tips, bodybuilding articles",
   "robots": "index,follow",
-  "twitter": {
-    "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Promolecules Blog | Fitness Tips & Supplement Guides",
-    "description": "Expert fitness tips, fat loss strategies, and supplement insights to enhance your performance and results.",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Promolecules Blog | Workout Tips, Supplement Guides & Fitness Articles",
+    "type": "website",
     "url": "https://www.promolecules.co.in/blog/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
+    "site_name": "Promolecules™",
+    "description": "Read expert blog on sports nutrition, workout supplements, pre workout guides, training tips, recovery, hydration and fitness performance.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Blog - Workout Tips, Supplement Guides & Fitness Articles",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Promolecules Blog | Workout Tips, Supplement Guides & Fitness Articles",
+    "description": "Read expert blog on sports nutrition, workout supplements, pre workout guides, training tips, recovery, hydration and fitness performance.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   }
 },
+
 "merch": {
-  "title": "Buy Gym Wear & Accessories Online | Promolecules Merch",
-  "description": "Shop Promolecules premium gym wear & fitness accessories. High-performance merch designed for athletes. Upgrade your workout style today.",
+  "title": "Gym Merchandise | Fitness Apparel & Accessories | Promolecules",
+  "description": "Shop premium Promolecules gym merchandise including fitness apparel, gym wear, workout accessories and performance lifestyle products.",
   "canonical": "https://www.promolecules.co.in/merch/",
-  "og": {
-    "title": "Promolecules Merch | Premium Gym Wear & Accessories",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Explore Promolecules premium gym wear & accessories. Built for performance, designed for athletes.",
-    "url": "https://www.promolecules.co.in/merch/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "gym merch, gym apparel, fitness clothing, workout t shirts, gym accessories, bodybuilding apparel, fitness merchandise, gym wear india",
   "robots": "index,follow",
-  "twitter": {
-    "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Buy Gym Wear & Accessories | Promolecules Merch",
-    "description": "Premium gym wear & accessories by Promolecules. Built for performance and everyday training.",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Gym Merchandise | Fitness Apparel & Accessories | Promolecules",
+    "type": "website",
     "url": "https://www.promolecules.co.in/merch/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
+    "site_name": "Promolecules™",
+    "description": "Shop premium Promolecules gym merchandise including fitness apparel, gym wear, workout accessories and performance lifestyle products.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Gym Merchandise",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Gym Merchandise | Fitness Apparel & Accessories | Promolecules",
+    "description": "Shop premium Promolecules gym merchandise including fitness apparel, gym wear, workout accessories and performance lifestyle products.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   }
 },
+
 "shop": {
-  "title": "High Stim Pre Workout & Fat Burner Supplements | Promolecules",
-  "description": "Shop high stim pre workout, fat burners & muscle pump supplements by Promolecules. Designed for extreme energy, strength & peak gym performance. Buy now.",
+  "title": "Buy Sports Nutrition Supplements Online India | Promolecules Shop",
+  "description": "Shop premium sports nutrition supplements including High Stim Pre Workout, Pump Supplements, Performance Nutrition and Gym Supplements from Promolecules India.",
   "canonical": "https://www.promolecules.co.in/shop/",
-  "og": {
-    "title": "High Stim Pre Workout & Fat Burner Supplements | Promolecules",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Explore high-performance pre workout, fat burner & pump supplements. Built for serious athletes who want real results.",
-    "url": "https://www.promolecules.co.in/shop/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "buy supplements online india, sports nutrition india, gym supplements, bodybuilding supplements, pre workout supplement, performance supplements, muscle building supplements, workout supplements, fitness supplements",
   "robots": "index,follow",
-  "twitter": {
-    "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "High Stim Pre Workout & Fat Burner Supplements | Promolecules",
-    "description": "Shop powerful pre workout, fat burners & pump supplements for energy, strength & performance.",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Buy Sports Nutrition Supplements Online India | Promolecules Shop",
+    "type": "website",
     "url": "https://www.promolecules.co.in/shop/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
+    "site_name": "Promolecules™",
+    "description": "Shop premium sports nutrition supplements including High Stim Pre Workout, Pump Supplements, Performance Nutrition and Gym Supplements from Promolecules India.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Shop - Premium Sports Nutrition Supplements",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "Buy Sports Nutrition Supplements Online India | Promolecules Shop",
+    "description": "Shop premium sports nutrition supplements including High Stim Pre Workout, Pump Supplements, Performance Nutrition and Gym Supplements from Promolecules India.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   }
 },
-"whoWeAre": {
-  "title": "About Promolecules™ | Premium Sports Nutrition & Performance Supplements",
-  "description": "Discover Promolecules™, a premium sports nutrition brand engineered for strength, endurance, and peak performance. Designed for serious athletes who demand results.",
+
+"who-we-are": {
+  "title": "Who We Are | Promolecules Performance Nutrition",
+  "description": "Learn more about Promolecules and our commitment to creating premium sports nutrition supplements focused on performance, quality, and innovation.",
   "canonical": "https://www.promolecules.co.in/about/who-we-are/",
-  "og": {
-    "title": "About Promolecules™ | Premium Sports Nutrition Brand",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Explore Promolecules™, a premium supplement brand built for strength, endurance, and performance. Trusted by athletes who push limits.",
-    "url": "https://www.promolecules.co.in/about/who-we-are/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "who we are, Promolecules company, sports nutrition experts, supplement innovation, premium fitness supplements",
   "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Who We Are | Promolecules Performance Nutrition",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/about/who-we-are/",
+    "site_name": "Promolecules™",
+    "description": "Learn more about Promolecules and our commitment to creating premium sports nutrition supplements focused on performance, quality, and innovation.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Performance Nutrition",
+    "locale": "en_IN"
+  },
   "twitter": {
     "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "About Promolecules™ | Premium Sports Nutrition Brand",
-    "description": "Premium supplements designed for strength, endurance, and performance. Built for athletes who demand more.",
+    "title": "Who We Are | Promolecules Performance Nutrition",
+    "description": "Learn more about Promolecules and our commitment to creating premium sports nutrition supplements focused on performance, quality, and innovation.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.co.in/about/who-we-are/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
   }
 },
-"whatWeDeliver": {
-  "title": "What We Deliver | Promolecules Performance Supplements",
-  "description": "Explore performance nutrition by Promolecules. Supplements for muscle growth, strength, endurance & recovery. Designed for serious fitness goals.",
-  "canonical": "https://www..in/about/what-we-deliver/",
-  "og": {
-    "title": "What We Deliver | Promolecules Performance Supplements",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Explore advanced performance supplements by Promolecules for strength, endurance, muscle growth, and recovery.",
-    "url": "https://www.promolecules.co.in/about/what-we-deliver/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+"what-we-deliver": {
+  "title": "What We Deliver | Premium Sports Supplements by Promolecules",
+  "description": "Explore the premium sports nutrition products delivered by Promolecules, including high stim pre workout, hydration support and advanced workout supplements.",
+  "canonical": "https://www.promolecules.co.in/about/what-we-deliver/",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "sports supplements, pre workout supplements, workout nutrition, performance supplements India, sports nutrition products",
   "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "What We Deliver | Premium Sports Supplements by Promolecules",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/about/what-we-deliver/",
+    "site_name": "Promolecules™",
+    "description": "Explore the premium sports nutrition products delivered by Promolecules, including high stim pre workout, hydration support and advanced workout supplements.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Premium Sports Supplements",
+    "locale": "en_IN"
+  },
   "twitter": {
     "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "What We Deliver | Promolecules Performance Supplements",
-    "description": "High-performance supplements designed for serious fitness goals. Strength, endurance, recovery — all in one place.",
+    "title": "What We Deliver | Premium Sports Supplements by Promolecules",
+    "description": "Explore the premium sports nutrition products delivered by Promolecules, including high stim pre workout, hydration support and advanced workout supplements.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.co.in/about/what-we-deliver/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
   }
 },
 "history": {
-  "title": "Promolecules History | Premium Performance Supplements Brand",
-  "description": "Promolecules was created out of real gym frustration. Designed to deliver powerful, effective formulas for strength, energy, and performance.",
+  "title": "Our History | Promolecules Sports Nutrition Journey",
+  "description": "Explore the history of Promolecules and our journey in developing premium sports nutrition supplements designed for performance and training excellence.",
   "canonical": "https://www.promolecules.co.in/about/history/",
-  "og": {
-    "title": "Promolecules History | Built for Real Performance",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Learn how Promolecules was created to solve real gym problems with powerful, science-backed supplements for performance and recovery.",
-    "url": "https://www.promolecules.co.in/about/history/"
-  },
-  "author": "www.promolecules.co.in",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
   "language": "English",
+  "keywords": "Promolecules history, supplement company history, sports nutrition brand, premium supplement company",
   "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Our History | Promolecules Sports Nutrition Journey",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/about/history/",
+    "site_name": "Promolecules™",
+    "description": "Explore the history of Promolecules and our journey in developing premium sports nutrition supplements designed for performance and training excellence.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Sports Nutrition Journey",
+    "locale": "en_IN"
+  },
   "twitter": {
     "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Promolecules History | Built for Real Performance",
-    "description": "From real gym frustration to elite performance supplements — explore the journey of Promolecules.",
+    "title": "Our History | Promolecules Sports Nutrition Journey",
+    "description": "Explore the history of Promolecules and our journey in developing premium sports nutrition supplements designed for performance and training excellence.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.co.in/about/history/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
   }
 },
+
 "faq": {
-  "title": "Promolecules™ FAQ | Pre Workout, Supplements, Shipping & Usage Guide",
-  "description": "Got questions about Promolecules high-performance supplements? Learn about pre-workout usage, dosage, shipping, returns & advanced formulas designed for serious athletes.",
+  "title": "Frequently Asked Questions | Promolecules FAQ",
+  "description": "Find answers to frequently asked questions about Promolecules supplements, usage, ingredients, orders, shipping and customer support.",
   "canonical": "https://www.promolecules.co.in/about/faq/",
-  "og": {
-    "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
-    "type": "website",
-    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "locale": "AE-DU",
-    "site_name": "Promolecules",
-    "description": "Find answers about Promolecules pre-workout, supplement usage, shipping & returns. Built for high performance and serious results.",
-    "url": "https://www.promolecules.co.in/about/faq/"
-  },
-  "author": "Promolecules",
-  "geo": {
-    "region": "AE-DU",
-    "placename": "Dubai"
-  },
-  "language": "en",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "supplement FAQ, Promolecules FAQ, sports nutrition questions, pre workout FAQ",
   "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "Frequently Asked Questions | Promolecules FAQ",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/about/faq/",
+    "site_name": "Promolecules™",
+    "description": "Find answers to frequently asked questions about Promolecules supplements, usage, ingredients, orders, shipping and customer support.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "Promolecules Frequently Asked Questions",
+    "locale": "en_IN"
+  },
   "twitter": {
     "card": "summary_large_image",
-    "site": "Promolecules",
-    "title": "Promolecules™ FAQ | Pre Workout & Supplement Guide",
-    "description": "Everything you need to know about Promolecules supplements, pre-workout usage, shipping & returns.",
+    "title": "Frequently Asked Questions | Promolecules FAQ",
+    "description": "Find answers to frequently asked questions about Promolecules supplements, usage, ingredients, orders, shipping and customer support.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp"
-  },
-  "ldjson": {
-    "@context": "https://schema.org",
-    "@type": "Organization",
-    "name": "Promolecules",
-    "url": "https://www.promolecules.co.in/about/faq/",
-    "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-    "sameAs": [
-      "https://www.instagram.com/promolecules/",
-      "https://www.threads.com/@promolecules",
-      "https://x.com/promolecules",
-      "https://in.pinterest.com/promolecules/",
-      "https://www.youtube.com/@Promolecules",
-      "https://www.facebook.com/promolecules.official"
-    ],
-    "contactPoint": [
-      {
-        "@type": "ContactPoint",
-        "contactType": "customer service",
-        "email": "contact@promolecules.com"
-      }
-    ]
   }
 },
 "merndetailpage": {
@@ -1039,7 +856,79 @@
       },
       "about": "Shipping Policy"
     }
+  },
+
+  "high-stim-pre-workout": {
+  "title": "High Stim Pre Workout in India | Best Pre Workout Supplement | Promolecules",
+  "description": "Buy the best High Stim Pre Workout in India from Promolecules. Powerful pre workout supplement for explosive energy, laser focus, endurance, strength, muscle pumps and peak gym performance.",
+  "canonical": "https://www.promolecules.co.in/high-stim-pre-workout/",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "high stim pre workout, best pre workout india, pre workout supplement, strongest pre workout, gym pre workout, pre workout powder, caffeine pre workout, energy booster for workout, muscle pump supplement, nitric oxide booster, pre workout drink, bodybuilding supplement, fitness supplement india, sports nutrition, high caffeine pre workout",
+  "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "High Stim Pre Workout in India | Best Pre Workout Supplement | Promolecules",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/high-stim-pre-workout/",
+    "site_name": "Promolecules™",
+    "description": "Buy the best High Stim Pre Workout in India from Promolecules™. Powerful pre workout supplement for explosive energy, laser focus, endurance, strength, muscle pumps and peak gym performance.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "High Stim Pre Workout by Promolecules",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "High Stim Pre Workout in India | Best Pre Workout Supplement | Promolecules",
+    "description": "Buy the best High Stim Pre Workout in India from Promolecules. Powerful pre workout supplement for explosive energy, laser focus, endurance, strength, muscle pumps and peak gym performance.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
   }
+},
+
+"hydrapump-liquid-glycerol-pre-workout-supplement": {
+  "title": "HydraPump Liquid Glycerol Pre Workout | Pump & Hydration Supplement | Promolecules",
+  "description": "HydraPump Liquid Glycerol Pre Workout delivers bigger muscle pumps, superior hydration, nitric oxide support and endurance for every workout. Buy online from Promolecules India.",
+  "canonical": "https://www.promolecules.co.in/hydrapump-liquid-glycerol-pre-workout-supplement/",
+  "author": "Promolecules™",
+  "publisher": "Promolecules™",
+  "language": "English",
+  "keywords": "HydraPump, Liquid Glycerol, glycerol pre workout, pump supplement, nitric oxide booster, hydration supplement, pre workout pump, muscle pump supplement, glycerol powder, citrulline supplement, pre workout without caffeine, endurance supplement",
+  "robots": "index,follow",
+  "googlebot": "index,follow",
+  "bingbot": "index,follow",
+  "subject": "High Stim Pre Workout Supplements",
+  "category": "Sports Nutrition",
+  "classification": "Pre Workout Supplements",
+  "revisit_after": "7 days",
+  "distribution": "global",
+  "rating": "general",
+  "og": {
+    "title": "HydraPump Liquid Glycerol Pre Workout | Pump & Hydration Supplement | Promolecules",
+    "type": "website",
+    "url": "https://www.promolecules.co.in/hydrapump-liquid-glycerol-pre-workout-supplement/",
+    "site_name": "Promolecules™",
+    "description": "HydraPump Liquid Glycerol Pre Workout delivers bigger muscle pumps, superior hydration, nitric oxide support and endurance for every workout. Buy online from Promolecules™ India.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp",
+    "image_alt": "HydraPump Liquid Glycerol Pre Workout Supplement",
+    "locale": "en_IN"
+  },
+  "twitter": {
+    "card": "summary_large_image",
+    "title": "HydraPump Liquid Glycerol Pre Workout | Pump & Hydration Supplement | Promolecules",
+    "description": "HydraPump Liquid Glycerol Pre Workout delivers bigger muscle pumps, superior hydration, nitric oxide support and endurance for every workout. Buy online from Promolecules India.",
+    "image": "https://www.promolecules.co.in/promolecules-logo.webp"
+  }
+}
+
+
 
 
 
