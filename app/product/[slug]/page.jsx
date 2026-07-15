@@ -144,12 +144,15 @@ export default async function ProductPage({ params }) {
 
   return (
     <>
-      {jsonld && (
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: jsonld }}
-        />
-      )}
+        {jsonld && (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(jsonld),
+        }}
+      />
+    )}
+
       <ProductPageClient product={product} />
     </>
   );
