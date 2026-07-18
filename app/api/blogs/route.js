@@ -8,7 +8,7 @@ export async function GET(request) {
     `https://magnus.cost2costsupplement.com/api/v1/blogs?page=${page}`,
     {
       headers: {
-        "x-tenant": "promolecules.com",
+        "x-tenant": "promolecules.co.in",
         "Content-Type": "application/json",
       },
       next: { revalidate: 600 },

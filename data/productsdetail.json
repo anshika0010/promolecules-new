@@ -46,107 +46,8 @@
     "description": "Buy Father of Insane High Stim Pre Workout in India. Advanced pre workout supplement for explosive energy, laser focus, endurance, muscle pumps and workout performance. Perfect for bodybuilders, athletes and serious gym enthusiasts.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Father of Insane Ultra High Stim Pre Workout"
-  },
-  "ldjson": [
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Promolecules",
-      "alternateName": "Promolecules",
-      "url": "https://www.promolecules.co.in/",
-      "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-      "sameAs": [
-        "https://www.facebook.com/promolecules.official",
-        "https://x.com/promolecules",
-        "https://www.instagram.com/promolecules/",
-        "https://www.youtube.com/@Promolecules",
-        "https://www.pinterest.com/promolecules/"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Father of Insane™ Ultra High Stim Pre Workout",
-      "image": "https://promolecules.co.in/Promolecules/fatherofinsane/fruit-punch-father-of-insane-pre-workout-35-Servings.webp",
-      "description": "Buy Father of Insane™ Ultra High Stim Pre Workout online. Experience explosive Pre Workout for Energy, Pre Workout for Focus, insane muscle pumps, endurance and Gym Performance Supplement.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Promolecules™"
-      },
-      "sku": "father-of-insane-35",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.promolecules.co.in/product/father-of-insane/",
-        "priceCurrency": "USD",
-        "price": "41.99",
-        "availability": "https://schema.org/InStock",
-        "itemCondition": "https://schema.org/NewCondition"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "247"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": []
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "promolecules",
-          "item": "https://www.promolecules.co.in/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "product",
-          "item": "https://www.promolecules.co.in/product/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Pre Workout",
-          "item": "https://www.promolecules.co.in/product-category/pre-workout/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "Father of Insane",
-          "item": "https://www.promolecules.co.in/product/father-of-insane/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "@id": "https://www.promolecules.co.in/product/father-of-insane/#review",
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "Father of Insane™ Ultra High Stim Pre Workout",
-        "url": "https://www.promolecules.co.in/product/father-of-insane/"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Verified Customer"
-      },
-      "datePublished": "2026-07-03",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "name": "Excellent High-Stim Pre Workout",
-      "reviewBody": "Father of Insane™ mixes well and provides excellent workout energy, focus, and training intensity. I appreciated the clear usage instructions and high-stim formula."
-    }
-  ]
+  }
+
 },
       "images": [
         "/Promolecules/fatherofinsane/frontside.webp",
@@ -536,7 +437,7 @@
       "slug": "warflex",
       
       "flipkartLink": "https://www.flipkart.com/promolecules-warflex-high-stim-pre-workout-caffeine-strength-pump-focus-formula-35-servings/p/itm855c7c69787ee?pid=PSLHKNVKCWGH6HRK&lid=LSTPSLHKNVKCWGH6HRKJSOMI5&marketplace=FLIPKART&q=preworkout&store=hlc%2Fetg%2F1rx&srno=s_1_4&otracker=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_8_na_na_na&fm=search-autosuggest&iid=a7b10f9a-b5f9-4612-bb69-bd7eb8b52db5.PSLHKNVKCWGH6HRK.SEARCH&ppt=sp&ppn=sp&ssid=5rrj430ryo0000001779782323988&qH=c27d997028a56b71&ov_redirect=true&ov_redirect=true",
-"cost2cost":"https://www.cost2costsupplement.com/products/warflex-high-stim-test-booster-preworkout",
+      "cost2cost":"https://www.cost2costsupplement.com/products/warflex-high-stim-test-booster-preworkout",
 
       "category": "PRE-WORKOUT",
       "name": "WARFLEX",
@@ -576,102 +477,8 @@
     "description": "Experience next-level gym performance with Warflex™ High Stim Pre Workout. Built for explosive energy, focus, pumps, strength and endurance. Order online today.",
     "image": "https://www.promolecules.co.in/promolecules-logo.webp",
     "image_alt": "Warflex High Stim Pre Workout | Energy & Performance"
-  },
-  "ldjson": [
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Promolecules",
-      "alternateName": "Promolecules",
-      "url": "https://www.promolecules.co.in/",
-      "logo": "https://www.promolecules.co.in/promolecules-logo.webp",
-      "sameAs": [
-        "https://www.facebook.com/promolecules.official",
-        "https://x.com/promolecules",
-        "https://www.instagram.com/promolecules/",
-        "https://www.youtube.com/@Promolecules",
-        "https://www.pinterest.com/promolecules/"
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Product",
-      "name": "Warflex High Stim Pre Workout",
-      "image": "https://www.promolecules.co.in/Promolecules/warflexnew/fruit-punch-warflex-pre-workout-35-Servings.webp",
-      "description": "Buy Warflex High Stim Pre Workout online on Promolecules. Get explosive Energy Booster Supplement, insane muscle pumps, laser focus, strength and Endurance Supplement for serious workouts.",
-      "brand": {
-        "@type": "Brand",
-        "name": "Promolecules™"
-      },
-      "sku": "father-of-insane-35",
-      "offers": {
-        "@type": "Offer",
-        "url": "https://www.promolecules.co.in/product/warflex/",
-        "priceCurrency": "USD",
-        "price": "41.99",
-        "availability": "https://schema.org/InStock",
-        "itemCondition": "https://schema.org/NewCondition"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.8",
-        "reviewCount": "247"
-      }
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "promolecules",
-          "item": "https://www.promolecules.co.in/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "product",
-          "item": "https://www.promolecules.co.in/product/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Pre Workout",
-          "item": "https://www.promolecules.co.in/product-category/pre-workout/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 4,
-          "name": "warflex",
-          "item": "https://www.promolecules.co.in/product/warflex/"
-        }
-      ]
-    },
-    {
-      "@context": "https://schema.org",
-      "@type": "Review",
-      "@id": "https://www.promolecules.co.in/product/warflex/#review",
-      "itemReviewed": {
-        "@type": "Product",
-        "name": "Warflex High Stim Pre Workout",
-        "url": "https://www.promolecules.co.in/product/warflex/"
-      },
-      "author": {
-        "@type": "Person",
-        "name": "Verified Customer"
-      },
-      "datePublished": "2026-07-03",
-      "reviewRating": {
-        "@type": "Rating",
-        "ratingValue": "5",
-        "bestRating": "5",
-        "worstRating": "1"
-      },
-      "name": "Warflex™ High-Stim Pre Workout",
-      "reviewBody": "Buy Warflex™ High Stim Pre Workout online on Promolecules. Get explosive Energy Booster Supplement, insane muscle pumps, laser focus, strength and Endurance Supplement for serious workouts."
-    }
-  ]
+  }
+ 
 },
    "price": "43",
      "servings": [
