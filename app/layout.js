@@ -19,6 +19,7 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 const gloomyFont = localFont({
   src: "../public/gloomy_things/Gloomy Things.ttf",
   
@@ -78,6 +79,7 @@ export default function RootLayout({ children }) {
     style={{ display: "none", visibility: "hidden" }}
   />
 </noscript>
+
 <CountryPopup/>
         <PreloaderWrapper>
           <div className="pt-[50px] bg-black">

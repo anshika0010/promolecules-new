@@ -166,10 +166,9 @@ suggested dosage.
         <div className="border-t border-white/10 mt-2 sm:mt-4 lg:mt-5 pt-3 sm:pt-4">
           <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
             {/* Copyright */}
-            <p className="global-text-style text-xs sm:text-sm text-center lg:text-left">
-              ©2026 PROMOLECULES™ ALL RIGHTS RESERVED.
-            </p>
-
+          <p className="global-text-style text-xs sm:text-sm text-center lg:text-left">
+  © 2026 PROMOLECULES™. All Rights Reserved. A brand owned and operated by Devi Enterprises.
+</p>
             {/* Policy links */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 global-text-style">
               <FooterSmallLink href="/privacy-policy" label="PRIVACY POLICY" />
