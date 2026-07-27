@@ -22,10 +22,14 @@ export default function BlogClient({ blogs = [] }) {
   const [visibleCount, setVisibleCount] = useState(BLOGS_PER_PAGE);
   const loaderRef = useRef(null);
 
-  const categories = [
-    "View All",
-    ...new Set(blogs.map((b) => b.category.name)),
-  ];
+const categories = [
+  "View All",
+  ...new Set(
+    blogs
+      .map((b) => b.category?.name)
+      .filter(Boolean)
+  ),
+];
 
   // Category change hone pe reset karo
   const handleCategoryChange = (cat) => {
@@ -33,10 +37,10 @@ export default function BlogClient({ blogs = [] }) {
     setVisibleCount(BLOGS_PER_PAGE); // ✅ reset to 9
   };
 
-  const filtered =
-    activeCategory === "View All"
-      ? blogs
-      : blogs.filter((b) => b.category.name === activeCategory);
+ const filtered =
+  activeCategory === "View All"
+    ? blogs
+    : blogs.filter((b) => b.category?.name === activeCategory);
 
   const visibleBlogs = filtered.slice(0, visibleCount);
   const hasMore = visibleCount < filtered.length;
@@ -142,8 +146,9 @@ export default function BlogClient({ blogs = [] }) {
                 {/* CONTENT */}
                 <div className="p-6 flex flex-col gap-3 flex-1">
                   <div className="flex items-center gap-3 text-xs uppercase tracking-widest">
-                    <span className="text-red-600">{blog.category.name}</span>
-                    <span className="w-[3px] h-[3px] bg-gray-600 rounded-full"></span>
+<span className="text-red-600">
+  {blog.category?.name || "Uncategorized"}
+</span>                    <span className="w-[3px] h-[3px] bg-gray-600 rounded-full"></span>
                     <span className="text-gray-500">{formatDate(blog.publish_date)}</span>
                   </div>
 
