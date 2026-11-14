@@ -1,0 +1,202 @@
+{
+  "lang": "fr",
+  "dir": "ltr",
+  "nav": [
+    "Accueil",
+    "Boutique",
+    "À propos",
+    "Blog",
+    "Contact"
+  ],
+  "kicker": "Nutrition sportive premium",
+  "h1": "Pré-workout et compléments sportifs premium {loc}",
+  "hero_p": "Promolecules conçoit des formules de pré-workout, d'hydratation, de soutien ATP et de brûle-graisse pour les athlètes et les sportifs {loc}. Lisez l'étiquette, choisissez votre formule, entraînez-vous.",
+  "cta_shop": "Voir les produits",
+  "cta_about": "À propos de Promolecules",
+  "quick_t": "Réponse rapide",
+  "quick": "Le meilleur pré-workout {loc} est celui dont la dose de caféine convient à votre corps, dont l'étiquette est claire et dont la formule correspond à votre entraînement. Promolecules propose Father of Insane™ (ultra haute stimulation) et Warflex™ (haute stimulation, 395 mg de XANCAFF™). Commencez par une demi-portion, 20 à 30 minutes avant l'entraînement.",
+  "updated": "Mis à jour le 11/11/2026",
+  "arsenal_h": "La gamme Promolecules",
+  "view_all": "Voir tous les produits",
+  "pd": [
+    "Pré-workout à ultra haute stimulation avec un mélange de 5200 mg.",
+    "Pré-workout à haute stimulation avec 395 mg de XANCAFF™.",
+    "Matrice liquide d'hydratation au glycérol, 10 ml de glycérol.",
+    "Soutien ATP sans stimulant, avec un mélange de 600 mg d'ATP.",
+    "Formule brûle-graisse avec un mélange de 650 mg."
+  ],
+  "why_h": "Pourquoi les athlètes choisissent Promolecules",
+  "why": [
+    {
+      "title": "Fabrication USA GMP",
+      "text": "Nos formules sont fabriquées dans le cadre d'une fabrication certifiée USA GMP."
+    },
+    {
+      "title": "Étiquettes claires",
+      "text": "L'étiquette indique ce que contient chaque formule, pour comparer avant d'acheter."
+    },
+    {
+      "title": "Testé pour les métaux lourds",
+      "text": "Les ingrédients sont testés pour les métaux lourds."
+    }
+  ],
+  "local_h": "Conseils d'entraînement {loc}",
+  "tips": {
+    "hot": "Par temps chaud, buvez de l'eau avant, pendant et après l'entraînement, et évitez un pré-workout stimulant aux heures les plus chaudes.",
+    "humid": "Par temps humide, vous transpirez davantage : gardez de l'eau ou une boisson aux électrolytes à portée de main.",
+    "ramadan": "Pendant le Ramadan, la plupart des gens s'entraînent après l'iftar. Si vous prenez un pré-workout, éloignez-le de l'heure du coucher et buvez assez d'eau entre l'iftar et le suhur.",
+    "altitude": "S'entraîner en altitude peut sembler plus dur. Commencez par une dose plus faible et laissez à votre corps le temps de s'adapter.",
+    "cold": "Par temps froid, échauffez-vous plus longtemps avant l'entraînement.",
+    "generic": "Quel que soit votre climat, commencez par une demi-portion et observez la réaction de votre corps."
+  },
+  "faq_h": "Questions fréquentes",
+  "faq": [
+    {
+      "q": "Quel est le meilleur pré-workout {loc} ?",
+      "a": "Le meilleur est celui qui correspond à votre tolérance à la caféine et à votre entraînement, avec une étiquette qui indique le contenu. Promolecules propose plusieurs formules, de l'ultra haute stimulation au sans stimulant."
+    },
+    {
+      "q": "Combien de temps avant l'entraînement le prendre ?",
+      "a": "Prenez-le 20 à 30 minutes avant l'entraînement et commencez par une demi-portion."
+    },
+    {
+      "q": "Puis-je prendre un pré-workout tous les jours ?",
+      "a": "Cela dépend de votre tolérance à la caféine et de ce que vous en consommez déjà dans la journée. En cas de doute, demandez à un médecin."
+    },
+    {
+      "q": "Qui ne doit pas en prendre ?",
+      "a": "Il est réservé aux adultes. Il n'est pas recommandé aux enfants, aux femmes enceintes ni aux femmes qui allaitent."
+    }
+  ],
+  "safety": "Réservé aux adultes. Déconseillé aux enfants, aux femmes enceintes et aux femmes qui allaitent. Demandez l'avis d'un professionnel de santé avant utilisation. Ce n'est pas un médicament.",
+  "shop_h": "Produits Promolecules {loc}",
+  "shop_p": "Cinq formules de pré-workout, d'hydratation, de soutien ATP et de brûle-graisse. Les prix sont indiqués en {cur}.",
+  "price": "Prix",
+  "order": "Demander pour commander",
+  "about_h": "À propos de Promolecules",
+  "about": [
+    "Promolecules est une marque de nutrition sportive premium. Nous concevons des formules de pré-workout, d'hydratation, de soutien ATP et de brûle-graisse pour les athlètes et les sportifs.",
+    "Nos produits sont fabriqués dans le cadre d'une fabrication certifiée USA GMP, avec des étiquettes claires et des ingrédients testés pour les métaux lourds.",
+    "Nous construisons pour les athlètes exigeants : powerlifters, compétiteurs de physique et athlètes d'endurance. Si vous vous entraînez {loc}, contactez-nous pour savoir comment commander."
+  ],
+  "blog_h": "Blog Promolecules",
+  "blog_p": "Des guides courts et pratiques sur le pré-workout et l'entraînement pour les lecteurs {loc}.",
+  "posts": [
+    {
+      "title": "Comment choisir un pré-workout {loc}",
+      "text": "Vérifiez trois points : la caféine par portion, si l'étiquette indique toutes les doses et si la formule correspond à votre entraînement. Comparez les étiquettes avant d'acheter."
+    },
+    {
+      "title": "Pré-workout : moment et dose, les bases",
+      "text": "Mélangez comme indiqué et prenez-le 20 à 30 minutes avant l'entraînement. Commencez par une demi-portion les premières séances et ne prenez pas de pré-workout stimulant près de l'heure du coucher."
+    },
+    {
+      "title": "S'entraîner {loc} : les bases de l'hydratation",
+      "text": "L'hydratation compte à chaque séance. HydraPump+™ est une matrice liquide d'hydratation au glycérol, avec 10 ml de glycérol. Buvez de l'eau tout au long de la journée et adaptez-vous à votre climat."
+    }
+  ],
+  "contact_h": "Contacter Promolecules",
+  "contact_p": "Une question sur un produit ou sur la façon de commander {loc} ? Envoyez-nous un message.",
+  "f_name": "Nom",
+  "f_email": "E-mail",
+  "f_msg": "Message",
+  "f_send": "Envoyer le message",
+  "f_note": "[Ajoutez ici votre e-mail professionnel et votre numéro WhatsApp]",
+  "foot_tag": "Nutrition sportive premium.",
+  "foot_hub": "Autres pays",
+  "foot_rights": "Tous droits réservés.",
+  "home_desc": "Pré-workout et compléments sportifs premium {loc}. Découvrez Father of Insane™, Warflex™, HydraPump+™, Inopower-R™ et Thermo Nuke XT™ de Promolecules.",
+  "ui": {
+    "_note": "Added for the website UI; not in the original fr.py. Please review.",
+    "search_country": "Rechercher un pays…",
+    "no_country": "Aucun pays trouvé",
+    "global": "International",
+    "home": "Accueil",
+    "about": "À propos",
+    "our_formulas": "Nos formules",
+    "view_product": "Voir le produit",
+    "on_request": "Sur demande",
+    "contact": "Contact",
+    "train_smart": "Entraînez-vous malin",
+    "who_we_are": "Qui sommes-nous",
+    "faq_kicker": "FAQ",
+    "quick_tags": [
+      "Ultra haute stimulation",
+      "Haute stimulation · 395 mg de XANCAFF™"
+    ],
+    "quick_tip": "Commencez par une demi-portion, 20 à 30 minutes avant l'entraînement.",
+    "categories": {
+      "preworkout": "Pré-workout",
+      "hydration": "Hydratation",
+      "atp": "Soutien ATP",
+      "fatburner": "Brûle-graisse"
+    },
+    "tip_titles": {
+      "hot": "Temps chaud",
+      "humid": "Temps humide",
+      "ramadan": "Ramadan",
+      "altitude": "Altitude",
+      "cold": "Temps froid",
+      "generic": "Tous climats"
+    },
+    "about_titles": [
+      "Ce que nous faisons",
+      "Comment nous le faisons",
+      "Pour qui"
+    ],
+    "quick_heading": "Le meilleur pré-workout {loc}",
+    "social": "Réseaux sociaux",
+    "buy_now": "Acheter →",
+    "read_more": "Lire la suite",
+    "view_all_short": "Tout voir",
+    "blogs_title": "Blog",
+    "no_blogs": "Aucun article trouvé.",
+    "blog_hero_p": "Le blog Promolecules, là où la performance rencontre le mental.",
+    "blog_hero_h": [
+      "Tout le blog",
+      "fitness"
+    ],
+    "contact_hero": {
+      "title": [
+        "Prenons",
+        "contact"
+      ],
+      "cta": [
+        "Passons",
+        "à l'action"
+      ]
+    },
+    "form": {
+      "title": "Contactez-nous",
+      "name_label": "NOM COMPLET",
+      "name_ph": "Saisissez votre nom",
+      "phone_label": "TÉLÉPHONE",
+      "email_label": "E-MAIL",
+      "email_ph": "Saisissez votre e-mail",
+      "subject_label": "OBJET",
+      "subject_ph": "Saisissez votre message",
+      "send": "Envoyer le message",
+      "sent_title": "✅ Message envoyé",
+      "sent_text": "Merci ! Nous vous contacterons bientôt.",
+      "fail": "Une erreur s'est produite. Veuillez réessayer.",
+      "errors": {
+        "name_required": "Le nom est obligatoire",
+        "name_letters": "Lettres uniquement",
+        "phone_required": "Le téléphone est obligatoire",
+        "phone_invalid": "Saisissez un numéro valide",
+        "email_required": "L'e-mail est obligatoire",
+        "email_invalid": "Adresse e-mail invalide",
+        "msg_required": "Le message est obligatoire",
+        "msg_short": "Le message doit contenir au moins 10 caractères"
+      }
+    },
+    "search": {
+      "placeholder": "Rechercher des produits...",
+      "empty": "Tapez pour rechercher des produits",
+      "none": "Aucun produit trouvé pour « {q} »",
+      "results_one": "{n} résultat",
+      "results_many": "{n} résultats",
+      "esc": "Échap pour fermer"
+    }
+  }
+}

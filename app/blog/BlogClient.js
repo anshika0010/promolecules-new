@@ -4,6 +4,8 @@ import { useState, useEffect, useRef, useCallback } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@/components/Navbar";
+import { useLocale } from "@/components/LocaleProvider";
+import LocalBlogPosts from "@/components/LocalBlogPosts";
 
 function formatDate(dateStr) {
   if (!dateStr) return "";
@@ -18,6 +20,7 @@ function formatDate(dateStr) {
 const BLOGS_PER_PAGE = 9;
 
 export default function BlogClient({ blogs = [] }) {
+  const { t, lang, displayFont } = useLocale();
   const [activeCategory, setActiveCategory] = useState("View All");
   const [visibleCount, setVisibleCount] = useState(BLOGS_PER_PAGE);
   const loaderRef = useRef(null);
@@ -89,19 +92,24 @@ const categories = [
           <div className="grid lg:grid-cols-2 gap-10 w-full items-center">
             <div className="max-w-md">
               <p className="text-xs sm:text-sm uppercase font-bold tracking-wider leading-relaxed text-white/90">
-                The Promolecules blog is where performance meets mindset.
+                {t.ui.blog_hero_p}
               </p>
             </div>
-            <div className="text-left lg:text-right space-y-6">
-              <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl creepster-regular uppercase font-bold">
-                <span className="block text-white tracking-widest">All Fitness</span>
-                <span className="block text-red-600 tracking-widest">Blogs</span>
+            <div className="text-start lg:text-end space-y-6">
+              <h1 className={`text-5xl sm:text-6xl md:text-7xl lg:text-8xl uppercase font-bold ${displayFont}`}>
+                <span className="block text-white tracking-widest">{t.ui.blog_hero_h[0]}</span>
+                <span className="block text-red-600 tracking-widest">{t.ui.blog_hero_h[1]}</span>
               </h1>
             </div>
           </div>
         </div>
       </section>
 
+      {/* Non-English sites: posts from the language file (the blog API is English-only) */}
+      {lang !== "en" ? (
+        <LocalBlogPosts />
+      ) : (
+      <>
       {/* CATEGORIES */}
       <div className="w-full overflow-x-auto my-8">
         <div className="flex flex-nowrap justify-start md:justify-center gap-4 min-w-max px-2">
@@ -204,6 +212,8 @@ const categories = [
           )}
         </div>
       </section>
+      </>
+      )}
     </div>
   );
 }

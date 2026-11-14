@@ -10,10 +10,13 @@ import { Autoplay } from "swiper/modules";
 import "swiper/css";
 
 import Image from "next/image";
+import { useLocale } from "./LocaleProvider";
+import LocalBlogPosts from "./LocalBlogPosts";
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { lang } = useLocale();
 
 useEffect(() => {
   async function loadBlogs() {
@@ -31,6 +34,9 @@ useEffect(() => {
   }
   loadBlogs();
 }, []);
+
+  // Blog API posts are English-only → non-English sites show the posts from the language file
+  if (lang !== "en") return <LocalBlogPosts />;
 
   return (
     <section className="relative bg-black py-4 sm:py-6 md:py-4 max-w-[1600px] mx-auto overflow-hidden">

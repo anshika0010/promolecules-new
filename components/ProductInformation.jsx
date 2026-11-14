@@ -102,63 +102,7 @@ export default function ProductInformation() {
 
 
 
-        {/* Customer Reviews Section */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-
-          {/* LEFT SIDE */}
-          <div>
-            <h3 className="text-2xl font-bold uppercase mb-8">
-              CUSTOMER REVIEWS
-            </h3>
-
-            <div className="flex items-center gap-4 mb-3">
-              <span className="text-4xl font-bold">4.7</span>
-              <FaStar className="text-yellow-400 text-xl" />
-              <span className="text-gray-400 text-sm uppercase">
-                Based on 98 ratings
-              </span>
-            </div>
-
-            <p className="text-gray-500 text-sm mb-6">
-              Rating since Dec 7, 2025
-            </p>
-
-            <p className="text-gray-500 text-sm uppercase">
-              Top other Brand 4.2 Rating
-            </p>
-          </div>
-
-          {/* RIGHT SIDE - Progress Bars */}
-          <div className="space-y-6">
-            {ratings.map((item) => {
-              const percentage = (item.count / totalRatings) * 100;
-
-              return (
-                <div key={item.stars} className="flex items-center gap-6">
-                  
-                  {/* Star Label */}
-                  <span className="w-20 text-sm uppercase text-gray-300">
-                    {item.stars} Stars
-                  </span>
-
-                  {/* Progress Bar */}
-                  <div className="flex-1 h-3 bg-gray-800 rounded-full overflow-hidden">
-                    <div
-                      className="h-full bg-gray-300"
-                      style={{ width: `${percentage}%` }}
-                    ></div>
-                  </div>
-
-                  {/* Count */}
-                  <span className="w-8 text-sm text-gray-400 text-right">
-                    {item.count}
-                  </span>
-                </div>
-              );
-            })}
-          </div>
-
-        </div>
+    
       </div>
     </div>
     </>

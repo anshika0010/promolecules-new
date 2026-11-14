@@ -1,12 +1,14 @@
 import Blogs from "@/components/Blogs";
-import HeroSlider from "@/components/HeroSlider";
+import HomeFAQ from "@/components/HomeFAQ";
+import TrainingTips from "@/components/TrainingTips";
+import CountryHero from "@/components/CountryHero";
 import PromoleculesSection from "@/components/PromoleculesSection";
 import Testimonials from "@/components/TestimonialsSection";
 import TrendingCategory from "@/components/TrendingCategory";
 import UltraHighPerformanceSection from "@/components/UltraHighPerformanceSection";
-import VideoHeroSection from "@/components/VideoHeroSection";
 import WarningTape from "@/components/WarningTape";
-import WhoWeAreSection from "@/components/WhoWeAreSection";
+import QuickAnswer from "@/components/QuickAnswer";
+import ProductRange from "@/components/ProductRange";
 import { getSEOMetadata, getJSONLD } from "@/lib/seo";
 
 // ✅ Yeh Next.js automatically <head> mein inject kar deta hai
@@ -29,15 +31,17 @@ export default function Home() {
       />
     )}
 
-      <HeroSlider />
-      <WhoWeAreSection />
-      <VideoHeroSection/>
+      <CountryHero />
+      <QuickAnswer />
+      <ProductRange />
       <UltraHighPerformanceSection />
-      <WarningTape />
-      <TrendingCategory />
+      {/* <WarningTape /> */}
+      {/* <TrendingCategory /> */}
+      <TrainingTips />
       <Blogs/>
-      <Testimonials />
-      <PromoleculesSection/>
+      <HomeFAQ />
+      {/* <Testimonials /> */}
+      {/* <PromoleculesSection/>s */}
     </>
   );
 }

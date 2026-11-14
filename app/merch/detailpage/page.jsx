@@ -152,33 +152,9 @@ export default function ProductDetail() {
               </div>
             </div>
 
-            {/* Quantity */}
-            <div className="mb-8">
-              <h3 className="text-gray-300 mb-2 font-semibold">QUANTITY</h3>
+     
 
-              <div className="flex items-center bg-red-600 rounded-full w-fit px-4 py-2 gap-6">
-                <button onClick={decreaseQty} className="text-white text-xl">
-                  <FiMinus />
-                </button>
-
-                <span className="text-lg font-bold">{qty}</span>
-
-                <button onClick={increaseQty} className="text-white text-xl">
-                  <FiPlus />
-                </button>
-              </div>
-            </div>
-
-            {/* Buttons */}
-            <div className="flex flex-col gap-4">
-              {/* <button className="w-full py-4 bg-black border border-gray-700 rounded-lg font-bold hover:bg-gray-900 transition">
-                ADD TO CART
-              </button> */}
-
-              <button className="w-full py-4 bg-red-600 rounded-lg font-bold hover:bg-red-700 transition">
-                BUY NOW
-              </button>
-            </div>
+      
           </div>
         </div>
       </div>

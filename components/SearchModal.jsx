@@ -5,6 +5,7 @@ import { Search, X, ArrowRight } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import productsData from "@/data/productsdetail";
+import { useLocale } from "./LocaleProvider";
 
 const ALL_PRODUCTS = productsData.products.map((p) => ({
   slug: p.slug,
@@ -15,6 +16,8 @@ const ALL_PRODUCTS = productsData.products.map((p) => ({
 }));
 
 export default function SearchModal({ isOpen, onClose }) {
+  const { t } = useLocale();
+  const s = t.ui.search;
   const [query, setQuery] = useState("");
   const [results, setResults] = useState([]);
   const inputRef = useRef(null);
@@ -76,7 +79,7 @@ export default function SearchModal({ isOpen, onClose }) {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search products..."
+            placeholder={s.placeholder}
             className="flex-1 bg-transparent text-white placeholder-white/30 text-base sm:text-lg outline-none font-barlowCondensed tracking-wider"
           />
           {query && (
@@ -102,7 +105,7 @@ export default function SearchModal({ isOpen, onClose }) {
             <div className="flex flex-col items-center justify-center py-16 gap-3 text-center px-6">
               <Search size={40} className="text-white/10" />
               <p className="text-white/30 text-sm tracking-widest uppercase font-barlowCondensed">
-                Type to search products
+                {s.empty}
               </p>
             </div>
           )}
@@ -111,7 +114,7 @@ export default function SearchModal({ isOpen, onClose }) {
           {query && results.length === 0 && (
             <div className="flex flex-col items-center justify-center py-16 gap-3 text-center px-6">
               <p className="text-white/20 text-sm tracking-widest uppercase font-barlowCondensed">
-                No products found for &quot;{query}&quot;
+                {s.none.replace("{q}", query)}
               </p>
             </div>
           )}
@@ -167,10 +170,10 @@ export default function SearchModal({ isOpen, onClose }) {
         {/* Footer hint */}
         <div className="px-5 py-3 border-t border-white/5 flex items-center justify-between">
           <span className="text-white/20 text-xs tracking-widest uppercase">
-            {results.length > 0 ? `${results.length} result${results.length > 1 ? "s" : ""}` : ""}
+            {results.length > 0 ? (results.length > 1 ? s.results_many : s.results_one).replace("{n}", results.length) : ""}
           </span>
           <span className="text-white/20 text-xs tracking-widest">
-            ESC to close
+            {s.esc}
           </span>
         </div>
       </div>

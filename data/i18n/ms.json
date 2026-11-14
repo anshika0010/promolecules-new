@@ -1,0 +1,202 @@
+{
+  "lang": "ms",
+  "dir": "ltr",
+  "nav": [
+    "Utama",
+    "Kedai",
+    "Tentang Kami",
+    "Blog",
+    "Hubungi"
+  ],
+  "kicker": "Pemakanan sukan premium",
+  "h1": "Pre-workout dan suplemen sukan premium {loc}",
+  "hero_p": "Promolecules menghasilkan formula pre-workout, hidrasi, sokongan ATP dan pembakar lemak untuk atlet dan peminat gim {loc}. Baca label, pilih formula anda, dan berlatih.",
+  "cta_shop": "Lihat produk",
+  "cta_about": "Tentang Promolecules",
+  "quick_t": "Jawapan ringkas",
+  "quick": "Pre-workout terbaik {loc} ialah yang dos kafeinnya sesuai dengan badan anda, labelnya jelas dan formulanya sepadan dengan latihan anda. Promolecules menawarkan Father of Insane™ (rangsangan sangat tinggi) dan Warflex™ (rangsangan tinggi, 395 mg XANCAFF™). Mulakan dengan setengah sajian, 20 hingga 30 minit sebelum berlatih.",
+  "updated": "Dikemas kini: 11 Nov 2026",
+  "arsenal_h": "Rangkaian Promolecules",
+  "view_all": "Lihat semua produk",
+  "pd": [
+    "Pre-workout rangsangan sangat tinggi dengan campuran 5200 mg.",
+    "Pre-workout rangsangan tinggi dengan 395 mg XANCAFF™.",
+    "Matriks hidrasi cecair gliserol dengan 10 ml gliserol.",
+    "Sokongan ATP tanpa perangsang, dengan campuran ATP 600 mg.",
+    "Formula pembakar lemak dengan campuran 650 mg."
+  ],
+  "why_h": "Mengapa atlet memilih Promolecules",
+  "why": [
+    {
+      "title": "Pembuatan USA GMP",
+      "text": "Formula kami dihasilkan melalui pembuatan yang diperakui USA GMP."
+    },
+    {
+      "title": "Label yang jelas",
+      "text": "Label menunjukkan kandungan setiap formula supaya anda boleh membandingkan sebelum membeli."
+    },
+    {
+      "title": "Diuji logam berat",
+      "text": "Bahan-bahan diuji untuk logam berat."
+    }
+  ],
+  "local_h": "Petua berlatih {loc}",
+  "tips": {
+    "hot": "Dalam cuaca panas, minum air sebelum, semasa dan selepas berlatih, dan elakkan pre-workout perangsang pada waktu paling panas.",
+    "humid": "Dalam cuaca lembap anda lebih banyak berpeluh, jadi bawa air atau minuman elektrolit.",
+    "ramadan": "Semasa Ramadan, kebanyakan orang berlatih selepas berbuka. Jika anda mengambil pre-workout, jauhkan dari waktu tidur dan minum air yang cukup antara berbuka dan sahur.",
+    "altitude": "Berlatih di bandar tanah tinggi boleh terasa lebih berat. Mulakan dengan dos lebih rendah dan beri masa kepada badan menyesuaikan diri.",
+    "cold": "Dalam cuaca sejuk, panaskan badan lebih lama sebelum berlatih.",
+    "generic": "Apa pun iklim anda, mulakan dengan setengah sajian dan lihat bagaimana badan anda bertindak balas."
+  },
+  "faq_h": "Soalan lazim",
+  "faq": [
+    {
+      "q": "Apakah pre-workout terbaik {loc}?",
+      "a": "Yang terbaik ialah yang sesuai dengan toleransi kafein dan latihan anda, dengan label yang menunjukkan kandungannya. Promolecules menawarkan beberapa formula, dari rangsangan sangat tinggi hingga tanpa perangsang."
+    },
+    {
+      "q": "Berapa lama sebelum berlatih saya perlu mengambilnya?",
+      "a": "Ambil 20 hingga 30 minit sebelum berlatih dan mulakan dengan setengah sajian."
+    },
+    {
+      "q": "Bolehkah saya mengambil pre-workout setiap hari?",
+      "a": "Ia bergantung pada toleransi kafein anda dan jumlah kafein yang sudah anda ambil pada hari itu. Jika tidak pasti, tanya doktor."
+    },
+    {
+      "q": "Siapa yang tidak patut mengambilnya?",
+      "a": "Ia hanya untuk orang dewasa. Tidak disyorkan untuk kanak-kanak, wanita hamil atau wanita menyusu."
+    }
+  ],
+  "safety": "Untuk orang dewasa sahaja. Tidak disyorkan untuk kanak-kanak, wanita hamil atau wanita menyusu. Dapatkan nasihat profesional kesihatan sebelum menggunakan. Bukan ubat.",
+  "shop_h": "Produk Promolecules {loc}",
+  "shop_p": "Lima formula untuk pre-workout, hidrasi, sokongan ATP dan pembakaran lemak. Harga ditunjukkan dalam {cur}.",
+  "price": "Harga",
+  "order": "Tanya untuk membeli",
+  "about_h": "Tentang Promolecules",
+  "about": [
+    "Promolecules ialah jenama pemakanan sukan premium. Kami menghasilkan formula pre-workout, hidrasi, sokongan ATP dan pembakar lemak untuk atlet dan peminat gim.",
+    "Produk kami dihasilkan melalui pembuatan yang diperakui USA GMP, dengan label yang jelas dan bahan yang diuji untuk logam berat.",
+    "Kami membina untuk atlet yang serius: powerlifter, pesaing fizikal dan atlet ketahanan. Jika anda berlatih {loc}, hubungi kami untuk mengetahui cara membuat pesanan."
+  ],
+  "blog_h": "Blog Promolecules",
+  "blog_p": "Panduan ringkas dan praktikal tentang pre-workout dan latihan untuk pembaca {loc}.",
+  "posts": [
+    {
+      "title": "Cara memilih pre-workout {loc}",
+      "text": "Semak tiga perkara: kafein dalam setiap sajian, sama ada label menyenaraikan semua dos, dan sama ada formula sesuai dengan latihan anda. Bandingkan label sebelum membeli."
+    },
+    {
+      "title": "Masa dan dos pre-workout: asas",
+      "text": "Campurkan seperti diarahkan dan ambil 20 hingga 30 minit sebelum berlatih. Mulakan dengan setengah sajian untuk sesi pertama, dan jangan ambil pre-workout perangsang berhampiran waktu tidur."
+    },
+    {
+      "title": "Berlatih {loc}: asas hidrasi",
+      "text": "Hidrasi penting dalam setiap sesi. HydraPump+™ ialah matriks hidrasi cecair gliserol dengan 10 ml gliserol. Minum air sepanjang hari dan sesuaikan dengan iklim anda."
+    }
+  ],
+  "contact_h": "Hubungi Promolecules",
+  "contact_p": "Ada soalan tentang produk atau cara membuat pesanan {loc}? Hantarkan mesej kepada kami.",
+  "f_name": "Nama",
+  "f_email": "E-mel",
+  "f_msg": "Mesej",
+  "f_send": "Hantar mesej",
+  "f_note": "[Tambah e-mel perniagaan dan nombor WhatsApp anda di sini]",
+  "foot_tag": "Pemakanan sukan premium.",
+  "foot_hub": "Negara lain",
+  "foot_rights": "Hak cipta terpelihara.",
+  "home_desc": "Pre-workout dan suplemen sukan premium {loc}. Terokai Father of Insane™, Warflex™, HydraPump+™, Inopower-R™ dan Thermo Nuke XT™ daripada Promolecules.",
+  "ui": {
+    "_note": "Added for the website UI; not in the original ms.py. Please review.",
+    "search_country": "Cari negara…",
+    "no_country": "Tiada negara ditemui",
+    "global": "Global",
+    "home": "Utama",
+    "about": "Tentang Kami",
+    "our_formulas": "Formula kami",
+    "view_product": "Lihat produk",
+    "on_request": "Atas permintaan",
+    "contact": "Hubungi",
+    "train_smart": "Berlatih dengan bijak",
+    "who_we_are": "Siapa kami",
+    "faq_kicker": "Soalan",
+    "quick_tags": [
+      "Rangsangan sangat tinggi",
+      "Rangsangan tinggi · 395 mg XANCAFF™"
+    ],
+    "quick_tip": "Mulakan dengan setengah sajian, 20 hingga 30 minit sebelum berlatih.",
+    "categories": {
+      "preworkout": "Pre-workout",
+      "hydration": "Hidrasi",
+      "atp": "Sokongan ATP",
+      "fatburner": "Pembakar lemak"
+    },
+    "tip_titles": {
+      "hot": "Cuaca panas",
+      "humid": "Cuaca lembap",
+      "ramadan": "Ramadan",
+      "altitude": "Tanah tinggi",
+      "cold": "Cuaca sejuk",
+      "generic": "Semua iklim"
+    },
+    "about_titles": [
+      "Apa yang kami hasilkan",
+      "Cara kami menghasilkannya",
+      "Untuk siapa"
+    ],
+    "quick_heading": "Pre-workout terbaik {loc}",
+    "social": "Media sosial",
+    "buy_now": "Beli →",
+    "read_more": "Baca lagi",
+    "view_all_short": "Lihat semua",
+    "blogs_title": "Blog",
+    "no_blogs": "Tiada artikel ditemui.",
+    "blog_hero_p": "Blog Promolecules, tempat prestasi bertemu minda.",
+    "blog_hero_h": [
+      "Semua blog",
+      "kecergasan"
+    ],
+    "contact_hero": {
+      "title": [
+        "Hubungi",
+        "kami"
+      ],
+      "cta": [
+        "Mari mula",
+        "bekerja"
+      ]
+    },
+    "form": {
+      "title": "Hubungi Kami",
+      "name_label": "NAMA PENUH",
+      "name_ph": "Masukkan nama anda",
+      "phone_label": "NO. TELEFON",
+      "email_label": "E-MEL",
+      "email_ph": "Masukkan e-mel",
+      "subject_label": "SUBJEK",
+      "subject_ph": "Masukkan mesej",
+      "send": "Hantar mesej",
+      "sent_title": "✅ Mesej dihantar",
+      "sent_text": "Terima kasih! Kami akan menghubungi anda tidak lama lagi.",
+      "fail": "Sesuatu tidak kena. Sila cuba lagi.",
+      "errors": {
+        "name_required": "Nama diperlukan",
+        "name_letters": "Huruf sahaja dibenarkan",
+        "phone_required": "Nombor telefon diperlukan",
+        "phone_invalid": "Masukkan nombor telefon yang sah",
+        "email_required": "E-mel diperlukan",
+        "email_invalid": "Alamat e-mel tidak sah",
+        "msg_required": "Mesej diperlukan",
+        "msg_short": "Mesej mesti sekurang-kurangnya 10 aksara"
+      }
+    },
+    "search": {
+      "placeholder": "Cari produk...",
+      "empty": "Taip untuk mencari produk",
+      "none": "Tiada produk ditemui untuk \"{q}\"",
+      "results_one": "{n} hasil",
+      "results_many": "{n} hasil",
+      "esc": "ESC untuk tutup"
+    }
+  }
+}

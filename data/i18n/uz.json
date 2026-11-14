@@ -1,0 +1,202 @@
+{
+  "lang": "uz",
+  "dir": "ltr",
+  "nav": [
+    "Bosh sahifa",
+    "Do'kon",
+    "Biz haqimizda",
+    "Blog",
+    "Aloqa"
+  ],
+  "kicker": "Premium sport ovqatlanishi",
+  "h1": "Premium pre workout va sport qo'shimchalari {loc}",
+  "hero_p": "Promolecules {loc} sportchilar va mashq qiluvchilar uchun pre workout, gidratatsiya, ATP qo'llab-quvvatlash va yog' yoquvchi formulalarni ishlab chiqaradi. Etiketkani o'qing, formulani tanlang va mashq qiling.",
+  "cta_shop": "Mahsulotlarni ko'rish",
+  "cta_about": "Promolecules haqida",
+  "quick_t": "Qisqa javob",
+  "quick": "{loc} eng yaxshi pre workout — kofein miqdori tanangizga mos, etiketkasi tushunarli va formulasi mashg'ulotingizga to'g'ri keladigani. Promolecules Father of Insane™ (juda yuqori stimulyatsiya) va Warflex™ (yuqori stimulyatsiya, 395 mg XANCAFF™) ni taklif qiladi. Mashg'ulotdan 20–30 daqiqa oldin yarim porsiyadan boshlang.",
+  "updated": "Yangilangan: 11.11.2026",
+  "arsenal_h": "Promolecules mahsulotlari",
+  "view_all": "Barcha mahsulotlarni ko'rish",
+  "pd": [
+    "5200 mg aralashmali juda yuqori stimulyatsiyali pre workout.",
+    "395 mg XANCAFF™ li yuqori stimulyatsiyali pre workout.",
+    "Glitserinli suyuq gidratatsiya matritsasi, 10 ml glitserin.",
+    "Stimulyatorsiz ATP qo'llab-quvvatlash, 600 mg ATP aralashmasi.",
+    "650 mg aralashmali yog' yoquvchi formula."
+  ],
+  "why_h": "Sportchilar nega Promolecules ni tanlaydi",
+  "why": [
+    {
+      "title": "USA GMP ishlab chiqarish",
+      "text": "Formulalarimiz USA GMP sertifikatli ishlab chiqarishda tayyorlanadi."
+    },
+    {
+      "title": "Tushunarli etiketkalar",
+      "text": "Etiketkada har bir formula tarkibi ko'rsatilgan, shuning uchun sotib olishdan oldin solishtirishingiz mumkin."
+    },
+    {
+      "title": "Og'ir metallarga tekshirilgan",
+      "text": "Ingredientlar og'ir metallarga tekshiriladi."
+    }
+  ],
+  "local_h": "{loc} mashq qilish bo'yicha maslahatlar",
+  "tips": {
+    "hot": "Issiq havoda mashqdan oldin, mashq paytida va keyin suv iching, kunning eng issiq soatlarida stimulyatorli pre workout ichmang.",
+    "humid": "Nam havoda ko'proq terlaysiz, shuning uchun suv yoki elektrolitli ichimlik olib yuring.",
+    "ramadan": "Ramazon oyida ko'pchilik iftordan keyin mashq qiladi. Pre workout ichsangiz, uni uxlash vaqtidan uzoq tuting va iftor bilan saharlik orasida yetarli suv iching.",
+    "altitude": "Baland tog'li shaharlarda mashq qilish qiyinroq bo'lishi mumkin. Kichikroq dozadan boshlang va tanaga moslashish uchun vaqt bering.",
+    "cold": "Sovuq havoda mashqdan oldin uzoqroq isinib oling.",
+    "generic": "Iqlimingiz qanday bo'lmasin, yarim porsiyadan boshlang va tanangiz qanday javob berishini kuzating."
+  },
+  "faq_h": "Ko'p beriladigan savollar",
+  "faq": [
+    {
+      "q": "{loc} eng yaxshi pre workout qaysi?",
+      "a": "Eng yaxshisi — kofeinga chidamliligingiz va mashg'ulotingizga mos, etiketkasida tarkibi ko'rsatilgani. Promolecules bir nechta formulani taklif qiladi: juda yuqori stimulyatsiyalidan stimulyatorsizgacha."
+    },
+    {
+      "q": "Mashg'ulotdan qancha oldin ichiladi?",
+      "a": "Mashg'ulotdan 20–30 daqiqa oldin iching va yarim porsiyadan boshlang."
+    },
+    {
+      "q": "Pre workoutni har kuni ichsa bo'ladimi?",
+      "a": "Bu kofeinga chidamliligingizga va kun davomida ichadigan kofein miqdoriga bog'liq. Ishonchingiz komil bo'lmasa, shifokorga murojaat qiling."
+    },
+    {
+      "q": "Kimlar ichmasligi kerak?",
+      "a": "Faqat kattalar uchun. Bolalar, homilador va emizikli ayollarga tavsiya etilmaydi."
+    }
+  ],
+  "safety": "Faqat kattalar uchun. Bolalar, homilador va emizikli ayollarga tavsiya etilmaydi. Ishlatishdan oldin sog'liqni saqlash mutaxassisi bilan maslahatlashing. Dori vositasi emas.",
+  "shop_h": "{loc} Promolecules mahsulotlari",
+  "shop_p": "Pre workout, gidratatsiya, ATP qo'llab-quvvatlash va yog' yoqish uchun beshta formula. Narxlar {cur} da ko'rsatiladi.",
+  "price": "Narxi",
+  "order": "Buyurtma uchun so'rang",
+  "about_h": "Promolecules haqida",
+  "about": [
+    "Promolecules — premium sport ovqatlanishi brendi. Biz sportchilar va mashq qiluvchilar uchun pre workout, gidratatsiya, ATP qo'llab-quvvatlash va yog' yoquvchi formulalarni ishlab chiqaramiz.",
+    "Mahsulotlarimiz USA GMP sertifikatli ishlab chiqarishda tayyorlanadi, etiketkalari tushunarli va ingredientlari og'ir metallarga tekshirilgan.",
+    "Biz jiddiy sportchilar uchun yaratamiz: pauerliftinchilar, fizik tanlov ishtirokchilari va chidamlilik sportchilari. Agar {loc} mashq qilsangiz, buyurtma berish tartibini bilish uchun biz bilan bog'laning."
+  ],
+  "blog_h": "Promolecules blogi",
+  "blog_p": "{loc} o'quvchilar uchun pre workout va mashg'ulot haqida qisqa, amaliy qo'llanmalar.",
+  "posts": [
+    {
+      "title": "{loc} pre workoutni qanday tanlash kerak",
+      "text": "Uch narsani tekshiring: har bir porsiyadagi kofein, etiketkada barcha dozalar ko'rsatilganmi va formula mashg'ulotingizga mosmi. Sotib olishdan oldin etiketkalarni solishtiring."
+    },
+    {
+      "title": "Pre workout vaqti va dozasi: asoslar",
+      "text": "Ko'rsatilganidek aralashtiring va mashg'ulotdan 20–30 daqiqa oldin iching. Dastlabki mashg'ulotlarda yarim porsiyadan boshlang va stimulyatorli pre workoutni uxlash vaqtiga yaqin ichmang."
+    },
+    {
+      "title": "{loc} mashq qilish: gidratatsiya asoslari",
+      "text": "Gidratatsiya har bir mashg'ulotda muhim. HydraPump+™ — glitserinli suyuq gidratatsiya matritsasi, tarkibida 10 ml glitserin bor. Kun bo'yi suv iching va iqlimingizga moslashing."
+    }
+  ],
+  "contact_h": "Promolecules bilan bog'lanish",
+  "contact_p": "Mahsulot yoki {loc} buyurtma berish haqida savollaringiz bormi? Bizga xabar yuboring.",
+  "f_name": "Ism",
+  "f_email": "Elektron pochta",
+  "f_msg": "Xabar",
+  "f_send": "Xabar yuborish",
+  "f_note": "[Bu yerga ish elektron pochtangiz va WhatsApp raqamingizni qo'shing]",
+  "foot_tag": "Premium sport ovqatlanishi.",
+  "foot_hub": "Boshqa mamlakatlar",
+  "foot_rights": "Barcha huquqlar himoyalangan.",
+  "home_desc": "{loc} premium pre workout va sport qo'shimchalari. Promolecules'ning Father of Insane™, Warflex™, HydraPump+™, Inopower-R™ va Thermo Nuke XT™ mahsulotlari bilan tanishing.",
+  "ui": {
+    "_note": "Added for the website UI; not in the original uz.py. Please review.",
+    "search_country": "Mamlakatni qidirish…",
+    "no_country": "Mamlakat topilmadi",
+    "global": "Global",
+    "home": "Bosh sahifa",
+    "about": "Biz haqimizda",
+    "our_formulas": "Formulalarimiz",
+    "view_product": "Mahsulotni ko'rish",
+    "on_request": "So'rov bo'yicha",
+    "contact": "Aloqa",
+    "train_smart": "Aqlli mashq qiling",
+    "who_we_are": "Biz kimmiz",
+    "faq_kicker": "Savollar",
+    "quick_tags": [
+      "Juda yuqori stimulyatsiya",
+      "Yuqori stimulyatsiya · 395 mg XANCAFF™"
+    ],
+    "quick_tip": "Mashg'ulotdan 20–30 daqiqa oldin yarim porsiyadan boshlang.",
+    "categories": {
+      "preworkout": "Pre workout",
+      "hydration": "Gidratatsiya",
+      "atp": "ATP qo'llab-quvvatlash",
+      "fatburner": "Yog' yoquvchi"
+    },
+    "tip_titles": {
+      "hot": "Issiq havo",
+      "humid": "Nam havo",
+      "ramadan": "Ramazon",
+      "altitude": "Baland tog'lar",
+      "cold": "Sovuq havo",
+      "generic": "Har qanday iqlim"
+    },
+    "about_titles": [
+      "Nima ishlab chiqaramiz",
+      "Qanday ishlab chiqaramiz",
+      "Kimlar uchun"
+    ],
+    "quick_heading": "{loc} eng yaxshi pre workout",
+    "social": "Ijtimoiy tarmoqlar",
+    "buy_now": "Sotib olish →",
+    "read_more": "Batafsil",
+    "view_all_short": "Hammasini ko'rish",
+    "blogs_title": "Blog",
+    "no_blogs": "Maqolalar topilmadi.",
+    "blog_hero_p": "Promolecules blogi — natija va fikrlash uchrashadigan joy.",
+    "blog_hero_h": [
+      "Barcha fitnes",
+      "maqolalari"
+    ],
+    "contact_hero": {
+      "title": [
+        "Biz bilan",
+        "bog'laning"
+      ],
+      "cta": [
+        "Keling,",
+        "boshlaymiz"
+      ]
+    },
+    "form": {
+      "title": "Biz bilan bog'laning",
+      "name_label": "TO'LIQ ISM",
+      "name_ph": "Ismingizni kiriting",
+      "phone_label": "TELEFON RAQAMI",
+      "email_label": "ELEKTRON POCHTA",
+      "email_ph": "Elektron pochtani kiriting",
+      "subject_label": "MAVZU",
+      "subject_ph": "Xabaringizni kiriting",
+      "send": "Xabar yuborish",
+      "sent_title": "✅ Xabar yuborildi",
+      "sent_text": "Rahmat! Tez orada siz bilan bog'lanamiz.",
+      "fail": "Xatolik yuz berdi. Qaytadan urinib ko'ring.",
+      "errors": {
+        "name_required": "Ism kiritilishi shart",
+        "name_letters": "Faqat harflar ruxsat etiladi",
+        "phone_required": "Telefon raqami kiritilishi shart",
+        "phone_invalid": "To'g'ri telefon raqamini kiriting",
+        "email_required": "Elektron pochta kiritilishi shart",
+        "email_invalid": "Elektron pochta manzili noto'g'ri",
+        "msg_required": "Xabar kiritilishi shart",
+        "msg_short": "Xabar kamida 10 ta belgidan iborat bo'lishi kerak"
+      }
+    },
+    "search": {
+      "placeholder": "Mahsulotlarni qidirish...",
+      "empty": "Qidirish uchun yozing",
+      "none": "\"{q}\" bo'yicha mahsulot topilmadi",
+      "results_one": "{n} ta natija",
+      "results_many": "{n} ta natija",
+      "esc": "Yopish uchun ESC"
+    }
+  }
+}

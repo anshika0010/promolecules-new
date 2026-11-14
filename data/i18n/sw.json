@@ -1,0 +1,202 @@
+{
+  "lang": "sw",
+  "dir": "ltr",
+  "nav": [
+    "Nyumbani",
+    "Duka",
+    "Kuhusu Sisi",
+    "Blogu",
+    "Wasiliana Nasi"
+  ],
+  "kicker": "Lishe ya michezo ya hali ya juu",
+  "h1": "Pre-workout na virutubisho vya michezo vya hali ya juu {loc}",
+  "hero_p": "Promolecules hutengeneza fomula za pre-workout, ujazo wa maji mwilini, msaada wa ATP na vichoma mafuta kwa wanamichezo na wanaofanya mazoezi {loc}. Soma lebo, chagua fomula yako, na fanya mazoezi.",
+  "cta_shop": "Tazama bidhaa",
+  "cta_about": "Kuhusu Promolecules",
+  "quick_t": "Jibu fupi",
+  "quick": "Pre-workout bora {loc} ni ile yenye kiwango cha kafeini kinachofaa mwili wako, lebo iliyo wazi, na fomula inayoendana na mazoezi yako. Promolecules inatoa Father of Insane™ (msisimko wa juu sana) na Warflex™ (msisimko wa juu, 395 mg ya XANCAFF™). Anza na nusu ya kipimo, dakika 20 hadi 30 kabla ya mazoezi.",
+  "updated": "Imesasishwa: 11 Nov 2026",
+  "arsenal_h": "Bidhaa za Promolecules",
+  "view_all": "Tazama bidhaa zote",
+  "pd": [
+    "Pre-workout yenye msisimko wa juu sana, mchanganyiko wa 5200 mg.",
+    "Pre-workout yenye msisimko wa juu, ina 395 mg ya XANCAFF™.",
+    "Fomula ya majimaji ya kuongeza maji mwilini yenye glycerol, 10 ml ya glycerol.",
+    "Msaada wa ATP bila vichocheo, mchanganyiko wa 600 mg ya ATP.",
+    "Fomula ya kuchoma mafuta, mchanganyiko wa 650 mg."
+  ],
+  "why_h": "Kwa nini wanamichezo huchagua Promolecules",
+  "why": [
+    {
+      "title": "Utengenezaji wa USA GMP",
+      "text": "Fomula zetu hutengenezwa kwa utengenezaji uliothibitishwa wa USA GMP."
+    },
+    {
+      "title": "Lebo zilizo wazi",
+      "text": "Lebo huonyesha kilichomo kwenye kila fomula ili uweze kulinganisha kabla ya kununua."
+    },
+    {
+      "title": "Imepimwa metali nzito",
+      "text": "Viambato hupimwa kwa metali nzito."
+    }
+  ],
+  "local_h": "Vidokezo vya mazoezi {loc}",
+  "tips": {
+    "hot": "Kukiwa na joto, kunywa maji kabla, wakati na baada ya mazoezi, na epuka pre-workout yenye vichocheo nyakati za joto kali.",
+    "humid": "Kwenye hali ya unyevu unatoka jasho zaidi, kwa hiyo kaa na maji au kinywaji chenye elektroliti.",
+    "ramadan": "Wakati wa Ramadhani watu wengi hufanya mazoezi baada ya kufuturu. Ukitumia pre-workout, iweke mbali na muda wa kulala na kunywa maji ya kutosha kati ya kufuturu na daku.",
+    "altitude": "Kufanya mazoezi kwenye miji iliyo juu kunaweza kuwa kugumu zaidi. Anza na kipimo kidogo na upe mwili muda wa kuzoea.",
+    "cold": "Kukiwa na baridi, fanya mazoezi ya kupasha mwili joto kwa muda mrefu zaidi kabla ya mazoezi.",
+    "generic": "Hali ya hewa yoyote, anza na nusu ya kipimo na uone mwili wako unavyoitikia."
+  },
+  "faq_h": "Maswali yanayoulizwa mara kwa mara",
+  "faq": [
+    {
+      "q": "Pre-workout bora {loc} ni ipi?",
+      "a": "Bora ni ile inayoendana na uvumilivu wako wa kafeini na mazoezi yako, yenye lebo inayoonyesha kilichomo. Promolecules ina fomula kadhaa, kuanzia za msisimko wa juu sana hadi zisizo na vichocheo."
+    },
+    {
+      "q": "Nitumie muda gani kabla ya mazoezi?",
+      "a": "Tumia dakika 20 hadi 30 kabla ya mazoezi na uanze na nusu ya kipimo."
+    },
+    {
+      "q": "Je, naweza kutumia pre-workout kila siku?",
+      "a": "Inategemea uvumilivu wako wa kafeini na kiasi cha kafeini unachotumia tayari kwa siku. Ikiwa huna uhakika, muulize daktari."
+    },
+    {
+      "q": "Nani hapaswi kutumia?",
+      "a": "Ni kwa watu wazima pekee. Haipendekezwi kwa watoto, wajawazito au wanaonyonyesha."
+    }
+  ],
+  "safety": "Kwa watu wazima pekee. Haipendekezwi kwa watoto, wajawazito au wanaonyonyesha. Muulize mtaalamu wa afya kabla ya kutumia. Si dawa.",
+  "shop_h": "Bidhaa za Promolecules {loc}",
+  "shop_p": "Fomula tano za pre-workout, ujazo wa maji mwilini, msaada wa ATP na kuchoma mafuta. Bei zinaonyeshwa kwa {cur}.",
+  "price": "Bei",
+  "order": "Uliza kuagiza",
+  "about_h": "Kuhusu Promolecules",
+  "about": [
+    "Promolecules ni chapa ya lishe ya michezo ya hali ya juu. Tunatengeneza fomula za pre-workout, ujazo wa maji mwilini, msaada wa ATP na vichoma mafuta kwa wanamichezo na wanaofanya mazoezi.",
+    "Bidhaa zetu hutengenezwa kwa utengenezaji uliothibitishwa wa USA GMP, zikiwa na lebo zilizo wazi na viambato vilivyopimwa metali nzito.",
+    "Tunatengeneza kwa wanamichezo makini: wanyanyua uzito, washindani wa maumbo ya mwili na wanariadha wa uvumilivu. Ukifanya mazoezi {loc}, wasiliana nasi ujue jinsi ya kuagiza."
+  ],
+  "blog_h": "Blogu ya Promolecules",
+  "blog_p": "Miongozo mifupi na ya vitendo kuhusu pre-workout na mazoezi kwa wasomaji {loc}.",
+  "posts": [
+    {
+      "title": "Jinsi ya kuchagua pre-workout {loc}",
+      "text": "Angalia mambo matatu: kafeini kwenye kila kipimo, kama lebo inaorodhesha vipimo vyote, na kama fomula inaendana na mazoezi yako. Linganisha lebo kabla ya kununua."
+    },
+    {
+      "title": "Muda na kipimo cha pre-workout: misingi",
+      "text": "Changanya kama ilivyoelekezwa na utumie dakika 20 hadi 30 kabla ya mazoezi. Anza na nusu ya kipimo kwenye vikao vya kwanza, na usitumie pre-workout yenye vichocheo karibu na muda wa kulala."
+    },
+    {
+      "title": "Mazoezi {loc}: misingi ya kujaza maji mwilini",
+      "text": "Maji mwilini ni muhimu kwenye kila kikao. HydraPump+™ ni fomula ya majimaji ya kuongeza maji mwilini yenye glycerol, ina 10 ml ya glycerol. Kunywa maji siku nzima na uzingatie hali ya hewa yako."
+    }
+  ],
+  "contact_h": "Wasiliana na Promolecules",
+  "contact_p": "Una maswali kuhusu bidhaa au jinsi ya kuagiza {loc}? Tutumie ujumbe.",
+  "f_name": "Jina",
+  "f_email": "Barua pepe",
+  "f_msg": "Ujumbe",
+  "f_send": "Tuma ujumbe",
+  "f_note": "[Weka hapa barua pepe ya biashara na namba ya WhatsApp]",
+  "foot_tag": "Lishe ya michezo ya hali ya juu.",
+  "foot_hub": "Nchi nyingine",
+  "foot_rights": "Haki zote zimehifadhiwa.",
+  "home_desc": "Pre-workout na virutubisho vya michezo vya hali ya juu {loc}. Gundua Father of Insane™, Warflex™, HydraPump+™, Inopower-R™ na Thermo Nuke XT™ kutoka Promolecules.",
+  "ui": {
+    "_note": "Added for the website UI; not in the original sw.py. Please review.",
+    "search_country": "Tafuta nchi…",
+    "no_country": "Hakuna nchi iliyopatikana",
+    "global": "Kimataifa",
+    "home": "Nyumbani",
+    "about": "Kuhusu Sisi",
+    "our_formulas": "Fomula zetu",
+    "view_product": "Tazama bidhaa",
+    "on_request": "Kwa ombi",
+    "contact": "Wasiliana Nasi",
+    "train_smart": "Fanya mazoezi kwa busara",
+    "who_we_are": "Sisi ni nani",
+    "faq_kicker": "Maswali",
+    "quick_tags": [
+      "Msisimko wa juu sana",
+      "Msisimko wa juu · 395 mg ya XANCAFF™"
+    ],
+    "quick_tip": "Anza na nusu ya kipimo, dakika 20 hadi 30 kabla ya mazoezi.",
+    "categories": {
+      "preworkout": "Pre-workout",
+      "hydration": "Maji mwilini",
+      "atp": "Msaada wa ATP",
+      "fatburner": "Kichoma mafuta"
+    },
+    "tip_titles": {
+      "hot": "Joto",
+      "humid": "Unyevu",
+      "ramadan": "Ramadhani",
+      "altitude": "Miinuko",
+      "cold": "Baridi",
+      "generic": "Hali yoyote ya hewa"
+    },
+    "about_titles": [
+      "Tunachotengeneza",
+      "Jinsi tunavyotengeneza",
+      "Kwa ajili ya nani"
+    ],
+    "quick_heading": "Pre-workout bora {loc}",
+    "social": "Mitandao ya kijamii",
+    "buy_now": "Nunua →",
+    "read_more": "Soma zaidi",
+    "view_all_short": "Tazama zote",
+    "blogs_title": "Blogu",
+    "no_blogs": "Hakuna makala zilizopatikana.",
+    "blog_hero_p": "Blogu ya Promolecules, mahali utendaji unapokutana na fikra.",
+    "blog_hero_h": [
+      "Blogu zote",
+      "za mazoezi"
+    ],
+    "contact_hero": {
+      "title": [
+        "Wasiliana",
+        "nasi"
+      ],
+      "cta": [
+        "Tuanze",
+        "kazi"
+      ]
+    },
+    "form": {
+      "title": "Wasiliana Nasi",
+      "name_label": "JINA KAMILI",
+      "name_ph": "Andika jina lako",
+      "phone_label": "NAMBA YA SIMU",
+      "email_label": "BARUA PEPE",
+      "email_ph": "Andika barua pepe",
+      "subject_label": "MADA",
+      "subject_ph": "Andika ujumbe",
+      "send": "Tuma ujumbe",
+      "sent_title": "✅ Ujumbe umetumwa",
+      "sent_text": "Asante! Tutawasiliana nawe hivi karibuni.",
+      "fail": "Kuna tatizo. Tafadhali jaribu tena.",
+      "errors": {
+        "name_required": "Jina linahitajika",
+        "name_letters": "Herufi pekee zinaruhusiwa",
+        "phone_required": "Namba ya simu inahitajika",
+        "phone_invalid": "Andika namba sahihi ya simu",
+        "email_required": "Barua pepe inahitajika",
+        "email_invalid": "Barua pepe si sahihi",
+        "msg_required": "Ujumbe unahitajika",
+        "msg_short": "Ujumbe uwe na angalau herufi 10"
+      }
+    },
+    "search": {
+      "placeholder": "Tafuta bidhaa...",
+      "empty": "Andika kutafuta bidhaa",
+      "none": "Hakuna bidhaa zilizopatikana kwa \"{q}\"",
+      "results_one": "Tokeo {n}",
+      "results_many": "Matokeo {n}",
+      "esc": "ESC kufunga"
+    }
+  }
+}

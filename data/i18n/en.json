@@ -1,0 +1,201 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "nav": [
+    "Home",
+    "Shop",
+    "About",
+    "Blog",
+    "Contact"
+  ],
+  "kicker": "Premium sports nutrition",
+  "h1": "Premium pre-workout and sports supplements {loc}",
+  "hero_p": "Promolecules makes pre-workout, hydration, ATP support and fat-burner formulas for athletes and gym-goers {loc}. Read the label, pick your formula, train.",
+  "cta_shop": "See the products",
+  "cta_about": "About Promolecules",
+  "quick_t": "Quick answer",
+  "quick": "The best pre-workout {loc} is one with a caffeine dose you tolerate, a label you can read, and a formula that fits your training. Promolecules offers Father of Insane™ (ultra high-stim) and Warflex™ (high-stim, 395 mg XANCAFF™). Start with half a serving, 20 to 30 minutes before training.",
+  "updated": "Last updated: 11/11/2026",
+  "arsenal_h": "The Promolecules range",
+  "view_all": "View all products",
+  "pd": [
+    "Ultra high-stim pre-workout with a 5200 mg blend.",
+    "High-stim pre-workout with 395 mg XANCAFF™.",
+    "Liquid glycerol hydration matrix with 10 ml glycerol.",
+    "Non-stimulant ATP support with a 600 mg ATP blend.",
+    "Fat-burner formula with a 650 mg blend."
+  ],
+  "why_h": "Why athletes choose Promolecules",
+  "why": [
+    {
+      "title": "USA GMP manufacturing",
+      "text": "Our formulas are made under USA GMP-certified manufacturing."
+    },
+    {
+      "title": "Clear labels",
+      "text": "The label shows what is in each formula, so you can compare before you buy."
+    },
+    {
+      "title": "Heavy-metal tested",
+      "text": "Ingredients are tested for heavy metals."
+    }
+  ],
+  "local_h": "Training tips {loc}",
+  "tips": {
+    "hot": "In hot weather, drink water before, during and after training, and avoid a stimulant pre-workout in the hottest hours of the day.",
+    "humid": "In humid weather you sweat more, so keep water or an electrolyte drink with you.",
+    "ramadan": "During Ramadan most people train after iftar. If you take a pre-workout, keep it away from bedtime, and drink enough water between iftar and suhoor.",
+    "altitude": "Training in high-altitude cities can feel harder. Start with a lower dose and give your body time to adjust.",
+    "cold": "In cold weather, take a longer warm-up before training.",
+    "generic": "Whatever your climate, start with half a serving and see how your body responds."
+  },
+  "faq_h": "Frequently asked questions",
+  "faq": [
+    {
+      "q": "What is the best pre-workout {loc}?",
+      "a": "The best one is the one that fits your caffeine tolerance and your training, with a label that lists what is inside. Promolecules offers several formulas, from ultra high-stim to non-stimulant."
+    },
+    {
+      "q": "How long before training should I take it?",
+      "a": "Take it 20 to 30 minutes before training, and start with half a serving."
+    },
+    {
+      "q": "Can I take pre-workout every day?",
+      "a": "It depends on your caffeine tolerance and how much caffeine you already have in the day. If you are unsure, ask a doctor."
+    },
+    {
+      "q": "Who should not take it?",
+      "a": "It is for adults only. It is not recommended for children, pregnant women or breastfeeding women."
+    }
+  ],
+  "safety": "For adults only. Not recommended for children, pregnant women or breastfeeding women. Ask a health professional before use. Not a medicine.",
+  "shop_h": "Promolecules products {loc}",
+  "shop_p": "Five formulas for pre-workout, hydration, ATP support and fat burning. Prices are shown in {cur}.",
+  "price": "Price",
+  "order": "Ask to order",
+  "about_h": "About Promolecules",
+  "about": [
+    "Promolecules is a premium sports nutrition brand. We make pre-workout, hydration, ATP support and fat-burner formulas for athletes and gym-goers.",
+    "Our products are made under USA GMP-certified manufacturing, with clear labels and heavy-metal tested ingredients.",
+    "We build for serious athletes: powerlifters, physique competitors and endurance athletes. If you train {loc}, contact us to find out how to order."
+  ],
+  "blog_h": "Promolecules blog",
+  "blog_p": "Short, practical guides on pre-workout and training for readers {loc}.",
+  "posts": [
+    {
+      "title": "How to choose a pre-workout {loc}",
+      "text": "Check three things: the caffeine per serving, whether the label lists every dose, and whether the formula fits your training. Compare labels before you buy."
+    },
+    {
+      "title": "Pre-workout timing and dose: the basics",
+      "text": "Mix it as directed and take it 20 to 30 minutes before training. Start with half a serving for your first sessions, and do not take a stimulant pre-workout close to bedtime."
+    },
+    {
+      "title": "Training {loc}: hydration basics",
+      "text": "Hydration matters in every session. HydraPump+™ is a liquid glycerol hydration matrix with 10 ml glycerol. Drink water through the day and adjust for your climate."
+    }
+  ],
+  "contact_h": "Contact Promolecules",
+  "contact_p": "Questions about a product or how to order {loc}? Send us a message.",
+  "f_name": "Name",
+  "f_email": "Email",
+  "f_msg": "Message",
+  "f_send": "Send message",
+  "f_note": "[Add your business email and WhatsApp number here]",
+  "foot_tag": "Premium sports nutrition.",
+  "foot_hub": "Other countries",
+  "foot_rights": "All rights reserved.",
+  "home_desc": "Premium pre-workout and sports supplements {loc}. Discover Father of Insane™, Warflex™, HydraPump+™, Inopower-R™ and Thermo Nuke XT™ from Promolecules.",
+  "ui": {
+    "search_country": "Search country…",
+    "no_country": "No country found",
+    "global": "Global",
+    "home": "Home",
+    "about": "About",
+    "our_formulas": "Our formulas",
+    "view_product": "View product",
+    "on_request": "On request",
+    "contact": "Contact",
+    "train_smart": "Train smart",
+    "who_we_are": "Who we are",
+    "faq_kicker": "FAQ",
+    "quick_tags": [
+      "Ultra high-stim",
+      "High-stim · 395 mg XANCAFF™"
+    ],
+    "quick_tip": "Start with half a serving, 20 to 30 minutes before training.",
+    "categories": {
+      "preworkout": "Pre-Workout",
+      "hydration": "Hydration",
+      "atp": "ATP support",
+      "fatburner": "Fat burner"
+    },
+    "tip_titles": {
+      "hot": "Hot weather",
+      "humid": "Humid weather",
+      "ramadan": "Ramadan",
+      "altitude": "High altitude",
+      "cold": "Cold weather",
+      "generic": "Any climate"
+    },
+    "about_titles": [
+      "What we make",
+      "How we make it",
+      "Who we build for"
+    ],
+    "quick_heading": "The best pre-workout {loc}",
+    "social": "Social links",
+    "buy_now": "Buy Now →",
+    "read_more": "Read More",
+    "view_all_short": "View all",
+    "blogs_title": "Blogs",
+    "no_blogs": "No blogs found.",
+    "blog_hero_p": "The Promolecules blog is where performance meets mindset.",
+    "blog_hero_h": [
+      "All Fitness",
+      "Blogs"
+    ],
+    "contact_hero": {
+      "title": [
+        "Get In",
+        "Touch"
+      ],
+      "cta": [
+        "Lets Start To",
+        "Work"
+      ]
+    },
+    "form": {
+      "title": "Contact Us",
+      "name_label": "FULL NAME",
+      "name_ph": "Enter your name",
+      "phone_label": "PHONE NO.",
+      "email_label": "EMAIL",
+      "email_ph": "Enter email",
+      "subject_label": "SUBJECT",
+      "subject_ph": "Enter message",
+      "send": "Send Message",
+      "sent_title": "✅ Message Sent",
+      "sent_text": "Thank you! We will contact you soon.",
+      "fail": "Something went wrong. Please try again.",
+      "errors": {
+        "name_required": "Name is required",
+        "name_letters": "Only letters allowed",
+        "phone_required": "Phone number is required",
+        "phone_invalid": "Enter valid phone number",
+        "email_required": "Email is required",
+        "email_invalid": "Invalid email address",
+        "msg_required": "Message is required",
+        "msg_short": "Message must be at least 10 characters"
+      }
+    },
+    "search": {
+      "placeholder": "Search products...",
+      "empty": "Type to search products",
+      "none": "No products found for \"{q}\"",
+      "results_one": "{n} result",
+      "results_many": "{n} results",
+      "esc": "ESC to close"
+    }
+  }
+}

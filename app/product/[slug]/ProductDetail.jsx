@@ -5,6 +5,8 @@ import { useState } from "react";
 import { FaChevronRight } from "react-icons/fa";
 import MoreProducts from "./MoreProducts";
 import { FaWhatsapp } from "react-icons/fa";
+import { useLocale } from "@/components/LocaleProvider";
+import { getFoiTranslation, FOI_INGREDIENTS } from "@/data/i18n/pdp/father-of-insane";
 
 const StarIcon = ({ filled }) => (
   <svg
@@ -31,7 +33,7 @@ const PlusIcon = () => (
     <line x1="12" y1="5" x2="12" y2="19" />
     <line x1="5" y1="12" x2="19" y2="12" />
   </svg>
-);
+);      
 
 const CloseIcon = () => (
   <svg
@@ -76,7 +78,7 @@ const CartIcon = () => (
 );
 
 // ── Cart Popup ──────────────────────────────────────────────────────────────
-function CartPopup({ isOpen, onClose, product, flavour, quantity, mode }) {
+export function CartPopup({ isOpen, onClose, product, flavour, quantity, mode }) {
   return (
     <>
       {/* Backdrop */}
@@ -141,9 +143,7 @@ function CartPopup({ isOpen, onClose, product, flavour, quantity, mode }) {
                 </p>
               )}
             </div>
-            <span className="text-[#444] text-xs tracking-widest">
-              Qty: {quantity}
-            </span>
+         
           </div>
         </div>
 
@@ -251,7 +251,10 @@ function CartPopup({ isOpen, onClose, product, flavour, quantity, mode }) {
 
 // ── Main Component ──────────────────────────────────────────────────────────
 export default function ProductDetail({ product }) {
-  const [quantity, setQuantity] = useState(1);
+  const { lang, fmt, bidi, displayFont } = useLocale();
+  // Arabic (etc.) text for Father of Insane™; null → original English content
+  const tr = product.slug === "father-of-insane" ? getFoiTranslation(lang) : null;
+  const headFont = tr && displayFont !== "creepster-regular" ? "font-black" : "creepster-regular";
   const [factsOpen, setFactsOpen] = useState(false);
   const [open, setOpen] = useState(0);
 
@@ -282,8 +285,16 @@ export default function ProductDetail({ product }) {
   };
   const [selectedServing, setSelectedServing] = useState(servings[0]);
 
-  const sections = [
-
+  const sections = tr
+    ? [
+        { title: tr.description_h, content: fmt(tr.intro) },
+        { title: tr.ingredients_h, content: FOI_INGREDIENTS },
+        { title: tr.howto_h, content: tr.steps },
+        { title: tr.safety_h, content: tr.safety },
+        { title: tr.who_h, content: tr.who },
+        { title: tr.skip_h, content: tr.skip_p },
+      ]
+    : [
     { title: "DESCRIPTION", content: product.description },
     { title: "KEY BENEFITS", content: product.keyBenefits },
     { title: "WHY CHOOSE US?", content: product.whychooseus },
@@ -301,7 +312,6 @@ export default function ProductDetail({ product }) {
         onClose={() => setCartOpen(false)}
         product={product}
         flavour={selectedFlavour}
-        quantity={quantity}
         mode={cartMode}
       />
 
@@ -351,7 +361,7 @@ export default function ProductDetail({ product }) {
             <div className="flex flex-col gap-2 sm:gap-2 md:gap-4">
               {/* Name */}
               <h2 className="text-2xl sm:text-5xl md:text-[52px] anton-regular uppercase text-red-600 leading-none drop-shadow-[0_0_30px_rgba(224,0,27,0.3)]">
-                {product.name}
+                {tr ? bidi("Father of Insane™") : product.name}
               </h2>
 
               <div className="h-[2px] bg-gradient-to-r from-red-600 to-transparent" />
@@ -378,7 +388,7 @@ export default function ProductDetail({ product }) {
 
 
               <p className="global-text-style text-xs sm:text-sm md:text-base">
-                {product.title}
+                {tr ? `${tr.tag} ${tr.warn}` : product.title}
               </p>
               {/* Price */}
               {/* <div className="text-xl sm:text-4xl font-black leading-none text-white">
@@ -388,7 +398,7 @@ export default function ProductDetail({ product }) {
               {/* Flavours */}
               <div>
                 <p className="text-red-600 font-bold text-xs uppercase tracking-[2px] mb-2">
-                  FLAVOURS
+                  {tr ? tr.flavour : "FLAVOURS"}
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   {flavours.map((flavour) => (
@@ -420,7 +430,7 @@ export default function ProductDetail({ product }) {
               {/* Servings */}
               <div>
                 <p className="text-red-600 font-bold text-xs uppercase tracking-[2px] mb-2">
-                  SERVINGS
+                  {tr ? tr.servings : "SERVINGS"}
                 </p>
                 <div className="flex gap-2 flex-wrap">
                   {servings.map(
@@ -454,47 +464,9 @@ export default function ProductDetail({ product }) {
                 </div>
               </div>
 
-              {/* Quantity */}
-              <div className="pt-3 border-t border-[#2a2a2a]">
-                <p className="text-red-600 font-bold text-xs uppercase tracking-[2px] mb-3">
-                  QUANTITY
-                </p>
-                <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-2 md:gap-4">
-                  <div className="flex border border-[#333] rounded-lg overflow-hidden w-fit">
-                    <button
-                      className="w-10 h-10 bg-[#1a1a1a] hover:bg-[#2a2a2a] transition text-lg font-bold"
-                      onClick={() => setQuantity((q) => Math.max(1, q - 1))}
-                    >
-                      −
-                    </button>
-                    <span className="w-12 text-center leading-[42px] bg-[#111] text-base font-bold">
-                      {quantity}
-                    </span>
-                    <button
-                      className="w-10 h-10 bg-[#1a1a1a] hover:bg-[#2a2a2a] transition text-lg font-bold"
-                      onClick={() => setQuantity((q) => q + 1)}
-                    >
-                      +
-                    </button>
-                  </div>
-                </div>
-              </div>
+            
 
-              {/* CTA Buttons */}
-              <div className="flex flex-row gap-3 pt-1">
-                {/* <button
-                  onClick={handleAddToCart}
-                  className="flex-1 border-2 border-white py-3 font-bold tracking-[2px] sm:tracking-[3px] rounded-xl uppercase hover:bg-white hover:text-black transition text-sm sm:text-base"
-                >
-                  Add To Cart
-                </button>  */}
-                 <button
-                  onClick={handleBuyNow}
-                  className="flex-1 bg-red-600 border-2 border-red-600 py-3 font-bold tracking-[2px] sm:tracking-[3px] rounded-xl uppercase hover:bg-red-700 transition text-sm sm:text-base"
-                >
-                  Buy Now
-                </button>
-              </div>
+        
 
               {/* Supplement Facts */}
               <div className="border-t border-[#2a2a2a] pt-3">
@@ -502,7 +474,7 @@ export default function ProductDetail({ product }) {
                   onClick={() => setFactsOpen(!factsOpen)}
                   className="flex justify-between items-center py-3 cursor-pointer uppercase font-bold tracking-[2px] text-sm hover:text-red-500 transition"
                 >
-                  <span>Supplement Facts</span>
+                  <span>{tr ? tr.facts_h : "Supplement Facts"}</span>
                   <span
                     className={`transition-transform duration-300 ${factsOpen ? "rotate-45" : ""}`}
                   >
@@ -533,7 +505,7 @@ export default function ProductDetail({ product }) {
                   </div>
                 </div>
               </div>
-              <MoreProducts />
+              {/* <MoreProducts /> */}
             </div>
           </div>
         </div>
@@ -559,13 +531,13 @@ export default function ProductDetail({ product }) {
               <div key={index}>
                 <button
                   onClick={() => toggle(index)}
-                  className="w-full flex justify-between items-center py-4 sm:py-6 text-left"
+                  className="w-full flex justify-between items-center py-4 sm:py-6 text-start"
                 >
-                  <h3 className="text-red-600 text-lg sm:text-2xl tracking-widest font-semibold creepster-regular">
+                  <h3 className={`text-red-600 text-lg sm:text-2xl tracking-widest font-semibold ${headFont}`}>
                     {item.title}
                   </h3>
                   <FaChevronRight
-                    className={`text-white shrink-0 ml-3 transition-transform duration-300 ${
+                    className={`text-white shrink-0 ms-3 transition-transform duration-300 rtl:-scale-x-100 ${
                       open === index ? "rotate-90" : ""
                     }`}
                   />
@@ -573,7 +545,7 @@ export default function ProductDetail({ product }) {
                 {open === index && (
                   <div className="pb-5 global-text-style text-sm sm:text-base max-w-xl">
                     {Array.isArray(item.content) ? (
-                      <ul className="list-disc pl-5 space-y-1.5">
+                      <ul className="list-disc ps-5 space-y-1.5">
                         {item.content.map((text, i) => (
                           <li key={i}>{text}</li>
                         ))}

@@ -1,0 +1,202 @@
+{
+  "lang": "es",
+  "dir": "ltr",
+  "nav": [
+    "Inicio",
+    "Tienda",
+    "Nosotros",
+    "Blog",
+    "Contacto"
+  ],
+  "kicker": "Nutrición deportiva premium",
+  "h1": "Pre entreno y suplementos deportivos premium {loc}",
+  "hero_p": "Promolecules fabrica fórmulas de pre entreno, hidratación, apoyo de ATP y quemadores de grasa para atletas y personas que entrenan {loc}. Lee la etiqueta, elige tu fórmula y entrena.",
+  "cta_shop": "Ver los productos",
+  "cta_about": "Sobre Promolecules",
+  "quick_t": "Respuesta rápida",
+  "quick": "El mejor pre entreno {loc} es el que tiene una dosis de cafeína que tu cuerpo tolera, una etiqueta clara y una fórmula que se ajusta a tu entrenamiento. Promolecules ofrece Father of Insane™ (ultra alto estímulo) y Warflex™ (alto estímulo, 395 mg de XANCAFF™). Empieza con media porción, de 20 a 30 minutos antes de entrenar.",
+  "updated": "Actualizado: 11/11/2026",
+  "arsenal_h": "La gama Promolecules",
+  "view_all": "Ver todos los productos",
+  "pd": [
+    "Pre entreno de ultra alto estímulo con una mezcla de 5200 mg.",
+    "Pre entreno de alto estímulo con 395 mg de XANCAFF™.",
+    "Matriz líquida de hidratación con glicerol, 10 ml de glicerol.",
+    "Apoyo de ATP sin estimulantes, con una mezcla de 600 mg de ATP.",
+    "Fórmula quemagrasa con una mezcla de 650 mg."
+  ],
+  "why_h": "Por qué los atletas eligen Promolecules",
+  "why": [
+    {
+      "title": "Fabricación USA GMP",
+      "text": "Nuestras fórmulas se fabrican bajo procesos con certificación USA GMP."
+    },
+    {
+      "title": "Etiquetas claras",
+      "text": "La etiqueta muestra qué lleva cada fórmula, para que compares antes de comprar."
+    },
+    {
+      "title": "Probado en metales pesados",
+      "text": "Los ingredientes se prueban para detectar metales pesados."
+    }
+  ],
+  "local_h": "Consejos para entrenar {loc}",
+  "tips": {
+    "hot": "Con calor, bebe agua antes, durante y después de entrenar, y evita un pre entreno estimulante en las horas más calurosas del día.",
+    "humid": "Con clima húmedo sudas más, así que lleva agua o una bebida con electrolitos.",
+    "ramadan": "Durante el Ramadán la mayoría entrena después del iftar. Si tomas un pre entreno, aléjalo de la hora de dormir y bebe suficiente agua entre el iftar y el suhur.",
+    "altitude": "Entrenar en ciudades de altura puede costar más. Empieza con una dosis menor y dale tiempo a tu cuerpo para adaptarse.",
+    "cold": "Con frío, calienta más tiempo antes de entrenar.",
+    "generic": "Sea cual sea tu clima, empieza con media porción y observa cómo responde tu cuerpo."
+  },
+  "faq_h": "Preguntas frecuentes",
+  "faq": [
+    {
+      "q": "¿Cuál es el mejor pre entreno {loc}?",
+      "a": "El mejor es el que se ajusta a tu tolerancia a la cafeína y a tu entrenamiento, con una etiqueta que muestre lo que contiene. Promolecules ofrece varias fórmulas, desde ultra alto estímulo hasta sin estimulantes."
+    },
+    {
+      "q": "¿Cuánto tiempo antes de entrenar debo tomarlo?",
+      "a": "Tómalo de 20 a 30 minutos antes de entrenar y empieza con media porción."
+    },
+    {
+      "q": "¿Puedo tomar pre entreno todos los días?",
+      "a": "Depende de tu tolerancia a la cafeína y de cuánta cafeína consumes en el día. Si tienes dudas, consulta a un médico."
+    },
+    {
+      "q": "¿Quién no debe tomarlo?",
+      "a": "Es solo para adultos. No se recomienda a niños, mujeres embarazadas ni en periodo de lactancia."
+    }
+  ],
+  "safety": "Solo para adultos. No recomendado para niños, mujeres embarazadas o en lactancia. Consulta a un profesional de la salud antes de usarlo. No es un medicamento.",
+  "shop_h": "Productos Promolecules {loc}",
+  "shop_p": "Cinco fórmulas de pre entreno, hidratación, apoyo de ATP y quema de grasa. Los precios se muestran en {cur}.",
+  "price": "Precio",
+  "order": "Pedir información",
+  "about_h": "Sobre Promolecules",
+  "about": [
+    "Promolecules es una marca de nutrición deportiva premium. Fabricamos fórmulas de pre entreno, hidratación, apoyo de ATP y quemagrasas para atletas y personas que entrenan.",
+    "Nuestros productos se fabrican bajo procesos con certificación USA GMP, con etiquetas claras e ingredientes probados para metales pesados.",
+    "Construimos para atletas exigentes: powerlifters, competidores de físico y atletas de resistencia. Si entrenas {loc}, escríbenos para saber cómo hacer tu pedido."
+  ],
+  "blog_h": "Blog de Promolecules",
+  "blog_p": "Guías breves y prácticas sobre pre entreno y entrenamiento para lectores {loc}.",
+  "posts": [
+    {
+      "title": "Cómo elegir un pre entreno {loc}",
+      "text": "Revisa tres cosas: la cafeína de cada porción, si la etiqueta muestra todas las dosis y si la fórmula encaja con tu entrenamiento. Compara etiquetas antes de comprar."
+    },
+    {
+      "title": "Pre entreno: cuándo tomarlo y qué dosis",
+      "text": "Mézclalo como indica la etiqueta y tómalo de 20 a 30 minutos antes de entrenar. Empieza con media porción las primeras sesiones y no tomes un pre entreno estimulante cerca de la hora de dormir."
+    },
+    {
+      "title": "Entrenar {loc}: lo básico de la hidratación",
+      "text": "La hidratación importa en cada sesión. HydraPump+™ es una matriz líquida de hidratación con glicerol, con 10 ml de glicerol. Bebe agua durante el día y ajústate a tu clima."
+    }
+  ],
+  "contact_h": "Contacta con Promolecules",
+  "contact_p": "¿Tienes preguntas sobre un producto o sobre cómo pedir {loc}? Envíanos un mensaje.",
+  "f_name": "Nombre",
+  "f_email": "Correo electrónico",
+  "f_msg": "Mensaje",
+  "f_send": "Enviar mensaje",
+  "f_note": "[Agrega aquí tu correo comercial y tu número de WhatsApp]",
+  "foot_tag": "Nutrición deportiva premium.",
+  "foot_hub": "Otros países",
+  "foot_rights": "Todos los derechos reservados.",
+  "home_desc": "Pre entreno y suplementos deportivos premium {loc}. Conoce Father of Insane™, Warflex™, HydraPump+™, Inopower-R™ y Thermo Nuke XT™ de Promolecules.",
+  "ui": {
+    "_note": "Added for the website UI; not in the original es.py. Please review.",
+    "search_country": "Buscar país…",
+    "no_country": "No se encontró ningún país",
+    "global": "Global",
+    "home": "Inicio",
+    "about": "Nosotros",
+    "our_formulas": "Nuestras fórmulas",
+    "view_product": "Ver producto",
+    "on_request": "A consultar",
+    "contact": "Contacto",
+    "train_smart": "Entrena con cabeza",
+    "who_we_are": "Quiénes somos",
+    "faq_kicker": "Preguntas",
+    "quick_tags": [
+      "Ultra alto estímulo",
+      "Alto estímulo · 395 mg de XANCAFF™"
+    ],
+    "quick_tip": "Empieza con media porción, de 20 a 30 minutos antes de entrenar.",
+    "categories": {
+      "preworkout": "Pre entreno",
+      "hydration": "Hidratación",
+      "atp": "Apoyo de ATP",
+      "fatburner": "Quemagrasa"
+    },
+    "tip_titles": {
+      "hot": "Calor",
+      "humid": "Clima húmedo",
+      "ramadan": "Ramadán",
+      "altitude": "Altura",
+      "cold": "Frío",
+      "generic": "Cualquier clima"
+    },
+    "about_titles": [
+      "Qué hacemos",
+      "Cómo lo hacemos",
+      "Para quién"
+    ],
+    "quick_heading": "El mejor pre entreno {loc}",
+    "social": "Redes sociales",
+    "buy_now": "Comprar →",
+    "read_more": "Leer más",
+    "view_all_short": "Ver todo",
+    "blogs_title": "Blog",
+    "no_blogs": "No hay artículos.",
+    "blog_hero_p": "El blog de Promolecules, donde el rendimiento se encuentra con la mentalidad.",
+    "blog_hero_h": [
+      "Todo el blog",
+      "de fitness"
+    ],
+    "contact_hero": {
+      "title": [
+        "Ponte en",
+        "contacto"
+      ],
+      "cta": [
+        "Empecemos a",
+        "trabajar"
+      ]
+    },
+    "form": {
+      "title": "Contáctanos",
+      "name_label": "NOMBRE COMPLETO",
+      "name_ph": "Escribe tu nombre",
+      "phone_label": "TELÉFONO",
+      "email_label": "CORREO ELECTRÓNICO",
+      "email_ph": "Escribe tu correo",
+      "subject_label": "ASUNTO",
+      "subject_ph": "Escribe tu mensaje",
+      "send": "Enviar mensaje",
+      "sent_title": "✅ Mensaje enviado",
+      "sent_text": "¡Gracias! Te contactaremos pronto.",
+      "fail": "Algo salió mal. Inténtalo de nuevo.",
+      "errors": {
+        "name_required": "El nombre es obligatorio",
+        "name_letters": "Solo se permiten letras",
+        "phone_required": "El teléfono es obligatorio",
+        "phone_invalid": "Escribe un teléfono válido",
+        "email_required": "El correo es obligatorio",
+        "email_invalid": "Correo electrónico no válido",
+        "msg_required": "El mensaje es obligatorio",
+        "msg_short": "El mensaje debe tener al menos 10 caracteres"
+      }
+    },
+    "search": {
+      "placeholder": "Buscar productos...",
+      "empty": "Escribe para buscar productos",
+      "none": "No hay productos para \"{q}\"",
+      "results_one": "{n} resultado",
+      "results_many": "{n} resultados",
+      "esc": "ESC para cerrar"
+    }
+  }
+}

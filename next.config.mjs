@@ -1,6 +1,17 @@
+import { COUNTRIES, ROOT_DOMAIN } from "./data/countries.js";
+
+// On-hold country sites (ir, sy, cu…) must stay out of search results. Pages are static and shared by
+// every subdomain, so this is done with an X-Robots-Tag header per host instead of a <meta> tag.
+// The list follows `status` in data/countries.js: set a country to "ready" and it becomes indexable.
+const NOINDEX_COUNTRIES = COUNTRIES.filter((c) => c.status !== "ready").map((c) => c.code);
+const NOINDEX_HOSTS = `(?:www\\.)?(?:${NOINDEX_COUNTRIES.join("|")})\\.${ROOT_DOMAIN.replace(/\./g, "\\.")}`;
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
+
+  // Let the dev server accept country subdomains like ae.localhost:3000
+  allowedDevOrigins: ["*.localhost"],
 
   images: {
     unoptimized: true, // optional (keep if you want)
@@ -51,6 +62,16 @@ const nextConfig = {
 },
         ],
       },
+      // noindex every page on on-hold country sites (see NOINDEX_COUNTRIES above)
+      ...(NOINDEX_COUNTRIES.length
+        ? [
+            {
+              source: "/:path*",
+              has: [{ type: "host", value: NOINDEX_HOSTS }],
+              headers: [{ key: "X-Robots-Tag", value: "noindex, nofollow" }],
+            },
+          ]
+        : []),
     ];
   },
 };

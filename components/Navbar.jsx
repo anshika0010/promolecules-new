@@ -6,6 +6,8 @@ import Image from "next/image";
 import { ShoppingCart, Menu, X, Search } from "lucide-react";
 import { usePathname } from "next/navigation";
 import SearchModal from "../components/SearchModal";
+import CountrySelector from "./CountrySelector";
+import { useLocale } from "./LocaleProvider";
 
 const Navbar = () => {
   const [searchOpen, setSearchOpen] = useState(false);
@@ -14,6 +16,7 @@ const Navbar = () => {
   const [lastScrollY, setLastScrollY] = useState(0);
   const [showNavbar, setShowNavbar] = useState(true);
   const pathname = usePathname();
+  const { t } = useLocale();
 
   /* ── Hide on scroll-down, show on scroll-up ── */
   useEffect(() => {
@@ -42,14 +45,8 @@ const Navbar = () => {
     setIsOpen(false);
   }, [pathname]);
 
-  const navLinks = [
-    { name: "HOME",    href: "/" },
-  
-    { name: "SHOP",    href: "/shop" },
-      { name: "ABOUT",   href: "/about" },
-    { name: "BLOGS",   href: "/blog" },
-    { name: "CONTACT", href: "/contact-us" },
-  ];
+  const navHrefs = ["/", "/shop", "/about", "/blog", "/contact-us"];
+  const navLinks = navHrefs.map((href, i) => ({ name: t.nav[i], href }));
 
   const isActive = (href) =>
     href === "/" ? pathname === "/" : pathname.startsWith(href);
@@ -94,7 +91,7 @@ const Navbar = () => {
                     ? "bg-red-400 text-black"
                     : "text-white hover:bg-white/10"}`}
               >
-                {link.name}
+                <span className="uppercase">{link.name}</span>
               </Link>
             ))}
           </div>
@@ -110,13 +107,18 @@ const Navbar = () => {
                     ? "text-red-400 underline underline-offset-4 decoration-2"
                     : "text-white/70 hover:text-white"}`}
               >
-                {link.name}
+                <span className="uppercase">{link.name}</span>
               </Link>
             ))}
           </div>
 
           {/* ── Right icons ── */}
           <div className="flex items-center gap-2 sm:gap-3">
+
+            {/* Country selector — visible md+ (mobile gets it in the drawer) */}
+            <div className="hidden md:block">
+              <CountrySelector variant="desktop" forceClose={!showNavbar} />
+            </div>
 
             {/* Search — visible md+ */}
             <button
@@ -152,7 +154,7 @@ const Navbar = () => {
         ════════════════════════════════════════ */}
         <div
           className={`lg:hidden overflow-hidden transition-all duration-400 ease-in-out
-            ${isOpen ? "max-h-[500px] opacity-100 mt-3" : "max-h-0 opacity-0 mt-0"}`}
+            ${isOpen ? "max-h-[80vh] overflow-y-auto opacity-100 mt-3" : "max-h-0 opacity-0 mt-0"}`}
         >
           <div className="bg-black/90 backdrop-blur-md border border-white/10 rounded-2xl p-5 sm:p-6 space-y-5">
 
@@ -168,9 +170,14 @@ const Navbar = () => {
                       ? "bg-red-500/15 text-red-400"
                       : "text-white/60 hover:text-white hover:bg-white/5"}`}
                 >
-                  {link.name}
+                  <span className="uppercase">{link.name}</span>
                 </Link>
               ))}
+            </div>
+
+            {/* Country selector — mobile only (md+ has it in the header) */}
+            <div className="md:hidden">
+              <CountrySelector variant="mobile" forceClose={!isOpen} />
             </div>
 
             {/* Icon row — search + cart, always in the drawer */}

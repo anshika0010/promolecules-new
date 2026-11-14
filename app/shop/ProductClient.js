@@ -2,12 +2,20 @@
 "use client";
 
 import { useState } from "react";
-import TrendingCategory from "@/components/TrendingCategory";
+import ShopProducts from "@/components/ShopProducts";
+import { useLocale } from "@/components/LocaleProvider";
+import { PRODUCTS } from "@/data/products";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 
 export default function ProductClient({ jsonld }) {
+  const { t, bidi } = useLocale();
+  /** Short description in the site language, matched to the product by its link slug. */
+  const describe = (product) => {
+    const i = PRODUCTS.findIndex((p) => product.link?.replace(/\/$/, "").endsWith(`/${p.slug}`));
+    return i >= 0 ? bidi(t.pd[i]) : product.description;
+  };
 
   const products = [
     {
@@ -93,16 +101,8 @@ export default function ProductClient({ jsonld }) {
                       </h1>
                     </Link>
                   )}
-                  <p className="global-text-style py-6 max-w-md">
-                    {activeProduct.description}
-                  </p>
-                  {activeProduct?.link && (
-                    <Link href={activeProduct.link}>
-                      <button className="bg-red-600 mt-4 cursor-pointer hover:bg-red-700 active:scale-95 transition-all px-4 py-2.5 sm:px-6 sm:py-3 rounded-2xl text-[10px] sm:text-xs uppercase tracking-wider font-semibold w-full sm:w-auto">
-                        Buy Now →
-                      </button>
-                    </Link>
-                  )}
+               
+                
                 </motion.div>
               </AnimatePresence>
 
@@ -220,11 +220,11 @@ export default function ProductClient({ jsonld }) {
                 <h3 className="text-3xl xs:text-4xl sm:text-5xl font-bold creepster-regular text-red-600 uppercase">
                   {activeProduct.title}
                 </h3>
-                <p className="global-text-style">{activeProduct.description}</p>
+                <p className="global-text-style">{describe(activeProduct)}</p>
                 {activeProduct?.link && (
                   <Link href={activeProduct.link}>
                     <button className="bg-red-600 mt-2 hover:bg-red-700 transition px-6 py-3 rounded-2xl text-xs uppercase tracking-wider font-semibold">
-                      Buy Now →
+                      {t.ui.buy_now}
                     </button>
                   </Link>
                 )}
@@ -234,7 +234,7 @@ export default function ProductClient({ jsonld }) {
         </div>
       </section>
 
-      <TrendingCategory />
+      <ShopProducts />
     </>
   );
 }

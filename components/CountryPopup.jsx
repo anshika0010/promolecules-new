@@ -2,20 +2,33 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import {
+  getCountryFromHost,
+  readCountryCookie,
+  saveCountryCookie,
+} from "@/data/countries";
 
 export default function CountryPopup() {
   const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    const selected = localStorage.getItem("selectedCountry");
+    // Already on a country subdomain (e.g. ae.promolecules.com) → no popup
+    const onCountrySite = getCountryFromHost(window.location.hostname) !== "global";
+    let selected = readCountryCookie();
+    try {
+      selected = selected || localStorage.getItem("selectedCountry");
+    } catch {}
 
-    if (!selected) {
+    if (!selected && !onCountrySite) {
       setOpen(true);
     }
   }, []);
 
   const handleSelect = (country, link) => {
-    localStorage.setItem("selectedCountry", country);
+    saveCountryCookie(country);
+    try {
+      localStorage.setItem("selectedCountry", country);
+    } catch {}
     setOpen(false);
 
     window.location.href = link;

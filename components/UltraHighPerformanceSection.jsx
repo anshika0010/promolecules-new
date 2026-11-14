@@ -3,34 +3,26 @@
 import React from "react";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useLocale } from "./LocaleProvider";
 
 const UltraHighPerformanceSection = () => {
-  const features = [
-    {
-      id: 1,
-      title: " FOCUS",
-      description:
-        "Enhances clarity, reaction speed, and deep workout focus, designed to activate within 15 minutes.Stay locked in",
-      image: "/focus.jpg",
-      alt: "Razor Focus Skeleton",
-    },
-    {
-      id: 2,
-      title: " ENERGY",
-      description:
-        "Multi-phase stimulation for fast activation and smooth, sustained energy without sudden drop-offs.Power every set",
-      image: "/energy.jpg",
-      alt: "Extreme Energy Skeleton",
-    },
-    {
-      id: 3,
-      title: "StRENGTH ",
-      description:
-        "Supports explosive power, endurance, and stronger lifts while driving full-body activation that naturally pushes muscle output higher..",
-      image: "/strength.jpg",
-      alt: "Strength and Stamina Anatomy",
-    },
+  const { t, lang, displayFont } = useLocale();
+  // "Why athletes choose Promolecules" → two lines, split before the last word
+  const cut = t.why_h.lastIndexOf(" ");
+  const [whyLine1, whyLine2] = [t.why_h.slice(0, cut), t.why_h.slice(cut + 1)];
+  const headingFont = displayFont;
+  const images = [
+    { image: "/focus.jpg" },
+    { image: "/energy.jpg" },
+    { image: "/strength.jpg" },
   ];
+  const features = t.why.map((w, i) => ({
+    id: i + 1,
+    title: w.title,
+    description: w.text,
+    image: images[i].image,
+    alt: w.title,
+  }));
 
   return (
     <section className="relative bg-black max-w-7xl mx-auto overflow-hidden py-4  lg:py-6">
@@ -38,15 +30,14 @@ const UltraHighPerformanceSection = () => {
         {/* Main Title */}
         <div className="flex justify-center text-center mb-12 sm:mb-16">
           <div className="relative flex flex-col items-center">
-            <h1 className="creepster-regular heading">
-              ULTRA-HIGH-PERFORMANCE
+            <h1 className={`${headingFont} heading uppercase`}>
+              {whyLine1}
             </h1>
 
             <div className="h-1 bg-red-600  w-24 sm:w-40 md:w-60 lg:w-full max-w-[900px] rounded-full" />
 
-            <h3 className="creepster-regular heading"
-            >
-              FORMULA
+            <h3 className={`${headingFont} heading uppercase`}>
+              {whyLine2}
             </h3>
 
             <div className="h-1 bg-red-600  w-16 sm:w-24 rounded-full" />
@@ -88,8 +79,7 @@ const UltraHighPerformanceSection = () => {
 
                 {/* ✅ Title */}
                 <h3
-                  className="text-white uppercase creepster-regular 
-    text-2xl sm:text-3xl md:text-4xl lg:text-5xl"
+                  className={`text-white uppercase ${headingFont} text-xl sm:text-xl md:text-2xl lg:text-3xl`}
                 >
                   {feature.title}
                 </h3>

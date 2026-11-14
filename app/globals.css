@@ -226,3 +226,14 @@ body {
   margin-bottom: 0.4rem;
   line-height: 1.8;
 }
+
+/* ── Arabic / right-to-left sites ───────────────────────────────
+   Letter-spacing breaks the joined Arabic script, so it is turned off,
+   and the Arabic font is used (brand display fonts are kept). */
+[dir="rtl"] * {
+  letter-spacing: 0 !important;
+}
+[dir="rtl"] body,
+[dir="rtl"] body *:not(.creepster-regular):not(svg):not(svg *) {
+  font-family: var(--font-arabic), system-ui, sans-serif;
+}

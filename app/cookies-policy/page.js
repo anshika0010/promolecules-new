@@ -252,7 +252,7 @@ const CookiesPolicy = () => {
       id: "contact-us",
       icon: Mail,
       eyebrow: "We're here to help",
-      title: "9. Contact Us",
+      title: "9. Contact",
       content: (
         <>
           <p>For questions about our cookie practices, reach us at:</p>

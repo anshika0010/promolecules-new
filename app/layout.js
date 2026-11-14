@@ -1,4 +1,4 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Geist, Geist_Mono, Cairo } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -8,11 +8,19 @@ import PreloaderWrapper from "@/components/PreloaderWrapper";
 import localFont from "next/font/local";
 import CountryPopup from "@/components/CountryPopup";
 import SupportChatBot from "@/components/SupportChatBot";
+import { LocaleProvider } from "@/components/LocaleProvider";
 
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+});
+
+// Arabic font — used automatically when the page is right-to-left (Arabic country sites)
+const cairo = Cairo({
+  variable: "--font-arabic",
+  subsets: ["arabic", "latin"],
+  display: "swap",
 });
 
 const geistMono = Geist_Mono({
@@ -43,7 +51,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       {/* ❌ No manual <head> tag here */}
-      <body   suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} ${gloomyFont.variable} antialiased`}>
+      <body   suppressHydrationWarning className={`${geistSans.variable} ${geistMono.variable} ${cairo.variable} ${gloomyFont.variable} antialiased`}>
 
      {/* ── Google Tag Manager Script ── */}
 <Script
@@ -80,6 +88,7 @@ export default function RootLayout({ children }) {
   />
 </noscript>
 
+<LocaleProvider>
 <CountryPopup/>
         <PreloaderWrapper>
           <div className="pt-[50px] bg-black">
@@ -90,6 +99,7 @@ export default function RootLayout({ children }) {
             <Footer />
           </div>
         </PreloaderWrapper>
+</LocaleProvider>
 
       </body>
     </html>
